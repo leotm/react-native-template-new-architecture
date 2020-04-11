@@ -90,13 +90,3 @@ target 'Spotifire' do
     flipper_post_install(installer)
   end
 end
-
-target 'Spotifire-tvOS' do
-  # Pods for Spotifire-tvOS
-
-  target 'Spotifire-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-end
