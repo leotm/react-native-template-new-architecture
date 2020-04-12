@@ -446,7 +446,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E07FA26A1D9534D9F1D459D4 /* Pods-Spotifire.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -479,7 +478,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 64B91D3D220EEC575DF7EB96 /* Pods-Spotifire.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
