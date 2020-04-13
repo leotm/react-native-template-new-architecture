@@ -8,4 +8,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
   ignorePatterns: ['lib/'],
+  rules: {
+    '@typescript-eslint/explicit-function-return-type': 'off',
+  },
 };
