@@ -11,6 +11,7 @@ module.exports = {
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
     'import/no-cycle': 'off',
-    'sort-keys': 'off'
+    'sort-keys': 'off',
+    'import-order-alphabetical/order': 'off'
   },
 };
