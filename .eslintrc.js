@@ -14,7 +14,7 @@ module.exports = {
     project: './tsconfig.json',
   },
   plugins: ['@typescript-eslint', 'simple-import-sort'],
-  ignorePatterns: ['lib/', 'babel.config.js', 'metro.config.js'],
+  ignorePatterns: ['lib/', 'babel.config.js', 'metro.config.js', 'tsconfig.json'],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
     'import/no-cycle': 'off',
