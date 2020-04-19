@@ -2,7 +2,7 @@ module.exports = {
   root: true,
   extends: [
     '@react-native-community',
-    'airbnb-typescript',
+    // 'airbnb-typescript',
     'prettier',
     'prettier/@typescript-eslint',
     'prettier/react',
@@ -11,7 +11,7 @@ module.exports = {
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: './tsconfig.json',
+    // project: './tsconfig.json',
   },
   plugins: ['@typescript-eslint', 'simple-import-sort'],
   ignorePatterns: ['lib/', 'babel.config.js', 'metro.config.js', 'tsconfig.json'],
