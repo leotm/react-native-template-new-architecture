@@ -2,6 +2,7 @@ module.exports = {
   root: true,
   extends: [
     '@react-native-community',
+    'airbnb-typescript',
     'prettier',
     'prettier/@typescript-eslint',
     'prettier/react',
@@ -9,8 +10,11 @@ module.exports = {
     'plugin:react-hooks/recommended',
   ],
   parser: '@typescript-eslint/parser',
+  parserOptions: {
+    project: './tsconfig.json',
+  },
   plugins: ['@typescript-eslint', 'simple-import-sort'],
-  ignorePatterns: ['lib/'],
+  ignorePatterns: ['lib/', 'babel.config.js', 'metro.config.js'],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
     'import/no-cycle': 'off',
