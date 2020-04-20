@@ -23,7 +23,9 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 if (__DEV__) {
-  import('./ReactotronConfig').then(() => console.log('Reactotron Configured'));
+  import('./ReactotronConfig')
+    .then(() => console.log('Reactotron Configured'))
+    .catch(() => console.log('Reactotron not Configured'));
 }
 
 declare const global: { HermesInternal: null | {} };
