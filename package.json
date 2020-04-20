@@ -52,6 +52,9 @@
       "jsx",
       "json",
       "node"
+    ],
+    "testPathIgnorePatterns": [
+      "lib/"
     ]
   }
 }
