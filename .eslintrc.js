@@ -20,6 +20,7 @@ module.exports = {
     'import/no-cycle': 'off',
     'sort-keys': 'off',
     'import-order-alphabetical/order': 'off',
-    'simple-import-sort/sort': 'warn'
+    'simple-import-sort/sort': 'warn',
+    'eslint-comments/no-unused-disable': 'off'
   },
 };
