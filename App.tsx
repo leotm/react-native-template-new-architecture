@@ -25,7 +25,7 @@ import {
 if (__DEV__) {
   import('./ReactotronConfig')
     .then(() => console.log('Reactotron Configured'))
-    .catch(() => console.log('Reactotron not Configured'));
+    .catch(() => console.error);
 }
 
 declare const global: { HermesInternal: null | {} };
