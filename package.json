@@ -7,8 +7,8 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "lint:fix": "eslint . --ext js,jsx,ts,tsx --fix",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --cache",
+    "lint:fix": "eslint . --ext js,jsx,ts,tsx --cache --fix",
     "prettier:write": "yarn prettier --write **/*.{js,ts,tsx,json} && yarn prettier --write *.{js,ts,tsx,json}"
   },
   "dependencies": {
