@@ -13,7 +13,7 @@ module.exports = {
   parserOptions: {
     project: './tsconfig.json',
   },
-  plugins: ['@typescript-eslint', 'simple-import-sort'],
+  plugins: ['@typescript-eslint', 'simple-import-sort', 'detox'],
   ignorePatterns: ['lib/', 'babel.config.js', 'metro.config.js', 'tsconfig.json'],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
