@@ -6,6 +6,7 @@ module.exports = {
     'prettier/standard',
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
+    'plugin:jest/recommended',
     'plugin:react-native/all',
     'plugin:react-hooks/recommended',
     'react-native-typescript',
@@ -20,9 +21,10 @@ module.exports = {
     },
   },
   env: {
-    'react-native/react-native': true
+    'react-native/react-native': true,
+    'jest/globals': true
   },
-  plugins: ['react', 'react-native', 'detox', '@typescript-eslint', 'react-hooks'],
+  plugins: ['react', 'react-native', 'jest', 'detox', '@typescript-eslint', 'react-hooks'],
   ignorePatterns: ['lib/', 'babel.config.js', 'metro.config.js', 'tsconfig.json'],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off'
