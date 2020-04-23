@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-use-before-define */
+
 /**
  * Spotifire
  * https://github.com/leotm/spotifire
