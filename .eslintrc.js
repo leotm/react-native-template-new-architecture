@@ -8,12 +8,19 @@ module.exports = {
     'prettier/react',
     'react-native-typescript',
     'plugin:react-hooks/recommended',
+    'plugin:react-native/all'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: './tsconfig.json',
+    ecmaFeatures: {
+      jsx: true
+    },
   },
-  plugins: ['react', '@typescript-eslint', 'simple-import-sort', 'detox', 'react-hooks'],
+  env: {
+    'react-native/react-native': true
+  },
+  plugins: ['react', 'react-native', '@typescript-eslint', 'simple-import-sort', 'detox', 'react-hooks'],
   ignorePatterns: ['lib/', 'babel.config.js', 'metro.config.js', 'tsconfig.json'],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
