@@ -5,10 +5,12 @@ module.exports = {
     'airbnb-typescript',
     'prettier',
     'prettier/@typescript-eslint',
-    'prettier/react',
     'react-native-typescript',
     'plugin:react-hooks/recommended',
-    'plugin:react-native/all'
+    'plugin:react-native/all',
+    'plugin:prettier/recommended',
+    'prettier/react',
+    'prettier/standard'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
