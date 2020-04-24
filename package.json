@@ -9,7 +9,10 @@
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --cache",
     "lint:fix": "eslint . --ext js,jsx,ts,tsx --cache --fix",
-    "prettier:write": "yarn prettier --write **/*.{js,ts,tsx,json} && yarn prettier --write *.{js,ts,tsx,json}"
+    "prettier:check": "yarn prettier --check **/*.{js,ts,tsx,json} && yarn prettier --check *.{js,ts,tsx,json}",
+    "prettier:write": "yarn prettier --write **/*.{js,ts,tsx,json} && yarn prettier --write *.{js,ts,tsx,json}",
+    "check:all": "yarn tsc && yarn lint && yarn prettier:check && jest",
+    "fix": "yarn lint:fix && yarn prettier:write"
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.9.0",
