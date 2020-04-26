@@ -27,6 +27,7 @@ module.exports = {
   plugins: ['react', 'react-native', 'jest', 'detox', '@typescript-eslint', 'react-hooks'],
   ignorePatterns: ['lib/', 'babel.config.js', 'metro.config.js', 'tsconfig.json'],
   rules: {
-    '@typescript-eslint/explicit-function-return-type': 'off'
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    'jest/prefer-inline-snapshots': 'off'
   },
 };
