@@ -6,7 +6,7 @@ module.exports = {
     'prettier/standard',
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
-    'plugin:jest/recommended',
+    'plugin:jest/all',
     'plugin:react-native/all',
     'plugin:react-hooks/recommended',
     'react-native-typescript',
