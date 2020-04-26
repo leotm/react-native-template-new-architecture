@@ -7,8 +7,8 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --cache",
-    "lint:fix": "eslint . --ext js,jsx,ts,tsx --cache --fix",
+    "lint": "eslint . --ext .js,.ts,.tsx --cache",
+    "lint:fix": "eslint . --ext js,ts,tsx --cache --fix",
     "prettier:check": "yarn prettier --check **/*.{js,ts,tsx,json} && yarn prettier --check *.{js,ts,tsx,json}",
     "prettier:write": "yarn prettier --write **/*.{js,ts,tsx,json} && yarn prettier --write *.{js,ts,tsx,json}",
     "check:all": "yarn tsc && yarn lint && yarn prettier:check && jest",
@@ -46,6 +46,7 @@
     "eslint-plugin-typescript-sort-keys": "^0.8.0",
     "husky": "^4.2.5",
     "jest": "^25.4.0",
+    "lint-staged": "^10.1.7",
     "metro-react-native-babel-preset": "^0.59.0",
     "prettier": "^2.0.5",
     "react-test-renderer": "16.13.1",
@@ -58,12 +59,22 @@
       "ts",
       "tsx",
       "js",
-      "jsx",
       "json",
       "node"
     ],
     "testPathIgnorePatterns": [
       "lib/"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "eslint --cache --fix",
+      "prettier --write"
     ]
   }
 }
