@@ -6,3 +6,5 @@ Reactotron.setAsyncStorageHandler?.(AsyncStorage)
   .configure() // controls connection & communication settings
   .useReactNative() // add all built-in react native plugins
   .connect();
+
+console.tron = Reactotron;
