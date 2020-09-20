@@ -120,3 +120,6 @@ const styles = StyleSheet.create({
 const storybook = require('./storybook').default;
 
 export default false ? storybook : App;
+
+// export default Reactotron.storybookSwitcher(storybook)(App)
+// https://github.com/infinitered/reactotron/issues/1160
