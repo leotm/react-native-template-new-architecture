@@ -1,10 +1,3 @@
-/**
- * Spotifire
- * https://github.com/leotm/spotifire
- *
- * @format
- */
-
 import React from 'react';
 import {
   SafeAreaView,

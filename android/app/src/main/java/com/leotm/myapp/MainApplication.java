@@ -1,4 +1,4 @@
-package com.spotifire;
+package com.leotm.myapp;
 
 import android.app.Application;
 import android.content.Context;

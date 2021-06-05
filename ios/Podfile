@@ -41,8 +41,8 @@ def flipper_post_install(installer)
   end
 end
 
-target 'Spotifire' do
-  # Pods for Spotifire
+target 'MyApp' do
+  # Pods for MyApp
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -74,7 +74,7 @@ target 'Spotifire' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'SpotifireTests' do
+  target 'MyAppTests' do
     inherit! :complete
     # Pods for testing
   end
