@@ -31,6 +31,10 @@ module.exports = {
     'react/jsx-no-literals': 'off',
     'react/jsx-max-depth': 'off',
     'react-native/no-raw-text': ['error', { skip: 'Text.Text' }], // https://github.com/Intellicode/eslint-plugin-react-native/issues/271
+    'react/function-component-definition': [1, {
+      'namedComponents': 'arrow-function',
+      'unnamedComponents': 'arrow-function',
+    }],
     'import/no-extraneous-dependencies': [
       'error',
       {
