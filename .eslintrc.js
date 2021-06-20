@@ -30,6 +30,7 @@ module.exports = {
     'jsx-a11y/accessible-emoji': 'off', // RN TS requires raw text in <Text>, not <span>
     'react/jsx-no-literals': 'off',
     'react/jsx-max-depth': 'off',
+    'react-native/no-raw-text': ['error', { skip: 'Text.Text' }], // https://github.com/Intellicode/eslint-plugin-react-native/issues/271
     'import/no-extraneous-dependencies': [
       'error',
       {
