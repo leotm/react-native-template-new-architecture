@@ -62,7 +62,7 @@
   "include": [
     "index.ts",
     "types/globals.d.ts",
-    "storybook/addons.ts",
+    "storybook",
     "__tests__",
     "**/src/**/*.{ts,tsx}"
   ]
