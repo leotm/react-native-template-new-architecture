@@ -1,12 +1,12 @@
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-community/async-storage'
 // eslint-disable-next-line import/no-extraneous-dependencies
-import Reactotron from 'reactotron-react-native';
+import Reactotron from 'reactotron-react-native'
 
 Reactotron.setAsyncStorageHandler?.(AsyncStorage)
   .configure() // controls connection & communication settings
   .useReactNative({
-    storybook: true,
+    storybook: true
   }) // add all built-in react native plugins
-  .connect();
+  .connect()
 
-console.tron = Reactotron;
+console.tron = Reactotron

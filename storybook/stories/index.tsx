@@ -1,18 +1,18 @@
-import { action } from '@storybook/addon-actions';
-import { text, withKnobs } from '@storybook/addon-knobs';
-import { linkTo } from '@storybook/addon-links';
-import { storiesOf } from '@storybook/react-native';
+import { action } from '@storybook/addon-actions'
+import { text, withKnobs } from '@storybook/addon-knobs'
+import { linkTo } from '@storybook/addon-links'
+import { storiesOf } from '@storybook/react-native'
 
-import React from 'react';
-import { Text } from 'react-native';
+import React from 'react'
+import { Text } from 'react-native'
 
-import Button from './Button';
-import CenterView from './CenterView';
-import Welcome from './Welcome';
+import Button from './Button'
+import CenterView from './CenterView'
+import Welcome from './Welcome'
 
 storiesOf('Welcome', module).add('to Storybook', () => (
   <Welcome showApp={linkTo('Button')} />
-));
+))
 
 storiesOf('Button', module)
   .addDecorator(withKnobs)
@@ -31,5 +31,5 @@ storiesOf('Button', module)
         <Text>😀 😎 👍 💯</Text>
       </Button>
     ),
-    { notes: 'A small component' },
-  );
+    { notes: 'A small component' }
+  )

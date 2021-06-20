@@ -1,42 +1,42 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
-import PropTypes from 'prop-types';
-import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import PropTypes from 'prop-types'
+import React from 'react'
+import { View, Text, StyleSheet } from 'react-native'
 
 interface Props {
-  showApp: () => typeof PropTypes.func | void;
+  showApp: () => typeof PropTypes.func | void
 }
 
 const styles = StyleSheet.create({
   content: {
     fontSize: 12,
     lineHeight: 18,
-    marginBottom: 10,
+    marginBottom: 10
   },
   header: {
     fontSize: 18,
-    marginBottom: 18,
+    marginBottom: 18
   },
   wrapper: {
     flex: 1,
     justifyContent: 'center',
-    padding: 24,
-  },
-});
+    padding: 24
+  }
+})
 
 export default class Welcome extends React.Component<Props> {
-  static defaultProps = { showApp: null };
+  static defaultProps = { showApp: null }
 
-  static propTypes = { showApp: PropTypes.func };
+  static propTypes = { showApp: PropTypes.func }
 
   showApp = (event: React.UIEvent) => {
-    const { showApp } = this.props;
-    event.preventDefault();
+    const { showApp } = this.props
+    event.preventDefault()
 
     if (showApp) {
-      showApp();
+      showApp()
     }
-  };
+  }
 
   render() {
     return (
@@ -55,6 +55,6 @@ export default class Welcome extends React.Component<Props> {
           edit this message.
         </Text>
       </View>
-    );
+    )
   }
 }

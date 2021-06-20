@@ -1,27 +1,27 @@
-import React from 'react';
+import React from 'react'
 import {
   SafeAreaView,
   ScrollView,
   StatusBar,
   StyleSheet,
   Text,
-  View,
-} from 'react-native';
+  View
+} from 'react-native'
 import {
   Colors,
   DebugInstructions,
   Header,
   LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+  ReloadInstructions
+} from 'react-native/Libraries/NewAppScreen'
 
 if (__DEV__) {
   import('./ReactotronConfig')
     .then(() => console.log('Reactotron Configured'))
-    .catch(() => console.error);
+    .catch(() => console.error)
 }
 
-declare const global: { HermesInternal: null };
+declare const global: { HermesInternal: null }
 
 const App = () => {
   return (
@@ -30,7 +30,8 @@ const App = () => {
       <SafeAreaView>
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
-          style={styles.scrollView}>
+          style={styles.scrollView}
+        >
           <Header />
           {global.HermesInternal == null ? null : (
             <View style={styles.engine}>
@@ -68,16 +69,16 @@ const App = () => {
         </ScrollView>
       </SafeAreaView>
     </>
-  );
-};
+  )
+}
 
 const styles = StyleSheet.create({
   body: {
-    backgroundColor: Colors.white,
+    backgroundColor: Colors.white
   },
   engine: {
     position: 'absolute',
-    right: 0,
+    right: 0
   },
   footer: {
     color: Colors.dark,
@@ -85,34 +86,34 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     padding: 4,
     paddingRight: 12,
-    textAlign: 'right',
+    textAlign: 'right'
   },
   highlight: {
-    fontWeight: '700',
+    fontWeight: '700'
   },
   scrollView: {
-    backgroundColor: Colors.lighter,
+    backgroundColor: Colors.lighter
   },
   sectionContainer: {
     marginTop: 32,
-    paddingHorizontal: 24,
+    paddingHorizontal: 24
   },
   sectionDescription: {
     color: Colors.dark,
     fontSize: 18,
     fontWeight: '400',
-    marginTop: 8,
+    marginTop: 8
   },
   sectionTitle: {
     color: Colors.black,
     fontSize: 24,
-    fontWeight: '600',
-  },
-});
+    fontWeight: '600'
+  }
+})
 
-const storybook = import('./storybook');
+const storybook = import('./storybook')
 
-export default false ? storybook : App;
+export default false ? storybook : App
 
 // export default Reactotron.storybookSwitcher(storybook)(App)
 // https://github.com/infinitered/reactotron/issues/1160

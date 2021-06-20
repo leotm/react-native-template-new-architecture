@@ -1,12 +1,12 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'
 
-import React from 'react';
-import { TouchableHighlight } from 'react-native';
+import React from 'react'
+import { TouchableHighlight } from 'react-native'
 
 interface Props {
-  children: JSX.Element;
-  onPress: () => void;
+  children: JSX.Element
+  onPress: () => void
 }
 
 export default function Button({ onPress, children }: Props) {
@@ -14,15 +14,15 @@ export default function Button({ onPress, children }: Props) {
     <TouchableHighlight accessibilityRole="button" onPress={onPress}>
       {children}
     </TouchableHighlight>
-  );
+  )
 }
 
 Button.defaultProps = {
   children: null,
-  onPress: () => {},
-};
+  onPress: () => {}
+}
 
 Button.propTypes = {
   children: PropTypes.node,
-  onPress: PropTypes.func,
-};
+  onPress: PropTypes.func
+}

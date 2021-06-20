@@ -1,23 +1,23 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'
 
-import React from 'react';
-import { View } from 'react-native';
+import React from 'react'
+import { View } from 'react-native'
 
-import style from './style';
+import style from './style'
 
 interface Props {
-  children: React.Component;
+  children: React.Component
 }
 
 export default function CenterView({ children }: Props) {
-  return <View style={style.main}>{children}</View>;
+  return <View style={style.main}>{children}</View>
 }
 
 CenterView.defaultProps = {
-  children: null,
-};
+  children: null
+}
 
 CenterView.propTypes = {
-  children: PropTypes.node,
-};
+  children: PropTypes.node
+}
