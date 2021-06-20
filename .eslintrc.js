@@ -29,6 +29,7 @@ module.exports = {
     'react/static-property-placement': 'off', // TS wants these defs inside the Class,
     'jsx-a11y/accessible-emoji': 'off', // RN TS requires raw text in <Text>, not <span>
     'react/jsx-no-literals': 'off',
+    'react/jsx-max-depth': 'off',
     'import/no-extraneous-dependencies': [
       'error',
       {
