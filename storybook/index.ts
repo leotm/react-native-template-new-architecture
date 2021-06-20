@@ -6,8 +6,9 @@ import { Params } from '@storybook/react-native/dist/preview'
 
 import { AppRegistry, YellowBox } from 'react-native'
 
-configure(async () => {
-  import('./stories')
+configure(() => {
+  // eslint-disable-next-line @typescript-eslint/no-var-requires, global-require
+  require('./stories').default
 }, module)
 
 // Refer to https://github.com/storybookjs/storybook/tree/master/app/react-native#start-command-parameters

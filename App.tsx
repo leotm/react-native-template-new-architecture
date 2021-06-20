@@ -111,7 +111,8 @@ const styles = StyleSheet.create({
   }
 })
 
-const storybook = import('./storybook')
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const storybook = require('./storybook').default
 
 export default false ? storybook : App
 
