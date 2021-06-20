@@ -21,7 +21,7 @@ if (__DEV__) {
     .catch(() => console.error);
 }
 
-declare const global: { HermesInternal: null | {} };
+declare const global: { HermesInternal: null };
 
 const App = () => {
   return (
@@ -110,7 +110,7 @@ const styles = StyleSheet.create({
   },
 });
 
-const storybook = require('./storybook').default;
+const storybook = import('./storybook');
 
 export default false ? storybook : App;
 
