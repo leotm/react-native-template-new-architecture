@@ -1,43 +1,27 @@
 module.exports = {
   root: true,
   extends: [
-    'prettier',
-    'prettier/react',
-    'prettier/standard',
-    'prettier/@typescript-eslint',
-    'plugin:prettier/recommended',
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'airbnb-typescript-prettier',
     'plugin:jest/all',
-    'plugin:react-native/all',
+    'plugin:react/all',
     'plugin:react-hooks/recommended',
-    '@storybook/storybook',
-    'airbnb-typescript',
     'react-native-typescript',
+    'plugin:react-native/all',
     '@react-native-community',
+    'plugin:prettier/recommended'
   ],
   parser: '@typescript-eslint/parser',
-  parserOptions: {
-    project: './tsconfig.json',
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
   env: {
     'react-native/react-native': true,
     'jest/globals': true,
   },
-  plugins: [
-    'react',
-    'react-native',
-    'jest',
-    'detox',
-    '@typescript-eslint',
-    'react-hooks',
-  ],
   ignorePatterns: [
     'lib/',
     'babel.config.js',
     'metro.config.js',
-    'tsconfig.json',
+    '.eslintrc.js',
   ],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off', // Prefer type inference
