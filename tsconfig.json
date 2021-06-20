@@ -58,7 +58,12 @@
     "resolveJsonModule": true,
     "skipLibCheck": true                      /* Ignore e.g. node_modules: @storybook/client-api/dist/story_store.d.ts; @types/reach__router/index.d.ts; more likely to come',   */
   },
-  "exclude": [
-    "node_modules", "babel.config.js", "metro.config.js", "jest.config.js", "lib"
+  // For no @typescript-eslint/parser parsing errors
+  "include": [
+    "index.ts",
+    "types/globals.d.ts",
+    "storybook/addons.ts",
+    "__tests__",
+    "**/src/**/*.{ts,tsx}"
   ]
 }
