@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  # Allows run workflow from Actions tab
+  workflow_dispatch:
+
+jobs:
+  ts:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+    - name: TypeScript Error Reporter
+      uses: andoshin11/typescript-error-reporter-action@v1.0.2
+      
+    - name: ESLint (JS/TS) Action 
+      uses: iCrawl/action-eslint@v1
+      
+    - name: Run Jest
+      uses: stefanoeb/jest-action@1.0.4
