@@ -16,11 +16,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Typescript compiler
-        uses: iCrawl/action-tsc@v1
-      
-      - name: ESLint (JS/TS) Action 
-        uses: iCrawl/action-eslint@v1
-      
-      - name: Run Jest
-        uses: stefanoeb/jest-action@1.0.4
+      - name: Yarn install
+        run: yarn
+        
+      - name: TSC
+        run: yarn tsc
