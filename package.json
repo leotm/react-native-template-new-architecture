@@ -86,6 +86,9 @@
     ],
     "testPathIgnorePatterns": [
       "lib"
+    ],
+    "setupFiles": [
+      "./jest/setup.ts"
     ]
   },
   "husky": {
