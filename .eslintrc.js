@@ -23,6 +23,9 @@ module.exports = {
     'metro.config.js',
     '.eslintrc.js',
   ],
+  plugins: [
+    'deprecation'
+  ],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off', // Prefer type inference
     'jest/prefer-inline-snapshots': 'off', // Avoid inlining unreadable RN snapshots
@@ -35,6 +38,7 @@ module.exports = {
       'namedComponents': 'arrow-function',
       'unnamedComponents': 'arrow-function',
     }],
+    'deprecation/deprecation': 'error',
     'import/no-extraneous-dependencies': [
       'error',
       {
