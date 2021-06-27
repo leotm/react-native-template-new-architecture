@@ -16,12 +16,16 @@ exports[`app renders correctly 1`] = `
       <View
         accessibilityIgnoresInvertColors={true}
         style={
-          Object {
-            "backgroundColor": "#F3F3F3",
-            "paddingBottom": 40,
-            "paddingHorizontal": 32,
-            "paddingTop": 96,
-          }
+          Array [
+            Object {
+              "paddingBottom": 40,
+              "paddingHorizontal": 32,
+              "paddingTop": 96,
+            },
+            Object {
+              "backgroundColor": "#F3F3F3",
+            },
+          ]
         }
       >
         <Image
@@ -56,15 +60,22 @@ exports[`app renders correctly 1`] = `
         />
         <Text
           style={
-            Object {
-              "color": "#000",
-              "fontSize": 40,
-              "fontWeight": "600",
-              "textAlign": "center",
-            }
+            Array [
+              Object {
+                "fontSize": 40,
+                "fontWeight": "700",
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#000",
+              },
+            ]
           }
         >
-          Welcome to React
+          Welcome to
+          
+
+          React Native
         </Text>
       </View>
       <View
@@ -257,16 +268,22 @@ exports[`app renders correctly 1`] = `
         >
           <View
             style={
-              Object {
-                "backgroundColor": "#DAE1E7",
-                "height": 1,
-              }
+              Array [
+                Object {
+                  "height": 0.5,
+                },
+                Object {
+                  "backgroundColor": "#DAE1E7",
+                },
+              ]
             }
           />
           <View
             accessibilityRole="button"
             accessible={true}
+            collapsable={false}
             focusable={true}
+            nativeID="animatedComponent"
             onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -299,13 +316,17 @@ exports[`app renders correctly 1`] = `
             </Text>
             <Text
               style={
-                Object {
-                  "color": "#444",
-                  "flex": 3,
-                  "fontSize": 18,
-                  "fontWeight": "400",
-                  "paddingVertical": 16,
-                }
+                Array [
+                  Object {
+                    "flex": 3,
+                    "fontSize": 18,
+                    "fontWeight": "400",
+                    "paddingVertical": 16,
+                  },
+                  Object {
+                    "color": "#444",
+                  },
+                ]
               }
             >
               Explains a Hello World for React Native.
@@ -313,16 +334,22 @@ exports[`app renders correctly 1`] = `
           </View>
           <View
             style={
-              Object {
-                "backgroundColor": "#DAE1E7",
-                "height": 1,
-              }
+              Array [
+                Object {
+                  "height": 0.5,
+                },
+                Object {
+                  "backgroundColor": "#DAE1E7",
+                },
+              ]
             }
           />
           <View
             accessibilityRole="button"
             accessible={true}
+            collapsable={false}
             focusable={true}
+            nativeID="animatedComponent"
             onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -355,13 +382,17 @@ exports[`app renders correctly 1`] = `
             </Text>
             <Text
               style={
-                Object {
-                  "color": "#444",
-                  "flex": 3,
-                  "fontSize": 18,
-                  "fontWeight": "400",
-                  "paddingVertical": 16,
-                }
+                Array [
+                  Object {
+                    "flex": 3,
+                    "fontSize": 18,
+                    "fontWeight": "400",
+                    "paddingVertical": 16,
+                  },
+                  Object {
+                    "color": "#444",
+                  },
+                ]
               }
             >
               Covers how to use the prop named style which controls the visuals.
@@ -369,16 +400,22 @@ exports[`app renders correctly 1`] = `
           </View>
           <View
             style={
-              Object {
-                "backgroundColor": "#DAE1E7",
-                "height": 1,
-              }
+              Array [
+                Object {
+                  "height": 0.5,
+                },
+                Object {
+                  "backgroundColor": "#DAE1E7",
+                },
+              ]
             }
           />
           <View
             accessibilityRole="button"
             accessible={true}
+            collapsable={false}
             focusable={true}
+            nativeID="animatedComponent"
             onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -411,13 +448,17 @@ exports[`app renders correctly 1`] = `
             </Text>
             <Text
               style={
-                Object {
-                  "color": "#444",
-                  "flex": 3,
-                  "fontSize": 18,
-                  "fontWeight": "400",
-                  "paddingVertical": 16,
-                }
+                Array [
+                  Object {
+                    "flex": 3,
+                    "fontSize": 18,
+                    "fontWeight": "400",
+                    "paddingVertical": 16,
+                  },
+                  Object {
+                    "color": "#444",
+                  },
+                ]
               }
             >
               React Native uses flexbox for layout, learn how it works.
@@ -425,16 +466,22 @@ exports[`app renders correctly 1`] = `
           </View>
           <View
             style={
-              Object {
-                "backgroundColor": "#DAE1E7",
-                "height": 1,
-              }
+              Array [
+                Object {
+                  "height": 0.5,
+                },
+                Object {
+                  "backgroundColor": "#DAE1E7",
+                },
+              ]
             }
           />
           <View
             accessibilityRole="button"
             accessible={true}
+            collapsable={false}
             focusable={true}
+            nativeID="animatedComponent"
             onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -467,13 +514,17 @@ exports[`app renders correctly 1`] = `
             </Text>
             <Text
               style={
-                Object {
-                  "color": "#444",
-                  "flex": 3,
-                  "fontSize": 18,
-                  "fontWeight": "400",
-                  "paddingVertical": 16,
-                }
+                Array [
+                  Object {
+                    "flex": 3,
+                    "fontSize": 18,
+                    "fontWeight": "400",
+                    "paddingVertical": 16,
+                  },
+                  Object {
+                    "color": "#444",
+                  },
+                ]
               }
             >
               The full list of components and APIs inside React Native.
@@ -481,16 +532,22 @@ exports[`app renders correctly 1`] = `
           </View>
           <View
             style={
-              Object {
-                "backgroundColor": "#DAE1E7",
-                "height": 1,
-              }
+              Array [
+                Object {
+                  "height": 0.5,
+                },
+                Object {
+                  "backgroundColor": "#DAE1E7",
+                },
+              ]
             }
           />
           <View
             accessibilityRole="button"
             accessible={true}
+            collapsable={false}
             focusable={true}
+            nativeID="animatedComponent"
             onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -523,13 +580,17 @@ exports[`app renders correctly 1`] = `
             </Text>
             <Text
               style={
-                Object {
-                  "color": "#444",
-                  "flex": 3,
-                  "fontSize": 18,
-                  "fontWeight": "400",
-                  "paddingVertical": 16,
-                }
+                Array [
+                  Object {
+                    "flex": 3,
+                    "fontSize": 18,
+                    "fontWeight": "400",
+                    "paddingVertical": 16,
+                  },
+                  Object {
+                    "color": "#444",
+                  },
+                ]
               }
             >
               How to handle moving between screens inside your application.
@@ -537,16 +598,22 @@ exports[`app renders correctly 1`] = `
           </View>
           <View
             style={
-              Object {
-                "backgroundColor": "#DAE1E7",
-                "height": 1,
-              }
+              Array [
+                Object {
+                  "height": 0.5,
+                },
+                Object {
+                  "backgroundColor": "#DAE1E7",
+                },
+              ]
             }
           />
           <View
             accessibilityRole="button"
             accessible={true}
+            collapsable={false}
             focusable={true}
+            nativeID="animatedComponent"
             onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -579,13 +646,17 @@ exports[`app renders correctly 1`] = `
             </Text>
             <Text
               style={
-                Object {
-                  "color": "#444",
-                  "flex": 3,
-                  "fontSize": 18,
-                  "fontWeight": "400",
-                  "paddingVertical": 16,
-                }
+                Array [
+                  Object {
+                    "flex": 3,
+                    "fontSize": 18,
+                    "fontWeight": "400",
+                    "paddingVertical": 16,
+                  },
+                  Object {
+                    "color": "#444",
+                  },
+                ]
               }
             >
               How to use the Fetch API in React Native.
@@ -593,16 +664,22 @@ exports[`app renders correctly 1`] = `
           </View>
           <View
             style={
-              Object {
-                "backgroundColor": "#DAE1E7",
-                "height": 1,
-              }
+              Array [
+                Object {
+                  "height": 0.5,
+                },
+                Object {
+                  "backgroundColor": "#DAE1E7",
+                },
+              ]
             }
           />
           <View
             accessibilityRole="button"
             accessible={true}
+            collapsable={false}
             focusable={true}
+            nativeID="animatedComponent"
             onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -635,13 +712,17 @@ exports[`app renders correctly 1`] = `
             </Text>
             <Text
               style={
-                Object {
-                  "color": "#444",
-                  "flex": 3,
-                  "fontSize": 18,
-                  "fontWeight": "400",
-                  "paddingVertical": 16,
-                }
+                Array [
+                  Object {
+                    "flex": 3,
+                    "fontSize": 18,
+                    "fontWeight": "400",
+                    "paddingVertical": 16,
+                  },
+                  Object {
+                    "color": "#444",
+                  },
+                ]
               }
             >
               Need more help? There are many other React Native developers who may have the answer.
@@ -649,16 +730,22 @@ exports[`app renders correctly 1`] = `
           </View>
           <View
             style={
-              Object {
-                "backgroundColor": "#DAE1E7",
-                "height": 1,
-              }
+              Array [
+                Object {
+                  "height": 0.5,
+                },
+                Object {
+                  "backgroundColor": "#DAE1E7",
+                },
+              ]
             }
           />
           <View
             accessibilityRole="button"
             accessible={true}
+            collapsable={false}
             focusable={true}
+            nativeID="animatedComponent"
             onClick={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
@@ -691,13 +778,17 @@ exports[`app renders correctly 1`] = `
             </Text>
             <Text
               style={
-                Object {
-                  "color": "#444",
-                  "flex": 3,
-                  "fontSize": 18,
-                  "fontWeight": "400",
-                  "paddingVertical": 16,
-                }
+                Array [
+                  Object {
+                    "flex": 3,
+                    "fontSize": 18,
+                    "fontWeight": "400",
+                    "paddingVertical": 16,
+                  },
+                  Object {
+                    "color": "#444",
+                  },
+                ]
               }
             >
               Stay in touch with the community, join in on Q&As and more by following React Native on Twitter.
