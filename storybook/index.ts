@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-community/async-storage'
 import { getStorybookUI, configure } from '@storybook/react-native'
 import { Params } from '@storybook/react-native/dist/preview'
 
-import { AppRegistry, YellowBox } from 'react-native'
+import { AppRegistry } from 'react-native'
 
 configure(() => {
   // eslint-disable-next-line @typescript-eslint/no-var-requires, global-require
@@ -22,6 +22,3 @@ const StorybookUIRoot = getStorybookUI({
 AppRegistry.registerComponent('%APP_NAME%', () => StorybookUIRoot)
 
 export default StorybookUIRoot
-
-// https://github.com/storybookjs/storybook/issues/3348#issuecomment-626730717
-YellowBox.ignoreWarnings(['Story with id'])
