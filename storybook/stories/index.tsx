@@ -3,7 +3,7 @@ import { text, withKnobs } from '@storybook/addon-knobs'
 import { linkTo } from '@storybook/addon-links'
 import { storiesOf } from '@storybook/react-native'
 
-import React from 'react'
+import React, { Component } from 'react'
 import { Text } from 'react-native'
 
 import Button from './Button'
@@ -16,9 +16,7 @@ storiesOf('Welcome', module).add('to Storybook', () => (
 
 storiesOf('Button', module)
   .addDecorator(withKnobs)
-  .addDecorator((getStory: () => React.Component) => (
-    <CenterView>{getStory()}</CenterView>
-  ))
+  .addDecorator(getStory => <CenterView>{getStory() as Component}</CenterView>)
   .add('with text', () => (
     <Button onPress={action('clicked-text')}>
       <Text>{text('title', 'Button Title')}</Text>
