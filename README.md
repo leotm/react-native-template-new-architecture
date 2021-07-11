@@ -4,4 +4,4 @@ See **About**
 
 ## M1 ARM64 Macs
 
-Open XCode 12.5 with Rosetta: https://i.stack.imgur.com/jj508.png
+Open [XCode 12.5 using Rosetta](https://i.stack.imgur.com/jj508.png)
