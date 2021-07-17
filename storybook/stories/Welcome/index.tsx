@@ -24,6 +24,7 @@ const styles = StyleSheet.create({
   }
 })
 
+// eslint-disable-next-line react/require-optimization
 export default class Welcome extends React.Component<Props> {
   static defaultProps = { showApp: null }
 
