@@ -2,6 +2,7 @@ module.exports = {
   root: true,
   extends: [
     'eslint:recommended',
+    'plugin:yml/prettier',
     'plugin:@typescript-eslint/recommended',
     'airbnb-typescript-prettier',
     'plugin:jest/all',
@@ -13,6 +14,12 @@ module.exports = {
     'plugin:prettier/recommended'
   ],
   parser: '@typescript-eslint/parser',
+  overrides: [
+    {
+      files: ["*.yaml", "*.yml"],
+      parser: "yaml-eslint-parser",
+    },
+  ],
   env: {
     'react-native/react-native': true,
     'jest/globals': true,

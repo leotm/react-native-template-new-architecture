@@ -7,7 +7,7 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint . --ext ts,tsx --cache",
+    "lint": "eslint . --ext ts,tsx,yml --cache",
     "lint:fix": "eslint . --ext ts,tsx --cache --fix",
     "prettier:check": "yarn prettier --check **/*.{ts,tsx,json} && yarn prettier --check *.{ts,tsx,json} && yarn prettier --write storybook/**/**/*.{ts,tsx}",
     "prettier:write": "yarn prettier --write **/*.{ts,tsx,json} && yarn prettier --write *.{ts,tsx,json} && yarn prettier --write storybook/**/**/*.{ts,tsx}",
