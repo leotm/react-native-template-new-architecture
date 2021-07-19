@@ -22,6 +22,7 @@ module.exports = {
     'babel.config.js',
     'metro.config.js',
     '.eslintrc.js',
+    '!/.github'
   ],
   plugins: [
     'deprecation'
