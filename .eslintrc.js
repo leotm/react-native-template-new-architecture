@@ -47,6 +47,7 @@ module.exports = {
       'unnamedComponents': 'arrow-function',
     }],
     'deprecation/deprecation': 'error',
+    'spaced-comment': 0, // https://github.com/ota-meshi/eslint-plugin-yml/issues/91
     'import/no-extraneous-dependencies': [
       'error',
       {
