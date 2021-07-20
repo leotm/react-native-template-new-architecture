@@ -16,9 +16,13 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   overrides: [
     {
-      files: ["*.yaml", "*.yml"],
-      parser: "yaml-eslint-parser",
-    },
+      files: ['*.yaml', '*.yml'],
+      parser: 'yaml-eslint-parser',
+      rules: {
+        'spaced-comment': ['off'],
+        'yml/spaced-comment': ['error']
+      }
+    }
   ],
   env: {
     'react-native/react-native': true,
@@ -47,7 +51,7 @@ module.exports = {
       'unnamedComponents': 'arrow-function',
     }],
     'deprecation/deprecation': 'error',
-    'spaced-comment': 0, // https://github.com/ota-meshi/eslint-plugin-yml/issues/91
+    'yml/spaced-comment': 'off',
     'import/no-extraneous-dependencies': [
       'error',
       {
