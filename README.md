@@ -1,6 +1,6 @@
 # 🌃 Bleeding edge nightly React Native template 🌃
 
-## Status
+![Lesgo](https://media.giphy.com/media/hKyWAN3gQyCsM/giphy.gif)
 
 [![CI](https://github.com/leotm/react-native-template-typescript/actions/workflows/main.yml/badge.svg)](https://github.com/leotm/react-native-template-typescript/actions/workflows/main.yml)
 
