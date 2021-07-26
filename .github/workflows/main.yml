@@ -10,14 +10,17 @@ on:
   workflow_dispatch:
 
 jobs:
-  ts:
+  test:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
 
-      - name: Yarn install
+      - name: Install with Yarn
         run: yarn
         
-      - name: TSC
+      - name: Compile with TypeScript
         run: yarn tsc
+
+      - name: Test with Jest
+        run: yarn test
