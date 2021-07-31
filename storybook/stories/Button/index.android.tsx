@@ -5,26 +5,19 @@ import React, { ReactNode } from 'react'
 import { TouchableNativeFeedback } from 'react-native'
 
 interface Props {
-  children: ReactNode
-  onPress: () => void
+  children: ReactNode | typeof PropTypes.node
+  onPress: () => void | typeof PropTypes.func
 }
 
-export default function Button({ onPress, children }: Props) {
+export default function Button({
+  onPress = () => {
+    // do nothing.
+  },
+  children = null
+}: Props) {
   return (
     <TouchableNativeFeedback accessibilityRole="button" onPress={onPress}>
       {children}
     </TouchableNativeFeedback>
   )
-}
-
-Button.defaultProps = {
-  children: null,
-  onPress: () => {
-    // do nothing.
-  }
-}
-
-Button.propTypes = {
-  children: PropTypes.node,
-  onPress: PropTypes.func
 }
