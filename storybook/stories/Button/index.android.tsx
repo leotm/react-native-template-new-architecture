@@ -19,7 +19,9 @@ export default function Button({ onPress, children }: Props) {
 
 Button.defaultProps = {
   children: null,
-  onPress: () => {}
+  onPress: () => {
+    // do nothing.
+  }
 }
 
 Button.propTypes = {
