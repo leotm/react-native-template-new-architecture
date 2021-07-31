@@ -205,8 +205,7 @@ index 0000000..0d259dd
 +o/classes
 diff --git a/node_modules/react-native-flipper/android/build/.transforms/f404c77a97dd5ff54eb24e1f69424771/transformed/classes/classes.dex b/node_modules/react-native-flipper/android/build/.transforms/f404c77a97dd5ff54eb24e1f69424771/transformed/classes/classes.dex
 new file mode 100644
-index 0000000..41d28e5
-Binary files /dev/null and b/node_modules/react-native-flipper/android/build/.transforms/f404c77a97dd5ff54eb24e1f69424771/transformed/classes/classes.dex differ
+index 0000000..e69de29
 diff --git a/node_modules/react-native-flipper/android/build/generated/source/buildConfig/debug/com/facebook/flipper/reactnative/BuildConfig.java b/node_modules/react-native-flipper/android/build/generated/source/buildConfig/debug/com/facebook/flipper/reactnative/BuildConfig.java
 new file mode 100644
 index 0000000..1dff110
@@ -284,12 +283,10 @@ index 0000000..9e26dfe
 \ No newline at end of file
 diff --git a/node_modules/react-native-flipper/android/build/intermediates/compile_library_classes_jar/debug/classes.jar b/node_modules/react-native-flipper/android/build/intermediates/compile_library_classes_jar/debug/classes.jar
 new file mode 100644
-index 0000000..df12687
-Binary files /dev/null and b/node_modules/react-native-flipper/android/build/intermediates/compile_library_classes_jar/debug/classes.jar differ
+index 0000000..e69de29
 diff --git a/node_modules/react-native-flipper/android/build/intermediates/compile_r_class_jar/debug/R.jar b/node_modules/react-native-flipper/android/build/intermediates/compile_r_class_jar/debug/R.jar
 new file mode 100644
-index 0000000..16b9dd9
-Binary files /dev/null and b/node_modules/react-native-flipper/android/build/intermediates/compile_r_class_jar/debug/R.jar differ
+index 0000000..e69de29
 diff --git a/node_modules/react-native-flipper/android/build/intermediates/compile_symbol_list/debug/R.txt b/node_modules/react-native-flipper/android/build/intermediates/compile_symbol_list/debug/R.txt
 new file mode 100644
 index 0000000..085eeda
@@ -2291,32 +2288,25 @@ index 0000000..6d60dcb
 \ No newline at end of file
 diff --git a/node_modules/react-native-flipper/android/build/intermediates/javac/debug/classes/com/facebook/flipper/reactnative/BuildConfig.class b/node_modules/react-native-flipper/android/build/intermediates/javac/debug/classes/com/facebook/flipper/reactnative/BuildConfig.class
 new file mode 100644
-index 0000000..63d7436
-Binary files /dev/null and b/node_modules/react-native-flipper/android/build/intermediates/javac/debug/classes/com/facebook/flipper/reactnative/BuildConfig.class differ
+index 0000000..e69de29
 diff --git a/node_modules/react-native-flipper/android/build/intermediates/javac/debug/classes/com/facebook/flipper/reactnative/FlipperModule.class b/node_modules/react-native-flipper/android/build/intermediates/javac/debug/classes/com/facebook/flipper/reactnative/FlipperModule.class
 new file mode 100644
-index 0000000..d33ea56
-Binary files /dev/null and b/node_modules/react-native-flipper/android/build/intermediates/javac/debug/classes/com/facebook/flipper/reactnative/FlipperModule.class differ
+index 0000000..e69de29
 diff --git a/node_modules/react-native-flipper/android/build/intermediates/javac/debug/classes/com/facebook/flipper/reactnative/FlipperPackage.class b/node_modules/react-native-flipper/android/build/intermediates/javac/debug/classes/com/facebook/flipper/reactnative/FlipperPackage.class
 new file mode 100644
-index 0000000..21523dc
-Binary files /dev/null and b/node_modules/react-native-flipper/android/build/intermediates/javac/debug/classes/com/facebook/flipper/reactnative/FlipperPackage.class differ
+index 0000000..e69de29
 diff --git a/node_modules/react-native-flipper/android/build/intermediates/javac/debug/classes/com/facebook/flipper/reactnative/FlipperReactNativeJavaScriptPlugin.class b/node_modules/react-native-flipper/android/build/intermediates/javac/debug/classes/com/facebook/flipper/reactnative/FlipperReactNativeJavaScriptPlugin.class
 new file mode 100644
-index 0000000..bd2d76b
-Binary files /dev/null and b/node_modules/react-native-flipper/android/build/intermediates/javac/debug/classes/com/facebook/flipper/reactnative/FlipperReactNativeJavaScriptPlugin.class differ
+index 0000000..e69de29
 diff --git a/node_modules/react-native-flipper/android/build/intermediates/javac/debug/classes/com/facebook/flipper/reactnative/FlipperReactNativeJavaScriptPluginManager$1.class b/node_modules/react-native-flipper/android/build/intermediates/javac/debug/classes/com/facebook/flipper/reactnative/FlipperReactNativeJavaScriptPluginManager$1.class
 new file mode 100644
-index 0000000..17d7550
-Binary files /dev/null and b/node_modules/react-native-flipper/android/build/intermediates/javac/debug/classes/com/facebook/flipper/reactnative/FlipperReactNativeJavaScriptPluginManager$1.class differ
+index 0000000..e69de29
 diff --git a/node_modules/react-native-flipper/android/build/intermediates/javac/debug/classes/com/facebook/flipper/reactnative/FlipperReactNativeJavaScriptPluginManager.class b/node_modules/react-native-flipper/android/build/intermediates/javac/debug/classes/com/facebook/flipper/reactnative/FlipperReactNativeJavaScriptPluginManager.class
 new file mode 100644
-index 0000000..131c220
-Binary files /dev/null and b/node_modules/react-native-flipper/android/build/intermediates/javac/debug/classes/com/facebook/flipper/reactnative/FlipperReactNativeJavaScriptPluginManager.class differ
+index 0000000..e69de29
 diff --git a/node_modules/react-native-flipper/android/build/intermediates/javac/debug/classes/com/facebook/flipper/reactnative/FlipperReactNativeJavaScriptReceiver.class b/node_modules/react-native-flipper/android/build/intermediates/javac/debug/classes/com/facebook/flipper/reactnative/FlipperReactNativeJavaScriptReceiver.class
 new file mode 100644
-index 0000000..8a5be8e
-Binary files /dev/null and b/node_modules/react-native-flipper/android/build/intermediates/javac/debug/classes/com/facebook/flipper/reactnative/FlipperReactNativeJavaScriptReceiver.class differ
+index 0000000..e69de29
 diff --git a/node_modules/react-native-flipper/android/build/intermediates/local_only_symbol_list/debug/R-def.txt b/node_modules/react-native-flipper/android/build/intermediates/local_only_symbol_list/debug/R-def.txt
 new file mode 100644
 index 0000000..78ac5b8
@@ -2393,8 +2383,7 @@ index 0000000..6f91e7e
 \ No newline at end of file
 diff --git a/node_modules/react-native-flipper/android/build/intermediates/runtime_library_classes_jar/debug/classes.jar b/node_modules/react-native-flipper/android/build/intermediates/runtime_library_classes_jar/debug/classes.jar
 new file mode 100644
-index 0000000..bd5af49
-Binary files /dev/null and b/node_modules/react-native-flipper/android/build/intermediates/runtime_library_classes_jar/debug/classes.jar differ
+index 0000000..e69de29
 diff --git a/node_modules/react-native-flipper/android/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt b/node_modules/react-native-flipper/android/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt
 new file mode 100644
 index 0000000..debfda7
@@ -3885,5 +3874,4 @@ index 0000000..d8a37e2
 +		INJECTED from /Users/leomerinen/Documents/GitHub/react-native-template-typescript/node_modules/react-native-flipper/android/src/debug/AndroidManifest.xml
 diff --git a/node_modules/react-native-flipper/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin b/node_modules/react-native-flipper/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin
 new file mode 100644
-index 0000000..2cb841d
-Binary files /dev/null and b/node_modules/react-native-flipper/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin differ
+index 0000000..e69de29
