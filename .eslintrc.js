@@ -19,7 +19,8 @@ module.exports = {
       files: ['*.yaml', '*.yml'],
       parser: 'yaml-eslint-parser',
       rules: {
-        'spaced-comment': ['off']
+        'spaced-comment': 'off',
+        'yml/flow-sequence-bracket-spacing': ['error', 'always'],
       }
     }
   ],
