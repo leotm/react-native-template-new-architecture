@@ -1,11 +1,11 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types'
 
-import React from 'react'
+import React, { ReactNode } from 'react'
 import { TouchableNativeFeedback } from 'react-native'
 
 interface Props {
-  children: JSX.Element
+  children: ReactNode
   onPress: () => void
 }
 
