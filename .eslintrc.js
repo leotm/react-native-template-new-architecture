@@ -19,8 +19,7 @@ module.exports = {
       files: ['*.yaml', '*.yml'],
       parser: 'yaml-eslint-parser',
       rules: {
-        'spaced-comment': ['off'],
-        'yml/spaced-comment': ['error']
+        'spaced-comment': ['off']
       }
     }
   ],
@@ -51,7 +50,6 @@ module.exports = {
       'unnamedComponents': 'arrow-function',
     }],
     'deprecation/deprecation': 'error',
-    'yml/spaced-comment': 'off',
     'import/no-extraneous-dependencies': [
       'error',
       {
