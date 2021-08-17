@@ -11471,10 +11471,10 @@ react-native-swipe-gestures@^1.0.4:
   resolved "https://registry.yarnpkg.com/react-native-swipe-gestures/-/react-native-swipe-gestures-1.0.5.tgz#a172cb0f3e7478ccd681fd36b8bfbcdd098bde7c"
   integrity sha512-Ns7Bn9H/Tyw278+5SQx9oAblDZ7JixyzeOczcBK8dipQk2pD7Djkcfnf1nB/8RErAmMLL9iXgW0QHqiII8AhKw==
 
-react-native@0.65.0-rc.4:
-  version "0.65.0-rc.4"
-  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.65.0-rc.4.tgz#8193bfb796fb1f25f1912aea317c4d21e382461a"
-  integrity sha512-R5fnEbJv/5zdz3mVxZRuyQaY8fZzwn/Qxu2vd3Zp5/MnV6+f0Y+ExHlHRcVRxP/GvHDkt3+bb5HQGa7pDZSacA==
+react-native@0.65.0:
+  version "0.65.0"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.65.0.tgz#42f95c57cb6e50510b8004c99129104faa2b4cef"
+  integrity sha512-swtTbgcz7477PFllfDPvJ6Mx7dm2L1t76wlxsfCEFszl/jqxtdCXHb1K7AXCJDRHaEWVDJxYsU6DUDjzDqfCqQ==
   dependencies:
     "@jest/create-cache-key-function" "^27.0.1"
     "@react-native-community/cli" "^6.0.0"
