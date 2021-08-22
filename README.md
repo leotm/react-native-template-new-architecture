@@ -9,7 +9,7 @@
 [![eslint](https://badges.aleen42.com/src/eslint.svg)](#)
 
 [![NPM RN pkg ver](https://img.shields.io/npm/v/react-native?color=red&label=react-native)](https://github.com/facebook/react-native/releases/tag/v0.65.1)
-[![CI](https://github.com/leotm/react-native-template-typescript/actions/workflows/main.yml/badge.svg)](#)
+[![CI](https://github.com/leotm/react-native-template-typescript/actions/workflows/main.yml/badge.svg)](https://github.com/leotm/react-native-template-typescript/actions/workflows/main.yml)
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/leotm/react-native-template-typescript/pulse)
 
