@@ -2,7 +2,9 @@
 
 ![Lesgo](https://media.giphy.com/media/hKyWAN3gQyCsM/giphy.gif)
 
-[![CI](https://github.com/leotm/react-native-template-typescript/actions/workflows/main.yml/badge.svg)](https://github.com/leotm/react-native-template-typescript/actions/workflows/main.yml)
+[![NPM license](https://img.shields.io/badge/license-MIT-blue.svg)](#)
+[![NPM RN pkg ver](https://img.shields.io/npm/v/react-native?color=brightgreen&label=react-native)](#)
+[![CI](https://github.com/leotm/react-native-template-typescript/actions/workflows/main.yml/badge.svg)](#)
 
 ## M1 ARM64 Macs
 
