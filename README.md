@@ -3,7 +3,7 @@
 ![Lesgo](https://media.giphy.com/media/hKyWAN3gQyCsM/giphy.gif)
 
 [![NPM license](https://img.shields.io/badge/license-MIT-blue.svg)](#)
-[![NPM RN pkg ver](https://img.shields.io/npm/v/react-native?color=red&label=react-native)](#)
+[![NPM RN pkg ver](https://img.shields.io/npm/v/react-native?color=red&label=react-native)](https://github.com/facebook/react-native/releases/tag/v0.65.1)
 [![CI](https://github.com/leotm/react-native-template-typescript/actions/workflows/main.yml/badge.svg)](#)
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/leotm/react-native-template-typescript/pulse)
