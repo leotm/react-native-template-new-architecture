@@ -9,7 +9,7 @@
     "start:reset": "react-native start --reset-cache",
     "test": "jest",
     "lint": "eslint . --ext ts,tsx,yml --cache",
-    "lint:fix": "eslint . --ext ts,tsx --cache --fix",
+    "lint:fix": "eslint . --ext ts,tsx,yml --cache --fix",
     "prettier:check": "yarn prettier --check **/*.{ts,tsx,json} && yarn prettier --check *.{ts,tsx,json} && yarn prettier --write storybook/**/**/*.{ts,tsx}",
     "prettier:write": "yarn prettier --write **/*.{ts,tsx,json} && yarn prettier --write *.{ts,tsx,json} && yarn prettier --write storybook/**/**/*.{ts,tsx}",
     "check:all": "yarn tsc && yarn lint && yarn prettier:check && jest",
