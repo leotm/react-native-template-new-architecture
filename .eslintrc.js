@@ -2,7 +2,6 @@ module.exports = {
   root: true,
   extends: [
     'eslint:recommended',
-    'plugin:yml/prettier',
     'plugin:@typescript-eslint/recommended',
     'airbnb-typescript-prettier',
     'plugin:jest/all',
@@ -10,8 +9,9 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'react-native-typescript',
     'plugin:react-native/all',
-    '@react-native-community',
-    'plugin:prettier/recommended'
+    // '@react-native-community',
+    // 'plugin:prettier/recommended',
+    'plugin:yml/prettier',
   ],
   parser: '@typescript-eslint/parser',
   overrides: [
