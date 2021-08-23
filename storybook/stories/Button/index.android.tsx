@@ -6,7 +6,7 @@ interface Props {
   onPress: () => void
 }
 
-export default ({
+const Button = ({
   onPress = () => {
     // do nothing.
   },
@@ -18,3 +18,5 @@ export default ({
     </TouchableNativeFeedback>
   )
 }
+
+export default Button

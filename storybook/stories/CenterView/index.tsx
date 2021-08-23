@@ -10,7 +10,7 @@ interface Props {
   children: React.Component
 }
 
-export default ({ children }: Props) => {
+const CenterView = ({ children }: Props) => {
   return <View style={style.main}>{children}</View>
 }
 
@@ -21,3 +21,5 @@ CenterView.defaultProps = {
 CenterView.propTypes = {
   children: PropTypes.node
 }
+
+export default CenterView
