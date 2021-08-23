@@ -1,4 +1,9 @@
 {
-  "extends": ["config:base", ":automergePatch", ":prHourlyLimitNone", ":switchToGradleLite"],
+  "extends": [
+    "config:base",
+    ":automergePatch",
+    ":prHourlyLimitNone",
+    ":switchToGradleLite"
+  ],
   "dependencyDashboard": true
 }
