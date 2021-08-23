@@ -13,7 +13,7 @@
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/leotm/react-native-template-typescript/pulse)
 
-## M1 ARM64 Macs
+## M1 (ARM64) Macs
 
 - Open [XCode 12.5 using Rosetta](https://i.stack.imgur.com/jj508.png)
 - Use [Initial Preview v3: Google APIs System Image](https://github.com/google/android-emulator-m1-preview/releases/download/0.3/android-emulator-m1-preview.dmg)
