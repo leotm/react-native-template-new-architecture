@@ -4,7 +4,7 @@ import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 
 interface Props {
-  showApp: () => typeof PropTypes.func | void
+  showApp: () => void
 }
 
 const styles = StyleSheet.create({

@@ -1,12 +1,9 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
-import PropTypes from 'prop-types'
-
 import React, { ReactNode } from 'react'
 import { TouchableHighlight } from 'react-native'
 
 interface Props {
-  children: ReactNode | typeof PropTypes.node
-  onPress: () => void | typeof PropTypes.func
+  children: ReactNode
+  onPress: () => void
 }
 
 export default function Button({
