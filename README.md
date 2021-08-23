@@ -18,6 +18,10 @@
 - Open [XCode 12.5 using Rosetta](https://i.stack.imgur.com/jj508.png)
 - Use [Initial Preview v3: Google APIs System Image](https://github.com/google/android-emulator-m1-preview/releases/download/0.3/android-emulator-m1-preview.dmg)
 
+## Xcode 13
+
+- [Disable Flipper](https://github.com/facebook/react-native/issues/31733#issuecomment-864536726) [for now](https://github.com/facebook/flipper/issues/2477)
+
 ## Android Studio
 
 - [Preview release - Canary build](https://developer.android.com/studio/preview)
