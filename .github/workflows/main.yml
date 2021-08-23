@@ -22,5 +22,8 @@ jobs:
       - name: Compile with TypeScript
         run: yarn tsc
 
+      - name: Lint with ESLint
+        run: yarn lint
+
       - name: Test with Jest
         run: yarn test
