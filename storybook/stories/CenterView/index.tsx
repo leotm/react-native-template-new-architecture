@@ -10,7 +10,7 @@ interface Props {
   children: React.Component
 }
 
-export default function CenterView({ children }: Props) {
+export default ({ children }: Props) => {
   return <View style={style.main}>{children}</View>
 }
 

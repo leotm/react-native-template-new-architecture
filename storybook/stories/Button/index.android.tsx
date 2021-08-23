@@ -6,12 +6,12 @@ interface Props {
   onPress: () => void
 }
 
-export default function Button({
+export default ({
   onPress = () => {
     // do nothing.
   },
   children = null
-}: Props) {
+}: Props) => {
   return (
     <TouchableNativeFeedback accessibilityRole="button" onPress={onPress}>
       {children}
