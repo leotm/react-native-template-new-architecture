@@ -35,7 +35,9 @@ Build target <App> of project <App> with configuration Debug
 ```
 
 </details>
-
+  
+- [Xcode 12.5 troubleshooting guide (RN 0.61/0.62/0.63/0.64)](https://github.com/facebook/react-native/issues/31480)
+- [Apple Silicon (M1) troubleshooting guide (RN 0.64/0.65)](https://github.com/facebook/react-native/issues/31941)
 
 ### Android
 
