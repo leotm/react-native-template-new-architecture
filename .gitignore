@@ -73,3 +73,13 @@ buck-out/
 # ESLint
 #
 .eslintcache
+
+# Yarn (Berry) Modern (Zero-Installs)
+#
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
