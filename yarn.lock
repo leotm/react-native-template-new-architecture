@@ -2638,10 +2638,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native/polyfills@npm:1.0.0":
-  version: 1.0.0
-  resolution: "@react-native/polyfills@npm:1.0.0"
-  checksum: b68f722b2325315d41cd3edfbc6f4eb7c6ec355e52aa8d781a3da6289e302f47f3b9e11deb69f689395e70923eb5b8202203e9e25a714c30c30ba2392c850db3
+"@react-native/polyfills@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@react-native/polyfills@npm:2.0.0"
+  checksum: 6f2a0d1c8c4df4f20e8adac92fcfaec0fb536d097f96fbfd56bdb21b0a3afc4157f82d084b6851093255f58d350818f7ad28098818d584f654533eeb9cba2656
   languageName: node
   linkType: hard
 
@@ -9852,10 +9852,10 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"hermes-engine@npm:~0.8.1":
-  version: 0.8.1
-  resolution: "hermes-engine@npm:0.8.1"
-  checksum: cae8b684582db45d69d4be208af678f2b1c0472ea57947be88d6021eef9cfd11f7309f352a705f8894b91a97de38375744fc26efeb1ec19e0b10f10abbf310fb
+"hermes-engine@npm:~0.9.0":
+  version: 0.9.0
+  resolution: "hermes-engine@npm:0.9.0"
+  checksum: 384549c544de9efb07e9d84202f45bde00e62539a5b56fed2fd2763dbd02560eb37786e61349119966e3086e95a6b8e008822730180a679e229b43a611718f4c
   languageName: node
   linkType: hard
 
@@ -13335,9 +13335,8 @@ fsevents@^1.2.7:
     prettier: 2.4.1
     react: 17.0.2
     react-dom: 17.0.2
-    react-native: 0.65.1
+    react-native: 0.66.0-rc.4
     react-native-clean-project: 3.6.7
-    react-native-codegen: 0.0.8
     react-native-flipper: 0.112.0
     react-native-rename: 2.9.0
     react-test-renderer: 17.0.2
@@ -15007,13 +15006,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-devtools-core@npm:^4.6.0":
-  version: 4.13.5
-  resolution: "react-devtools-core@npm:4.13.5"
+"react-devtools-core@npm:^4.13.0":
+  version: 4.18.0
+  resolution: "react-devtools-core@npm:4.18.0"
   dependencies:
     shell-quote: ^1.6.1
     ws: ^7
-  checksum: d1ccd1854606d01170626b5766e74cf2c04df443204b929faaf3b8e4e7f0ce3c3822235bd1171e6b99594f355484eff87935a97d1bfed76e70d1d23432f6106a
+  checksum: f84b733225d3a4961fdd2731d2447fdde5943141b1cdf1b17c2c36017f1242674b3fff803e4b5f7d0165ec0ad03c84bb1118514f0e02502f015b37ce571473b9
   languageName: node
   linkType: hard
 
@@ -15174,14 +15173,14 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-codegen@npm:0.0.8":
-  version: 0.0.8
-  resolution: "react-native-codegen@npm:0.0.8"
+"react-native-codegen@npm:^0.0.7":
+  version: 0.0.7
+  resolution: "react-native-codegen@npm:0.0.7"
   dependencies:
     flow-parser: ^0.121.0
     jscodeshift: ^0.11.0
     nullthrows: ^1.1.1
-  checksum: c5ccdcb2a2f249756aca8e729cf96737368c8d33673b08d4c928a469bcb58ff37fbf3c7a070398f33b19846c4261948e2c5107c561934a41ac034620f7207bbd
+  checksum: d550d6e985a0d564f0ac470b19c9a2e4e78ffc0f5769ba46992a4d10130928093e9c2ada7eda0ec8bd976db4ba4c21ef410280e979226f11844aa0215335cde5
   languageName: node
   linkType: hard
 
@@ -15272,9 +15271,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native@npm:0.65.1":
-  version: 0.65.1
-  resolution: "react-native@npm:0.65.1"
+"react-native@npm:0.66.0-rc.4":
+  version: 0.66.0-rc.4
+  resolution: "react-native@npm:0.66.0-rc.4"
   dependencies:
     "@jest/create-cache-key-function": ^27.0.1
     "@react-native-community/cli": ^6.0.0
@@ -15282,12 +15281,12 @@ fsevents@^1.2.7:
     "@react-native-community/cli-platform-ios": ^6.0.0
     "@react-native/assets": 1.0.0
     "@react-native/normalize-color": 1.0.0
-    "@react-native/polyfills": 1.0.0
+    "@react-native/polyfills": 2.0.0
     abort-controller: ^3.0.0
     anser: ^1.4.9
     base64-js: ^1.1.2
     event-target-shim: ^5.0.1
-    hermes-engine: ~0.8.1
+    hermes-engine: ~0.9.0
     invariant: ^2.2.4
     jsc-android: ^250230.2.1
     metro-babel-register: 0.66.2
@@ -15298,7 +15297,8 @@ fsevents@^1.2.7:
     pretty-format: ^26.5.2
     promise: ^8.0.3
     prop-types: ^15.7.2
-    react-devtools-core: ^4.6.0
+    react-devtools-core: ^4.13.0
+    react-native-codegen: ^0.0.7
     react-refresh: ^0.4.0
     regenerator-runtime: ^0.13.2
     scheduler: ^0.20.2
@@ -15310,7 +15310,7 @@ fsevents@^1.2.7:
     react: 17.0.2
   bin:
     react-native: cli.js
-  checksum: 4462aa29ad940dc797b150cb6af9b481e6a013d5201818299e203e36f23bce389d705af25d75eea9e9fb31c0bcafdc349fd23fb6628db0a4cdadde6e1fbd3902
+  checksum: 836a81737f514f3ec5071c843242e655f32e3f1ec77ee647e9c6cca010e2b09c69cd07d6f0bd9019bfd06c3dcf2c5b6070d7cdedbaa44db8c13466009e801bed
   languageName: node
   linkType: hard
 
