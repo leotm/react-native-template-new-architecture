@@ -14,6 +14,9 @@ module.exports = {
     'plugin:yml/prettier',
   ],
   parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaVersion: 'latest'
+  },
   overrides: [
     {
       files: ['*.yaml', '*.yml'],
