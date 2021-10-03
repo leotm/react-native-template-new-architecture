@@ -53,6 +53,7 @@ module.exports = {
     'deprecation/deprecation': 'error',
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': 'error',
+    '@typescript-eslint/no-invalid-void-type': 'error',
     'import/no-extraneous-dependencies': [
       'error',
       {
