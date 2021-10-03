@@ -15,6 +15,7 @@
     "check:all": "yarn tsc && yarn lint && yarn prettier:check && jest",
     "fix": "yarn lint:fix && yarn prettier:write",
     "storybook": "(adb reverse tcp:7007 tcp:7007 || true) && start-storybook -p 7007",
+    "server": "ts-node node.ts",
     "postinstall": "patch-package",
     "rename": "yarn react-native-rename",
     "clean": "react-native-clean-project"
@@ -27,8 +28,8 @@
   "devDependencies": {
     "@babel/core": "7.15.5",
     "@babel/runtime": "7.15.4",
-    "@curveball/core": "^0.16.3",
-    "@curveball/router": "^0.3.0",
+    "@curveball/core": "0.16.3",
+    "@curveball/router": "0.3.0",
     "@react-native-community/eslint-config": "3.0.1",
     "@storybook/addon-actions": "6.3.9",
     "@storybook/addon-knobs": "5.3.21",
@@ -78,7 +79,7 @@
     "react-native-rename": "2.9.0",
     "react-test-renderer": "17.0.2",
     "reactotron-react-native": "5.0.0",
-    "ts-node": "^10.2.1",
+    "ts-node": "10.2.1",
     "typescript": "4.4.3"
   },
   "jest": {
