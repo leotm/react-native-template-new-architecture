@@ -61,6 +61,7 @@
   // For no @typescript-eslint/parser parsing errors
   "include": [
     "index.ts",
+    "data.ts",
     "types/globals.d.ts",
     "storybook",
     "jest",
