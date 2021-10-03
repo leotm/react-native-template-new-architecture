@@ -51,6 +51,8 @@ module.exports = {
       'unnamedComponents': 'arrow-function',
     }],
     'deprecation/deprecation': 'error',
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': 'error',
     'import/no-extraneous-dependencies': [
       'error',
       {
