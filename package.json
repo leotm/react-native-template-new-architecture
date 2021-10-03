@@ -16,6 +16,7 @@
     "fix": "yarn lint:fix && yarn prettier:write",
     "storybook": "(adb reverse tcp:7007 tcp:7007 || true) && start-storybook -p 7007",
     "server": "ts-node node.ts",
+    "deno": "deno run --allow-net deno.ts",
     "postinstall": "patch-package",
     "rename": "yarn react-native-rename",
     "clean": "react-native-clean-project"
