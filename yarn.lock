@@ -1825,6 +1825,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@curveball/core@npm:^0.16.3":
+  version: 0.16.3
+  resolution: "@curveball/core@npm:0.16.3"
+  dependencies:
+    "@curveball/http-errors": ^0.4.0
+    "@types/ws": ^7.2.9
+    accepts: ^1.3.7
+    raw-body: ^2.4.1
+    ws: ^7.4.3
+  checksum: d0e1ffc3b22b37702990ed6f32bdba84282db7d38721d6be8abe3f93b86b58e547b5549cd47f3547d1a3870aa6cad309ac05b497b076100aeac06b272a750d32
+  languageName: node
+  linkType: hard
+
+"@curveball/http-errors@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@curveball/http-errors@npm:0.4.0"
+  checksum: a5d096412548eda58a2c4bfce3a4b24ed2618f3de38df0914f9c108fd316f8ede9f662a3f6e8f004f0d039297919d4617a5412c0fe9b4b2f582cb7965b296a50
+  languageName: node
+  linkType: hard
+
 "@emotion/cache@npm:^10.0.27, @emotion/cache@npm:^10.0.9":
   version: 10.0.29
   resolution: "@emotion/cache@npm:10.0.29"
@@ -3607,6 +3627,15 @@ __metadata:
   dependencies:
     "@types/node": "*"
   checksum: fb2f1cc1bc294607cf737a998a04d4eaca78b0a183905b879849c0e009f47ff4adaa6cbc7d9ac2d2ecc61652c8367e0f8bb02aab0af67a82e8c922746e96434b
+  languageName: node
+  linkType: hard
+
+"@types/ws@npm:^7.2.9":
+  version: 7.4.7
+  resolution: "@types/ws@npm:7.4.7"
+  dependencies:
+    "@types/node": "*"
+  checksum: b4c9b8ad209620c9b21e78314ce4ff07515c0cadab9af101c1651e7bfb992d7fd933bd8b9c99d110738fd6db523ed15f82f29f50b45510288da72e964dedb1a3
   languageName: node
   linkType: hard
 
@@ -10020,7 +10049,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"http-errors@npm:~1.7.2":
+"http-errors@npm:1.7.3, http-errors@npm:~1.7.2":
   version: 1.7.3
   resolution: "http-errors@npm:1.7.3"
   dependencies:
@@ -13295,6 +13324,7 @@ fsevents@^1.2.7:
   dependencies:
     "@babel/core": 7.15.5
     "@babel/runtime": 7.15.4
+    "@curveball/core": ^0.16.3
     "@react-native-community/async-storage": 1.12.1
     "@react-native-community/eslint-config": 3.0.1
     "@storybook/addon-actions": 5.3.21
@@ -14929,6 +14959,18 @@ fsevents@^1.2.7:
     iconv-lite: 0.4.24
     unpipe: 1.0.0
   checksum: 6343906939e018c6e633a34a938a5d6d1e93ffcfa48646e00207d53b418e941953b521473950c079347220944dc75ba10e7b3c08bf97e3ac72c7624882db09bb
+  languageName: node
+  linkType: hard
+
+"raw-body@npm:^2.4.1":
+  version: 2.4.1
+  resolution: "raw-body@npm:2.4.1"
+  dependencies:
+    bytes: 3.1.0
+    http-errors: 1.7.3
+    iconv-lite: 0.4.24
+    unpipe: 1.0.0
+  checksum: d5e9179d2f1f0a652cd107c080f25d165c724f546124d620c8df7fb80322df42bff547a8b310e55e1f7952556d013716a21b30162192eb0b3332d7efcba75883
   languageName: node
   linkType: hard
 
@@ -18959,6 +19001,21 @@ typescript@4.4.3:
     utf-8-validate:
       optional: true
   checksum: 1918eef52c78c57c920a6ffc1da0be2d2e3a3ab0f54e8db2e7e8534dae2e50a184fd460da143a16dd90bd9d3e15468468331f9e4617723f52c1a2232a698ec15
+  languageName: node
+  linkType: hard
+
+"ws@npm:^7.4.3":
+  version: 7.5.5
+  resolution: "ws@npm:7.5.5"
+  peerDependencies:
+    bufferutil: ^4.0.1
+    utf-8-validate: ^5.0.2
+  peerDependenciesMeta:
+    bufferutil:
+      optional: true
+    utf-8-validate:
+      optional: true
+  checksum: bd2b437256012af526c69c03d6670a132e7ab0fe5853f3b7092826acea4203fad4ee2a8d0d9bd44834b2b968e747bf34f753ab535f4a3edf40d262da4b1d0805
   languageName: node
   linkType: hard
 
