@@ -23,6 +23,12 @@
 yarn
 ```
 
+## Start
+
+```sh
+yarn start --reset-cache
+```
+
 ## M1 (ARM64) Macs
 
 ### iOS
@@ -87,4 +93,30 @@ Build target <App> of project <App> with configuration Debug
   
 ```sh
 yarn android
+```
+
+## Storybook
+  
+```diff
+# metro.config.js
+module.exports = {
+  transformer: {
+    getTransformOptions: async () => ({
+      transform: {
+        experimentalImportSupport: false,
+-       inlineRequires: true
++       inlineRequires: false
+      }
+    })
+  }
+}
+# https://github.com/facebook/react-native/issues/31969
+```
+
+```sh
+yarn storybook
+```
+  
+```sh
+yarn <android/ios>
 ```
