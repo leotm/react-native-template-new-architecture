@@ -13,6 +13,10 @@
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/leotm/react-native-template-typescript/pulse)
 
+## Setup
+
+[Fresh M1](https://github.com/leotm/react-native-template-typescript/wiki/Fresh-M1)
+
 ## Install
 
 ```sh
@@ -39,10 +43,14 @@ pod install
 # ...
 ```
 
-- Set [XCode 12.5 / 13 to open with Rosetta (2)](https://i.stack.imgur.com/jj508.png)
-  - Clean
-  - Build for iPhone 11/12
-  - Run via Xcode or RN CLI below
+- Set [Xcode 13 to open with Rosetta 2](https://i.stack.imgur.com/jj508.png)
+  - Open workspace
+  - (Clean Build Folder)
+  - Set iOS Simulator to iPhone 12
+  - Build
+  - Run in Xcode
+
+Or Run with React Native CLI
 
 ```sh
 yarn ios
@@ -66,17 +74,17 @@ Build target <App> of project <App> with configuration Debug
 
 #### Guides
   
-- [Xcode 12.5 troubleshooting guide (RN 0.61/0.62/0.63/0.64)](https://github.com/facebook/react-native/issues/31480)
 - [Apple Silicon (M1) troubleshooting guide (RN 0.64/0.65)](https://github.com/facebook/react-native/issues/31941)
+- [Xcode 12.5 troubleshooting guide (RN 0.61/0.62/0.63/0.64)](https://github.com/facebook/react-native/issues/31480)
 
 ### Android
 
-- Use [Initial Preview v3: Google APIs System Image](https://github.com/google/android-emulator-m1-preview/releases/download/0.3/android-emulator-m1-preview.dmg)
-
-## Android Studio
-
-- [Preview release - Canary build](https://developer.android.com/studio/preview)
-
-## Project
-
-- [1337](https://github.com/leotm/react-native-template-typescript/projects/1)
+- Open [Android Studio - Preview release - Canary build](https://developer.android.com/studio/preview)
+  - (Clean Project)
+  - Open Project
+  - Make Project
+- Open [Initial Preview v3: Google APIs System Image](https://github.com/google/android-emulator-m1-preview/releases/download/0.3/android-emulator-m1-preview.dmg)
+  
+```sh
+yarn android
+```
