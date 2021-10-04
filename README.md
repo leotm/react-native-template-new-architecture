@@ -51,7 +51,7 @@ pod install
 
 - Set [Xcode 13 to open with Rosetta 2](https://i.stack.imgur.com/jj508.png)
   - Open workspace
-  - (Clean Build Folder)
+  - Clean Build Folder
   - Set iOS Simulator to iPhone 12
   - Build
   - Run in Xcode
@@ -86,7 +86,7 @@ Build target <App> of project <App> with configuration Debug
 ### Android
 
 - Open [Android Studio - Preview release - Canary build](https://developer.android.com/studio/preview)
-  - (Clean Project)
+  - Clean Project
   - Open Project
   - Make Project
 - Open [Initial Preview v3: Google APIs System Image](https://github.com/google/android-emulator-m1-preview/releases/download/0.3/android-emulator-m1-preview.dmg)
@@ -119,4 +119,20 @@ yarn storybook
   
 ```sh
 yarn <android/ios>
+```
+
+## Node
+  
+```sh
+yarn server
+```
+  
+## Deno
+  
+```sh
+brew install deno
+```
+  
+```sh
+yarn deno
 ```
