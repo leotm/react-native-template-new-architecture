@@ -112,6 +112,7 @@ module.exports = {
     })
   }
 }
+# https://github.com/facebook/hermes/issues/135
 # https://github.com/facebook/react-native/issues/31969
 ```
 
