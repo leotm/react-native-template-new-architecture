@@ -13,6 +13,8 @@
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/leotm/react-native-template-typescript/pulse)
 
+[![Docs](https://img.shields.io/badge/Docs%3F-yes-green.svg)](https://github.com/leotm/react-native-template-typescript/wiki)
+
 ## Setup
 
 [Fresh M1](https://github.com/leotm/react-native-template-typescript/wiki/Fresh-M1)
