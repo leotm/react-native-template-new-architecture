@@ -43,6 +43,7 @@ module.exports = {
   ],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off', // Prefer type inference
+    '@typescript-eslint/explicit-module-boundary-types': 'off', // Prefer type inference
     'jest/prefer-inline-snapshots': 'off', // Avoid inlining unreadable RN snapshots
     'react/static-property-placement': 'off', // TS wants these defs inside the Class,
     'jsx-a11y/accessible-emoji': 'off', // RN TS requires raw text in <Text>, not <span>
