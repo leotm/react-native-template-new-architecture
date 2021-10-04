@@ -13,12 +13,40 @@
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/leotm/react-native-template-typescript/pulse)
 
+## Install
+
+```sh
+yarn
+```
+
 ## M1 (ARM64) Macs
 
 ### iOS
 
-- Open [XCode 12.5 / 13+ using Rosetta](https://i.stack.imgur.com/jj508.png)
-  - Upgrading RN: _Clean_ -> _Build_
+```sh
+cd ios
+pod install
+```
+
+```diff
+# project.pbxproj
+# ...
+- "EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
++ "EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+# ...
+- "EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
++ "EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+# ...
+```
+
+- Set [XCode 12.5 / 13 to open with Rosetta (2)](https://i.stack.imgur.com/jj508.png)
+  - Clean
+  - Build for iPhone 11/12
+  - Run via Xcode or RN CLI below
+
+```sh
+yarn ios
+```
 
 <details><summary>Resolves</summary>
 
