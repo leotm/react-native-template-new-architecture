@@ -51,7 +51,7 @@ pod install
 # ...
 ```
 
-- Set [Xcode 13 to open with Rosetta 2](https://i.stack.imgur.com/jj508.png)
+- Set [Xcode 13 to open with Rosetta](https://i.stack.imgur.com/jj508.png)
   - Open workspace
   - Clean Build Folder
   - Set iOS Simulator to iPhone 12
