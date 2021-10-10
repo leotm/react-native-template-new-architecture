@@ -68,6 +68,7 @@
     "storybook",
     "jest",
     "__tests__",
-    "**/src/**/*.{ts,tsx}"
+    "src/**/*.ts",
+    "src/**/*.tsx"
   ]
 }
