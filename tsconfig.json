@@ -58,13 +58,14 @@
     "resolveJsonModule": true,
     "skipLibCheck": true                      /* Ignore e.g. node_modules: @storybook/client-api/dist/story_store.d.ts; @types/reach__router/index.d.ts; more likely to come',   */
   },
-  // For no @typescript-eslint/parser parsing errors
-  "include": [
+  "files":[
     "index.ts",
     "data.ts",
     "node.ts",
     "deno.ts",
-    "types/globals.d.ts",
+    "types/globals.d.ts"
+  ],
+  "include": [
     "storybook",
     "jest",
     "__tests__",
