@@ -2745,6 +2745,34 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-navigation/elements@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@react-navigation/elements@npm:1.2.0"
+  peerDependencies:
+    "@react-navigation/native": ^6.0.0
+    react: "*"
+    react-native: "*"
+    react-native-safe-area-context: ">= 3.0.0"
+  checksum: 6f72094f6919c3816c9dfc5be45610a5c7199224e21abe2ab1a725ae6c59191e01917a0c092e28f9083a28913dba214372bc934260bf0c2106970a694d976c9c
+  languageName: node
+  linkType: hard
+
+"@react-navigation/native-stack@npm:6.2.3":
+  version: 6.2.3
+  resolution: "@react-navigation/native-stack@npm:6.2.3"
+  dependencies:
+    "@react-navigation/elements": ^1.2.0
+    warn-once: ^0.1.0
+  peerDependencies:
+    "@react-navigation/native": ^6.0.0
+    react: "*"
+    react-native: "*"
+    react-native-safe-area-context: ">= 3.0.0"
+    react-native-screens: ">= 3.0.0"
+  checksum: 730c79b5910d191398f869d62cf3c9a6502945e074f0b5ab78fe7d1fac2ee7f75e470111b8d04958a7375e1502abd3571044643561cf6fc86b4cade9d6ca5e44
+  languageName: node
+  linkType: hard
+
 "@react-navigation/native@npm:6.0.5":
   version: 6.0.5
   resolution: "@react-navigation/native@npm:6.0.5"
@@ -13572,6 +13600,7 @@ fsevents@^1.2.7:
     "@react-native-community/checkbox": 0.5.8
     "@react-native-community/eslint-config": 3.0.1
     "@react-navigation/native": 6.0.5
+    "@react-navigation/native-stack": 6.2.3
     "@storybook/addon-actions": 5.3.21
     "@storybook/addon-knobs": 5.3.21
     "@storybook/addon-links": 5.3.21
