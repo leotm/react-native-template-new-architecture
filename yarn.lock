@@ -13620,6 +13620,8 @@ fsevents@^1.2.7:
     react-native-clean-project: 3.6.7
     react-native-flipper: 0.114.0
     react-native-rename: 2.9.0
+    react-native-safe-area-context: 3.3.2
+    react-native-screens: 3.8.0
     react-query: 3.25.1
     react-test-renderer: 17.0.2
     reactotron-react-native: 5.0.0
@@ -15581,6 +15583,28 @@ fsevents@^1.2.7:
   bin:
     react-native-rename: lib/index.js
   checksum: 221e57ca7fbf6b2e2099a5f41f136b16b31fdc7291442986454ff67d5f01ed36cbcc0dbc18bc07231f9dfc33d54ae72d65bc969bf6220d315ac2538263c3a118
+  languageName: node
+  linkType: hard
+
+"react-native-safe-area-context@npm:3.3.2":
+  version: 3.3.2
+  resolution: "react-native-safe-area-context@npm:3.3.2"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 4feda1bbc9e18b3b279b972303f1866c46e37f331ef22cd2ff630599fdd8b2b8c7a84cc53420df595b89d95d0bce7496333fe28ea5c4b2330d9d1b7beab8f389
+  languageName: node
+  linkType: hard
+
+"react-native-screens@npm:3.8.0":
+  version: 3.8.0
+  resolution: "react-native-screens@npm:3.8.0"
+  dependencies:
+    warn-once: ^0.1.0
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 405572a4d221936352984b93764ca65541bb2b92579b6a689b4b81175f8710e648ed2b23d8841450662e01cebbcf9adb2bc70ffd9ef454d7b0ae2781caeda9b1
   languageName: node
   linkType: hard
 
@@ -18978,6 +19002,13 @@ typescript@4.4.3:
   dependencies:
     makeerror: 1.0.x
   checksum: 4038fcf92f6ab0288267ad05008aec9e089a759f1bd32e1ea45cc2eb498eb12095ec43cf8ca2bf23a465f4580a0d33b25b89f450ba521dd27083cbc695ee6bf5
+  languageName: node
+  linkType: hard
+
+"warn-once@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "warn-once@npm:0.1.0"
+  checksum: 5fde2b526d132369ae30a34e9bd172f77ae3c061e6b875194de42d668bc189bd779ddada5217348cdf23ecac6a277931b40482173c6695544b924f6a8cd67601
   languageName: node
   linkType: hard
 
