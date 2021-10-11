@@ -16,7 +16,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen'
 
 if (__DEV__) {
-  import('./ReactotronConfig')
+  import('../ReactotronConfig')
     .then(() => console.log('Reactotron Configured'))
     .catch(() => console.error)
 }
@@ -112,9 +112,9 @@ const styles = StyleSheet.create({
 })
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const storybook = require('./storybook').default
+const storybook = require('../storybook').default
 
-export default false ? storybook : App
+export default true ? storybook : App
 
 // export default Reactotron.storybookSwitcher(storybook)(App)
 // https://github.com/infinitered/reactotron/issues/1160
