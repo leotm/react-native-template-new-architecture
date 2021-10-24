@@ -17,7 +17,7 @@
 
 ## Setup
 
-[Fresh M1](https://github.com/leotm/react-native-template-typescript/wiki/Fresh-M1)
+[Fresh M1](https://github.com/leotm/react-native-template-typescript/wiki/M1-Setup)
 
 ## Install
 
