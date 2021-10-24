@@ -28,7 +28,7 @@ yarn
 ## Start
 
 ```sh
-yarn start --reset-cache
+yarn start
 ```
 
 ## M1 (ARM64) Macs
