@@ -91,7 +91,8 @@ Build target <App> of project <App> with configuration Debug
   - Clean Project
   - Open Project
   - Make Project
-  - Open <s>[Initial Preview v3: Google APIs System Image](https://github.com/google/android-emulator-m1-preview/releases/download/0.3/android-emulator-m1-preview.dmg)</s> e.g. Pixel_3a_API_31_arm64-v8a
+  - <s>Open [Initial Preview v3: Google APIs System Image](https://github.com/google/android-emulator-m1-preview/releases/download/0.3/android-emulator-m1-preview.dmg)</s>
+  - Open e.g. `Pixel_3a_API_31_arm64-v8a`
   
 ```sh
 yarn android
