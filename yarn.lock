@@ -8223,7 +8223,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-airbnb-base@npm:14.2.1, eslint-config-airbnb-base@npm:^14.2.0, eslint-config-airbnb-base@npm:^14.2.1":
+"eslint-config-airbnb-base@npm:^14.2.0, eslint-config-airbnb-base@npm:^14.2.1":
   version: 14.2.1
   resolution: "eslint-config-airbnb-base@npm:14.2.1"
   dependencies:
@@ -8258,15 +8258,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-airbnb-typescript@npm:14.0.1":
-  version: 14.0.1
-  resolution: "eslint-config-airbnb-typescript@npm:14.0.1"
+"eslint-config-airbnb-typescript@npm:14.0.2":
+  version: 14.0.2
+  resolution: "eslint-config-airbnb-typescript@npm:14.0.2"
   dependencies:
-    eslint-config-airbnb-base: 14.2.1
+    eslint-config-airbnb-base: ^14.2.1
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^4.29.3
     "@typescript-eslint/parser": ^4.29.3
-  checksum: 02e8522a88ed4b8ca90d3b8816d817279eecab7fcf855d0709fcac449a31edcb147da506eb6757328894d0c0af4e32397adc5551087bb331878d21c5db4f9d80
+  checksum: 9383952925c2062365a6b76fdf2598f2f1907edcb2a5775eb9e99a2a38c567d34ffd48fe851a04cb4ebceb2a273a7bb01431afcda228a97f1ffddb39568a2d0f
   languageName: node
   linkType: hard
 
@@ -13623,7 +13623,7 @@ fsevents@^1.2.7:
     babel-jest: 27.2.5
     babel-loader: 8.2.3
     eslint: 7.32.0
-    eslint-config-airbnb-typescript: 14.0.1
+    eslint-config-airbnb-typescript: 14.0.2
     eslint-config-airbnb-typescript-prettier: 4.2.0
     eslint-config-react-native-typescript: 2.2.6
     eslint-plugin-deprecation: 1.2.1
