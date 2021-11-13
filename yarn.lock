@@ -12324,9 +12324,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:11.2.1":
-  version: 11.2.1
-  resolution: "lint-staged@npm:11.2.1"
+"lint-staged@npm:11.2.6":
+  version: 11.2.6
+  resolution: "lint-staged@npm:11.2.6"
   dependencies:
     cli-truncate: 2.1.0
     colorette: ^1.4.0
@@ -12344,7 +12344,7 @@ fsevents@^1.2.7:
     supports-color: 8.1.1
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 4d41e80c779082c6880c22ac0d13d68730a430d4fec6cd228365eee7647b36808c85aa554ee358fa4bf983a3ae0ca919bf00e4eeea8db65ca46b190f09b18d85
+  checksum: b9071621db351c553579bd18df3d80fb753f851c4f1f72db0aaf12e713eab25b6d8a044dab2957817de7da02054a63f7725a49c763aee09295133f0d554f4d3f
   languageName: node
   linkType: hard
 
@@ -13639,7 +13639,7 @@ fsevents@^1.2.7:
     eslint-plugin-yml: 0.10.1
     husky: 7.0.4
     jest: 27.2.5
-    lint-staged: 11.2.1
+    lint-staged: 11.2.6
     metro-react-native-babel-preset: 0.66.2
     patch-package: 6.4.7
     prettier: 2.4.1
