@@ -3685,14 +3685,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:17.0.28":
-  version: 17.0.28
-  resolution: "@types/react@npm:17.0.28"
+"@types/react@npm:17.0.34":
+  version: 17.0.34
+  resolution: "@types/react@npm:17.0.34"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: c12a078c1a6e64fa1dd7a07048220f2f2b2e571bf70028d1fb952275274776905534464ea176c66303b442b338f3867d087459ee5ef5b8e08fef3cf3da689c61
+  checksum: 16729ad7d50922ccbf8eb93874d7781dc2f1c64edc78134b5edc7154839d41e9fe320eb1c11ad2d1c9bf28b99cb1febda344509c1fda025955a5c2b43c688c8f
   languageName: node
   linkType: hard
 
@@ -13614,7 +13614,7 @@ fsevents@^1.2.7:
     "@storybook/react-native-server": 5.3.23
     "@types/jest": 27.0.2
     "@types/node": 15.12.4
-    "@types/react": 17.0.28
+    "@types/react": 17.0.34
     "@types/react-native": 0.65.5
     "@types/react-test-renderer": 17.0.1
     "@types/ws": 8.2.0
