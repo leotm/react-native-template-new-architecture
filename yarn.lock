@@ -3638,12 +3638,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-native@npm:0.65.5":
-  version: 0.65.5
-  resolution: "@types/react-native@npm:0.65.5"
+"@types/react-native@npm:0.65.14":
+  version: 0.65.14
+  resolution: "@types/react-native@npm:0.65.14"
   dependencies:
     "@types/react": "*"
-  checksum: 18459ea74c2083833c01697e48425d699ef3ce8938cf347e29a0e092b6f1807c6e060643b87e4f12eb2e4b2cb0c069e0273645deee56c9640b5faa43182015aa
+  checksum: dadba7b4e2e08a64494ae55a6d326aebda776e8c93aeab8f59bd1391f09b87646df4da94cb7030f3aa2cf7d80466196231636a2450f1648271dcfbb50177b260
   languageName: node
   linkType: hard
 
@@ -13615,7 +13615,7 @@ fsevents@^1.2.7:
     "@types/jest": 27.0.2
     "@types/node": 15.12.4
     "@types/react": 17.0.34
-    "@types/react-native": 0.65.5
+    "@types/react-native": 0.65.14
     "@types/react-test-renderer": 17.0.1
     "@types/ws": 8.2.0
     "@typescript-eslint/eslint-plugin": 4.33.0
