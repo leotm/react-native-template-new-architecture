@@ -21,8 +21,6 @@ if (__DEV__) {
     .catch(() => console.error)
 }
 
-declare const global: { HermesInternal: null }
-
 export const App = () => {
   return (
     <>
@@ -33,11 +31,6 @@ export const App = () => {
           style={styles.scrollView}
         >
           <Header />
-          {global.HermesInternal == null ? null : (
-            <View style={styles.engine}>
-              <Text style={styles.footer}>Engine: Hermes</Text>
-            </View>
-          )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Step One</Text>
@@ -75,18 +68,6 @@ export const App = () => {
 const styles = StyleSheet.create({
   body: {
     backgroundColor: Colors.white
-  },
-  engine: {
-    position: 'absolute',
-    right: 0
-  },
-  footer: {
-    color: Colors.dark,
-    fontSize: 12,
-    fontWeight: '600',
-    padding: 4,
-    paddingRight: 12,
-    textAlign: 'right'
   },
   highlight: {
     fontWeight: '700'
