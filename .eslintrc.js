@@ -39,7 +39,8 @@ module.exports = {
     '!/.github'
   ],
   plugins: [
-    'deprecation'
+    'deprecation',
+    'typescript-sort-keys'
   ],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off', // Prefer type inference
