@@ -1,6 +1,6 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types'
-import React from 'react'
+import { Component } from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 
 interface Props {
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
 })
 
 // eslint-disable-next-line react/require-optimization
-export default class Welcome extends React.Component<Props> {
+export default class Welcome extends Component<Props> {
   static defaultProps = { showApp: null }
 
   static propTypes = { showApp: PropTypes.func }
