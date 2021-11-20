@@ -1723,7 +1723,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-react@npm:^7.16.0":
+"@babel/preset-react@npm:7.16.0":
   version: 7.16.0
   resolution: "@babel/preset-react@npm:7.16.0"
   dependencies:
@@ -13834,7 +13834,7 @@ fsevents@^1.2.7:
   resolution: "myapp@workspace:."
   dependencies:
     "@babel/core": 7.15.8
-    "@babel/preset-react": ^7.16.0
+    "@babel/preset-react": 7.16.0
     "@babel/runtime": 7.15.4
     "@curveball/core": 0.16.3
     "@curveball/router": 0.3.0
