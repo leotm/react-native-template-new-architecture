@@ -8752,17 +8752,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-yml@npm:0.10.1":
-  version: 0.10.1
-  resolution: "eslint-plugin-yml@npm:0.10.1"
+"eslint-plugin-yml@npm:0.12.0":
+  version: 0.12.0
+  resolution: "eslint-plugin-yml@npm:0.12.0"
   dependencies:
-    debug: ^4.1.1
-    lodash: ^4.17.19
+    debug: ^4.3.2
+    lodash: ^4.17.21
     natural-compare: ^1.4.0
-    yaml-eslint-parser: ^0.4.0
+    yaml-eslint-parser: ^0.5.0
   peerDependencies:
     eslint: ">=6.0.0"
-  checksum: db707f2423c92f88806366c0ffe98e044c9d0e98b87e120ff532248c3773d2cc0d161e991f0d7aadb4fa74ee832225a9015a2aedb6211452fcc411801ce00c00
+  checksum: 67432347b49dd0c1dff6243a8ae13fb5db4048fda2404becd8c5205ad0286eea3b5bc59ea59532794e226c54591838fe20775298e1ce7aba072da8e43e7a3a4d
   languageName: node
   linkType: hard
 
@@ -8813,7 +8813,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-visitor-keys@npm:^2.0.0, eslint-visitor-keys@npm:^2.1.0":
+"eslint-visitor-keys@npm:^2.0.0":
   version: 2.1.0
   resolution: "eslint-visitor-keys@npm:2.1.0"
   checksum: e3081d7dd2611a35f0388bbdc2f5da60b3a3c5b8b6e928daffff7391146b434d691577aa95064c8b7faad0b8a680266bcda0a42439c18c717b80e6718d7e267d
@@ -13669,7 +13669,7 @@ fsevents@^1.2.7:
     eslint-plugin-react-native: 3.11.0
     eslint-plugin-simple-import-sort: 7.0.0
     eslint-plugin-typescript-sort-keys: 2.0.0
-    eslint-plugin-yml: 0.10.1
+    eslint-plugin-yml: 0.12.0
     husky: 7.0.4
     jest: 27.2.5
     lint-staged: 11.2.6
@@ -19562,18 +19562,18 @@ typescript@beta:
   languageName: node
   linkType: hard
 
-"yaml-eslint-parser@npm:^0.4.0":
-  version: 0.4.1
-  resolution: "yaml-eslint-parser@npm:0.4.1"
+"yaml-eslint-parser@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "yaml-eslint-parser@npm:0.5.0"
   dependencies:
-    eslint-visitor-keys: ^2.1.0
-    lodash: ^4.17.20
-    yaml: ^1.10.0
-  checksum: ea08f38473a9df0196c9f51f6916256593509adf86a9b616fa49da48b2d665cda62b39e479150b699ebb5f8fb87d516a0761fa552436d8da8df4ee9ae2f04d2b
+    eslint-visitor-keys: ^3.0.0
+    lodash: ^4.17.21
+    yaml: ^1.10.2
+  checksum: f4b316407fa3a98e35808c3321617be8d01333df23e5ac5c00b1bd2c497845aeebab4bd506209f38b1e48c3d0483ade8b2c2f0251d131924435ed718d88b2c26
   languageName: node
   linkType: hard
 
-"yaml@npm:^1.10.0, yaml@npm:^1.7.2":
+"yaml@npm:^1.10.0, yaml@npm:^1.10.2, yaml@npm:^1.7.2":
   version: 1.10.2
   resolution: "yaml@npm:1.10.2"
   checksum: ce4ada136e8a78a0b08dc10b4b900936912d15de59905b2bf415b4d33c63df1d555d23acb2a41b23cf9fb5da41c256441afca3d6509de7247daa062fd2c5ea5f
