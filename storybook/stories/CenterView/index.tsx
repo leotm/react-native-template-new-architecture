@@ -1,13 +1,13 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types'
 
-import React from 'react'
+import { Component } from 'react'
 import { View } from 'react-native'
 
 import style from './style'
 
 interface Props {
-  children: React.Component
+  children: Component
 }
 
 const CenterView = ({ children }: Props) => {

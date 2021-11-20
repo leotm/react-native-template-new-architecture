@@ -3,7 +3,7 @@ import { text, withKnobs } from '@storybook/addon-knobs'
 import { linkTo } from '@storybook/addon-links'
 import { storiesOf } from '@storybook/react-native'
 
-import React, { Component } from 'react'
+import { Component } from 'react'
 import { Text } from 'react-native'
 
 import Button from './Button'

@@ -39,7 +39,8 @@ module.exports = {
     '!/.github'
   ],
   plugins: [
-    'deprecation'
+    'deprecation',
+    'typescript-sort-keys'
   ],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off', // Prefer type inference
@@ -59,6 +60,9 @@ module.exports = {
     '@typescript-eslint/no-shadow': 'error',
     '@typescript-eslint/no-invalid-void-type': 'error',
     'import/prefer-default-export': 'off',
+    'typescript-sort-keys/interface': 'error',
+    'typescript-sort-keys/string-enum': 'error',
+    'react/react-in-jsx-scope': 'off',
     '@typescript-eslint/no-unused-vars': [
       'error',
       { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }
