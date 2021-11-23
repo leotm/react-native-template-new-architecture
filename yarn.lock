@@ -8951,18 +8951,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-typescript-sort-keys@npm:2.0.0":
-  version: 2.0.0
-  resolution: "eslint-plugin-typescript-sort-keys@npm:2.0.0"
+"eslint-plugin-typescript-sort-keys@npm:2.1.0":
+  version: 2.1.0
+  resolution: "eslint-plugin-typescript-sort-keys@npm:2.1.0"
   dependencies:
     "@typescript-eslint/experimental-utils": ^5.0.0
-    json-schema: ^0.3.0
+    json-schema: ^0.4.0
     natural-compare-lite: ^1.4.0
   peerDependencies:
     "@typescript-eslint/parser": ^1 || ^2 || ^3 || ^4 || ^5
     eslint: ^5 || ^6 || ^7 || ^8
     typescript: ^3 || ^4
-  checksum: a1d782c39a3e9f9825b2419965dc717471bdc0fa8fc8635076c215d0876ff362997e9e6222985f7ec5a6669d03aca5d194cb5933d3afb96f3cdc92ca627825fc
+  checksum: 98ea442519ca9cdd36aa4d7d4e4f3d96d16a9287e32ea69209865ff3cd10ce33d9c4acb86ddc2cc0406a072aea319841496e66b512f79c58aaf3924d85f73683
   languageName: node
   linkType: hard
 
@@ -12361,10 +12361,10 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"json-schema@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "json-schema@npm:0.3.0"
-  checksum: 5287563499c05e156b88fd3998b53fc4bccd29a6233c9b4417d36f8f34bf56d586388745a92a9dccd15822f63c360c045973c12eb4a6a4b4f3fd8fb864d80a14
+"json-schema@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "json-schema@npm:0.4.0"
+  checksum: 66389434c3469e698da0df2e7ac5a3281bcff75e797a5c127db7c5b56270e01ae13d9afa3c03344f76e32e81678337a8c912bdbb75101c62e487dc3778461d72
   languageName: node
   linkType: hard
 
@@ -13909,7 +13909,7 @@ fsevents@^1.2.7:
     eslint-plugin-react-hooks: 4.3.0
     eslint-plugin-react-native: 3.11.0
     eslint-plugin-simple-import-sort: 7.0.0
-    eslint-plugin-typescript-sort-keys: 2.0.0
+    eslint-plugin-typescript-sort-keys: 2.1.0
     eslint-plugin-yml: 0.10.1
     husky: 7.0.4
     jest: 27.2.5
