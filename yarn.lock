@@ -8473,15 +8473,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-airbnb-typescript@npm:16.0.0":
-  version: 16.0.0
-  resolution: "eslint-config-airbnb-typescript@npm:16.0.0"
+"eslint-config-airbnb-typescript@npm:16.1.0":
+  version: 16.1.0
+  resolution: "eslint-config-airbnb-typescript@npm:16.1.0"
   dependencies:
     eslint-config-airbnb-base: ^15.0.0
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^5.0.0
     "@typescript-eslint/parser": ^5.0.0
-  checksum: 8bc5f0c93bdf63408f1a48fce138359c573ed3c3ac764d5ef22d8a177d16e69a89afb61531a39b8747f1efc3444067a65564eb29b62ecc6f39a08425f7520a40
+  checksum: 65bb6763ab825c228d01c884ddb306001f3b5cbb5c138646f6629ac780acc68d388091844b3983aa9f8f138e4e972a2a1d5a23ce95bd7a217b4a917e4e2366dd
   languageName: node
   linkType: hard
 
@@ -13919,7 +13919,7 @@ fsevents@^1.2.7:
     babel-loader: 8.2.3
     babel-plugin-transform-inline-environment-variables: 0.4.3
     eslint: 7.32.0
-    eslint-config-airbnb-typescript: 16.0.0
+    eslint-config-airbnb-typescript: 16.1.0
     eslint-config-airbnb-typescript-prettier: 4.2.0
     eslint-config-react-native-typescript: 2.2.6
     eslint-plugin-deprecation: 1.2.1
