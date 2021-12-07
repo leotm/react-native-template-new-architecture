@@ -10391,10 +10391,10 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"hermes-engine@npm:~0.10.0":
-  version: 0.10.0
-  resolution: "hermes-engine@npm:0.10.0"
-  checksum: c49e65065aefbd50d683bb9aa7b00a5ee2e99944ab59bd791258d9bd3b1560bfcbe753bc825b2efeb87b1433a942faa37eb8d44234a000a4bf9c532c9ae59a3e
+"hermes-engine@npm:~0.9.0":
+  version: 0.9.0
+  resolution: "hermes-engine@npm:0.9.0"
+  checksum: 384549c544de9efb07e9d84202f45bde00e62539a5b56fed2fd2763dbd02560eb37786e61349119966e3086e95a6b8e008822730180a679e229b43a611718f4c
   languageName: node
   linkType: hard
 
@@ -13941,7 +13941,7 @@ fsevents@^1.2.7:
     prettier: 2.5.1
     react: 17.0.2
     react-dom: 17.0.2
-    react-native: 0.67.0-rc.4
+    react-native: 0.67.0-rc.5
     react-native-clean-project: 3.6.7
     react-native-flipper: 0.114.1
     react-native-rename: 2.9.0
@@ -15964,9 +15964,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native@npm:0.67.0-rc.4":
-  version: 0.67.0-rc.4
-  resolution: "react-native@npm:0.67.0-rc.4"
+"react-native@npm:0.67.0-rc.5":
+  version: 0.67.0-rc.5
+  resolution: "react-native@npm:0.67.0-rc.5"
   dependencies:
     "@jest/create-cache-key-function": ^27.0.1
     "@react-native-community/cli": ^6.0.0
@@ -15979,7 +15979,7 @@ fsevents@^1.2.7:
     anser: ^1.4.9
     base64-js: ^1.1.2
     event-target-shim: ^5.0.1
-    hermes-engine: ~0.10.0
+    hermes-engine: ~0.9.0
     invariant: ^2.2.4
     jsc-android: ^250230.2.1
     metro-react-native-babel-transformer: 0.66.2
@@ -16002,7 +16002,7 @@ fsevents@^1.2.7:
     react: 17.0.2
   bin:
     react-native: cli.js
-  checksum: 3e45a7ee55294024b04242f933c162608495c4c500ee30108cf581edc936ce219bdce9b16a95160b8f3a3dc7fd43ea69635c4eb1b6b3d316aa54f8a1de84ead3
+  checksum: 9940299252c810258162a8f75f6dc951e8fed924899b11390758eebf883ea5bf64d4a22713520178f46169b2c4ae4e660958d63b3eb908718bf52f3e84f40e8c
   languageName: node
   linkType: hard
 
