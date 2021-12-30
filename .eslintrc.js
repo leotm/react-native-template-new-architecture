@@ -48,10 +48,7 @@ module.exports = {
     'jest/prefer-inline-snapshots': 'off', // Avoid inlining unreadable RN snapshots
     // React/TS deprecating JSX defaultProps, no typing declared outside class/fn body
     // https://github.com/Microsoft/TypeScript/wiki/What%27s-new-in-TypeScript#support-for-defaultprops-in-jsx
-    'react/static-property-placement': ['error', 'property assignment', {
-      defaultProps: 'static getter',
-      propTypes: 'static getter'
-    }],
+    'react/static-property-placement': ['error', 'static public field'],
     'jsx-a11y/accessible-emoji': 'off', // RN TS requires raw text in <Text>, not <span>
     'react/jsx-no-literals': 'off',
     'react/jsx-max-depth': 'off',
