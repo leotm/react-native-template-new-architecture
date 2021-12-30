@@ -27,10 +27,10 @@
     "@react-navigation/native": "6.0.6",
     "@react-navigation/native-stack": "6.2.5",
     "react": "17.0.2",
-    "react-native": "0.67.0-rc.3",
+    "react-native": "0.67.0-rc.6",
     "react-native-safe-area-context": "3.3.2",
-    "react-native-screens": "3.8.0",
-    "react-query": "3.33.5"
+    "react-native-screens": "3.10.1",
+    "react-query": "3.34.0"
   },
   "devDependencies": {
     "@babel/core": "7.15.8",
@@ -51,18 +51,18 @@
     "@storybook/react-native": "5.3.25",
     "@storybook/react-native-server": "5.3.23",
     "@types/jest": "27.0.3",
-    "@types/node": "16.11.10",
+    "@types/node": "16.11.12",
     "@types/react": "17.0.37",
-    "@types/react-native": "0.66.6",
+    "@types/react-native": "0.66.8",
     "@types/react-test-renderer": "17.0.1",
-    "@types/ws": "8.2.0",
+    "@types/ws": "8.2.2",
     "@typescript-eslint/eslint-plugin": "4.33.0",
     "@typescript-eslint/parser": "4.33.0",
     "babel-jest": "27.2.5",
     "babel-loader": "8.2.3",
     "babel-plugin-transform-inline-environment-variables": "0.4.3",
     "eslint": "7.32.0",
-    "eslint-config-airbnb-typescript": "16.0.0",
+    "eslint-config-airbnb-typescript": "16.1.0",
     "eslint-config-airbnb-typescript-prettier": "4.2.0",
     "eslint-config-react-native-typescript": "2.2.6",
     "eslint-plugin-deprecation": "1.2.1",
@@ -81,10 +81,10 @@
     "lint-staged": "12.1.2",
     "metro-react-native-babel-preset": "0.66.2",
     "patch-package": "6.4.7",
-    "prettier": "2.5.0",
+    "prettier": "2.5.1",
     "react-dom": "17.0.2",
     "react-native-clean-project": "3.6.7",
-    "react-native-flipper": "0.114.1",
+    "react-native-flipper": "0.126.0",
     "react-native-rename": "2.9.0",
     "react-test-renderer": "17.0.2",
     "reactotron-react-native": "5.0.0",
@@ -115,5 +115,6 @@
       "eslint --cache --fix",
       "prettier --write"
     ]
-  }
+  },
+  "packageManager": "yarn@3.2.0-rc.8"
 }

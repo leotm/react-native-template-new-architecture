@@ -3711,10 +3711,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:16.11.10":
-  version: 16.11.10
-  resolution: "@types/node@npm:16.11.10"
-  checksum: 9c79419c5c3d92d5825bffa30f3668533f598d8b63a73ea7fc24e47f162bdbed92b0f8e4f4261cc3314b39cee050e303366d2aa154abc95c63a572a110b8c160
+"@types/node@npm:16.11.12":
+  version: 16.11.12
+  resolution: "@types/node@npm:16.11.12"
+  checksum: a3feb346d61a56f5a137c29bb8c63cfa3cc02e184b9dffdc18ef1528dcce55596e570575215a2e39e6ce69343eeb2a5ba71c271938f1dc8db4cc393902855412
   languageName: node
   linkType: hard
 
@@ -3765,12 +3765,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-native@npm:0.66.6":
-  version: 0.66.6
-  resolution: "@types/react-native@npm:0.66.6"
+"@types/react-native@npm:0.66.8":
+  version: 0.66.8
+  resolution: "@types/react-native@npm:0.66.8"
   dependencies:
     "@types/react": "*"
-  checksum: fba05b80bf2cf973f4448e9561df567f55988729a0a3b5ad633f07c9ab06f850658bf2ccf2a52cc947827322ecf120241a4f7a4e55485b9c6cdbbbad154d8635
+  checksum: 0d903eb8b25e445c86d3f8544ce825dd1aa2cbabbb24a65ed01270acd0b0047c87d716e48f3c1386bd2562a64bfe587ec7ac25b72380599806a369a99c846428
   languageName: node
   linkType: hard
 
@@ -3908,12 +3908,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ws@npm:8.2.0":
-  version: 8.2.0
-  resolution: "@types/ws@npm:8.2.0"
+"@types/ws@npm:8.2.2":
+  version: 8.2.2
+  resolution: "@types/ws@npm:8.2.2"
   dependencies:
     "@types/node": "*"
-  checksum: fb2f1cc1bc294607cf737a998a04d4eaca78b0a183905b879849c0e009f47ff4adaa6cbc7d9ac2d2ecc61652c8367e0f8bb02aab0af67a82e8c922746e96434b
+  checksum: 308957864b9a5a0378ac82f1b084fa31b1bbe85106fb0d84ed2b392e4829404f21ab6ab2c1eb782d556e59cd33d57c75ad2d0cedc4b9b9d0ca3b2311bc915578
   languageName: node
   linkType: hard
 
@@ -8473,15 +8473,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-airbnb-typescript@npm:16.0.0":
-  version: 16.0.0
-  resolution: "eslint-config-airbnb-typescript@npm:16.0.0"
+"eslint-config-airbnb-typescript@npm:16.1.0":
+  version: 16.1.0
+  resolution: "eslint-config-airbnb-typescript@npm:16.1.0"
   dependencies:
     eslint-config-airbnb-base: ^15.0.0
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^5.0.0
     "@typescript-eslint/parser": ^5.0.0
-  checksum: 8bc5f0c93bdf63408f1a48fce138359c573ed3c3ac764d5ef22d8a177d16e69a89afb61531a39b8747f1efc3444067a65564eb29b62ecc6f39a08425f7520a40
+  checksum: 65bb6763ab825c228d01c884ddb306001f3b5cbb5c138646f6629ac780acc68d388091844b3983aa9f8f138e4e972a2a1d5a23ce95bd7a217b4a917e4e2366dd
   languageName: node
   linkType: hard
 
@@ -13908,18 +13908,18 @@ fsevents@^1.2.7:
     "@storybook/react-native": 5.3.25
     "@storybook/react-native-server": 5.3.23
     "@types/jest": 27.0.3
-    "@types/node": 16.11.10
+    "@types/node": 16.11.12
     "@types/react": 17.0.37
-    "@types/react-native": 0.66.6
+    "@types/react-native": 0.66.8
     "@types/react-test-renderer": 17.0.1
-    "@types/ws": 8.2.0
+    "@types/ws": 8.2.2
     "@typescript-eslint/eslint-plugin": 4.33.0
     "@typescript-eslint/parser": 4.33.0
     babel-jest: 27.2.5
     babel-loader: 8.2.3
     babel-plugin-transform-inline-environment-variables: 0.4.3
     eslint: 7.32.0
-    eslint-config-airbnb-typescript: 16.0.0
+    eslint-config-airbnb-typescript: 16.1.0
     eslint-config-airbnb-typescript-prettier: 4.2.0
     eslint-config-react-native-typescript: 2.2.6
     eslint-plugin-deprecation: 1.2.1
@@ -13938,16 +13938,16 @@ fsevents@^1.2.7:
     lint-staged: 12.1.2
     metro-react-native-babel-preset: 0.66.2
     patch-package: 6.4.7
-    prettier: 2.5.0
+    prettier: 2.5.1
     react: 17.0.2
     react-dom: 17.0.2
-    react-native: 0.67.0-rc.3
+    react-native: 0.67.0-rc.6
     react-native-clean-project: 3.6.7
-    react-native-flipper: 0.114.1
+    react-native-flipper: 0.126.0
     react-native-rename: 2.9.0
     react-native-safe-area-context: 3.3.2
-    react-native-screens: 3.8.0
-    react-query: 3.33.5
+    react-native-screens: 3.10.1
+    react-query: 3.34.0
     react-test-renderer: 17.0.2
     reactotron-react-native: 5.0.0
     ts-node: 10.2.1
@@ -15181,12 +15181,12 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.5.0":
-  version: 2.5.0
-  resolution: "prettier@npm:2.5.0"
+"prettier@npm:2.5.1":
+  version: 2.5.1
+  resolution: "prettier@npm:2.5.1"
   bin:
     prettier: bin-prettier.js
-  checksum: aad1b35b73e7c14596d389d90977a83dad0db689ba5802a0ef319c357b7867f55b885db197972aa6a56c30f53088c9f8e0d7f7930ae074c275a4e9cbe091d21d
+  checksum: 21b9408476ea1c544b0e45d51ceb94a84789ff92095abb710942d780c862d0daebdb29972d47f6b4d0f7ebbfb0ffbf56cc2cfa3e3e9d1cca54864af185b15b66
   languageName: node
   linkType: hard
 
@@ -15744,6 +15744,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"react-freeze@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "react-freeze@npm:1.0.0"
+  peerDependencies:
+    react: ^17.0.0
+  checksum: c746b9d369c77296c277626cf7dd5ff24d49657e2f16412d14f845d1b428588184c0009374119f7dec24be37ab8c134d15aa4ecd57360c874880af508dcc577b
+  languageName: node
+  linkType: hard
+
 "react-helmet-async@npm:^1.0.2":
   version: 1.0.9
   resolution: "react-helmet-async@npm:1.0.9"
@@ -15845,13 +15854,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-flipper@npm:0.114.1":
-  version: 0.114.1
-  resolution: "react-native-flipper@npm:0.114.1"
+"react-native-flipper@npm:0.126.0":
+  version: 0.126.0
+  resolution: "react-native-flipper@npm:0.126.0"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
     react-native: ">0.62.0"
-  checksum: b929dbcda2d84f480fb7dc4ba1ac504df9f4b529ed31f73b2acc8f661f1e79608897509b084cdb1d05a97b3d50e77c0b4de0ddea104cf629703d37dbd72f98d8
+  checksum: d3397d600d922094c4ed9c877b35343d23ec5c61cf24605f7fdcd57fbd40fb96d044d143a7155d23edf836b4957cf9457fc1137fdd9124b40f1123ce8e36c73c
   languageName: node
   linkType: hard
 
@@ -15923,15 +15932,16 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-screens@npm:3.8.0":
-  version: 3.8.0
-  resolution: "react-native-screens@npm:3.8.0"
+"react-native-screens@npm:3.10.1":
+  version: 3.10.1
+  resolution: "react-native-screens@npm:3.10.1"
   dependencies:
+    react-freeze: ^1.0.0
     warn-once: ^0.1.0
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 405572a4d221936352984b93764ca65541bb2b92579b6a689b4b81175f8710e648ed2b23d8841450662e01cebbcf9adb2bc70ffd9ef454d7b0ae2781caeda9b1
+  checksum: ab9e4ade4a4ef919ab0f4173653cf0334f4a28037f894758fa1bc4fd49e2029ad8ab391ab1b237b108fc3745a370ce88d9a9b30540aa1a800a18183599c5dc2a
   languageName: node
   linkType: hard
 
@@ -15954,9 +15964,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native@npm:0.67.0-rc.3":
-  version: 0.67.0-rc.3
-  resolution: "react-native@npm:0.67.0-rc.3"
+"react-native@npm:0.67.0-rc.6":
+  version: 0.67.0-rc.6
+  resolution: "react-native@npm:0.67.0-rc.6"
   dependencies:
     "@jest/create-cache-key-function": ^27.0.1
     "@react-native-community/cli": ^6.0.0
@@ -15992,7 +16002,7 @@ fsevents@^1.2.7:
     react: 17.0.2
   bin:
     react-native: cli.js
-  checksum: 5e0e7a7aecfc565387285024f338db3746efb65cad87efac8eae1cee365276574f85f5ec4aa1a5cc7097cebbf0d9f515b0824748e5e2af11139d3a6459a78170
+  checksum: d23faf70606eac4946c9598ec8ad9a0bc3a8e6980b88a3a4a3877114818ddb3fb1530ee282e57bf81ba0ae67d04cd51169c7eff0897437bfc55fe0eb0da98ec5
   languageName: node
   linkType: hard
 
@@ -16026,9 +16036,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-query@npm:3.33.5":
-  version: 3.33.5
-  resolution: "react-query@npm:3.33.5"
+"react-query@npm:3.34.0":
+  version: 3.34.0
+  resolution: "react-query@npm:3.34.0"
   dependencies:
     "@babel/runtime": ^7.5.5
     broadcast-channel: ^3.4.1
@@ -16040,7 +16050,7 @@ fsevents@^1.2.7:
       optional: true
     react-native:
       optional: true
-  checksum: 558194aaf3240ffc5640c842daea9da090e081fdd266c67ffb569ae352a6a718cf512ddc3f8f031b1e2e9581e4722e051ae30b29914375054e6645a8b2910586
+  checksum: d510d1c1813f8d19dc188dc38e68ee78a061cf4ab0ae5da563dbba1717475cd1c26fea74cd87f336483460f092b3160b59637121eadfbb2448b0e688ac3ae0e9
   languageName: node
   linkType: hard
 
@@ -18741,7 +18751,7 @@ typescript@beta:
 
 "typescript@patch:typescript@beta#~builtin<compat/typescript>":
   version: 4.5.0-beta
-  resolution: "typescript@patch:typescript@npm%3A4.5.0-beta#~builtin<compat/typescript>::version=4.5.0-beta&hash=ddd1e8"
+  resolution: "typescript@patch:typescript@npm%3A4.5.0-beta#~builtin<compat/typescript>::version=4.5.0-beta&hash=de8f8a"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
@@ -19873,7 +19883,7 @@ typescript@beta:
   languageName: node
   linkType: hard
 
-"yaml@npm:^1.10.0, yaml@npm:^1.10.2, yaml@npm:^1.7.2":
+"yaml@npm:^1.10.2, yaml@npm:^1.7.2":
   version: 1.10.2
   resolution: "yaml@npm:1.10.2"
   checksum: ce4ada136e8a78a0b08dc10b4b900936912d15de59905b2bf415b4d33c63df1d555d23acb2a41b23cf9fb5da41c256441afca3d6509de7247daa062fd2c5ea5f
