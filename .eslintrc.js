@@ -46,7 +46,9 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off', // Prefer type inference
     '@typescript-eslint/explicit-module-boundary-types': 'off', // Prefer type inference
     'jest/prefer-inline-snapshots': 'off', // Avoid inlining unreadable RN snapshots
-    'react/static-property-placement': 'off', // TS wants these defs inside the Class,
+    // React/TS deprecating JSX defaultProps, no typing declared outside class/fn body
+    // https://github.com/Microsoft/TypeScript/wiki/What%27s-new-in-TypeScript#support-for-defaultprops-in-jsx
+    'react/static-property-placement': ['error', 'static public field'],
     'jsx-a11y/accessible-emoji': 'off', // RN TS requires raw text in <Text>, not <span>
     'react/jsx-no-literals': 'off',
     'react/jsx-max-depth': 'off',
