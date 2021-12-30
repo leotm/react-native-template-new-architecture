@@ -13949,7 +13949,7 @@ fsevents@^1.2.7:
     react-native-screens: 3.10.1
     react-query: 3.34.0
     react-test-renderer: 17.0.2
-    reactotron-react-native: 5.0.0
+    reactotron-react-native: 5.0.1
     ts-node: 10.2.1
     typescript: beta
   languageName: unknown
@@ -16200,9 +16200,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"reactotron-react-native@npm:5.0.0":
-  version: 5.0.0
-  resolution: "reactotron-react-native@npm:5.0.0"
+"reactotron-react-native@npm:5.0.1":
+  version: 5.0.1
+  resolution: "reactotron-react-native@npm:5.0.1"
   dependencies:
     mitt: 1.1.3
     query-string: 6.10.1
@@ -16210,12 +16210,11 @@ fsevents@^1.2.7:
     reactotron-core-client: 2.8.10
     rn-host-detect: 1.2.0
   peerDependencies:
-    react: ^15.2.1 || 16.0.0-alpha.6 || 16.0.0-alpha.12 || 16.0.0-beta.5 || ^16.0.0
     react-native: ">=0.40.0"
   dependenciesMeta:
     react-native-flipper:
       optional: true
-  checksum: 75696788132438caa4df147f997f47512a639854a7911a2e3c7c6eefae51bd6799c584250c25e74ca94ca9b94c31cac454aad1dc12a800ea3a586e34f8e72189
+  checksum: 31c73ca6c0149229c3ad8d72e1213ef03806d8ff278cf9cc662096afd33c27dddf67f8590e48da6e12bdbf7ed1df4f69e56822ca5bc4729947010d00effe6974
   languageName: node
   linkType: hard
 
