@@ -26,13 +26,9 @@ const styles = StyleSheet.create({
 
 // eslint-disable-next-line react/require-optimization
 export default class Welcome extends Component<Props> {
-  static get defaultProps() {
-    return { showApp: null }
-  }
+  static defaultProps = { showApp: null }
 
-  static get propTypes() {
-    return { showApp: PropTypes.func }
-  }
+  static propTypes = { showApp: PropTypes.func }
 
   showApp = (event: React.UIEvent) => {
     const { showApp } = this.props
