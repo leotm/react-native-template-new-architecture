@@ -14092,7 +14092,7 @@ fsevents@^1.2.7:
     prettier: 2.5.1
     react: 17.0.2
     react-dom: 17.0.2
-    react-native: 0.67.0-rc.6
+    react-native: 0.67.0
     react-native-clean-project: 3.6.7
     react-native-flipper: 0.127.0
     react-native-rename: 2.9.0
@@ -16142,9 +16142,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native@npm:0.67.0-rc.6":
-  version: 0.67.0-rc.6
-  resolution: "react-native@npm:0.67.0-rc.6"
+"react-native@npm:0.67.0":
+  version: 0.67.0
+  resolution: "react-native@npm:0.67.0"
   dependencies:
     "@jest/create-cache-key-function": ^27.0.1
     "@react-native-community/cli": ^6.0.0
@@ -16180,7 +16180,7 @@ fsevents@^1.2.7:
     react: 17.0.2
   bin:
     react-native: cli.js
-  checksum: d23faf70606eac4946c9598ec8ad9a0bc3a8e6980b88a3a4a3877114818ddb3fb1530ee282e57bf81ba0ae67d04cd51169c7eff0897437bfc55fe0eb0da98ec5
+  checksum: a4a79723dbf0fbdd75af9a48c53d5717015d7ae63c2cf98c73164ca41043f5ae60de60ce29eae51249367b192c08be6ece8b1f16ce0ce87331ea1445fa8ad17b
   languageName: node
   linkType: hard
 
