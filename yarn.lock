@@ -9834,6 +9834,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"flipper-server@npm:0.127.0":
+  version: 0.127.0
+  resolution: "flipper-server@npm:0.127.0"
+  dependencies:
+    mac-ca: ^1.0.6
+    node-fetch: ^2.6.6
+  bin:
+    flipper-server: server.js
+  checksum: 312747db7f386100cd8b4f77c57b98f96aa01eb4295f86022d2bfc2c659c3d463ada536f6362ec1eb38ee8a62d55206b2586bfba475244c378fbdbe2549404cc
+  languageName: node
+  linkType: hard
+
 "flow-parser@npm:0.*":
   version: 0.153.0
   resolution: "flow-parser@npm:0.153.0"
@@ -13123,6 +13135,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"mac-ca@npm:^1.0.6":
+  version: 1.0.6
+  resolution: "mac-ca@npm:1.0.6"
+  dependencies:
+    node-forge: ^0.10.0
+  checksum: c64edee8b840b00e717b26f8b216db0e6ca3268bc8a50851cfecbcca7fa1a8ec118c34c2898d72a43dd5b05bdaaa73b02df1284a246e0217e4d1c448e236e5c1
+  languageName: node
+  linkType: hard
+
 "make-dir@npm:^2.0.0, make-dir@npm:^2.1.0":
   version: 2.1.0
   resolution: "make-dir@npm:2.1.0"
@@ -14084,6 +14105,7 @@ fsevents@^1.2.7:
     eslint-plugin-simple-import-sort: 7.0.0
     eslint-plugin-typescript-sort-keys: 2.1.0
     eslint-plugin-yml: 0.12.0
+    flipper-server: 0.127.0
     husky: 7.0.4
     jest: 27.4.7
     lint-staged: 12.2.0
@@ -14217,6 +14239,27 @@ fsevents@^1.2.7:
   version: 2.6.1
   resolution: "node-fetch@npm:2.6.1"
   checksum: 91075bedd57879117e310fbcc36983ad5d699e522edb1ebcdc4ee5294c982843982652925c3532729fdc86b2d64a8a827797a745f332040d91823c8752ee4d7c
+  languageName: node
+  linkType: hard
+
+"node-fetch@npm:^2.6.6":
+  version: 2.6.7
+  resolution: "node-fetch@npm:2.6.7"
+  dependencies:
+    whatwg-url: ^5.0.0
+  peerDependencies:
+    encoding: ^0.1.0
+  peerDependenciesMeta:
+    encoding:
+      optional: true
+  checksum: 8d816ffd1ee22cab8301c7756ef04f3437f18dace86a1dae22cf81db8ef29c0bf6655f3215cb0cdb22b420b6fe141e64b26905e7f33f9377a7fa59135ea3e10b
+  languageName: node
+  linkType: hard
+
+"node-forge@npm:^0.10.0":
+  version: 0.10.0
+  resolution: "node-forge@npm:0.10.0"
+  checksum: 5aa6dc9922e424a20ef101d2f517418e2bc9cfc0255dd22e0701c0fad1568445f510ee67f6f3fcdf085812c4ca1b847b8ba45683b34776828e41f5c1794e42e1
   languageName: node
   linkType: hard
 
@@ -18721,6 +18764,13 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
+"tr46@npm:~0.0.3":
+  version: 0.0.3
+  resolution: "tr46@npm:0.0.3"
+  checksum: 726321c5eaf41b5002e17ffbd1fb7245999a073e8979085dacd47c4b4e8068ff5777142fc6726d6ca1fd2ff16921b48788b87225cbc57c72636f6efa8efbffe3
+  languageName: node
+  linkType: hard
+
 "trough@npm:^1.0.0":
   version: 1.0.5
   resolution: "trough@npm:1.0.5"
@@ -19625,6 +19675,13 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
+"webidl-conversions@npm:^3.0.0":
+  version: 3.0.1
+  resolution: "webidl-conversions@npm:3.0.1"
+  checksum: c92a0a6ab95314bde9c32e1d0a6dfac83b578f8fa5f21e675bc2706ed6981bc26b7eb7e6a1fab158e5ce4adf9caa4a0aee49a52505d4d13c7be545f15021b17c
+  languageName: node
+  linkType: hard
+
 "webidl-conversions@npm:^5.0.0":
   version: 5.0.0
   resolution: "webidl-conversions@npm:5.0.0"
@@ -19771,6 +19828,16 @@ resolve@^2.0.0-next.3:
   version: 2.3.0
   resolution: "whatwg-mimetype@npm:2.3.0"
   checksum: 23eb885940bcbcca4ff841c40a78e9cbb893ec42743993a42bf7aed16085b048b44b06f3402018931687153550f9a32d259dfa524e4f03577ab898b6965e5383
+  languageName: node
+  linkType: hard
+
+"whatwg-url@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "whatwg-url@npm:5.0.0"
+  dependencies:
+    tr46: ~0.0.3
+    webidl-conversions: ^3.0.0
+  checksum: b8daed4ad3356cc4899048a15b2c143a9aed0dfae1f611ebd55073310c7b910f522ad75d727346ad64203d7e6c79ef25eafd465f4d12775ca44b90fa82ed9e2c
   languageName: node
   linkType: hard
 
