@@ -2290,15 +2290,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@icons/material@npm:^0.2.4":
-  version: 0.2.4
-  resolution: "@icons/material@npm:0.2.4"
-  peerDependencies:
-    react: "*"
-  checksum: 24baa360cb83f7e1a9e6784ac11185d57eb895b0efd3070ec915693378330f35ff9feb248f650b9649fa3e1045601286585dc05795a4c734d4849b33900351ee
-  languageName: node
-  linkType: hard
-
 "@istanbuljs/load-nyc-config@npm:^1.0.0":
   version: 1.1.0
   resolution: "@istanbuljs/load-nyc-config@npm:1.1.0"
@@ -3018,31 +3009,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-knobs@npm:5.3.21":
-  version: 5.3.21
-  resolution: "@storybook/addon-knobs@npm:5.3.21"
+"@storybook/addon-knobs@npm:6.4.0":
+  version: 6.4.0
+  resolution: "@storybook/addon-knobs@npm:6.4.0"
   dependencies:
-    "@storybook/addons": 5.3.21
-    "@storybook/api": 5.3.21
-    "@storybook/client-api": 5.3.21
-    "@storybook/components": 5.3.21
-    "@storybook/core-events": 5.3.21
-    "@storybook/theming": 5.3.21
-    "@types/react-color": ^3.0.1
-    copy-to-clipboard: ^3.0.8
-    core-js: ^3.0.1
+    copy-to-clipboard: ^3.3.1
+    core-js: ^3.8.2
     escape-html: ^1.0.3
-    fast-deep-equal: ^2.0.1
-    global: ^4.3.2
-    lodash: ^4.17.15
+    fast-deep-equal: ^3.1.3
+    global: ^4.4.0
+    lodash: ^4.17.20
     prop-types: ^15.7.2
-    qs: ^6.6.0
-    react-color: ^2.17.0
+    qs: ^6.10.0
+    react-colorful: ^5.1.2
     react-lifecycles-compat: ^3.0.4
-    react-select: ^3.0.8
+    react-select: ^3.2.0
   peerDependencies:
-    react: "*"
-  checksum: 6d50496f26b820f32f2da7d08e59b5b6c091b1adc05e7f233e20c392022e3333f72cc001e82d504b9384def77f4bc693317c4ddda723b30313966de4fbf52985
+    "@storybook/addons": ^6.4.0
+    "@storybook/api": ^6.4.0
+    "@storybook/components": ^6.4.0
+    "@storybook/core-events": ^6.4.0
+    "@storybook/theming": ^6.4.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  peerDependenciesMeta:
+    react:
+      optional: true
+    react-dom:
+      optional: true
+  checksum: d9ea65af55e3983e7150aa0492f99027db06ca267eae5be19ace88f9733d1e858a35ba6cd0ff324f42fc32c03665ebf39e0f04777ec3b715300a2504de81a493
   languageName: node
   linkType: hard
 
@@ -3916,16 +3911,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-color@npm:^3.0.1":
-  version: 3.0.5
-  resolution: "@types/react-color@npm:3.0.5"
-  dependencies:
-    "@types/react": "*"
-    "@types/reactcss": "*"
-  checksum: c5567df4cb6f1d0ada952d72b4b042decc5284febd0904684f931d74f311b013d8dffb92882762e3d69d71424a94cc6e57cd6a497e35749aa7b51c3794e6dfa4
-  languageName: node
-  linkType: hard
-
 "@types/react-native@npm:0.66.15":
   version: 0.66.15
   resolution: "@types/react-native@npm:0.66.15"
@@ -3981,15 +3966,6 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: 4079f4f959cd4a4bfaeda8b89fe8a1b1f8bdc9d87acfdc5f74a0b39cec9ec6a470724357c62778c0f063180b360c250e920c5a142f1dbcda67d9cc25a6d43a85
-  languageName: node
-  linkType: hard
-
-"@types/reactcss@npm:*":
-  version: 1.2.4
-  resolution: "@types/reactcss@npm:1.2.4"
-  dependencies:
-    "@types/react": "*"
-  checksum: 974e2adbabaae57ca5f177c608cab98b8d1cf77fb43cc82240e30b960df9d16e0fd51ef5775b92935fdf6b394a8a5604524a28278910d250004eff9f2402cb4a
   languageName: node
   linkType: hard
 
@@ -7349,7 +7325,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"copy-to-clipboard@npm:^3.0.8":
+"copy-to-clipboard@npm:^3.0.8, copy-to-clipboard@npm:^3.3.1":
   version: 3.3.1
   resolution: "copy-to-clipboard@npm:3.3.1"
   dependencies:
@@ -7379,6 +7355,13 @@ __metadata:
   version: 3.14.0
   resolution: "core-js@npm:3.14.0"
   checksum: a450089e5796496c7f4a84b13139d853fec5233077833ed142fe401bf9ff4ec2a5bae781f3879ef76cefcfe8a274218d3d4d7d813f5f7f32911fbd36e13a6dc4
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.8.2":
+  version: 3.20.3
+  resolution: "core-js@npm:3.20.3"
+  checksum: 2106cdfb1330abf9e27d577666fc0421feafe8c39bb5af90a63af16e9706c767a7e3a82edc21ce3ed6b9d806f3200d1cf6cc3d0597a8c0af12dbec287c781d65
   languageName: node
   linkType: hard
 
@@ -12984,13 +12967,6 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"lodash-es@npm:^4.17.15":
-  version: 4.17.21
-  resolution: "lodash-es@npm:4.17.21"
-  checksum: 05cbffad6e2adbb331a4e16fbd826e7faee403a1a04873b82b42c0f22090f280839f85b95393f487c1303c8a3d2a010048bf06151a6cbe03eee4d388fb0a12d2
-  languageName: node
-  linkType: hard
-
 "lodash.assignin@npm:^4.0.9":
   version: 4.2.0
   resolution: "lodash.assignin@npm:4.2.0"
@@ -13110,7 +13086,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.0.1, lodash@npm:^4.15.0, lodash@npm:^4.17.10, lodash@npm:^4.17.11, lodash@npm:^4.17.12, lodash@npm:^4.17.14, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.17.20, lodash@npm:^4.17.21, lodash@npm:^4.17.4, lodash@npm:^4.7.0":
+"lodash@npm:^4.15.0, lodash@npm:^4.17.10, lodash@npm:^4.17.11, lodash@npm:^4.17.12, lodash@npm:^4.17.14, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.17.20, lodash@npm:^4.17.21, lodash@npm:^4.17.4, lodash@npm:^4.7.0":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
@@ -13322,13 +13298,6 @@ fsevents@^1.2.7:
     "@babel/runtime": ^7.12.5
     remove-accents: 0.4.2
   checksum: a4b02b676ac4ce64a89a091539ee4a70a802684713bcf06f2b70787927f510fe8a2adc849f9288857a90906083ad303467e530e8723b4a9756df9994fc164550
-  languageName: node
-  linkType: hard
-
-"material-colors@npm:^1.2.1":
-  version: 1.2.6
-  resolution: "material-colors@npm:1.2.6"
-  checksum: 72d005ccccb82bab68eef3cd757e802668634fc86976dedb9fc564ce994f2d3258273766b7efecb7404a0031969e2d72201a1b74169763f0a53c0dd8d649209f
   languageName: node
   linkType: hard
 
@@ -14140,7 +14109,7 @@ fsevents@^1.2.7:
     "@react-navigation/native": 6.0.6
     "@react-navigation/native-stack": 6.2.5
     "@storybook/addon-actions": 5.3.21
-    "@storybook/addon-knobs": 5.3.21
+    "@storybook/addon-knobs": 6.4.0
     "@storybook/addon-links": 5.3.21
     "@storybook/addon-notes": 5.3.21
     "@storybook/addon-ondevice-knobs": 5.3.25
@@ -15762,6 +15731,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"qs@npm:^6.10.0":
+  version: 6.10.3
+  resolution: "qs@npm:6.10.3"
+  dependencies:
+    side-channel: ^1.0.4
+  checksum: 0fac5e6c7191d0295a96d0e83c851aeb015df7e990e4d3b093897d3ac6c94e555dbd0a599739c84d7fa46d7fee282d94ba76943983935cf33bba6769539b8019
+  languageName: node
+  linkType: hard
+
 "qs@npm:^6.6.0":
   version: 6.10.1
   resolution: "qs@npm:6.10.1"
@@ -15909,20 +15887,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-color@npm:^2.17.0":
-  version: 2.19.3
-  resolution: "react-color@npm:2.19.3"
-  dependencies:
-    "@icons/material": ^0.2.4
-    lodash: ^4.17.15
-    lodash-es: ^4.17.15
-    material-colors: ^1.2.1
-    prop-types: ^15.5.10
-    reactcss: ^1.2.0
-    tinycolor2: ^1.4.1
+"react-colorful@npm:^5.1.2":
+  version: 5.5.1
+  resolution: "react-colorful@npm:5.5.1"
   peerDependencies:
-    react: "*"
-  checksum: 40b49e1aa2ab27a099cc37a3fa2d5bb906b8def4dbe2d922c0e42365e386d82b03f9b06a2b29a44a51f1e114cef72e61c0ba0740581a128d951936ea4617429b
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+  checksum: e60811781716e57f0990379eff20d6f22d4d35b9e858c47ecf857c1dc1c1a2274c924ded7248bad5f1e2fbf2aab06e59b12852910c8dee5e6850f8e4df293670
   languageName: node
   linkType: hard
 
@@ -16353,7 +16324,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-select@npm:^3.0.8":
+"react-select@npm:^3.2.0":
   version: 3.2.0
   resolution: "react-select@npm:3.2.0"
   dependencies:
@@ -16473,15 +16444,6 @@ fsevents@^1.2.7:
     object-assign: ^4.1.1
     prop-types: ^15.6.2
   checksum: 8484f3ecb13414526f2a7412190575fc134da785c02695eb92bb6028c930bfe1c238d7be2a125088fec663cc7cda0a3623373c46807cf2c281f49c34b79881ac
-  languageName: node
-  linkType: hard
-
-"reactcss@npm:^1.2.0":
-  version: 1.2.3
-  resolution: "reactcss@npm:1.2.3"
-  dependencies:
-    lodash: ^4.0.1
-  checksum: c53e386a0881f1477e1cff661f6a6ad4c662230941f3827862193ac30f9b75cdf7bc7b4c7e5ca543d3e4e80fee1a3e9fa0056c206b1c0423726c41773ab3fe45
   languageName: node
   linkType: hard
 
