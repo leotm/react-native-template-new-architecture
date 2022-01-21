@@ -7,6 +7,7 @@
     "start:reset": "react-native start --reset-cache",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
+    "debug": "flipper-server",
     "lint": "eslint . --ext ts,tsx,yml --cache",
     "lint:fix": "eslint . --ext ts,tsx,yml --cache --fix",
     "prettier:check": "yarn prettier --check src/**/*.{ts,tsx,json} && yarn prettier --check *.{ts,tsx,json} && yarn prettier --write storybook/**/**/*.{ts,tsx}",
