@@ -11,7 +11,7 @@ module.exports = {
     'plugin:react-native/all',
     // '@react-native-community',
     // 'plugin:prettier/recommended',
-    'plugin:yml/prettier',
+    'plugin:yml/prettier'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -23,13 +23,13 @@ module.exports = {
       parser: 'yaml-eslint-parser',
       rules: {
         'spaced-comment': 'off',
-        'yml/flow-sequence-bracket-spacing': ['error', 'always'],
+        'yml/flow-sequence-bracket-spacing': ['error', 'always']
       }
     }
   ],
   env: {
     'react-native/react-native': true,
-    'jest/globals': true,
+    'jest/globals': true
   },
   ignorePatterns: [
     'lib/',
@@ -38,10 +38,7 @@ module.exports = {
     '.eslintrc.js',
     '!/.github'
   ],
-  plugins: [
-    'deprecation',
-    'typescript-sort-keys'
-  ],
+  plugins: ['deprecation', 'typescript-sort-keys'],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off', // Prefer type inference
     '@typescript-eslint/explicit-module-boundary-types': 'off', // Prefer type inference
@@ -53,10 +50,13 @@ module.exports = {
     'react/jsx-no-literals': 'off',
     'react/jsx-max-depth': 'off',
     'react-native/no-raw-text': ['error', { skip: 'Text.Text' }], // https://github.com/Intellicode/eslint-plugin-react-native/issues/271
-    'react/function-component-definition': ['error', {
-      'namedComponents': 'arrow-function',
-      'unnamedComponents': 'arrow-function',
-    }],
+    'react/function-component-definition': [
+      'error',
+      {
+        namedComponents: 'arrow-function',
+        unnamedComponents: 'arrow-function'
+      }
+    ],
     'deprecation/deprecation': 'error',
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': 'error',
@@ -78,9 +78,9 @@ module.exports = {
           '**/*{.,_}{test,spec}.{ts,tsx}',
           '**/__tests__/**/*.{ts,tsx}',
           '**/storybook/*.ts',
-          '**/stories/**/*.tsx',
-        ],
-      },
-    ],
-  },
+          '**/stories/**/*.tsx'
+        ]
+      }
+    ]
+  }
 }
