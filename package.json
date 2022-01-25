@@ -17,6 +17,7 @@
     "check:all": "yarn tsc && yarn lint && yarn prettier:check && jest",
     "fix": "yarn lint:fix && yarn prettier:write",
     "test": "jest",
+    "snapshots:update": "jest -u",
     "storybook": "(adb reverse tcp:7007 tcp:7007 || true) && start-storybook -p 7007",
     "server": "ts-node node.ts",
     "deno": "deno run --allow-net deno.ts",
