@@ -12,6 +12,7 @@
     "debug": "flipper-server",
     "lint": "eslint . --ext ts,tsx,yml --cache",
     "lint:fix": "eslint . --ext ts,tsx,yml --cache --fix",
+    "lint:config": "eslint --print-config index.ts",
     "prettier:check": "yarn prettier --check src/**/*.{ts,tsx,json} && yarn prettier --check *.{ts,tsx,json} && yarn prettier --write storybook/**/**/*.{ts,tsx}",
     "prettier:write": "yarn prettier --write src/**/*.{ts,tsx,json} && yarn prettier --write *.{ts,tsx,json} && yarn prettier --write storybook/**/**/*.{ts,tsx}",
     "check:all": "yarn tsc && yarn lint && yarn prettier:check && jest",
