@@ -1,7 +1,7 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types'
 import { Component } from 'react'
-import { View, Text, StyleSheet } from 'react-native'
+import { StyleSheet, Text, View } from 'react-native'
 
 interface Props {
   showApp: () => void

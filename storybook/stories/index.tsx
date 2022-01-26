@@ -2,7 +2,6 @@ import { action } from '@storybook/addon-actions'
 import { text, withKnobs } from '@storybook/addon-knobs'
 import { linkTo } from '@storybook/addon-links'
 import { storiesOf } from '@storybook/react-native'
-
 import { Component } from 'react'
 import { Text } from 'react-native'
 

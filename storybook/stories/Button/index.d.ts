@@ -1,6 +1,5 @@
 import * as android from './index.android'
 import DefaultAndroid from './index.android'
-
 import * as ios from './index.ios'
 import DefaultIos from './index.ios'
 

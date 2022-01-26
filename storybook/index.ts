@@ -1,9 +1,8 @@
 import './rn-addons'
 
 import AsyncStorage from '@react-native-community/async-storage'
-import { getStorybookUI, configure } from '@storybook/react-native'
+import { configure, getStorybookUI } from '@storybook/react-native'
 import { Params } from '@storybook/react-native/dist/preview'
-
 import { AppRegistry } from 'react-native'
 
 configure(() => {

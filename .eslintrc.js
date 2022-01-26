@@ -38,7 +38,7 @@ module.exports = {
     '.eslintrc.js',
     '!/.github'
   ],
-  plugins: ['deprecation', 'typescript-sort-keys'],
+  plugins: ['deprecation', 'simple-import-sort', 'typescript-sort-keys'],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off', // Prefer type inference
     '@typescript-eslint/explicit-module-boundary-types': 'off', // Prefer type inference
@@ -61,7 +61,6 @@ module.exports = {
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': 'error',
     '@typescript-eslint/no-invalid-void-type': 'error',
-    'import/prefer-default-export': 'off',
     'typescript-sort-keys/interface': 'error',
     'typescript-sort-keys/string-enum': 'error',
     'react/react-in-jsx-scope': 'off',
@@ -70,6 +69,10 @@ module.exports = {
       'error',
       { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }
     ],
+    // Imports/Exports
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'error',
+    'import/prefer-default-export': 'off',
     'import/no-extraneous-dependencies': [
       'error',
       {
