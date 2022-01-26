@@ -84,11 +84,10 @@ module.exports = {
     'import/no-extraneous-dependencies': [
       'error',
       {
+        // Supported: classic.yarnpkg.com/en/docs/dependency-types
         devDependencies: [
-          'App.tsx',
-          '**/jest.{config,setup}.js',
           '**/*{.,_}{test,spec}.{ts,tsx}',
-          '**/__tests__/**/*.{ts,tsx}',
+          '**/__tests__/**/*.{ts,tsx}', // react-test-renderer
           '**/storybook/*.ts',
           '**/stories/**/*.tsx'
         ]
