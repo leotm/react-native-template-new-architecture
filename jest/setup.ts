@@ -9,9 +9,9 @@ jest.mock('@react-native-community/async-storage', () => ({
 }))
 jest.mock('react-native-swipe-gestures', () => null)
 jest.mock('@storybook/react-native', () => ({
-  getStorybookUI: jest.fn(),
   addDecorator: jest.fn(),
-  configure: jest.fn()
+  configure: jest.fn(),
+  getStorybookUI: jest.fn()
 }))
 jest.mock('react-native/Libraries/LogBox/LogBox')
 
