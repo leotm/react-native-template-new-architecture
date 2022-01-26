@@ -65,6 +65,7 @@ module.exports = {
     'typescript-sort-keys/interface': 'error',
     'typescript-sort-keys/string-enum': 'error',
     'react/react-in-jsx-scope': 'off',
+    'sort-vars': 'error',
     '@typescript-eslint/no-unused-vars': [
       'error',
       { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }
