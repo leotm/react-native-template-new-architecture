@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "setup": "yarn",
     "start": "react-native start",
     "start:reset": "react-native start --reset-cache",
     "android": "react-native run-android",
