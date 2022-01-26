@@ -72,6 +72,8 @@ module.exports = {
     // Imports/Exports
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
+    // 'sort-imports': 'error', // Incompatible w simple-import-sort
+    // 'import/order': ['error', { 'newlines-between': 'always' }], // Incompatible w simple-import-sort
     'import/prefer-default-export': 'off',
     'import/no-extraneous-dependencies': [
       'error',
