@@ -8,7 +8,7 @@
 [![Formatter: prettier](https://img.shields.io/badge/Formatter-Prettier-f8bc45.svg)](#)
 [![Linter](https://badges.aleen42.com/src/eslint.svg)](#)
 
-[![NPM RN pkg ver](https://img.shields.io/badge/React%20Native-0.67.0-red.svg)](https://github.com/facebook/react-native/releases)
+[![NPM RN pkg ver](https://img.shields.io/badge/React%20Native-0.67.1-red.svg)](https://github.com/facebook/react-native/releases)
 [![CI](https://github.com/leotm/react-native-template-typescript/actions/workflows/main.yml/badge.svg)](https://github.com/leotm/react-native-template-typescript/actions/workflows/main.yml)
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/leotm/react-native-template-typescript/pulse)
@@ -19,10 +19,18 @@
 
 [Fresh M1](https://github.com/leotm/react-native-template-typescript/wiki/M1-Setup)
 
+## Yarn
+
+```sh
+# Globally, outside repo
+yarn set version berry
+```
+
 ## Install
 
 ```sh
 yarn
+yarn setup
 ```
 
 ## Start
