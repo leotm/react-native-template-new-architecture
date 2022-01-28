@@ -22,15 +22,15 @@
 ## Yarn
 
 ```sh
-# Globally, outside repo
-yarn set version berry
+yarn set version berry # Globally, outside repo
+yarn set version canary # Bonus, to keep up w Renovate bot
 ```
 
 ## Install
 
 ```sh
 yarn
-yarn setup
+yarn setup # If bonus n/a
 ```
 
 ## Start
