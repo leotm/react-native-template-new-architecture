@@ -2898,9 +2898,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/core@npm:^6.1.0":
-  version: 6.1.0
-  resolution: "@react-navigation/core@npm:6.1.0"
+"@react-navigation/core@npm:^6.1.1":
+  version: 6.1.1
+  resolution: "@react-navigation/core@npm:6.1.1"
   dependencies:
     "@react-navigation/routers": ^6.1.0
     escape-string-regexp: ^4.0.0
@@ -2909,7 +2909,7 @@ __metadata:
     react-is: ^16.13.0
   peerDependencies:
     react: "*"
-  checksum: 02a00792e96ded2c2859b43d435fc6d6b6e84f6b1a0a04254b09f8742620ab384a99e745e0a918d334ef27f64cd8552d414579059046284af330e3efae77cba9
+  checksum: 16944169cdfa8a3da796a3090e432011148229e186304fd073b1223d32df488afdaad6aef4ab6e1be3c87d8d1a922d1e1582b6b707e4bf5995d9dcc4ef7ae492
   languageName: node
   linkType: hard
 
@@ -2941,17 +2941,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/native@npm:6.0.6":
-  version: 6.0.6
-  resolution: "@react-navigation/native@npm:6.0.6"
+"@react-navigation/native@npm:6.0.7":
+  version: 6.0.7
+  resolution: "@react-navigation/native@npm:6.0.7"
   dependencies:
-    "@react-navigation/core": ^6.1.0
+    "@react-navigation/core": ^6.1.1
     escape-string-regexp: ^4.0.0
+    fast-deep-equal: ^3.1.3
     nanoid: ^3.1.23
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: c40330866fb858d35d59de92dfe90cf2de2660b2308ba169c8d4343b022f349bcda397568075f12394e0e253f889f72dbd525cc3b295a9f06cfa4c11ee24f34d
+  checksum: 0065f00c770d9e6b0d57fadcbdbca8b112ba2395678f9d437e71b4ba757c2cfb892d40a39e081a3f21fa383505a4fc4d173bcf1b6f2cdb4b04b4fe8d1db9283d
   languageName: node
   linkType: hard
 
@@ -14239,7 +14240,7 @@ fsevents@^1.2.7:
     "@react-native-community/async-storage": 1.12.1
     "@react-native-community/checkbox": 0.5.9
     "@react-native-community/eslint-config": 3.0.1
-    "@react-navigation/native": 6.0.6
+    "@react-navigation/native": 6.0.7
     "@react-navigation/native-stack": 6.2.5
     "@storybook/addon-actions": 5.3.21
     "@storybook/addon-knobs": 5.3.21
