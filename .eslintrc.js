@@ -42,7 +42,8 @@ module.exports = {
     'deprecation',
     'simple-import-sort',
     'sort-keys-fix',
-    'typescript-sort-keys'
+    'typescript-sort-keys',
+    'communist-spelling'
   ],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off', // Prefer type inference
@@ -75,6 +76,7 @@ module.exports = {
       'error',
       { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }
     ],
+    'communist-spelling/communist-spelling': 'error',
     // Imports/Exports
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
