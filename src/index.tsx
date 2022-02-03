@@ -19,6 +19,8 @@ import {
   ReloadInstructions
 } from 'react-native/Libraries/NewAppScreen'
 
+import StorybookUIRoot from '../.storybook/Storybook'
+
 if (__DEV__) {
   import('../ReactotronConfig')
     .then(() => console.log('Reactotron Configured'))
@@ -108,10 +110,7 @@ const styles = StyleSheet.create({
   }
 })
 
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const storybook = require('../storybook').default
-
-export default false ? storybook : App
+export default false ? StorybookUIRoot : App
 
 // export default Reactotron.storybookSwitcher(storybook)(App)
 // https://github.com/infinitered/reactotron/issues/1160

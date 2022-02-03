@@ -1,18 +1,32 @@
-jest.mock('react-native-modal-selector', () => null)
-jest.mock('react-native-modal-datetime-picker', () => null)
-jest.mock('react-native-simple-markdown', () => null)
-jest.mock('@react-native-community/async-storage', () => ({
-  useAsyncStorage: () => ({
-    getItem: jest.fn(),
-    setItem: jest.fn()
-  })
-}))
-jest.mock('react-native-swipe-gestures', () => null)
 jest.mock('@storybook/react-native', () => ({
   addDecorator: jest.fn(),
   configure: jest.fn(),
   getStorybookUI: jest.fn()
 }))
-jest.mock('react-native/Libraries/LogBox/LogBox')
-
+jest.mock('@storybook/addon-ondevice-controls', () => ({
+  register: () => jest.fn()
+}))
+jest.mock('@storybook/addon-ondevice-notes', () => ({
+  /**
+   * TODO: Figure why Jest unable to mock this
+   * It's import in codegen'ed storybook.requires.js commented for snaphot till then
+   */
+  register: () => jest.fn()
+}))
+jest.mock('@storybook/addon-actions/dist/modern/preset/addArgs', () => ({
+  argsEnhancers: {
+    /**
+     * TODO: Figure why Jest unable to parse Array.prototype.forEach()
+     * e.g. argsEnhancers: []
+     * Jest config likely needs ES version bump or polyfill
+     */
+    forEach: jest.fn()
+  }
+}))
+jest.mock('@storybook/react-native', () => ({
+  addDecorator: jest.fn(),
+  addParameters: jest.fn(),
+  configure: jest.fn(),
+  getStorybookUI: jest.fn()
+}))
 export {}

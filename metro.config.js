@@ -8,8 +8,11 @@ module.exports = {
     getTransformOptions: async () => ({
       transform: {
         experimentalImportSupport: false,
-        inlineRequires: true,
-      },
-    }),
+        inlineRequires: true
+      }
+    })
   },
-};
+  resolver: {
+    resolverMainFields: ['sbmodern', 'browser', 'main']
+  }
+}
