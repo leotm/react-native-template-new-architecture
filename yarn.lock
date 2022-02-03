@@ -4077,9 +4077,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/native@npm:6.0.7":
-  version: 6.0.7
-  resolution: "@react-navigation/native@npm:6.0.7"
+"@react-navigation/native@npm:6.0.8":
+  version: 6.0.8
+  resolution: "@react-navigation/native@npm:6.0.8"
   dependencies:
     "@react-navigation/core": ^6.1.1
     escape-string-regexp: ^4.0.0
@@ -4088,7 +4088,7 @@ __metadata:
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 0065f00c770d9e6b0d57fadcbdbca8b112ba2395678f9d437e71b4ba757c2cfb892d40a39e081a3f21fa383505a4fc4d173bcf1b6f2cdb4b04b4fe8d1db9283d
+  checksum: 612e326b72f2839fd6031bb19ef3f79807f37f7bea20ec9d8ae2a3e50179b9428632ea3d7c2e9910146752ca2e749f94e696a837c4b407a8071d38d107a2d72e
   languageName: node
   linkType: hard
 
@@ -16718,7 +16718,7 @@ fsevents@^1.2.7:
     "@react-native-community/datetimepicker": 5.1.0
     "@react-native-community/eslint-config": 3.0.1
     "@react-native-community/slider": 4.2.0
-    "@react-navigation/native": 6.0.7
+    "@react-navigation/native": 6.0.8
     "@react-navigation/native-stack": 6.3.0
     "@storybook/addon-actions": 6.4.17
     "@storybook/addon-controls": 6.4.17
