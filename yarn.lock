@@ -3694,18 +3694,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/async-storage@npm:1.12.1":
-  version: 1.12.1
-  resolution: "@react-native-community/async-storage@npm:1.12.1"
-  dependencies:
-    deep-assign: ^3.0.0
-  peerDependencies:
-    react: ^16.8
-    react-native: ">=0.59"
-  checksum: 68b519eb9fc50899257878440fd49a500d4b35c3899311c56c672e779df6516f0760204f6c8edcb3e83398c61a775822996aac6974be4b55a04ad30448d8662d
-  languageName: node
-  linkType: hard
-
 "@react-native-community/checkbox@npm:0.5.9":
   version: 0.5.9
   resolution: "@react-native-community/checkbox@npm:0.5.9"
@@ -3970,23 +3958,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/elements@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "@react-navigation/elements@npm:1.3.0"
+"@react-navigation/elements@npm:^1.3.1":
+  version: 1.3.1
+  resolution: "@react-navigation/elements@npm:1.3.1"
   peerDependencies:
     "@react-navigation/native": ^6.0.0
     react: "*"
     react-native: "*"
     react-native-safe-area-context: ">= 3.0.0"
-  checksum: c3da55c7c73fa1f13b83a066a2099d1e02b01ed48ef56486b58e4503ffa79eebde6339a8ac486cf5be264851178b5d83b7b0c9d6441ee85d9d54b2851f70143d
+  checksum: 40a06dda5b3ed3db9018b0686a5ee96716c8dc1ddac8a0c2bc7375b40e51e4d6698e57884d07022b7d164d489bf3817a9394a692eee53e90bd281c2e9170de8f
   languageName: node
   linkType: hard
 
-"@react-navigation/native-stack@npm:6.3.0":
-  version: 6.3.0
-  resolution: "@react-navigation/native-stack@npm:6.3.0"
+"@react-navigation/native-stack@npm:6.4.1":
+  version: 6.4.1
+  resolution: "@react-navigation/native-stack@npm:6.4.1"
   dependencies:
-    "@react-navigation/elements": ^1.3.0
+    "@react-navigation/elements": ^1.3.1
     warn-once: ^0.1.0
   peerDependencies:
     "@react-navigation/native": ^6.0.0
@@ -3994,7 +3982,7 @@ __metadata:
     react-native: "*"
     react-native-safe-area-context: ">= 3.0.0"
     react-native-screens: ">= 3.0.0"
-  checksum: d563bd51c5783c9659d66c042ecd81026e665f9004c0dc6a0718f6daa43ced41017a3dc8644d7d867141f9db7908f98c9efb62ea845c77b53010815c176f078a
+  checksum: 99dc9c62db7ed2b0906239a05ac7abf11ab16b35de18233d49ed88088019963c1c570499c2ba942844c63664a0e45a71e24320d15baa6ba9f26a6787b9c1e395
   languageName: node
   linkType: hard
 
@@ -9883,15 +9871,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"deep-assign@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "deep-assign@npm:3.0.0"
-  dependencies:
-    is-obj: ^1.0.0
-  checksum: 9041ccc72ae1980f014d4b745d6135d8f0e71d60ac433397550789c27e6b4d14bc0de2af69777e09f97e1d0da3007a8d78de36f7bf9df931c9968b68fc9546ab
-  languageName: node
-  linkType: hard
-
 "deep-equal@npm:^1.0.1, deep-equal@npm:^1.1.1":
   version: 1.1.1
   resolution: "deep-equal@npm:1.1.1"
@@ -11399,9 +11378,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-yml@npm:0.12.0":
-  version: 0.12.0
-  resolution: "eslint-plugin-yml@npm:0.12.0"
+"eslint-plugin-yml@npm:0.13.0":
+  version: 0.13.0
+  resolution: "eslint-plugin-yml@npm:0.13.0"
   dependencies:
     debug: ^4.3.2
     lodash: ^4.17.21
@@ -11409,7 +11388,7 @@ __metadata:
     yaml-eslint-parser: ^0.5.0
   peerDependencies:
     eslint: ">=6.0.0"
-  checksum: 67432347b49dd0c1dff6243a8ae13fb5db4048fda2404becd8c5205ad0286eea3b5bc59ea59532794e226c54591838fe20775298e1ce7aba072da8e43e7a3a4d
+  checksum: f5722c6bc1cb7845d7e3a68df7eabc96ac40697b026a46180f8b93e61bacc5c62aaf8b41631db6120d32553ea06a5f51784ee98b85317dfbdba528b88a8e417e
   languageName: node
   linkType: hard
 
@@ -13915,13 +13894,6 @@ fsevents@^1.2.7:
   version: 7.0.0
   resolution: "is-number@npm:7.0.0"
   checksum: 456ac6f8e0f3111ed34668a624e45315201dff921e5ac181f8ec24923b99e9f32ca1a194912dc79d539c97d33dba17dc635202ff0b2cf98326f608323276d27a
-  languageName: node
-  linkType: hard
-
-"is-obj@npm:^1.0.0":
-  version: 1.0.1
-  resolution: "is-obj@npm:1.0.1"
-  checksum: 3ccf0efdea12951e0b9c784e2b00e77e87b2f8bd30b42a498548a8afcc11b3287342a2030c308e473e93a7a19c9ea7854c99a8832a476591c727df2a9c79796c
   languageName: node
   linkType: hard
 
@@ -16623,13 +16595,12 @@ fsevents@^1.2.7:
     "@curveball/core": 0.16.4
     "@curveball/router": 0.3.0
     "@react-native-async-storage/async-storage": 1.15.17
-    "@react-native-community/async-storage": 1.12.1
     "@react-native-community/checkbox": 0.5.9
     "@react-native-community/datetimepicker": 5.1.0
     "@react-native-community/eslint-config": 3.0.1
     "@react-native-community/slider": 4.2.0
     "@react-navigation/native": 6.0.8
-    "@react-navigation/native-stack": 6.3.0
+    "@react-navigation/native-stack": 6.4.1
     "@storybook/addon-actions": 6.4.18
     "@storybook/addon-controls": 6.4.18
     "@storybook/addon-knobs": 6.4.0
@@ -16672,7 +16643,7 @@ fsevents@^1.2.7:
     eslint-plugin-simple-import-sort: 7.0.0
     eslint-plugin-sort-keys-fix: 1.1.2
     eslint-plugin-typescript-sort-keys: 2.1.0
-    eslint-plugin-yml: 0.12.0
+    eslint-plugin-yml: 0.13.0
     flipper-server: 0.132.0
     husky: 7.0.4
     jest: 27.4.7
