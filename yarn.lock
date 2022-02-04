@@ -3694,18 +3694,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/async-storage@npm:1.12.1":
-  version: 1.12.1
-  resolution: "@react-native-community/async-storage@npm:1.12.1"
-  dependencies:
-    deep-assign: ^3.0.0
-  peerDependencies:
-    react: ^16.8
-    react-native: ">=0.59"
-  checksum: 68b519eb9fc50899257878440fd49a500d4b35c3899311c56c672e779df6516f0760204f6c8edcb3e83398c61a775822996aac6974be4b55a04ad30448d8662d
-  languageName: node
-  linkType: hard
-
 "@react-native-community/checkbox@npm:0.5.9":
   version: 0.5.9
   resolution: "@react-native-community/checkbox@npm:0.5.9"
@@ -9883,15 +9871,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"deep-assign@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "deep-assign@npm:3.0.0"
-  dependencies:
-    is-obj: ^1.0.0
-  checksum: 9041ccc72ae1980f014d4b745d6135d8f0e71d60ac433397550789c27e6b4d14bc0de2af69777e09f97e1d0da3007a8d78de36f7bf9df931c9968b68fc9546ab
-  languageName: node
-  linkType: hard
-
 "deep-equal@npm:^1.0.1, deep-equal@npm:^1.1.1":
   version: 1.1.1
   resolution: "deep-equal@npm:1.1.1"
@@ -13918,13 +13897,6 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"is-obj@npm:^1.0.0":
-  version: 1.0.1
-  resolution: "is-obj@npm:1.0.1"
-  checksum: 3ccf0efdea12951e0b9c784e2b00e77e87b2f8bd30b42a498548a8afcc11b3287342a2030c308e473e93a7a19c9ea7854c99a8832a476591c727df2a9c79796c
-  languageName: node
-  linkType: hard
-
 "is-object@npm:^1.0.1":
   version: 1.0.2
   resolution: "is-object@npm:1.0.2"
@@ -16623,7 +16595,6 @@ fsevents@^1.2.7:
     "@curveball/core": 0.16.4
     "@curveball/router": 0.3.0
     "@react-native-async-storage/async-storage": 1.15.17
-    "@react-native-community/async-storage": 1.12.1
     "@react-native-community/checkbox": 0.5.9
     "@react-native-community/datetimepicker": 5.1.0
     "@react-native-community/eslint-config": 3.0.1
