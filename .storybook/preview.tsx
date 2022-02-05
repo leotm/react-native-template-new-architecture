@@ -1,15 +1,17 @@
-// TODO: .ts
+import { FC } from 'react'
 import { View, StyleSheet } from 'react-native'
 import { withBackgrounds } from '@storybook/addon-ondevice-backgrounds'
+import type { DecoratorFunction } from '@storybook/addon-actions'
 
-export const decorators = [
-  StoryFn => (
+export const decorators: DecoratorFunction[] = [
+  (StoryFn: FC) => (
     <View style={styles.container}>
       <StoryFn />
     </View>
   ),
   withBackgrounds
 ]
+
 export const parameters = {
   some_param: 'some value',
   backgrounds: [
