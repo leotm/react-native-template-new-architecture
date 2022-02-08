@@ -72,16 +72,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.17.0, @babel/core@npm:^7.12.10":
-  version: 7.17.0
-  resolution: "@babel/core@npm:7.17.0"
+"@babel/core@npm:7.17.2":
+  version: 7.17.2
+  resolution: "@babel/core@npm:7.17.2"
   dependencies:
     "@ampproject/remapping": ^2.0.0
     "@babel/code-frame": ^7.16.7
     "@babel/generator": ^7.17.0
     "@babel/helper-compilation-targets": ^7.16.7
     "@babel/helper-module-transforms": ^7.16.7
-    "@babel/helpers": ^7.17.0
+    "@babel/helpers": ^7.17.2
     "@babel/parser": ^7.17.0
     "@babel/template": ^7.16.7
     "@babel/traverse": ^7.17.0
@@ -91,7 +91,7 @@ __metadata:
     gensync: ^1.0.0-beta.2
     json5: ^2.1.2
     semver: ^6.3.0
-  checksum: b05ab50ee3234cf6ead6fc947fff1c577773040d88b6fea64efda046c3b87aa596c5bbfe2bd287680102bda620e5294625fe1350a54d800d09cca51435b70918
+  checksum: 68ab3459f41b41feb5cb263937f15e418e1c46998d482d1b6dfe34f78064765466cfd5b10205c22fb16b69dbd1d46e7a3c26c067884ca4eb514b3dac1e09a57f
   languageName: node
   linkType: hard
 
@@ -115,6 +115,29 @@ __metadata:
     semver: ^6.3.0
     source-map: ^0.5.0
   checksum: 6ede604d8de7a103c087b96a58548a3d27efb9e53de6ecc84f4b4ca947cd91f02b0289fc04557b04eb6e31243dbeabdcdb8fd520a1780f284333f56eb1b58913
+  languageName: node
+  linkType: hard
+
+"@babel/core@npm:^7.12.10":
+  version: 7.17.0
+  resolution: "@babel/core@npm:7.17.0"
+  dependencies:
+    "@ampproject/remapping": ^2.0.0
+    "@babel/code-frame": ^7.16.7
+    "@babel/generator": ^7.17.0
+    "@babel/helper-compilation-targets": ^7.16.7
+    "@babel/helper-module-transforms": ^7.16.7
+    "@babel/helpers": ^7.17.0
+    "@babel/parser": ^7.17.0
+    "@babel/template": ^7.16.7
+    "@babel/traverse": ^7.17.0
+    "@babel/types": ^7.17.0
+    convert-source-map: ^1.7.0
+    debug: ^4.1.0
+    gensync: ^1.0.0-beta.2
+    json5: ^2.1.2
+    semver: ^6.3.0
+  checksum: b05ab50ee3234cf6ead6fc947fff1c577773040d88b6fea64efda046c3b87aa596c5bbfe2bd287680102bda620e5294625fe1350a54d800d09cca51435b70918
   languageName: node
   linkType: hard
 
@@ -755,6 +778,17 @@ __metadata:
     "@babel/traverse": ^7.17.0
     "@babel/types": ^7.17.0
   checksum: fed0b0d8fe1b0aef18a0dbc4a0683bbcb039fd3fcff09a4f5b2a1e8f5fc911368983a9a177610c4a88f35ed5c3f5d51bf971ff01596e6f384414dcee2de694a4
+  languageName: node
+  linkType: hard
+
+"@babel/helpers@npm:^7.17.2":
+  version: 7.17.2
+  resolution: "@babel/helpers@npm:7.17.2"
+  dependencies:
+    "@babel/template": ^7.16.7
+    "@babel/traverse": ^7.17.0
+    "@babel/types": ^7.17.0
+  checksum: 5fa06bbf59636314fb4098bb2e70cf488e0fb6989553438abab90356357b79976102ac129fb16fc8186893c79e0809de1d90e3304426d6fcdb1750da2b6dff9d
   languageName: node
   linkType: hard
 
@@ -2771,12 +2805,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:7.17.0, @babel/runtime@npm:^7.14.8, @babel/runtime@npm:^7.16.7, @babel/runtime@npm:^7.7.6":
-  version: 7.17.0
-  resolution: "@babel/runtime@npm:7.17.0"
+"@babel/runtime@npm:7.17.2":
+  version: 7.17.2
+  resolution: "@babel/runtime@npm:7.17.2"
   dependencies:
     regenerator-runtime: ^0.13.4
-  checksum: 1864ac3c6aa061798c706ce858af311f06f6ad6efafc20cca7029fdaa9786c58ccaf5bdb8bd133cb505f27bed7659b65f1503b8da58adbd1eb88f7333644e6ed
+  checksum: a48702d271ecc59c09c397856407afa29ff980ab537b3da58eeee1aeaa0f545402d340a1680c9af58aec94dfdcbccfb6abb211991b74686a86d03d3f6956cacd
   languageName: node
   linkType: hard
 
@@ -2786,6 +2820,15 @@ __metadata:
   dependencies:
     regenerator-runtime: ^0.13.4
   checksum: 927ffed7871f2ed29f967a8dad7a72aa10662f93b6735a89d664a161fa4dc2074b8947ca159a8a0a49cec9a71c8de473d7c2b22d3de0ee4d7dd06d24a7f98018
+  languageName: node
+  linkType: hard
+
+"@babel/runtime@npm:^7.14.8, @babel/runtime@npm:^7.16.7, @babel/runtime@npm:^7.7.6":
+  version: 7.17.0
+  resolution: "@babel/runtime@npm:7.17.0"
+  dependencies:
+    regenerator-runtime: ^0.13.4
+  checksum: 1864ac3c6aa061798c706ce858af311f06f6ad6efafc20cca7029fdaa9786c58ccaf5bdb8bd133cb505f27bed7659b65f1503b8da58adbd1eb88f7333644e6ed
   languageName: node
   linkType: hard
 
@@ -16597,9 +16640,9 @@ fsevents@^1.2.7:
   version: 0.0.0-use.local
   resolution: "myapp@workspace:."
   dependencies:
-    "@babel/core": 7.17.0
+    "@babel/core": 7.17.2
     "@babel/preset-react": 7.16.7
-    "@babel/runtime": 7.17.0
+    "@babel/runtime": 7.17.2
     "@curveball/core": 0.16.4
     "@curveball/router": 0.3.0
     "@react-native-async-storage/async-storage": 1.15.17
