@@ -1,10 +1,19 @@
-import { FC } from 'react'
+/**
+ * ES6 mods not (yet) supported for typed .tsx
+ * Preserve .js ext for correct storybook.requires.js codegen
+ */
+
+// import { FC } from 'react'
 import { View, StyleSheet } from 'react-native'
 import { withBackgrounds } from '@storybook/addon-ondevice-backgrounds'
-import type { DecoratorFunction } from '@storybook/addon-actions'
+// import type { DecoratorFunction } from '@storybook/addon-actions'
 
-export const decorators: DecoratorFunction[] = [
-  (StoryFn: FC) => (
+/**
+ * @type decorators: DecoratorFunction[]
+ * @type StoryFn: FC
+ */
+export const decorators = [
+  StoryFn => (
     <View style={styles.container}>
       <StoryFn />
     </View>
