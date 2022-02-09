@@ -91,6 +91,7 @@ module.exports = {
         devDependencies: [
           '**/*{.,_}{test,spec}.{ts,tsx}',
           '**/__tests__/**/*.{ts,tsx}', // react-test-renderer
+          '**/.storybook/*.{ts,tsx,js}',
           '**/storybook/*.ts',
           '**/stories/**/*.tsx'
         ]
