@@ -4,7 +4,6 @@
  * main.{ts/mjs}: export default { ... }
  */
 module.exports = {
-  stories: [],
   addons: [
     '@storybook/addon-ondevice-actions',
     '@storybook/addon-ondevice-backgrounds',
@@ -16,5 +15,6 @@ module.exports = {
      * https://storybook.js.org/addons/@storybook/addon-ondevice-knobs
      */
     '@storybook/addon-ondevice-knobs'
-  ]
+  ],
+  stories: []
 }
