@@ -29,4 +29,10 @@ jest.mock('@storybook/react-native', () => ({
   configure: jest.fn(),
   getStorybookUI: jest.fn()
 }))
+// @storybook/addon-ondevice-knobs
+jest.mock('react-native-color-picker', () => jest.fn())
+jest.mock('react-native-switch', () => jest.fn())
+jest.mock('@storybook/addon-ondevice-knobs', () => ({
+  register: () => jest.fn()
+}))
 export {}
