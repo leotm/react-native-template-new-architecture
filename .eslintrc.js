@@ -89,8 +89,11 @@ module.exports = {
       {
         // Supported: classic.yarnpkg.com/en/docs/dependency-types
         devDependencies: [
+          // Unit/E2E tests
           '**/*{.,_}{test,spec}.{ts,tsx}',
+          // Snapshot tests (Jest)
           '**/__tests__/**/*.{ts,tsx}', // react-test-renderer
+          // Storybook
           '**/.storybook/*.{ts,tsx,js}',
           '**/storybook/*.ts',
           '**/stories/**/*.tsx'
