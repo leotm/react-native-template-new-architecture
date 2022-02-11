@@ -25,5 +25,5 @@ module.exports = {
      */
     '@storybook/addon-ondevice-knobs'
   ],
-  stories: []
+  stories: ['../src/components/**/*.stories.?(ts|tsx)']
 }

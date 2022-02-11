@@ -93,10 +93,12 @@ module.exports = {
           '**/*{.,_}{test,spec}.{ts,tsx}',
           // Snapshot tests (Jest)
           '**/__tests__/**/*.{ts,tsx}', // react-test-renderer
-          // Storybook
+          // Storybook config
           '**/.storybook/*.{ts,tsx,js}',
           '**/storybook/*.ts',
-          '**/stories/**/*.tsx'
+          // Stories (@storybook/react-native)
+          '**/stories/**/*.tsx', // v5
+          'src/components/**/*.stories.tsx' // v6
         ]
       }
     ]
