@@ -907,6 +907,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/plugin-proposal-async-generator-functions@npm:^7.0.0, @babel/plugin-proposal-async-generator-functions@npm:^7.16.8":
+  version: 7.16.8
+  resolution: "@babel/plugin-proposal-async-generator-functions@npm:7.16.8"
+  dependencies:
+    "@babel/helper-plugin-utils": ^7.16.7
+    "@babel/helper-remap-async-to-generator": ^7.16.8
+    "@babel/plugin-syntax-async-generators": ^7.8.4
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: abd2c2c67de262720d37c5509dafe2ce64d6cee2dc9a8e863bbba1796b77387214442f37618373c6a4521ca624bfc7dcdbeb1376300d16f2a474405ee0ca2e69
+  languageName: node
+  linkType: hard
+
 "@babel/plugin-proposal-async-generator-functions@npm:^7.14.5":
   version: 7.14.5
   resolution: "@babel/plugin-proposal-async-generator-functions@npm:7.14.5"
@@ -917,19 +930,6 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.0.0-0
   checksum: 25e7a7f59ded5cfbf2d9f88cf05b30bc8170429f8e8798f343cc8e5c1b592ad7534105491ff53af5578eaff8c4e63d9fbad6d63382b98f30633248c1e63cf0e3
-  languageName: node
-  linkType: hard
-
-"@babel/plugin-proposal-async-generator-functions@npm:^7.16.8":
-  version: 7.16.8
-  resolution: "@babel/plugin-proposal-async-generator-functions@npm:7.16.8"
-  dependencies:
-    "@babel/helper-plugin-utils": ^7.16.7
-    "@babel/helper-remap-async-to-generator": ^7.16.8
-    "@babel/plugin-syntax-async-generators": ^7.8.4
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: abd2c2c67de262720d37c5509dafe2ce64d6cee2dc9a8e863bbba1796b77387214442f37618373c6a4521ca624bfc7dcdbeb1376300d16f2a474405ee0ca2e69
   languageName: node
   linkType: hard
 
@@ -16088,11 +16088,12 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"metro-react-native-babel-preset@npm:0.67.0":
-  version: 0.67.0
-  resolution: "metro-react-native-babel-preset@npm:0.67.0"
+"metro-react-native-babel-preset@npm:0.68.0":
+  version: 0.68.0
+  resolution: "metro-react-native-babel-preset@npm:0.68.0"
   dependencies:
     "@babel/core": ^7.14.0
+    "@babel/plugin-proposal-async-generator-functions": ^7.0.0
     "@babel/plugin-proposal-class-properties": ^7.0.0
     "@babel/plugin-proposal-export-default-from": ^7.0.0
     "@babel/plugin-proposal-nullish-coalescing-operator": ^7.0.0
@@ -16134,7 +16135,7 @@ fsevents@^1.2.7:
     react-refresh: ^0.4.0
   peerDependencies:
     "@babel/core": "*"
-  checksum: 931105e7c76e1e69663bcf75ed8979161c6d486767ccc48c9c6ca80276adbeae7c2aaec0b5c9829f0a44fbf456e97908f81486bdb04cfe68fde375413acc654f
+  checksum: 9f8efce79e95d1a889697cc283e8c17a64caf1a8186593c45705203a9b176929dabb9737586148cc035b22fc5adce1eb302921a8554d390470e27215410751f0
   languageName: node
   linkType: hard
 
@@ -16699,7 +16700,7 @@ fsevents@^1.2.7:
     husky: 7.0.4
     jest: 27.5.1
     lint-staged: 12.3.3
-    metro-react-native-babel-preset: 0.67.0
+    metro-react-native-babel-preset: 0.68.0
     patch-package: 6.4.7
     prettier: 2.5.1
     react: 17.0.2
