@@ -1,3 +1,4 @@
+/* eslint-disable no-underscore-dangle */
 import * as android from './index.android'
 import DefaultAndroid from './index.android'
 import * as ios from './index.ios'
