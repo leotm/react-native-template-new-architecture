@@ -36,7 +36,7 @@
     "@react-navigation/native": "6.0.8",
     "@react-navigation/native-stack": "6.5.0",
     "react": "17.0.2",
-    "react-native": "0.67.2",
+    "react-native": "0.68.0-rc.1",
     "react-native-safe-area-context": "3.3.2",
     "react-native-screens": "3.11.1",
     "react-query": "3.34.15"
@@ -101,6 +101,7 @@
     "react-dom": "17.0.2",
     "react-native-clean-project": "4.0.0",
     "react-native-flipper": "0.131.1",
+    "react-native-gradle-plugin": "0.0.4",
     "react-native-rename": "2.9.0",
     "react-test-renderer": "17.0.2",
     "reactotron-react-native": "5.0.1",
@@ -120,6 +121,9 @@
     "setupFiles": [
       "./jest/setup.ts"
     ]
+  },
+  "codegenConfig": {
+    "libraries": []
   },
   "husky": {
     "hooks": {
