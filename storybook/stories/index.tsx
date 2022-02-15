@@ -5,6 +5,7 @@ import { storiesOf } from '@storybook/react-native'
 import type { FC } from 'react'
 import { Text } from 'react-native'
 
+// eslint-disable-next-line import/extensions, import/no-unresolved
 import Button from './Button'
 import CenterView from './CenterView'
 import Welcome from './Welcome'

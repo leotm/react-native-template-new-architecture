@@ -9,4 +9,5 @@ Reactotron.setAsyncStorageHandler?.(AsyncStorage)
   }) // add all built-in react native plugins
   .connect()
 
+// eslint-disable-next-line no-console
 console.tron = Reactotron

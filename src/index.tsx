@@ -1,4 +1,4 @@
-/* eslint-disable react-native/no-raw-text */
+/* eslint-disable react-native/no-raw-text, no-console */
 // https://github.com/Intellicode/eslint-plugin-react-native/issues/271
 
 import type { FC } from 'react'
@@ -39,6 +39,7 @@ const Section: FC<{ title: string }> = ({ children, title }) => {
       >
         {title}
       </Text>
+
       <Text
         style={[
           styles.sectionDescription,
@@ -61,11 +62,13 @@ export const App = () => {
   return (
     <SafeAreaView style={backgroundStyle}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}
       >
         <Header />
+
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white
@@ -75,15 +78,19 @@ export const App = () => {
             Edit <Text style={styles.highlight}>App.tsx</Text> to change this
             screen and then come back to see your edits.
           </Section>
+
           <Section title="See Your Changes">
             <ReloadInstructions />
           </Section>
+
           <Section title="Debug">
             <DebugInstructions />
           </Section>
+
           <Section title="Learn More">
             Read the docs to discover what to do next:
           </Section>
+
           <LearnMoreLinks />
         </View>
       </ScrollView>
@@ -110,7 +117,8 @@ const styles = StyleSheet.create({
   }
 })
 
-export default true ? StorybookUIRoot : App
+// eslint-disable-next-line no-constant-condition
+export default false ? StorybookUIRoot : App
 
 // export default Reactotron.storybookSwitcher(storybook)(App)
 // https://github.com/infinitered/reactotron/issues/1160
