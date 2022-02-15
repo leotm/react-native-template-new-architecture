@@ -1,6 +1,6 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types'
-import { FC } from 'react'
+import type { FC } from 'react'
 import { View } from 'react-native'
 
 import style from './style'

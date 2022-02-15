@@ -1,7 +1,7 @@
 /* eslint-disable react-native/no-raw-text */
 // https://github.com/Intellicode/eslint-plugin-react-native/issues/271
 
-import { FC } from 'react'
+import type { FC } from 'react'
 import {
   SafeAreaView,
   ScrollView,
@@ -110,7 +110,7 @@ const styles = StyleSheet.create({
   }
 })
 
-export default false ? StorybookUIRoot : App
+export default true ? StorybookUIRoot : App
 
 // export default Reactotron.storybookSwitcher(storybook)(App)
 // https://github.com/infinitered/reactotron/issues/1160
