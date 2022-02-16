@@ -72,9 +72,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.17.3":
-  version: 7.17.3
-  resolution: "@babel/core@npm:7.17.3"
+"@babel/core@npm:7.17.4":
+  version: 7.17.4
+  resolution: "@babel/core@npm:7.17.4"
   dependencies:
     "@ampproject/remapping": ^2.1.0
     "@babel/code-frame": ^7.16.7
@@ -91,7 +91,7 @@ __metadata:
     gensync: ^1.0.0-beta.2
     json5: ^2.1.2
     semver: ^6.3.0
-  checksum: 5a5680888a30db2d5075eb376e25facdd3c2357fe882e6e8b2098a0bf09550bdd1895fa29064af1d4bdd8b6d0964c3bdc08f28c4e1429a5b3597e010a234d15e
+  checksum: d367259b188fde69493fea407a1c134d6bb7a0d859cbe2c0f0d1f2464143bdee0fdfd3c8d45a2cdabdf321b95dd392cbc4f55e2d0c41a842a581d37fee4cef64
   languageName: node
   linkType: hard
 
@@ -16685,7 +16685,7 @@ fsevents@^1.2.7:
   version: 0.0.0-use.local
   resolution: "myapp@workspace:."
   dependencies:
-    "@babel/core": 7.17.3
+    "@babel/core": 7.17.4
     "@babel/preset-react": 7.16.7
     "@babel/runtime": 7.17.2
     "@curveball/core": 0.17.0
