@@ -35,7 +35,9 @@ export default class Welcome extends Component<Props> {
     const { showApp } = this.props
     event.preventDefault()
 
+    // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions, @typescript-eslint/no-unnecessary-condition
     if (showApp) {
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-call
       showApp()
     }
   }

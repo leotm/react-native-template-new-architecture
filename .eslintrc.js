@@ -1,21 +1,26 @@
 module.exports = {
   root: true,
   extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'airbnb-typescript-prettier',
-    'plugin:jest/all',
-    'plugin:react/all',
-    'plugin:react-hooks/recommended',
-    // 'react-native-typescript',
+    // All
+    'eslint:all', // Pairs well with plugin:react/all
+    'plugin:react/all', // Pairs well with eslint:all
+    'plugin:@typescript-eslint/all', // Unstable
+    'plugin:jest/all', // Unstable
     'plugin:react-native/all',
-    // '@react-native-community',
-    // 'plugin:prettier/recommended',
+    // Recommended
+    'plugin:import/recommended', // plugin:import/errors + plugin:import/warnings
+    'plugin:import/typescript', // This line apaz does the trick - but which pony?
+    'plugin:react-hooks/recommended',
+    // Misc
+    'airbnb-typescript-prettier',
+    // 'react-native-typescript', // [ERR_PACKAGE_PATH_NOT_EXPORTED]: Failed to load plugin 'flowtype'
+    // '@react-native-community', // [ERR_PACKAGE_PATH_NOT_EXPORTED]: Failed to load plugin 'flowtype'
+    // 'plugin:prettier/recommended', // Incompatible with eslint-plugin-yml
     'plugin:yml/prettier'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: './tsconfig.json',
+    project: './tsconfig.json', // Required for '@typescript-eslint/await-thenable'
     ecmaVersion: 'latest'
   },
   overrides: [
@@ -30,6 +35,7 @@ module.exports = {
     }
   ],
   env: {
+    // Extended, but here for visibility
     'react-native/react-native': true,
     'jest/globals': true
   },
@@ -38,11 +44,10 @@ module.exports = {
     'babel.config.js',
     'metro.config.js',
     '.eslintrc.js',
-    '!/.github',
+    // '!/.github', // False positive: Error loading '@typescript-eslint/await-thenable' requires parserOptions.project
     '!/.storybook'
   ],
   plugins: [
-    'import',
     'deprecation',
     'simple-import-sort',
     'sort-keys-fix',
@@ -64,8 +69,14 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off', // Prefer type inference
     '@typescript-eslint/explicit-module-boundary-types': 'off', // Prefer type inference
     '@typescript-eslint/no-use-before-define': 'off',
-    '@typescript-eslint/no-shadow': 'error',
-    '@typescript-eslint/no-invalid-void-type': 'error',
+    '@typescript-eslint/object-curly-spacing': 'off',
+    '@typescript-eslint/no-unsafe-assignment': 'off',
+    '@typescript-eslint/naming-convention': 'off',
+    '@typescript-eslint/no-magic-numbers': 'off',
+    '@typescript-eslint/prefer-readonly-parameter-types': 'off',
+    '@typescript-eslint/no-type-alias': 'off',
+    '@typescript-eslint/no-unsafe-member-access': 'off',
+    '@typescript-eslint/no-unnecessary-type-arguments': 'off',
     '@typescript-eslint/no-unused-vars': [
       'error',
       { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }

@@ -23,7 +23,9 @@ import StorybookUIRoot from '../.storybook/Storybook'
 
 if (__DEV__) {
   import('../ReactotronConfig')
-    .then(() => console.log('Reactotron Configured'))
+    .then(() => {
+      console.log('Reactotron Configured')
+    })
     .catch(() => console.error)
 }
 
@@ -117,7 +119,7 @@ const styles = StyleSheet.create({
   }
 })
 
-// eslint-disable-next-line no-constant-condition
+// eslint-disable-next-line @typescript-eslint/no-unnecessary-condition, no-constant-condition
 export default false ? StorybookUIRoot : App
 
 // export default Reactotron.storybookSwitcher(storybook)(App)
