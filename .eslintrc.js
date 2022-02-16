@@ -76,6 +76,13 @@ module.exports = {
     '@typescript-eslint/prefer-readonly-parameter-types': 'off',
     '@typescript-eslint/no-type-alias': 'off',
     '@typescript-eslint/no-unsafe-member-access': 'off',
+    /**
+     * Auto-fixing/removing unneeded type args is nice,
+     * But not false-positive generic type args with React props
+     * - class Atom extends Component<{ children: ReactNode, onPress: () => void }>
+     * - const Atom = ({ children, onPress }: { children: ReactNode; onPress: () => void }) => <></> // Inferred JSX.Element
+     * - const Atom: FC<{ onPress: () => void }>
+     */
     '@typescript-eslint/no-unnecessary-type-arguments': 'off',
     '@typescript-eslint/no-unused-vars': [
       'error',
