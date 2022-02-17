@@ -11368,9 +11368,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-yml@npm:0.13.0":
-  version: 0.13.0
-  resolution: "eslint-plugin-yml@npm:0.13.0"
+"eslint-plugin-yml@npm:0.14.0":
+  version: 0.14.0
+  resolution: "eslint-plugin-yml@npm:0.14.0"
   dependencies:
     debug: ^4.3.2
     lodash: ^4.17.21
@@ -11378,7 +11378,7 @@ __metadata:
     yaml-eslint-parser: ^0.5.0
   peerDependencies:
     eslint: ">=6.0.0"
-  checksum: f5722c6bc1cb7845d7e3a68df7eabc96ac40697b026a46180f8b93e61bacc5c62aaf8b41631db6120d32553ea06a5f51784ee98b85317dfbdba528b88a8e417e
+  checksum: dfc3899c8892e29aac06f484718132d28f13c55011e5bddae346abec83e023b883947c70b6e30a3916fe71654949ec8acd6106abc107b7f1e97eb503e62b3f35
   languageName: node
   linkType: hard
 
@@ -16478,7 +16478,7 @@ fsevents@^1.2.7:
     eslint-plugin-simple-import-sort: 7.0.0
     eslint-plugin-sort-keys-fix: 1.1.2
     eslint-plugin-typescript-sort-keys: 2.1.0
-    eslint-plugin-yml: 0.13.0
+    eslint-plugin-yml: 0.14.0
     flipper-server: 0.135.0
     husky: 7.0.4
     jest: 27.5.1
