@@ -4,8 +4,8 @@
  */
 
 // import { FC } from 'react'
-import { View, StyleSheet } from 'react-native'
 import { withBackgrounds } from '@storybook/addon-ondevice-backgrounds'
+import { StyleSheet, View } from 'react-native'
 // import type { DecoratorFunction } from '@storybook/addon-actions'
 
 /**
@@ -14,6 +14,7 @@ import { withBackgrounds } from '@storybook/addon-ondevice-backgrounds'
  */
 export const decorators = [
   StoryFn => (
+    // eslint-disable-next-line react/jsx-filename-extension
     <View style={styles.container}>
       <StoryFn />
     </View>
@@ -22,12 +23,12 @@ export const decorators = [
 ]
 
 export const parameters = {
-  some_param: 'some value',
   backgrounds: [
-    { name: 'plain', value: 'white', default: true },
+    { default: true, name: 'plain', value: 'white' },
     { name: 'warm', value: 'hotpink' },
     { name: 'cool', value: 'deepskyblue' }
-  ]
+  ],
+  some_param: 'some value'
 }
 
 const styles = StyleSheet.create({

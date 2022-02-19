@@ -45,7 +45,8 @@ module.exports = {
     'metro.config.js',
     '.eslintrc.js',
     // '!/.github', // False positive: Error loading '@typescript-eslint/await-thenable' requires parserOptions.project
-    '!/.storybook'
+    '!/.storybook',
+    '.storybook/storybook.requires.js' // Codegen
   ],
   plugins: [
     'deprecation',
@@ -60,6 +61,8 @@ module.exports = {
     'deprecation/deprecation': 'error',
     'no-shadow': 'off',
     'communist-spelling/communist-spelling': 'error',
+    'react-native/no-color-literals': 'off',
+    'react/jsx-props-no-spreading': 'off',
     // Sorts
     'typescript-sort-keys/interface': 'error',
     'typescript-sort-keys/string-enum': 'error',
