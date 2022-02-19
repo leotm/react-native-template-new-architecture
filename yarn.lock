@@ -6025,12 +6025,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ws@npm:8.2.2":
-  version: 8.2.2
-  resolution: "@types/ws@npm:8.2.2"
+"@types/ws@npm:8.2.3":
+  version: 8.2.3
+  resolution: "@types/ws@npm:8.2.3"
   dependencies:
     "@types/node": "*"
-  checksum: 308957864b9a5a0378ac82f1b084fa31b1bbe85106fb0d84ed2b392e4829404f21ab6ab2c1eb782d556e59cd33d57c75ad2d0cedc4b9b9d0ca3b2311bc915578
+  checksum: 94e949ef66909334eb8d77079a28ce8fcea8780295eadab1bccdbb85adc0534d96d9a61910a80720769c6019e7bfaba90cea6f95f58e93de135b766074aa53cb
   languageName: node
   linkType: hard
 
@@ -16456,7 +16456,7 @@ fsevents@^1.2.7:
     "@types/react": 17.0.39
     "@types/react-native": 0.66.16
     "@types/react-test-renderer": 17.0.1
-    "@types/ws": 8.2.2
+    "@types/ws": 8.2.3
     "@typescript-eslint/eslint-plugin": 5.12.0
     "@typescript-eslint/parser": 5.12.0
     babel-jest: 27.5.1
