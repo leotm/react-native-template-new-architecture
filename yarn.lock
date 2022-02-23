@@ -12204,15 +12204,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flipper-server@npm:0.135.0":
-  version: 0.135.0
-  resolution: "flipper-server@npm:0.135.0"
+"flipper-server@npm:0.136.0":
+  version: 0.136.0
+  resolution: "flipper-server@npm:0.136.0"
   dependencies:
     mac-ca: ^1.0.6
     node-fetch: ^2.6.7
   bin:
     flipper-server: server.js
-  checksum: 838127738bba6a666bc6171ba31106d29a7bdbf7180a8c6f39dafcdc2992a9a3d17022b8002d0780fd78a65307d0dee95971c93601feb0c9e1a76fbb37548c87
+  checksum: 1034b8647407bc1a86863550027c142f2ab1e4fe4a530e58a78530ea5a374f31c83885e3b2154be8d9715ccac17971fc238644ac5cf1445f4323ad9e725ebb22
   languageName: node
   linkType: hard
 
@@ -16573,7 +16573,7 @@ fsevents@^1.2.7:
     eslint-plugin-sort-keys-fix: 1.1.2
     eslint-plugin-typescript-sort-keys: 2.1.0
     eslint-plugin-yml: 0.14.0
-    flipper-server: 0.135.0
+    flipper-server: 0.136.0
     husky: 7.0.4
     jest: 27.5.1
     lint-staged: 12.3.4
