@@ -14,7 +14,7 @@ target 'MyApp' do
 
   use_react_native!(
     :path => config[:reactNativePath],
-    :hermes_enabled => flags[:hermes_enabled],
+    :hermes_enabled => true, # flags[:hermes_enabled]
     :fabric_enabled => flags[:fabric_enabled],
     # Abosolute path to app root
     :app_path => "#{Dir.pwd}/.."
