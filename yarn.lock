@@ -17028,6 +17028,7 @@ fsevents@^1.2.7:
     react-dom: experimental
     react-native: 0.68.0-rc.2
     react-native-clean-project: 4.0.0
+    react-native-codegen: 0.0.13
     react-native-flipper: 0.136.0
     react-native-gradle-plugin: 0.0.5
     react-native-rename: 2.9.0
@@ -19192,7 +19193,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-codegen@npm:*, react-native-codegen@npm:^0.0.13":
+"react-native-codegen@npm:*, react-native-codegen@npm:0.0.13, react-native-codegen@npm:^0.0.13":
   version: 0.0.13
   resolution: "react-native-codegen@npm:0.0.13"
   dependencies:
