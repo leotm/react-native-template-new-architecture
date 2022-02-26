@@ -1,5 +1,7 @@
 apply plugin: "com.android.application"
 
+apply plugin: "com.facebook.react"
+
 import com.android.build.OutputFile
 
 /**
@@ -77,6 +79,11 @@ import com.android.build.OutputFile
  * ]
  */
 
+react {
+    reactRoot = rootProject.file("../node_modules/react-native/")
+    codegenDir = rootProject.file("../node_modules/react-native-codegen/")
+}
+
 project.ext.react = [
     entryFile: "index.ts",
     enableHermes: true,  // clean and rebuild if changing
@@ -129,6 +136,9 @@ def reactNativeArchitectures() {
     return value ? value.split(",") : ["armeabi-v7a", "x86", "x86_64", "arm64-v8a"]
 }
 
+// def reactAndroidProjectDir2 = project(':ReactAndroid').projectDir;
+// def reactAndroidBuildDir2 = project(':ReactAndroid').buildDir;
+
 android {
     ndkVersion rootProject.ext.ndkVersion
 
@@ -153,6 +163,8 @@ android {
                         "PROJECT_BUILD_DIR=$buildDir",
                         "REACT_ANDROID_DIR=$rootDir/../node_modules/react-native/ReactAndroid",
                         "REACT_ANDROID_BUILD_DIR=$rootDir/../node_modules/react-native/ReactAndroid/build"
+                        // "REACT_ANDROID_DIR=$reactAndroidProjectDir2",
+                        //  "REACT_ANDROID_BUILD_DIR=$reactAndroidBuildDir2"
                     cFlags "-Wall", "-Werror", "-fexceptions", "-frtti", "-DWITH_INSPECTOR=1"
                     cppFlags "-std=c++17"
                     // Make sure this target name is the same you specify inside the
@@ -239,8 +251,7 @@ android {
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
 
-    //noinspection GradleDynamicVersion
-    implementation "com.facebook.react:react-native:+"  // From node_modules
+    implementation project(":ReactAndroid") // Project with path ':ReactAndroid' could not be found in project ':app'
 
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
 
