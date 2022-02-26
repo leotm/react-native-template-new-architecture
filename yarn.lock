@@ -16385,9 +16385,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"metro-react-native-babel-preset@npm:0.68.0":
-  version: 0.68.0
-  resolution: "metro-react-native-babel-preset@npm:0.68.0"
+"metro-react-native-babel-preset@npm:0.69.0":
+  version: 0.69.0
+  resolution: "metro-react-native-babel-preset@npm:0.69.0"
   dependencies:
     "@babel/core": ^7.14.0
     "@babel/plugin-proposal-async-generator-functions": ^7.0.0
@@ -16414,7 +16414,6 @@ fsevents@^1.2.7:
     "@babel/plugin-transform-function-name": ^7.0.0
     "@babel/plugin-transform-literals": ^7.0.0
     "@babel/plugin-transform-modules-commonjs": ^7.0.0
-    "@babel/plugin-transform-object-assign": ^7.0.0
     "@babel/plugin-transform-parameters": ^7.0.0
     "@babel/plugin-transform-react-display-name": ^7.0.0
     "@babel/plugin-transform-react-jsx": ^7.0.0
@@ -16432,7 +16431,7 @@ fsevents@^1.2.7:
     react-refresh: ^0.4.0
   peerDependencies:
     "@babel/core": "*"
-  checksum: 9f8efce79e95d1a889697cc283e8c17a64caf1a8186593c45705203a9b176929dabb9737586148cc035b22fc5adce1eb302921a8554d390470e27215410751f0
+  checksum: 8e7a80021a4d21af175b455ef08d238c9731246c3530240fc9be50765bd87b70126bd8f4c4587fb1a1a76a05583712cc1006acec6755741c6859644e644ea923
   languageName: node
   linkType: hard
 
@@ -17020,7 +17019,7 @@ fsevents@^1.2.7:
     husky: 7.0.4
     jest: 27.5.1
     lint-staged: 12.3.4
-    metro-react-native-babel-preset: 0.68.0
+    metro-react-native-babel-preset: 0.69.0
     patch-package: 6.4.7
     prettier: 2.5.1
     react: experimental
