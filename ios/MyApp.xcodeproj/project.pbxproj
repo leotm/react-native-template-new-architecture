@@ -12,6 +12,8 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		48B9D79F8B510603F0433630 /* libPods-MyApp-MyAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C30EA5EC35B0DE95DF8892 /* libPods-MyApp-MyAppTests.a */; };
+		B3D7528327C1444500A66CF3 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D7528227C1444500A66CF3 /* BootSplash.storyboard */; };
+		B3D7528427C1444500A66CF3 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D7528227C1444500A66CF3 /* BootSplash.storyboard */; };
 		E2E23248081DE822037022AF /* libPods-MyApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF4B8C4D42B2E7AC629DD93 /* libPods-MyApp.a */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +45,7 @@
 		94195DD6942E3931F6F7B8DB /* Pods-MyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApp.release.xcconfig"; path = "Target Support Files/Pods-MyApp/Pods-MyApp.release.xcconfig"; sourceTree = "<group>"; };
 		B3561C4B24410BD300AE4B32 /* MyApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		B36B6748266D0E86007CD52E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "/Users/leo/Documents/GitHub/LeoTMApp/ios/Launch Screen.storyboard"; sourceTree = "<absolute>"; };
+		B3D7528227C1444500A66CF3 /* BootSplash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BootSplash.storyboard; path = MyApp/BootSplash.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F52DFF8E484078E0BFF2BDBE /* Pods-MyApp-MyAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApp-MyAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MyApp-MyAppTests/Pods-MyApp-MyAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +93,7 @@
 			children = (
 				B36B6748266D0E86007CD52E /* Launch Screen.storyboard */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				B3D7528227C1444500A66CF3 /* BootSplash.storyboard */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -241,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3D7528427C1444500A66CF3 /* BootSplash.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				B3D7528327C1444500A66CF3 /* BootSplash.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
