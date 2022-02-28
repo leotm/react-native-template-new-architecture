@@ -17056,7 +17056,7 @@ fsevents@^1.2.7:
     react-native-gradle-plugin: 0.0.5
     react-native-rename: 2.9.0
     react-native-safe-area-context: 4.0.1
-    react-native-screens: 3.12.0
+    react-native-screens: 3.13.0
     react-query: 3.34.16
     react-test-renderer: experimental
     reactotron-react-native: 5.0.1
@@ -19267,15 +19267,6 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-gradle-plugin@npm:^0.0.3":
-  version: 0.0.3
-  resolution: "react-native-gradle-plugin@npm:0.0.3"
-  dependencies:
-    react-native-codegen: "*"
-  checksum: 558b0937f4b661bd69ac6dc7d8a69e4ad5d6897aac85c390fc3acd8a7bfe8cfec8b2ba49dda15be522f13a5f30148217cc69676fff444fd813ebbaa1fc6446a8
-  languageName: node
-  linkType: hard
-
 "react-native-modal-datetime-picker@npm:^10.1.0":
   version: 10.2.0
   resolution: "react-native-modal-datetime-picker@npm:10.2.0"
@@ -19354,17 +19345,16 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-screens@npm:3.12.0":
-  version: 3.12.0
-  resolution: "react-native-screens@npm:3.12.0"
+"react-native-screens@npm:3.13.0":
+  version: 3.13.0
+  resolution: "react-native-screens@npm:3.13.0"
   dependencies:
     react-freeze: ^1.0.0
-    react-native-gradle-plugin: ^0.0.3
     warn-once: ^0.1.0
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: bc5de3ac095e89f35f758f010081540b9f7514447f89c0be5421a73f8ad017c711ce0fd20d13df46fa7aabcc85cc84933921f0f04f289b9a361ad5f611180b0a
+  checksum: 59d35a61287c0cc206a710a7cc527ebc7a35f1915a3ffbd25538c27d01888b2615424477778a70ee34558804097082a2b54714bd437bec6f6ef8dd15df15cf31
   languageName: node
   linkType: hard
 
