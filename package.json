@@ -22,7 +22,7 @@
     "snapshots:update": "jest -u",
     "storybook": "(adb reverse tcp:7007 tcp:7007 || true) && start-storybook -c storybook -p 7007",
     "get-stories": "sb-rn-get-stories --config-path=./.storybook",
-    "server": "ts-node --swc node.ts",
+    "server": "ts-node node.ts",
     "deno": "deno run --allow-net deno.ts",
     "postinstall": "patch-package",
     "rename": "yarn react-native-rename",

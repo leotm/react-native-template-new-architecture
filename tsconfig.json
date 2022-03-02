@@ -70,5 +70,8 @@
     "jest",
     "__tests__",
     "src"
-  ]
+  ],
+  "ts-node": {
+    "swc": true
+  }
 }
