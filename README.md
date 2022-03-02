@@ -89,9 +89,7 @@ Build target <App> of project <App> with configuration Debug
 yarn ios
 ```
 
-#### Guides
-
-- [Apple Silicon (M1) troubleshooting guide (RN 0.64/0.65/0.66)](https://github.com/facebook/react-native/issues/31941)
+_[Apple Silicon (M1) troubleshooting guide (RN 0.64/0.65/0.66)](https://github.com/facebook/react-native/issues/31941)_
 
 ### Android
 
@@ -106,7 +104,18 @@ yarn ios
 yarn android
 ```
 
-## Storybook
+## Storybook v6 alpha
+  
+https://github.com/leotm/react-native-template-typescript/blob/46bb840324177cc570fc639f1d59d99bcfaf4caf/src/index.tsx#L123
+
+```diff
+- export default false ? StorybookUIRoot : App 
++ export default true ? StorybookUIRoot : App 
+```
+  
+_Soon: [v6 rn storybook server](https://github.com/storybookjs/react-native/projects/2#card-68690945)_
+
+## Storybook v5
   
 ```diff
 # metro.config.js
@@ -126,6 +135,7 @@ module.exports = {
 ```
 
 ```sh
+# @storybook/react-native-server v5
 yarn storybook
 ```
   
