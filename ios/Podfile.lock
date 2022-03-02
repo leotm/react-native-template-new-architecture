@@ -623,9 +623,7 @@ PODS:
   - React-jsinspector (0.68.0-rc.2)
   - React-logger (0.68.0-rc.2):
     - glog
-  - react-native-flipper (0.136.0):
-    - React-Core
-  - react-native-safe-area-context (4.0.1):
+  - react-native-safe-area-context (4.1.2):
     - RCT-Folly
     - RCTRequired
     - RCTTypeSafety
@@ -710,7 +708,7 @@ PODS:
     - React-Core
   - RNDateTimePicker (5.1.0):
     - React-Core
-  - RNScreens (3.12.0):
+  - RNScreens (3.13.0):
     - React-Core
     - React-RCTImage
   - SocketRocket (0.6.0)
@@ -768,7 +766,6 @@ DEPENDENCIES:
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
-  - react-native-flipper (from `../node_modules/react-native-flipper`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - "react-native-slider (from `../node_modules/@react-native-community/slider`)"
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
@@ -853,8 +850,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
   React-logger:
     :path: "../node_modules/react-native/ReactCommon/logger"
-  react-native-flipper:
-    :path: "../node_modules/react-native-flipper"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
   react-native-slider:
@@ -914,7 +909,7 @@ SPEC CHECKSUMS:
   Flipper-RSocket: d9d9ade67cbecf6ac10730304bf5607266dd2541
   FlipperKit: c2d1e8001b46a01e3fcd549668f41a6aea5e22cd
   fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
-  glog: 5337263514dd6f09803962437687240c5dc39aa4
+  glog: 476ee3e89abb49e07f822b48323c51c57124b572
   hermes-engine: 84e3af1ea01dd7351ac5d8689cbbea1f9903ffc3
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   OpenSSL-Universal: ebc357f1e6bc71fa463ccb2fe676756aff50e88c
@@ -934,8 +929,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: 352a2d26dd981cf2586e144196ae0972fd7ee0d0
   React-jsinspector: f5ae77343a320a7d644b424ab4808c7827f3a1b3
   React-logger: 2fa2f7404a8f41ed2c787e1bb84d13343f2997cf
-  react-native-flipper: 29573afb547256573ba6acc3b3c101534ea0aa83
-  react-native-safe-area-context: eec048ba481a7ec7b1bf9d7b7a78fb1103f4806d
+  react-native-safe-area-context: 114e9a74df2643012b9d6cc1460b94f3b6a90780
   react-native-slider: 37e1cf275dab20d3c015e40969aa9f5c309645a8
   React-perflogger: 3bf9ae62c5bff7308a3886ab4e51f4420bfa16c0
   React-RCTActionSheet: d056d06abe9e0a7c59a6dbd6103a323417bdc901
@@ -954,7 +948,7 @@ SPEC CHECKSUMS:
   RNCAsyncStorage: b49b4e38a1548d03b74b30e558a1d18465b94be7
   RNCCheckbox: ebf3ecc7a766d8a28d4b0504ea6084757bb59bc5
   RNDateTimePicker: 1dd15d7ed1ab7d999056bc77879a42920d139c12
-  RNScreens: 2559f98b0835103cbef3b26ba77fa61d4bb37ae7
+  RNScreens: aa12070b21c1d6011b3627a0b1d09b627232b070
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
   Yoga: d7b12009fb66b91a161cddf00c349d42a0015de2
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
