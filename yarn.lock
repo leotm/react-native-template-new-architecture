@@ -17374,7 +17374,7 @@ fsevents@^1.2.7:
     react-native-gradle-plugin: 0.0.5
     react-native-rename: 2.9.0
     react-native-safe-area-context: 4.1.2
-    react-native-screens: 3.13.0
+    react-native-screens: 3.13.1
     react-query: 3.34.16
     react-test-renderer: experimental
     reactotron-react-native: 5.0.1
@@ -19670,16 +19670,16 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-screens@npm:3.13.0":
-  version: 3.13.0
-  resolution: "react-native-screens@npm:3.13.0"
+"react-native-screens@npm:3.13.1":
+  version: 3.13.1
+  resolution: "react-native-screens@npm:3.13.1"
   dependencies:
     react-freeze: ^1.0.0
     warn-once: ^0.1.0
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 59d35a61287c0cc206a710a7cc527ebc7a35f1915a3ffbd25538c27d01888b2615424477778a70ee34558804097082a2b54714bd437bec6f6ef8dd15df15cf31
+  checksum: aaab7071f65ea7b3be197417e073d0cad06c80fcb2a956faaeb020322c8002963f4d14ba96550484e96d156a48a29989c1485f47ec4bcd98c9701fe8de5c7cc1
   languageName: node
   linkType: hard
 
