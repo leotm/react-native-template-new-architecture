@@ -68,23 +68,6 @@ pod install
   - Build
   - (Run with Xcode)
 
-<details><summary>Resolves</summary>
-
-```sh
-Failed to build iOS project. We ran "xcodebuild" command but it exited with error code 
-  . To debug build logs further, consider building your app with Xcode.app, by opening <App>.xcworkspace.
-Command line invocation:
-    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace <App>.xcworkspace -configuration Debug -scheme <App> -destination id=C3FF229E-87F8-4DAB-B0E6-1642DB821973
-
-Build target <App>Tests of project <App> with configuration Debug
-./ios/<App>.xcodeproj: error: The linked library 'libPods-<App>-<App>Tests.a' is missing one or more architectures required by this target: x86_64. (in target '<App>Tests' from project '<App>')
-
-Build target <App> of project <App> with configuration Debug
-./ios/<App>.xcodeproj: error: The linked library 'libPods-<App>.a' is missing one or more architectures required by this target: x86_64. (in target '<App>' from project '<App>')
-```
-  
-</details>
-
 ```sh
 yarn ios
 ```
