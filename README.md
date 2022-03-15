@@ -76,9 +76,20 @@ _[Apple Silicon (M1) troubleshooting guide (RN 0.64/0.65/0.66)](https://github.c
 
 ### Android
 
+[Prerequisites](https://github.com/facebook/react-native/wiki/Building-from-source#prerequisites), but with _NDK 24.0.8079956 rc3_
+
+```
+# android/local.properties
+sdk.dir=/Users/<user>/Library/Android/sdk
+ndk.dir=/Users/<user>/Library/Android/sdk/ndk/24.0.8079956
+```
+
+_No ` rc3` suffix, no (trailing) spaces, no final final linebreak - otherwise `fcntl(): Bad file descriptor`_
+
 - Open [Android Studio - Preview release - Canary build](https://developer.android.com/studio/preview)
-  - Clean Project
   - Open Project
+  - [SDK Manager > SDK Tools > NDK > ⬇️ 24.0.8079956 rc3](https://user-images.githubusercontent.com/1881059/158474758-c8c1412c-2f35-4d0d-abc7-6ba18c65827c.png)
+  - [Add the NDK Version to the ReactAndroid module](https://github.com/reactwg/react-native-releases/discussions/13#discussioncomment-2269318)
   - Make Project
   - <s>Open [Initial Preview v3: Google APIs System Image](https://github.com/google/android-emulator-m1-preview/releases/download/0.3/android-emulator-m1-preview.dmg)</s>
   - Open e.g. `Pixel_3a_API_31_arm64-v8a`
