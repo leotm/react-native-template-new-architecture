@@ -247,7 +247,11 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
 
     implementation project(":ReactAndroid")  // From node_modules
-
+    
+    // https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout
+    // https://developer.android.com/reference/kotlin/androidx/swiperefreshlayout/widget/package-summary
+    // https://android.googlesource.com/platform/frameworks/support/+/refs/heads/androidx-main/swiperefreshlayout/swiperefreshlayout
+    // https://github.com/android/views-widgets-samples
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01"
 
     debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}") {
