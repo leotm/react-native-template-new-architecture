@@ -84,6 +84,8 @@ sdk.dir=/Users/<user>/Library/Android/sdk
 ndk.dir=/Users/<user>/Library/Android/sdk/ndk/24.0.8079956
 ```
 
+_[ndk.dir setting in local.properties file is deprecated](https://developer.android.com/studio/releases?utm_source=android-studio#4-0-0-ndk-dir)_
+
 _No ` rc3` suffix, no (trailing) spaces, no final final linebreak - otherwise `fcntl(): Bad file descriptor`_
 
 - Open [Android Studio - Preview release - Canary build](https://developer.android.com/studio/preview)
