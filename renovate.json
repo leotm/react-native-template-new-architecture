@@ -13,6 +13,12 @@
       ],
       "groupName": "swc monorepo",
       "labels": ["swc", "static analysis", "transpiling"]
+    },
+    {
+      "matchSourceUrlPrefixes": [
+        "https://github.com/facebook/react-native"
+      ],
+      "automerge": false
     }
   ]
 }
