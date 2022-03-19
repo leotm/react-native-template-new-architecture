@@ -18,8 +18,8 @@ target 'MyApp' do
     :path => config[:reactNativePath],
     :hermes_enabled => flags[:hermes_enabled],
     :fabric_enabled => flags[:fabric_enabled],
-    # Abosolute path to app root
-    :app_path => "#{Dir.pwd}/.."
+    # Absolute path to app root
+    :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
   target 'MyAppTests' do
