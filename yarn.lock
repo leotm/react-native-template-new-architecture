@@ -3850,14 +3850,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-async-storage/async-storage@npm:1.16.3":
-  version: 1.16.3
-  resolution: "@react-native-async-storage/async-storage@npm:1.16.3"
+"@react-native-async-storage/async-storage@npm:1.17.0":
+  version: 1.17.0
+  resolution: "@react-native-async-storage/async-storage@npm:1.17.0"
   dependencies:
     merge-options: ^3.0.4
   peerDependencies:
     react-native: ^0.0.0-0 || 0.60 - 0.67 || 1000.0.0
-  checksum: d67137750f66149201f0315ae5590bbaed216ec8ff77b0e8e373035572d6e755d18a96a34cd87c4c735835015fdfec696afa9c3616a772bb75c0c2a7915f46ea
+  checksum: b36bdb44f489e5d7945061e042338d43f1a07cb3939a3bdd71732773042beaa0f86e03d985674d4ab7f9d3eca0463047f08b4ad2f70381415594973062620c85
   languageName: node
   linkType: hard
 
@@ -17419,7 +17419,7 @@ fsevents@^1.2.7:
     "@babel/runtime": 7.17.8
     "@curveball/core": 0.17.0
     "@curveball/router": 0.3.0
-    "@react-native-async-storage/async-storage": 1.16.3
+    "@react-native-async-storage/async-storage": 1.17.0
     "@react-native-community/checkbox": 0.5.12
     "@react-native-community/cli": next
     "@react-native-community/datetimepicker": 6.0.1
