@@ -5,5 +5,14 @@
     ":prHourlyLimitNone",
     ":switchToGradleLite"
   ],
-  "dependencyDashboard": true
+  "dependencyDashboard": true,
+  "packageRules": [
+    {
+      "matchSourceUrlPrefixes": [
+        "https://github.com/swc-project/swc"
+      ],
+      "groupName": "swc monorepo",
+      "labels": ["swc", "static analysis", "transpiling"]
+    }
+  ]
 }
