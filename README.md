@@ -1,6 +1,11 @@
-# 🌃 Bleeding edge nightly React Native template 🌃
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/1881059/159564299-70d98608-6526-4437-ab51-6dc719d541e2.jpg">
+</p>
 
-![Lesgo](https://media.giphy.com/media/hKyWAN3gQyCsM/giphy.gif)
+<h1 align="center">React Native Template / Boilerplate</h1>
+<h3 align="center">Bleeding 🔪 Edge 🌉 Nightly 🌃 Edition</h3>
+<h6 align="center">““”̿ ̿ ̿ ̿ ̿’̿’̵͇̿̿з=(*▽*)=ε/̵͇̿̿/̿ ̿ ̿ ̿ ̿’““</h6>
+<h6 align="center">IDKFA</h6>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
