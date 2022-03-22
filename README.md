@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">React Native Template / Boilerplate</h1>
-<h3 align="center">Bleeding 🔪 Edge 🌉 Nightly 🌃 Edition</h3>
+<h3 align="center">Bleeding 🔪 Edge 🌉 Night<s>ly</s>mare 🌃 Edition</h3>
 <h6 align="center">““”̿ ̿ ̿ ̿ ̿’̿’̵͇̿̿з=(*▽*)=ε/̵͇̿̿/̿ ̿ ̿ ̿ ̿’““</h6>
 <h6 align="center">IDKFA</h6>
 
