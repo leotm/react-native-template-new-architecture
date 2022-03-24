@@ -19,6 +19,12 @@
         "https://github.com/facebook/react-native"
       ],
       "automerge": false
+    },
+    {
+      "matchSourceUrlPrefixes": [
+        "https://github.com/DefinitelyTyped/DefinitelyTyped"
+      ],
+      "labels": ["devDeps", "type"]
     }
   ]
 }
