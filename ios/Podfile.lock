@@ -623,21 +623,21 @@ PODS:
   - React-jsinspector (0.68.0-rc.3)
   - React-logger (0.68.0-rc.3):
     - glog
-  - react-native-safe-area-context (4.2.1):
+  - react-native-safe-area-context (4.2.2):
     - RCT-Folly
     - RCTRequired
     - RCTTypeSafety
     - React
-    - react-native-safe-area-context/common (= 4.2.1)
-    - react-native-safe-area-context/fabric (= 4.2.1)
+    - react-native-safe-area-context/common (= 4.2.2)
+    - react-native-safe-area-context/fabric (= 4.2.2)
     - ReactCommon/turbomodule/core
-  - react-native-safe-area-context/common (4.2.1):
+  - react-native-safe-area-context/common (4.2.2):
     - RCT-Folly
     - RCTRequired
     - RCTTypeSafety
     - React
     - ReactCommon/turbomodule/core
-  - react-native-safe-area-context/fabric (4.2.1):
+  - react-native-safe-area-context/fabric (4.2.2):
     - RCT-Folly
     - RCTRequired
     - RCTTypeSafety
@@ -944,7 +944,7 @@ SPEC CHECKSUMS:
   hermes-engine: 84e3af1ea01dd7351ac5d8689cbbea1f9903ffc3
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   OpenSSL-Universal: ebc357f1e6bc71fa463ccb2fe676756aff50e88c
-  RCT-Folly: 803a9cfd78114b2ec0f140cfa6fa2a6bafb2d685
+  RCT-Folly: 4d8508a426467c48885f1151029bc15fa5d7b3b8
   RCTRequired: 2d21e343f3fc0dc2cc6df3ae69c57dfca146758c
   RCTTypeSafety: e8859a69bce17b066aa4e11f53a437225673fc00
   React: 2d6d830eec4068105191478bd187bc3c67b23ce6
@@ -960,7 +960,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: 91bd9bf3c82bd5051edd304c4f12cb7fe387d946
   React-jsinspector: 47667a2c2a852401c2fcf10bf844ca1b037f2a9a
   React-logger: 41e39aedb252bd5769c22885131148299af3afab
-  react-native-safe-area-context: a711943dbd89686a2367f93d7d19899281af1744
+  react-native-safe-area-context: f159aecd480869829dead012e5fd6283a6e8f467
   react-native-slider: 241935e3ea8e47599c317f512f96ee8de607d4cb
   React-perflogger: 5c310dc911dd734b669dc11f223b612c8e017501
   React-RCTActionSheet: 50ab08231f832c6bdb9ffeb0f40206541c4cd0c3
