@@ -17497,9 +17497,9 @@ fsevents@^1.2.7:
     react: experimental
     react-codemod: 5.4.3
     react-dom: experimental
-    react-native: 0.68.0-rc.3
+    react-native: 0.68.0-rc.4
     react-native-clean-project: 4.0.1
-    react-native-codegen: 0.0.13
+    react-native-codegen: 0.0.14
     react-native-flipper: 0.140.0
     react-native-gradle-plugin: 0.0.5
     react-native-rename: 2.9.0
@@ -19689,7 +19689,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-codegen@npm:*, react-native-codegen@npm:0.0.13, react-native-codegen@npm:^0.0.13":
+"react-native-codegen@npm:*, react-native-codegen@npm:^0.0.13":
   version: 0.0.13
   resolution: "react-native-codegen@npm:0.0.13"
   dependencies:
@@ -19698,6 +19698,18 @@ fsevents@^1.2.7:
     jscodeshift: ^0.13.1
     nullthrows: ^1.1.1
   checksum: bfe645fea6de985922d6d060b2ad0c9194f25b436b5b31c11fcc76358fa527f541c044d0818f32cba853bec3debfa12d2a48b4c9282f19d575ee2a7d3599571f
+  languageName: node
+  linkType: hard
+
+"react-native-codegen@npm:0.0.14":
+  version: 0.0.14
+  resolution: "react-native-codegen@npm:0.0.14"
+  dependencies:
+    "@babel/parser": ^7.14.0
+    flow-parser: ^0.121.0
+    jscodeshift: ^0.13.1
+    nullthrows: ^1.1.1
+  checksum: 2e22f472e504b035a032fcb4c13412ecd60971cb2f11a161c674219f379afcc8098103503dc5f394ac92e8f6cbd2dce68ad3d8b7eb5cb1cd01a4e548063cf97c
   languageName: node
   linkType: hard
 
@@ -19849,9 +19861,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native@npm:0.68.0-rc.3":
-  version: 0.68.0-rc.3
-  resolution: "react-native@npm:0.68.0-rc.3"
+"react-native@npm:0.68.0-rc.4":
+  version: 0.68.0-rc.4
+  resolution: "react-native@npm:0.68.0-rc.4"
   dependencies:
     "@jest/create-cache-key-function": ^27.0.1
     "@react-native-community/cli": ^7.0.3
@@ -19889,7 +19901,7 @@ fsevents@^1.2.7:
     react: 17.0.2
   bin:
     react-native: cli.js
-  checksum: 27251d6f5c0e42d3efd89d64288d80568007048ed993567f3a3dbd9e8a0284a6362d883ab1abdc1bf12d887ef0b3867ec0cbceba46a2b446306f90d3658d6ae9
+  checksum: 888309d7707bbcce620d9ce748aeaa0877beb50302a3f05f670a06cd61b3d1fe1e2a2fc24bd5f37b400b670e9f96a9274007ee4c12526a7f25f1937dd438d43d
   languageName: node
   linkType: hard
 
