@@ -23,9 +23,7 @@
       "labels": ["devDeps", "type"]
     },
     {
-      "matchSourceUrlPrefixes": [
-        "https://github.com/facebook/flipper"
-      ],
+      "matchSourceUrlPrefixes": ["https://github.com/facebook/flipper"],
       "groupName": "flipper monorepo",
       "labels": ["devDeps", "flipper"],
       "packageRules": [
