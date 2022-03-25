@@ -21,6 +21,29 @@
         "https://github.com/DefinitelyTyped/DefinitelyTyped"
       ],
       "labels": ["devDeps", "type"]
+    },
+    {
+      "matchSourceUrlPrefixes": [
+        "https://github.com/facebook/flipper"
+      ],
+      "groupName": "flipper monorepo",
+      "labels": ["devDeps", "flipper"],
+      "packageRules": [
+        {
+          "matchPackageNames": ["react-native-flipper"],
+          "addLabels": ["ios", "pods"],
+          "automerge": false
+        },
+        {
+          "matchPackageNames": ["FLIPPER_VERSION"],
+          "addLabels": ["android"],
+          "automerge": false
+        },
+        {
+          "matchPackageNames": ["flipper-server"],
+          "addLabels": ["js", "node"]
+        }
+      ]
     }
   ]
 }
