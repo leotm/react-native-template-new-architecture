@@ -42,6 +42,21 @@
           "addLabels": ["js", "node"]
         }
       ]
+    },
+    {
+      "matchPackagePatterns": ["^eslint", "^typescript-eslint"],
+      "groupName": "eslint monorepo",
+      "labels": ["devDeps", "linting"],
+      "packageRules": [
+        {
+          "matchPackagePatterns": ["jest$"],
+          "addLabels": ["jest"]
+        },
+        {
+          "matchPackagePatterns": ["react$"],
+          "addLabels": ["react"]
+        }
+      ]
     }
   ]
 }
