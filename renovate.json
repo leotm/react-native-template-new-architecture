@@ -8,16 +8,12 @@
   "dependencyDashboard": true,
   "packageRules": [
     {
-      "matchSourceUrlPrefixes": [
-        "https://github.com/swc-project/swc"
-      ],
+      "matchSourceUrlPrefixes": ["https://github.com/swc-project/swc"],
       "groupName": "swc monorepo",
       "labels": ["devDeps", "swc", "transpiling"]
     },
     {
-      "matchSourceUrlPrefixes": [
-        "https://github.com/facebook/react-native"
-      ],
+      "matchSourceUrlPrefixes": ["https://github.com/facebook/react-native"],
       "automerge": false
     },
     {
