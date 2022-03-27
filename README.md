@@ -146,7 +146,9 @@ yarn <android/ios>
 ```
 
 ## Node
-  
+
+_With [ts-node](https://github.com/TypeStrong/ts-node) and [curveball](https://github.com/curveball)_
+
 ```sh
 yarn server
 ```
