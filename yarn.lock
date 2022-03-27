@@ -17503,7 +17503,6 @@ fsevents@^1.2.7:
     react-native-flipper: 0.140.0
     react-native-gradle-plugin: 0.0.5
     react-native-rename: 2.9.0
-    react-native-safe-area-context: 4.2.2
     react-query: 3.34.19
     react-test-renderer: experimental
     reactotron-react-native: 5.0.1
@@ -19807,16 +19806,6 @@ fsevents@^1.2.7:
   bin:
     react-native-rename: lib/index.js
   checksum: 221e57ca7fbf6b2e2099a5f41f136b16b31fdc7291442986454ff67d5f01ed36cbcc0dbc18bc07231f9dfc33d54ae72d65bc969bf6220d315ac2538263c3a118
-  languageName: node
-  linkType: hard
-
-"react-native-safe-area-context@npm:4.2.2":
-  version: 4.2.2
-  resolution: "react-native-safe-area-context@npm:4.2.2"
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-  checksum: aabe4078bc95ab972cb4aaad1043a949f3edb28f0dfa1a226e726651bf0f2501f65696f1c12e7319c737bcb8ee49aed3fb1c3b8fe03be5bd64012f4b2921a1e5
   languageName: node
   linkType: hard
 
