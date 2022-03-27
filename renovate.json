@@ -50,19 +50,17 @@
       ]
     },
     {
-      "matchPackagePatterns": ["^eslint", "^typescript-eslint"],
+      "matchPackagePatterns": ["eslint"],
       "groupName": "eslint monorepo",
-      "labels": ["devDeps", "linting"],
-      "packageRules": [
-        {
-          "matchPackagePatterns": ["jest$"],
-          "addLabels": ["jest"]
-        },
-        {
-          "matchPackagePatterns": ["react$"],
-          "addLabels": ["react"]
-        }
-      ]
+      "addLabels": ["devDeps", "linting"]
+    },
+    {
+      "matchPackagePatterns": ["jest$"],
+      "addLabels": ["devDeps", "jest"]
+    },
+    {
+      "matchPackagePatterns": ["react$"],
+      "addLabels": ["react"]
     }
   ]
 }
