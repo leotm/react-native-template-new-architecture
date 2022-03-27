@@ -97,7 +97,7 @@ Open [Android Studio - Preview release - Canary build](https://developer.android
 - [SDK Manager > SDK Tools > NDK > ⬇️ 24.0.8079956 rc3](https://user-images.githubusercontent.com/1881059/158474758-c8c1412c-2f35-4d0d-abc7-6ba18c65827c.png)
 - [Add the NDK Version to the ReactAndroid module](https://github.com/reactwg/react-native-releases/discussions/13#discussioncomment-2269318)
   - For e.g. [react-navigation](https://github.com/react-navigation/react-navigation) using [react-native-screens w Fabric](https://github.com/reactwg/react-native-releases/discussions/13#discussioncomment-2275447)
-  - Note [Android `clean` may not currently work with react-native-screens](https://github.com/reactwg/react-native-releases/discussions/13#discussioncomment-2254502) and others
+  - <s>Note [Android `clean` may not currently work with react-native-screens](https://github.com/reactwg/react-native-releases/discussions/13#discussioncomment-2254502) and others</s>
 - Make Project
 - <s>Open [Initial Preview v3: Google APIs System Image](https://github.com/google/android-emulator-m1-preview/releases/download/0.3/android-emulator-m1-preview.dmg)</s>
   - Open e.g. `Pixel_3a_API_31_arm64-v8a`
