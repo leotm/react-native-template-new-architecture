@@ -25,6 +25,10 @@
       "labels": ["devDeps", "type"]
     },
     {
+      "matchPackagePrefixes": ["@react-native-community/"],
+      "addLabels": ["community"]
+    },
+    {
       "matchSourceUrlPrefixes": ["https://github.com/facebook/flipper"],
       "groupName": "flipper monorepo",
       "labels": ["devDeps", "flipper"],
