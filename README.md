@@ -48,32 +48,12 @@ yarn start
 
 ## Silicon (M1) Macs
 
-### iOS
+### iOS (arm64)
 
 ```sh
 cd ios
 pod install
-```
-
-```diff
-# project.pbxproj
-# ...
-- "EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
-+ "EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-# ...
-- "EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
-+ "EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-# ...
-```
-
-- Set [Xcode 13 to open with Rosetta](https://i.stack.imgur.com/jj508.png)
-  - Open workspace
-  - Clean Build Folder
-  - Set iOS Simulator to iPhone 13
-  - Build
-  - (Run with Xcode)
-
-```sh
+..
 yarn ios
 ```
 
