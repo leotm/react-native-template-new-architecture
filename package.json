@@ -24,7 +24,6 @@
     "get-stories": "sb-rn-get-stories --config-path=./.storybook",
     "server": "ts-node node.ts",
     "deno": "deno run --allow-net deno.ts",
-    "postinstall": "patch-package",
     "rename": "yarn react-native-rename",
     "clean": "react-native-clean-project"
   },
