@@ -57,7 +57,7 @@ pod install
 yarn ios
 ```
 
-_Or [iOS (x86_64 w Rosetta 2)](https://github.com/leotm/react-native-template-typescript/wiki/(New)-Architecture#building-for-ios-intel-x86-architecture)_
+_Or [iOS (x86_64 w Rosetta 2)](https://github.com/leotm/react-native-template-typescript/wiki/(New)-Architecture#building-for-ios-intel-x86_64-architecture)_
 
 _[Apple Silicon (M1) troubleshooting guide (RN 0.64/0.65/0.66)](https://github.com/facebook/react-native/issues/31941)_
 
