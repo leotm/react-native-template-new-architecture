@@ -16807,9 +16807,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"metro-react-native-babel-preset@npm:0.69.1":
-  version: 0.69.1
-  resolution: "metro-react-native-babel-preset@npm:0.69.1"
+"metro-react-native-babel-preset@npm:0.70.0":
+  version: 0.70.0
+  resolution: "metro-react-native-babel-preset@npm:0.70.0"
   dependencies:
     "@babel/core": ^7.14.0
     "@babel/plugin-proposal-async-generator-functions": ^7.0.0
@@ -16832,7 +16832,6 @@ fsevents@^1.2.7:
     "@babel/plugin-transform-destructuring": ^7.0.0
     "@babel/plugin-transform-exponentiation-operator": ^7.0.0
     "@babel/plugin-transform-flow-strip-types": ^7.0.0
-    "@babel/plugin-transform-for-of": ^7.0.0
     "@babel/plugin-transform-function-name": ^7.0.0
     "@babel/plugin-transform-literals": ^7.0.0
     "@babel/plugin-transform-modules-commonjs": ^7.0.0
@@ -16841,7 +16840,6 @@ fsevents@^1.2.7:
     "@babel/plugin-transform-react-jsx": ^7.0.0
     "@babel/plugin-transform-react-jsx-self": ^7.0.0
     "@babel/plugin-transform-react-jsx-source": ^7.0.0
-    "@babel/plugin-transform-regenerator": ^7.0.0
     "@babel/plugin-transform-runtime": ^7.0.0
     "@babel/plugin-transform-shorthand-properties": ^7.0.0
     "@babel/plugin-transform-spread": ^7.0.0
@@ -16853,7 +16851,7 @@ fsevents@^1.2.7:
     react-refresh: ^0.4.0
   peerDependencies:
     "@babel/core": "*"
-  checksum: 3547ad080421f31ec4d70c2083ffd98828926909fda7f7aaf9a7bab33d03ded03d150b40e11d818fdcad9162d8ce492a66f5cf5924f86ea3a1651b989b3125ba
+  checksum: 6bdc9f47c50f96454f92b6de545340eaf97aef238d6a0cb42cb47bd6f5cff0e704c8091ead98133e18d0adbbc41eff248082c1a724212605880c42f72f8a94c3
   languageName: node
   linkType: hard
 
@@ -17444,7 +17442,7 @@ fsevents@^1.2.7:
     husky: 7.0.4
     jest: 27.5.1
     lint-staged: 12.3.7
-    metro-react-native-babel-preset: 0.69.1
+    metro-react-native-babel-preset: 0.70.0
     prettier: 2.6.1
     react: experimental
     react-codemod: 5.4.3
