@@ -81,8 +81,7 @@ Open [Android Studio - Preview release - Canary build](https://developer.android
   - For e.g. [react-navigation](https://github.com/react-navigation/react-navigation) using [react-native-screens w Fabric](https://github.com/reactwg/react-native-releases/discussions/13#discussioncomment-2275447)
   - <s>Note [Android `clean` may not currently work with react-native-screens](https://github.com/reactwg/react-native-releases/discussions/13#discussioncomment-2254502) and others</s>
 - Make Project
-- <s>Open [Initial Preview v3: Google APIs System Image](https://github.com/google/android-emulator-m1-preview/releases/download/0.3/android-emulator-m1-preview.dmg)</s>
-  - Open e.g. `Pixel_3a_API_31_arm64-v8a`
+- Open e.g. `Pixel_3a_API_31_arm64-v8a` <s>[Initial Preview v3: Google APIs System Image](https://github.com/google/android-emulator-m1-preview)</s>
   
 ```sh
 yarn android
