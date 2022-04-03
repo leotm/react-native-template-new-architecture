@@ -79,16 +79,16 @@ Open [Android Studio - Preview release - Canary build](https://developer.android
 - [SDK Manager > SDK Tools > NDK > ⬇️ 24.0.8079956 rc3](https://user-images.githubusercontent.com/1881059/158474758-c8c1412c-2f35-4d0d-abc7-6ba18c65827c.png)
 - Remove `react-native-screens` ([clean issue](https://github.com/reactwg/react-native-releases/discussions/13#discussioncomment-2254502) resolved) and `react-native-safe-area-context` [until resolved](https://github.com/software-mansion/react-native-screens/issues/1389#issuecomment-1086895179)
 - Continue building [all 4 default ABIs](https://github.com/leotm/react-native-template-new-architecture/blob/master/android/gradle.properties#L33), [when resolved](https://github.com/facebook/react-native-website/pull/3027#discussion_r838661516) then [Build only one ABI during development](https://reactnative.dev/docs/build-speed#build-only-one-abi-during-development-android-only)
-- Make Project
 - Open e.g. `Pixel_3a_API_31_arm64-v8a` <s>[Initial Preview v3: Google APIs System Image](https://github.com/google/android-emulator-m1-preview)</s>
+- Make Project
   
 ```sh
 yarn android
 ```
 
 ## Storybook v6 alpha
-  
-https://github.com/leotm/react-native-template-typescript/blob/46bb840324177cc570fc639f1d59d99bcfaf4caf/src/index.tsx#L123
+
+[src/index.tsx](https://github.com/leotm/react-native-template-new-architecture/blob/master/src/index.tsx#L123)
 
 ```diff
 - export default false ? StorybookUIRoot : App 
@@ -98,20 +98,12 @@ https://github.com/leotm/react-native-template-typescript/blob/46bb840324177cc57
 _Soon: [v6 rn storybook server](https://github.com/storybookjs/react-native/projects/2#card-68690945)_
 
 ## Storybook v5
+
+[metro.config.js](https://github.com/leotm/react-native-template-new-architecture/blob/master/metro.config.js#L16)
   
 ```diff
-# metro.config.js
-module.exports = {
-  transformer: {
-    getTransformOptions: async () => ({
-      transform: {
-        experimentalImportSupport: false,
 -       inlineRequires: true
 +       inlineRequires: false
-      }
-    })
-  }
-}
 # https://github.com/facebook/hermes/issues/135
 # https://github.com/facebook/react-native/issues/31969
 ```
