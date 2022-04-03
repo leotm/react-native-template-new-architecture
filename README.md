@@ -75,7 +75,7 @@ ndk.dir=/Users/<user>/Library/Android/sdk/ndk/24.0.8079956
 - _[ndk.dir setting in local.properties file is deprecated](https://developer.android.com/studio/releases?utm_source=android-studio#4-0-0-ndk-dir)_
 
 Open [Android Studio - Preview release - Canary build](https://developer.android.com/studio/preview)
-- Open Project
+- Open Project, set the [JDK](https://github.com/leotm/react-native-template-new-architecture/wiki/JDK)
 - [SDK Manager > SDK Tools > NDK > ⬇️ 24.0.8079956 rc3](https://user-images.githubusercontent.com/1881059/158474758-c8c1412c-2f35-4d0d-abc7-6ba18c65827c.png)
 - [Add the NDK Version to the ReactAndroid module](https://github.com/reactwg/react-native-releases/discussions/13#discussioncomment-2269318)
   - For e.g. [react-navigation](https://github.com/react-navigation/react-navigation) using [react-native-screens w Fabric](https://github.com/reactwg/react-native-releases/discussions/13#discussioncomment-2275447)
