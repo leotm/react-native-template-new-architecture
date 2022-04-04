@@ -15,7 +15,6 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/leotm/react-native-template-typescript/pulse)
 [![Docs](https://img.shields.io/badge/Docs%3F-yes-green.svg)](https://github.com/leotm/react-native-template-typescript/wiki)
 [![Project](https://img.shields.io/badge/Proj%3F-yes-green.svg)](https://github.com/leotm/react-native-template-typescript/projects/1)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
 ## Setup
 
@@ -129,3 +128,7 @@ brew install deno
 ```sh
 yarn deno
 ```
+
+---
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
