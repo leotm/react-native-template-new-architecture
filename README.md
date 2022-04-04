@@ -7,20 +7,15 @@
 <h6 align="center">““”̿ ̿ ̿ ̿ ̿’̿’̵͇̿̿з=(*▽*)=ε/̵͇̿̿/̿ ̿ ̿ ̿ ̿’““</h6>
 <h6 align="center">IDKFA</h6>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
-
-[![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](#)
-[![Formatter: prettier](https://img.shields.io/badge/Formatter-Prettier-f8bc45.svg)](#)
-[![Linter](https://badges.aleen42.com/src/eslint.svg)](#)
-
 [![NPM RN pkg ver](https://img.shields.io/badge/React%20Native-0.68.0-red.svg)](https://github.com/facebook/react-native/releases)
+[![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](#)
+[![Linter](https://badges.aleen42.com/src/eslint.svg)](#)
+[![Formatter: prettier](https://img.shields.io/badge/Formatter-Prettier-f8bc45.svg)](#)
 [![CI](https://github.com/leotm/react-native-template-typescript/actions/workflows/main.yml/badge.svg)](https://github.com/leotm/react-native-template-typescript/actions/workflows/main.yml)
-
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/leotm/react-native-template-typescript/pulse)
-
 [![Docs](https://img.shields.io/badge/Docs%3F-yes-green.svg)](https://github.com/leotm/react-native-template-typescript/wiki)
-
 [![Project](https://img.shields.io/badge/Proj%3F-yes-green.svg)](https://github.com/leotm/react-native-template-typescript/projects/1)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
 ## Setup
 
