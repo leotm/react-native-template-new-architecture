@@ -31,8 +31,11 @@ jobs:
     - name: Install with Yarn
       run: yarn
       
-    - name: Build with Gradle
-      uses: gradle/gradle-build-action@v2
-      with:
-        arguments: build
-        build-root-directory: android
+    - name: Build Android
+      run: cd android && ./gradlew assembleDebug
+
+#     - name: Build with Gradle
+#       uses: gradle/gradle-build-action@v2
+#       with:
+#         arguments: build
+#         build-root-directory: android
