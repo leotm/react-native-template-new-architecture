@@ -7,7 +7,7 @@ buildscript {
         compileSdkVersion = 31
         targetSdkVersion = 31
 
-        ndkVersion = "25.0.8221429 rc2"
+        ndkVersion = "21.4.7075529"
         // Also create/update android/local.properties ndk.dir=/Users/<user>/Library/Android/sdk/ndk/<ver>
         // 24.0.7956693-beta2 not listed in Android Studio Preview
         // 25.0.8151533 rc1 not compiling yet
