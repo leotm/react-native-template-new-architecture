@@ -5,5 +5,62 @@
     ":prHourlyLimitNone",
     ":switchToGradleLite"
   ],
-  "dependencyDashboard": true
+  "dependencyDashboard": true,
+  "packageRules": [
+    {
+      "matchSourceUrlPrefixes": ["https://github.com/swc-project/swc"],
+      "groupName": "swc monorepo",
+      "labels": ["devDeps", "swc", "transpiling"]
+    },
+    {
+      "matchSourceUrlPrefixes": ["https://github.com/facebook/react-native"],
+      "groupName": "react-native monorepo",
+      "labels": ["deps", "react native"],
+      "automerge": false
+    },
+    {
+      "matchSourceUrlPrefixes": [
+        "https://github.com/DefinitelyTyped/DefinitelyTyped"
+      ],
+      "labels": ["devDeps", "type"]
+    },
+    {
+      "matchPackagePrefixes": ["@react-native-community/"],
+      "addLabels": ["community"]
+    },
+    {
+      "matchSourceUrlPrefixes": ["https://github.com/facebook/flipper"],
+      "groupName": "flipper monorepo",
+      "labels": ["devDeps", "flipper"],
+      "packageRules": [
+        {
+          "matchPackageNames": ["react-native-flipper"],
+          "addLabels": ["ios", "pods"],
+          "automerge": false
+        },
+        {
+          "matchPackageNames": ["FLIPPER_VERSION"],
+          "addLabels": ["android"],
+          "automerge": false
+        },
+        {
+          "matchPackageNames": ["flipper-server"],
+          "addLabels": ["js", "node"]
+        }
+      ]
+    },
+    {
+      "matchPackagePatterns": ["eslint"],
+      "groupName": "eslint monorepo",
+      "addLabels": ["devDeps", "linting"]
+    },
+    {
+      "matchPackagePatterns": ["jest$"],
+      "addLabels": ["devDeps", "jest"]
+    },
+    {
+      "matchPackagePatterns": ["react$"],
+      "addLabels": ["react"]
+    }
+  ]
 }

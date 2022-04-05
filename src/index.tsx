@@ -1,9 +1,14 @@
+/* eslint-disable react-native/no-raw-text, no-console */
+// https://github.com/Intellicode/eslint-plugin-react-native/issues/271
+
+import type { FC } from 'react'
 import {
   SafeAreaView,
   ScrollView,
   StatusBar,
   StyleSheet,
   Text,
+  useColorScheme,
   View
 } from 'react-native'
 import {
@@ -14,87 +19,108 @@ import {
   ReloadInstructions
 } from 'react-native/Libraries/NewAppScreen'
 
+import StorybookUIRoot from '../.storybook/Storybook'
+
 if (__DEV__) {
   import('../ReactotronConfig')
-    .then(() => console.log('Reactotron Configured'))
+    .then(() => {
+      console.log('Reactotron Configured')
+    })
     .catch(() => console.error)
 }
 
-export const App = () => {
+const Section: FC<{ title: string }> = ({ children, title }) => {
+  const isDarkMode = useColorScheme() === 'dark'
   return (
-    <>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        <ScrollView
-          contentInsetAdjustmentBehavior="automatic"
-          style={styles.scrollView}
+    <View style={styles.sectionContainer}>
+      <Text
+        style={[
+          styles.sectionTitle,
+          { color: isDarkMode ? Colors.white : Colors.black }
+        ]}
+      >
+        {title}
+      </Text>
+
+      <Text
+        style={[
+          styles.sectionDescription,
+          { color: isDarkMode ? Colors.light : Colors.dark }
+        ]}
+      >
+        {children}
+      </Text>
+    </View>
+  )
+}
+
+export const App = () => {
+  const isDarkMode = useColorScheme() === 'dark'
+
+  const backgroundStyle = {
+    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter
+  }
+
+  return (
+    <SafeAreaView style={backgroundStyle}>
+      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+
+      <ScrollView
+        contentInsetAdjustmentBehavior="automatic"
+        style={backgroundStyle}
+      >
+        <Header />
+
+        <View
+          style={{
+            backgroundColor: isDarkMode ? Colors.black : Colors.white
+          }}
         >
-          <Header />
-          <View style={styles.body}>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Step One</Text>
-              <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.tsx</Text> to change
-                this screen and then come back to see your edits.
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>See Your Changes</Text>
-              <Text style={styles.sectionDescription}>
-                <ReloadInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Debug</Text>
-              <Text style={styles.sectionDescription}>
-                <DebugInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Learn More</Text>
-              <Text style={styles.sectionDescription}>
-                Read the docs to discover what to do next:
-              </Text>
-            </View>
-            <LearnMoreLinks />
-          </View>
-        </ScrollView>
-      </SafeAreaView>
-    </>
+          <Section title="Step One">
+            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
+            screen and then come back to see your edits.
+          </Section>
+
+          <Section title="See Your Changes">
+            <ReloadInstructions />
+          </Section>
+
+          <Section title="Debug">
+            <DebugInstructions />
+          </Section>
+
+          <Section title="Learn More">
+            Read the docs to discover what to do next:
+          </Section>
+
+          <LearnMoreLinks />
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   )
 }
 
 const styles = StyleSheet.create({
-  body: {
-    backgroundColor: Colors.white
-  },
   highlight: {
     fontWeight: '700'
-  },
-  scrollView: {
-    backgroundColor: Colors.lighter
   },
   sectionContainer: {
     marginTop: 32,
     paddingHorizontal: 24
   },
   sectionDescription: {
-    color: Colors.dark,
     fontSize: 18,
     fontWeight: '400',
     marginTop: 8
   },
   sectionTitle: {
-    color: Colors.black,
     fontSize: 24,
     fontWeight: '600'
   }
 })
 
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const storybook = require('../storybook').default
-
-export default false ? storybook : App
+// eslint-disable-next-line @typescript-eslint/no-unnecessary-condition, no-constant-condition
+export default false ? StorybookUIRoot : App
 
 // export default Reactotron.storybookSwitcher(storybook)(App)
 // https://github.com/infinitered/reactotron/issues/1160

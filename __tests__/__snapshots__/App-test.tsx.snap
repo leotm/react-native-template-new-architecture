@@ -3,6 +3,11 @@
 exports[`app renders correctly 1`] = `
 <RCTSafeAreaView
   emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "#F3F3F3",
+    }
+  }
 >
   <RCTScrollView
     contentInsetAdjustmentBehavior="automatic"
@@ -96,23 +101,31 @@ exports[`app renders correctly 1`] = `
         >
           <Text
             style={
-              Object {
-                "color": "#000",
-                "fontSize": 24,
-                "fontWeight": "600",
-              }
+              Array [
+                Object {
+                  "fontSize": 24,
+                  "fontWeight": "600",
+                },
+                Object {
+                  "color": "#000",
+                },
+              ]
             }
           >
             Step One
           </Text>
           <Text
             style={
-              Object {
-                "color": "#444",
-                "fontSize": 18,
-                "fontWeight": "400",
-                "marginTop": 8,
-              }
+              Array [
+                Object {
+                  "fontSize": 18,
+                  "fontWeight": "400",
+                  "marginTop": 8,
+                },
+                Object {
+                  "color": "#444",
+                },
+              ]
             }
           >
             Edit 
@@ -138,23 +151,31 @@ exports[`app renders correctly 1`] = `
         >
           <Text
             style={
-              Object {
-                "color": "#000",
-                "fontSize": 24,
-                "fontWeight": "600",
-              }
+              Array [
+                Object {
+                  "fontSize": 24,
+                  "fontWeight": "600",
+                },
+                Object {
+                  "color": "#000",
+                },
+              ]
             }
           >
             See Your Changes
           </Text>
           <Text
             style={
-              Object {
-                "color": "#444",
-                "fontSize": 18,
-                "fontWeight": "400",
-                "marginTop": 8,
-              }
+              Array [
+                Object {
+                  "fontSize": 18,
+                  "fontWeight": "400",
+                  "marginTop": 8,
+                },
+                Object {
+                  "color": "#444",
+                },
+              ]
             }
           >
             <Text>
@@ -182,23 +203,31 @@ exports[`app renders correctly 1`] = `
         >
           <Text
             style={
-              Object {
-                "color": "#000",
-                "fontSize": 24,
-                "fontWeight": "600",
-              }
+              Array [
+                Object {
+                  "fontSize": 24,
+                  "fontWeight": "600",
+                },
+                Object {
+                  "color": "#000",
+                },
+              ]
             }
           >
             Debug
           </Text>
           <Text
             style={
-              Object {
-                "color": "#444",
-                "fontSize": 18,
-                "fontWeight": "400",
-                "marginTop": 8,
-              }
+              Array [
+                Object {
+                  "fontSize": 18,
+                  "fontWeight": "400",
+                  "marginTop": 8,
+                },
+                Object {
+                  "color": "#444",
+                },
+              ]
             }
           >
             <Text>
@@ -237,23 +266,31 @@ exports[`app renders correctly 1`] = `
         >
           <Text
             style={
-              Object {
-                "color": "#000",
-                "fontSize": 24,
-                "fontWeight": "600",
-              }
+              Array [
+                Object {
+                  "fontSize": 24,
+                  "fontWeight": "600",
+                },
+                Object {
+                  "color": "#000",
+                },
+              ]
             }
           >
             Learn More
           </Text>
           <Text
             style={
-              Object {
-                "color": "#444",
-                "fontSize": 18,
-                "fontWeight": "400",
-                "marginTop": 8,
-              }
+              Array [
+                Object {
+                  "fontSize": 18,
+                  "fontWeight": "400",
+                  "marginTop": 8,
+                },
+                Object {
+                  "color": "#444",
+                },
+              ]
             }
           >
             Read the docs to discover what to do next:

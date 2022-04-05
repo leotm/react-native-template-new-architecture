@@ -1,5 +1,7 @@
+/* eslint-disable no-console */
 /* eslint-disable import/no-extraneous-dependencies */
-import { Application, Context } from '@curveball/core'
+
+import { type Context, Application } from '@curveball/core'
 import router from '@curveball/router'
 
 const app = new Application()

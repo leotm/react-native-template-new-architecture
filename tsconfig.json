@@ -62,13 +62,16 @@
     "index.ts",
     "node.ts",
     "deno.ts",
-    "types/globals.d.ts"
+    "types/globals.d.ts",
+    ".storybook/main.js"
   ],
   "include": [
     "storybook",
     "jest",
     "__tests__",
-    "src/**/*.ts",
-    "src/**/*.tsx"
-  ]
+    "src"
+  ],
+  "ts-node": {
+    "swc": true
+  }
 }
