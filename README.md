@@ -57,12 +57,12 @@ _Or [iOS (Intel x86_64)](https://github.com/leotm/react-native-template-typescri
 
 ### Android
 
-[Building-from-source#prerequisites](https://github.com/facebook/react-native/wiki/Building-from-source#prerequisites), but with [NDK 24.0.8079956 rc3](https://github.com/reactwg/react-native-releases/discussions/13#discussioncomment-2269256)
+[Building-from-source#prerequisites](https://github.com/facebook/react-native/wiki/Building-from-source#prerequisites), but with [NDK 25.0.8221429 rc2](https://github.com/reactwg/react-native-releases/discussions/13#discussioncomment-2269256)
 
 ```
 # android/local.properties
 sdk.dir=/Users/<user>/Library/Android/sdk
-ndk.dir=/Users/<user>/Library/Android/sdk/ndk/24.0.8079956
+ndk.dir=/Users/<user>/Library/Android/sdk/ndk/25.0.8221429
 ```
 
 - _No ` rc3` suffix, no (trailing) spaces, no final final linebreak - otherwise `fcntl(): Bad file descriptor`_
@@ -70,7 +70,7 @@ ndk.dir=/Users/<user>/Library/Android/sdk/ndk/24.0.8079956
 
 Open [Android Studio - Preview release - Canary build](https://developer.android.com/studio/preview)
 - Open Project, set the [JDK](https://github.com/leotm/react-native-template-new-architecture/wiki/JDK)
-- [SDK Manager > SDK Tools > NDK > ⬇️ 24.0.8079956 rc3](https://user-images.githubusercontent.com/1881059/158474758-c8c1412c-2f35-4d0d-abc7-6ba18c65827c.png)
+- [SDK Manager > SDK Tools > NDK > ⬇️ 25.0.8221429 rc2](https://user-images.githubusercontent.com/1881059/158474758-c8c1412c-2f35-4d0d-abc7-6ba18c65827c.png)
 - Remove `react-native-screens` ([clean issue](https://github.com/reactwg/react-native-releases/discussions/13#discussioncomment-2254502) resolved) and `react-native-safe-area-context` [until resolved](https://github.com/software-mansion/react-native-screens/issues/1389#issuecomment-1086895179)
 - Continue building [all 4 default ABIs](https://github.com/leotm/react-native-template-new-architecture/blob/master/android/gradle.properties#L33), [when resolved](https://github.com/facebook/react-native-website/pull/3027#discussion_r838661516) then [Build only one ABI during development](https://reactnative.dev/docs/build-speed#build-only-one-abi-during-development-android-only)
 - Open e.g. `Pixel_3a_API_31_arm64-v8a` <s>[Initial Preview v3: Google APIs System Image](https://github.com/google/android-emulator-m1-preview)</s>
