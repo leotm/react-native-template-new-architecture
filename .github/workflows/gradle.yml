@@ -32,7 +32,7 @@ jobs:
       run: yarn
       
     - name: Build Android
-      run: cd android && ./gradlew assembleDebug
+      run: cd android && ./gradlew clean && ./gradlew assembleDebug
 
 #     - name: Build with Gradle
 #       uses: gradle/gradle-build-action@v2
