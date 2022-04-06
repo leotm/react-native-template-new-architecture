@@ -17550,7 +17550,7 @@ fsevents@^1.2.7:
     react-native-clean-project: 4.0.1
     react-native-codegen: 0.0.14
     react-native-flipper: 0.140.0
-    react-native-gradle-plugin: 0.0.5
+    react-native-gradle-plugin: 0.0.6
     react-native-rename: 2.9.0
     react-native-safe-area-context: 4.2.4
     react-native-screens: 3.13.1
@@ -19769,7 +19769,14 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-gradle-plugin@npm:0.0.5, react-native-gradle-plugin@npm:^0.0.5":
+"react-native-gradle-plugin@npm:0.0.6":
+  version: 0.0.6
+  resolution: "react-native-gradle-plugin@npm:0.0.6"
+  checksum: 185ad348931ef4f58065b50bbf80558af668b1ef11c31067aab7f1cd85b18809a62fcf0b7a18444726dacd098042771a570c0ac76bb8976c3ccbe7c86cff0e11
+  languageName: node
+  linkType: hard
+
+"react-native-gradle-plugin@npm:^0.0.5":
   version: 0.0.5
   resolution: "react-native-gradle-plugin@npm:0.0.5"
   dependencies:
