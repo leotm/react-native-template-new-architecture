@@ -12494,6 +12494,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"exit-hook@npm:^2.1.1":
+  version: 2.2.1
+  resolution: "exit-hook@npm:2.2.1"
+  checksum: 1aa8359b6c5590a012d6cadf9cd337d227291bfcaa8970dc585d73dffef0582af34ed8ac56f6164f8979979fb417cff1eb49f03cdfd782f9332a30c773f0ada0
+  languageName: node
+  linkType: hard
+
 "exit@npm:^0.1.2":
   version: 0.1.2
   resolution: "exit@npm:0.1.2"
@@ -12949,10 +12956,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flipper-server@npm:0.141.0":
-  version: 0.141.0
-  resolution: "flipper-server@npm:0.141.0"
+"flipper-server@npm:0.142.0":
+  version: 0.142.0
+  resolution: "flipper-server@npm:0.142.0"
   dependencies:
+    exit-hook: ^2.1.1
     http-proxy: ^1.18.1
     mac-ca: ^1.0.6
     node-fetch: ^2.6.7
@@ -12960,7 +12968,7 @@ __metadata:
     xdg-basedir: ^4
   bin:
     flipper-server: server.js
-  checksum: bc5cfc8d0f2ce824a657351528f631428ccc775d9fa10f01de451817166b19087717bc458fe368c971bb929c056999d2bffb904d489bf9e9f7d9e1483bec873c
+  checksum: 41c8a4fd0f2c1c0494d7ef90a2f94ca34c262cd756ee2479ed10b50283de9be2e435230abb066f733e0f4d72863c47ff97fda5362bb8af24dd1bb2d8ede2a026
   languageName: node
   linkType: hard
 
@@ -17537,7 +17545,7 @@ fsevents@^1.2.7:
     eslint-plugin-sort-keys-fix: 1.1.2
     eslint-plugin-typescript-sort-keys: 2.1.0
     eslint-plugin-yml: 0.14.0
-    flipper-server: 0.141.0
+    flipper-server: 0.142.0
     husky: 7.0.4
     jest: 27.5.1
     lint-staged: 12.3.7
@@ -17549,7 +17557,7 @@ fsevents@^1.2.7:
     react-native: 0.68.0
     react-native-clean-project: 4.0.1
     react-native-codegen: 0.0.14
-    react-native-flipper: 0.140.0
+    react-native-flipper: 0.142.0
     react-native-gradle-plugin: 0.0.6
     react-native-rename: 2.9.0
     react-native-safe-area-context: 4.2.4
@@ -19749,13 +19757,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-flipper@npm:0.140.0":
-  version: 0.140.0
-  resolution: "react-native-flipper@npm:0.140.0"
+"react-native-flipper@npm:0.142.0":
+  version: 0.142.0
+  resolution: "react-native-flipper@npm:0.142.0"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
     react-native: ">0.62.0"
-  checksum: b1de8aa4b489323cbd8344bb203fa970668ffe9ac97d32777d6ecad4d630f25bf6dbf38be8ddc8108bfdd7ee69db8f6849efa1437bbcbbe462e7e5604e0a0ef3
+  checksum: 88765a2117e5971814205945d9a52876d18974a70edd646698aa0b8fc611eef16ed57abe90d286088fee53bdfdfcae20a6fb848092afb492298ae40ff5c294d9
   languageName: node
   linkType: hard
 
