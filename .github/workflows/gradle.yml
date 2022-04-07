@@ -38,7 +38,7 @@ jobs:
       run: cd android && ./gradlew clean
 
     - name: Build Android (1st time)
-      run: ./gradlew assembleDebug
+      run: cd android && ./gradlew assembleDebug
       # continue-on-error: true
 
     # - name: Build Android (1st time)
@@ -46,7 +46,7 @@ jobs:
 
     - name: Build Android (2nd time)
       if: always()
-      run: ./gradlew assembleDebug
+      run: cd android && ./gradlew assembleDebug
 
 #     - name: Build with Gradle
 #       uses: gradle/gradle-build-action@v2
