@@ -34,8 +34,19 @@ jobs:
     - name: Debug info
       run: npx react-native info
 
-    - name: Build Android
-      run: cd android && ./gradlew clean && ./gradlew assembleDebug
+    - name: Clean Android
+      run: cd android && ./gradlew clean
+
+    - name: Build Android (1st time)
+      run: ./gradlew assembleDebug
+      # continue-on-error: true
+
+    # - name: Build Android (1st time)
+      # run: rm -rf app/build
+
+    - name: Build Android (2nd time)
+      if: always()
+      run: ./gradlew assembleDebug
 
 #     - name: Build with Gradle
 #       uses: gradle/gradle-build-action@v2
