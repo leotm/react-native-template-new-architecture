@@ -35,13 +35,17 @@ jobs:
       run: npx react-native info
 
     - name: Clean Android
+      run: cd android && ./gradlew clean
+
+    - name: Clean Android (x86_64)
+      if: always()
       run: cd android && ./gradlew clean -PreactNativeArchitectures=x86_64
 
     - name: Build Android (1st time)
+      if: always()
       run: cd android && ./gradlew assembleDebug
-      # continue-on-error: true
 
-    # - name: Build Android (1st time)
+    # - name: Remove build cache
       # run: rm -rf app/build
 
     - name: Build Android (2nd time)
