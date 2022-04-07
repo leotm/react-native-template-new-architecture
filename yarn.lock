@@ -2194,6 +2194,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/plugin-transform-named-capturing-groups-regex@npm:^7.0.0, @babel/plugin-transform-named-capturing-groups-regex@npm:^7.16.8":
+  version: 7.16.8
+  resolution: "@babel/plugin-transform-named-capturing-groups-regex@npm:7.16.8"
+  dependencies:
+    "@babel/helper-create-regexp-features-plugin": ^7.16.7
+  peerDependencies:
+    "@babel/core": ^7.0.0
+  checksum: 73e149f5ff690f5b8e3764a881e8e5240f12f394256e7d5217705d0cbeae074c3faff394783190fe1a41f9fc5a53b960b6021158b7e5174391b5fc38f4ba047a
+  languageName: node
+  linkType: hard
+
 "@babel/plugin-transform-named-capturing-groups-regex@npm:^7.14.5":
   version: 7.14.5
   resolution: "@babel/plugin-transform-named-capturing-groups-regex@npm:7.14.5"
@@ -2202,17 +2213,6 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.0.0
   checksum: d9e796d32b902b81cf5a5e59ee49e647f790fbc78f6fb375087276c14725c0070728fafe30d9bce42b5f901ce91dda01403fcb9e7b83e32d1a775ed8489f6314
-  languageName: node
-  linkType: hard
-
-"@babel/plugin-transform-named-capturing-groups-regex@npm:^7.16.8":
-  version: 7.16.8
-  resolution: "@babel/plugin-transform-named-capturing-groups-regex@npm:7.16.8"
-  dependencies:
-    "@babel/helper-create-regexp-features-plugin": ^7.16.7
-  peerDependencies:
-    "@babel/core": ^7.0.0
-  checksum: 73e149f5ff690f5b8e3764a881e8e5240f12f394256e7d5217705d0cbeae074c3faff394783190fe1a41f9fc5a53b960b6021158b7e5174391b5fc38f4ba047a
   languageName: node
   linkType: hard
 
@@ -16899,9 +16899,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"metro-react-native-babel-preset@npm:0.70.0":
-  version: 0.70.0
-  resolution: "metro-react-native-babel-preset@npm:0.70.0"
+"metro-react-native-babel-preset@npm:0.70.1":
+  version: 0.70.1
+  resolution: "metro-react-native-babel-preset@npm:0.70.1"
   dependencies:
     "@babel/core": ^7.14.0
     "@babel/plugin-proposal-async-generator-functions": ^7.0.0
@@ -16927,6 +16927,7 @@ fsevents@^1.2.7:
     "@babel/plugin-transform-function-name": ^7.0.0
     "@babel/plugin-transform-literals": ^7.0.0
     "@babel/plugin-transform-modules-commonjs": ^7.0.0
+    "@babel/plugin-transform-named-capturing-groups-regex": ^7.0.0
     "@babel/plugin-transform-parameters": ^7.0.0
     "@babel/plugin-transform-react-display-name": ^7.0.0
     "@babel/plugin-transform-react-jsx": ^7.0.0
@@ -16943,7 +16944,7 @@ fsevents@^1.2.7:
     react-refresh: ^0.4.0
   peerDependencies:
     "@babel/core": "*"
-  checksum: 6bdc9f47c50f96454f92b6de545340eaf97aef238d6a0cb42cb47bd6f5cff0e704c8091ead98133e18d0adbbc41eff248082c1a724212605880c42f72f8a94c3
+  checksum: 1369cf115b048ab3851293fb0ba64f00e0cc7e536646ff6c4f40b229f93fbee6de043ba1a61e210799a15f57136045c64bc8aef1e33b203a1e10cbf29c286413
   languageName: node
   linkType: hard
 
@@ -17541,7 +17542,7 @@ fsevents@^1.2.7:
     husky: 7.0.4
     jest: 27.5.1
     lint-staged: 12.3.7
-    metro-react-native-babel-preset: 0.70.0
+    metro-react-native-babel-preset: 0.70.1
     prettier: 2.6.2
     react: experimental
     react-codemod: 5.4.3
