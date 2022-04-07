@@ -35,7 +35,7 @@ jobs:
       run: npx react-native info
 
     - name: Clean Android
-      run: cd android && ./gradlew clean
+      run: cd android && ./gradlew clean -PreactNativeArchitectures=x86_64
 
     - name: Build Android (1st time)
       run: cd android && ./gradlew assembleDebug
