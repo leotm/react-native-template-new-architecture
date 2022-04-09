@@ -5875,114 +5875,114 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/core-android-arm-eabi@npm:1.2.164":
-  version: 1.2.164
-  resolution: "@swc/core-android-arm-eabi@npm:1.2.164"
+"@swc/core-android-arm-eabi@npm:1.2.165":
+  version: 1.2.165
+  resolution: "@swc/core-android-arm-eabi@npm:1.2.165"
   conditions: os=android & cpu=arm
   languageName: node
   linkType: hard
 
-"@swc/core-android-arm64@npm:1.2.164":
-  version: 1.2.164
-  resolution: "@swc/core-android-arm64@npm:1.2.164"
+"@swc/core-android-arm64@npm:1.2.165":
+  version: 1.2.165
+  resolution: "@swc/core-android-arm64@npm:1.2.165"
   conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-arm64@npm:1.2.164":
-  version: 1.2.164
-  resolution: "@swc/core-darwin-arm64@npm:1.2.164"
+"@swc/core-darwin-arm64@npm:1.2.165":
+  version: 1.2.165
+  resolution: "@swc/core-darwin-arm64@npm:1.2.165"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-x64@npm:1.2.164":
-  version: 1.2.164
-  resolution: "@swc/core-darwin-x64@npm:1.2.164"
+"@swc/core-darwin-x64@npm:1.2.165":
+  version: 1.2.165
+  resolution: "@swc/core-darwin-x64@npm:1.2.165"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@swc/core-freebsd-x64@npm:1.2.164":
-  version: 1.2.164
-  resolution: "@swc/core-freebsd-x64@npm:1.2.164"
+"@swc/core-freebsd-x64@npm:1.2.165":
+  version: 1.2.165
+  resolution: "@swc/core-freebsd-x64@npm:1.2.165"
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm-gnueabihf@npm:1.2.164":
-  version: 1.2.164
-  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.2.164"
+"@swc/core-linux-arm-gnueabihf@npm:1.2.165":
+  version: 1.2.165
+  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.2.165"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-gnu@npm:1.2.164":
-  version: 1.2.164
-  resolution: "@swc/core-linux-arm64-gnu@npm:1.2.164"
+"@swc/core-linux-arm64-gnu@npm:1.2.165":
+  version: 1.2.165
+  resolution: "@swc/core-linux-arm64-gnu@npm:1.2.165"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-musl@npm:1.2.164":
-  version: 1.2.164
-  resolution: "@swc/core-linux-arm64-musl@npm:1.2.164"
+"@swc/core-linux-arm64-musl@npm:1.2.165":
+  version: 1.2.165
+  resolution: "@swc/core-linux-arm64-musl@npm:1.2.165"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-gnu@npm:1.2.164":
-  version: 1.2.164
-  resolution: "@swc/core-linux-x64-gnu@npm:1.2.164"
+"@swc/core-linux-x64-gnu@npm:1.2.165":
+  version: 1.2.165
+  resolution: "@swc/core-linux-x64-gnu@npm:1.2.165"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-musl@npm:1.2.164":
-  version: 1.2.164
-  resolution: "@swc/core-linux-x64-musl@npm:1.2.164"
+"@swc/core-linux-x64-musl@npm:1.2.165":
+  version: 1.2.165
+  resolution: "@swc/core-linux-x64-musl@npm:1.2.165"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/core-win32-arm64-msvc@npm:1.2.164":
-  version: 1.2.164
-  resolution: "@swc/core-win32-arm64-msvc@npm:1.2.164"
+"@swc/core-win32-arm64-msvc@npm:1.2.165":
+  version: 1.2.165
+  resolution: "@swc/core-win32-arm64-msvc@npm:1.2.165"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-win32-ia32-msvc@npm:1.2.164":
-  version: 1.2.164
-  resolution: "@swc/core-win32-ia32-msvc@npm:1.2.164"
+"@swc/core-win32-ia32-msvc@npm:1.2.165":
+  version: 1.2.165
+  resolution: "@swc/core-win32-ia32-msvc@npm:1.2.165"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@swc/core-win32-x64-msvc@npm:1.2.164":
-  version: 1.2.164
-  resolution: "@swc/core-win32-x64-msvc@npm:1.2.164"
+"@swc/core-win32-x64-msvc@npm:1.2.165":
+  version: 1.2.165
+  resolution: "@swc/core-win32-x64-msvc@npm:1.2.165"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"@swc/core@npm:1.2.164":
-  version: 1.2.164
-  resolution: "@swc/core@npm:1.2.164"
+"@swc/core@npm:1.2.165":
+  version: 1.2.165
+  resolution: "@swc/core@npm:1.2.165"
   dependencies:
-    "@swc/core-android-arm-eabi": 1.2.164
-    "@swc/core-android-arm64": 1.2.164
-    "@swc/core-darwin-arm64": 1.2.164
-    "@swc/core-darwin-x64": 1.2.164
-    "@swc/core-freebsd-x64": 1.2.164
-    "@swc/core-linux-arm-gnueabihf": 1.2.164
-    "@swc/core-linux-arm64-gnu": 1.2.164
-    "@swc/core-linux-arm64-musl": 1.2.164
-    "@swc/core-linux-x64-gnu": 1.2.164
-    "@swc/core-linux-x64-musl": 1.2.164
-    "@swc/core-win32-arm64-msvc": 1.2.164
-    "@swc/core-win32-ia32-msvc": 1.2.164
-    "@swc/core-win32-x64-msvc": 1.2.164
+    "@swc/core-android-arm-eabi": 1.2.165
+    "@swc/core-android-arm64": 1.2.165
+    "@swc/core-darwin-arm64": 1.2.165
+    "@swc/core-darwin-x64": 1.2.165
+    "@swc/core-freebsd-x64": 1.2.165
+    "@swc/core-linux-arm-gnueabihf": 1.2.165
+    "@swc/core-linux-arm64-gnu": 1.2.165
+    "@swc/core-linux-arm64-musl": 1.2.165
+    "@swc/core-linux-x64-gnu": 1.2.165
+    "@swc/core-linux-x64-musl": 1.2.165
+    "@swc/core-win32-arm64-msvc": 1.2.165
+    "@swc/core-win32-ia32-msvc": 1.2.165
+    "@swc/core-win32-x64-msvc": 1.2.165
   dependenciesMeta:
     "@swc/core-android-arm-eabi":
       optional: true
@@ -6012,14 +6012,14 @@ __metadata:
       optional: true
   bin:
     swcx: run_swcx.js
-  checksum: 69c666ab526af673089ac848e3e536e36a83a118e9ea8c0ac9fc2d18688f6cdad68f5171a93200f0269f71eb124fd4f45d4041d1e1afa52d0ff28ecda005c62a
+  checksum: 366138976873b86ad376b619300f71ad4d1d3cf4c61185ddd0696e4170e09d3be66124a51e7402718d904622ad22f3a96dd5c710ce749be3154356f5ac2fded2
   languageName: node
   linkType: hard
 
-"@swc/wasm@npm:1.2.164":
-  version: 1.2.164
-  resolution: "@swc/wasm@npm:1.2.164"
-  checksum: 4f49e09347dc3879784f40c2479018c8fe421bfb22b962eb378ad9847988be03b27b17b8a49cd8bf5411008a04ac194411bc40c6cb3ce2cab078c847b021f10c
+"@swc/wasm@npm:1.2.165":
+  version: 1.2.165
+  resolution: "@swc/wasm@npm:1.2.165"
+  checksum: 2db8ab5b1f20594a1bca1f56193b2086ac5292018ac4129486e596d8a866e1e916e35e2d0f5f10ce0d592abf54ef7aeb66dd1962424c668e7f9551201c62edfe
   languageName: node
   linkType: hard
 
@@ -17508,8 +17508,8 @@ fsevents@^1.2.7:
     "@storybook/linter-config": 3.1.2
     "@storybook/react-native": next
     "@storybook/react-native-server": next
-    "@swc/core": 1.2.164
-    "@swc/wasm": 1.2.164
+    "@swc/core": 1.2.165
+    "@swc/wasm": 1.2.165
     "@types/jest": 27.4.1
     "@types/node": 16.11.26
     "@types/react": 17.0.44
