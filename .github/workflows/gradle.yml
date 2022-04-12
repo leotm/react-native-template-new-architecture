@@ -44,31 +44,31 @@ jobs:
 
     - name: Set up NDK 21e
       if: always()
-      uses: nttld/setup-ndk@v1
+      uses: nttld/setup-ndk@v1.0.6
       with:
         ndk-version: ndk-r21e
 
     - name: Set up NDK 22
       if: always()
-      uses: nttld/setup-ndk@v1
+      uses: nttld/setup-ndk@v1.0.6
       with:
         ndk-version: ndk-r22
 
     - name: Set up NDK 23b
       if: always()
-      uses: nttld/setup-ndk@v1
+      uses: nttld/setup-ndk@v1.0.6
       with:
         ndk-version: ndk-r23b
 
     - name: Set up NDK 24
       if: always()
-      uses: nttld/setup-ndk@v1
+      uses: nttld/setup-ndk@v1.0.6
       with:
         ndk-version: ndk-r24
 
     - name: Set up NDK 25-beta2
       if: always()
-      uses: nttld/setup-ndk@v1
+      uses: nttld/setup-ndk@v1.0.6
       with:
         ndk-version: ndk-r25-beta2
 
