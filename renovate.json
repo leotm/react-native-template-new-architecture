@@ -40,11 +40,6 @@
           "automerge": false
         },
         {
-          "matchPackageNames": ["FLIPPER_VERSION"],
-          "addLabels": ["android"],
-          "automerge": false
-        },
-        {
           "matchPackageNames": ["flipper-server"],
           "addLabels": ["js", "node"]
         }
