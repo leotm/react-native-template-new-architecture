@@ -28,6 +28,7 @@ jobs:
         java-version: 11
         distribution: temurin
     
+    - name: Set up NDK 24
     # https://github.com/nttld/setup-ndk
     - uses: nttld/setup-ndk@v1
       with:
@@ -35,7 +36,7 @@ jobs:
       # add-to-path: false
     # node_modules/react-native/ReactAndroid/build.gradle
     # node_modules/react-native/ReactAndroid/Android-prebuilt.mk
-    - run: | # 
+    - run: |
         ndk-build
         NDK_PROJECT_PATH=null
         APP_BUILD_SCRIPT=/home/runner/work/react-native-template-new-architecture/react-native-template-new-architecture/node_modules/react-native/ReactAndroid/src/main/jni/react/jni/Android.mk
