@@ -21,43 +21,48 @@ jobs:
     steps:
 
     - uses: actions/checkout@v3
-    
+
     # JDK
 
-    - name: Set up JDK 14
+    - name: Set up JDK 18
       uses: actions/setup-java@v3.1.1
       with:
-        java-version: 14
+        java-version: 18
         distribution: temurin
-    
+
+    # TODO: Remove: if: always()
+
     # NDK
 
     - name: Set up NDK 21e
+      if: always()
       uses: nttld/setup-ndk@v1
       with:
         ndk-version: ndk-r21e
 
     - name: Set up NDK 22
+      if: always()
       uses: nttld/setup-ndk@v1
       with:
         ndk-version: ndk-r22
 
     - name: Set up NDK 23b
+      if: always()
       uses: nttld/setup-ndk@v1
       with:
         ndk-version: ndk-r23b
 
     - name: Set up NDK 24
+      if: always()
       uses: nttld/setup-ndk@v1
       with:
         ndk-version: ndk-r24
 
     - name: Set up NDK 25-beta2
+      if: always()
       uses: nttld/setup-ndk@v1
       with:
         ndk-version: ndk-r25-beta2
-
-    # TODO: Remove: if: always()
 
     - name: Install with Yarn
       if: always()
