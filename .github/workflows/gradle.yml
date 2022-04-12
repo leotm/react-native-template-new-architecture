@@ -34,6 +34,14 @@ jobs:
 
     # NDK
 
+    - name: Android NDK toolchain Setup
+      uses: ravinderjangra/android-ndk-toolchain-setup@0.2
+      with:
+        api: 21 # default
+        arch: 'x86_64' # platform
+        install-location: 'toolchains' # NDK tollchain path
+        force: true # install toolchain, default false
+
     - name: Set up NDK 21e
       if: always()
       uses: nttld/setup-ndk@v1
