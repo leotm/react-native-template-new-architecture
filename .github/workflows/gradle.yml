@@ -31,27 +31,36 @@ jobs:
     - name: Set up NDK 24
       uses: nttld/setup-ndk@v1
       with:
-        ndk-version: ndk-r24 # https://android.googlesource.com/platform/ndk/+refs
-         
+      # https://android.googlesource.com/platform/ndk/+refs
+        ndk-version: ndk-r24
+      # Attempting to download ndk-r24...
+      # Error: Unexpected HTTP response: 404
+        
+    # TODO: Remove:
+    #   if: always()
+
+    - name: Install with Yarn
+      if: always()
+      run: yarn
+
+    - name: Debug info
+      if: always()
+      run: npx react-native info
+
+    - name: Clean Android
+      if: always()
+      run: cd android && ./gradlew clean
+
+    - name: Clean Android (x86_64)
+      if: always()
+      run: cd android && ./gradlew clean -PreactNativeArchitectures=x86_64
+      
     # - name: Build project Make-based (not CMake)
     #   run: |
     #     /usr/local/lib/android/sdk/ndk/21.4.7075529/ndk-build
     #     NDK_PROJECT_PATH=null
     #     APP_BUILD_SCRIPT=/home/runner/work/react-native-template-new-architecture/react-native-template-new-architecture/node_modules/react-native/ReactAndroid/src/main/jni/react/jni/Android.mk
     #      NDK_APPLICATION_MK=/home/runner/work/react-native-template-new-architecture/react-native-template-new-architecture/node_modules/react-native/ReactAndroid/src/main/jni/Application.mk
-
-    - name: Install with Yarn
-      run: yarn
-
-    - name: Debug info
-      run: npx react-native info
-
-    - name: Clean Android
-      run: cd android && ./gradlew clean
-
-    - name: Clean Android (x86_64)
-      if: always()
-      run: cd android && ./gradlew clean -PreactNativeArchitectures=x86_64
 
     - name: Build Android (1st time)
       if: always()
