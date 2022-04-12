@@ -63,5 +63,8 @@
       "matchPackagePatterns": ["react$"],
       "addLabels": ["react"]
     }
-  ]
+  ],
+  "vulnerabilityAlerts": {
+    "labels": ["security"]
+  }
 }
