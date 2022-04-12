@@ -28,14 +28,13 @@ jobs:
         java-version: 11
         distribution: temurin
     
-    - name: Set up NDK 24
     # https://github.com/nttld/setup-ndk
+    # node_modules/react-native/ReactAndroid/build.gradle
+    # node_modules/react-native/ReactAndroid/Android-prebuilt.mk
+    - name: Set up NDK 24
     - uses: nttld/setup-ndk@v1
       with:
         ndk-version: ndk-r24 # https://android.googlesource.com/platform/ndk/+refs
-      # add-to-path: false
-    # node_modules/react-native/ReactAndroid/build.gradle
-    # node_modules/react-native/ReactAndroid/Android-prebuilt.mk
     - run: |
         ndk-build
         NDK_PROJECT_PATH=null
