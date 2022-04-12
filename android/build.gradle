@@ -2,10 +2,10 @@
 
 buildscript {
     ext {
-        buildToolsVersion = "31.0.0"
+        buildToolsVersion = "30.0.3"
         minSdkVersion = 21
-        compileSdkVersion = 31
-        targetSdkVersion = 31
+        compileSdkVersion = 30
+        targetSdkVersion = 30
 
         ndkVersion = "21.4.7075529"
         // Also create/update android/local.properties ndk.dir=/Users/<user>/Library/Android/sdk/ndk/<ver>
