@@ -5,6 +5,7 @@
     ":prHourlyLimitNone",
     ":switchToGradleLite"
   ],
+  "timezone": "Europe/London",
   "dependencyDashboard": true,
   "packageRules": [
     {
@@ -39,11 +40,6 @@
           "automerge": false
         },
         {
-          "matchPackageNames": ["FLIPPER_VERSION"],
-          "addLabels": ["android"],
-          "automerge": false
-        },
-        {
           "matchPackageNames": ["flipper-server"],
           "addLabels": ["js", "node"]
         }
@@ -62,5 +58,8 @@
       "matchPackagePatterns": ["react$"],
       "addLabels": ["react"]
     }
-  ]
+  ],
+  "vulnerabilityAlerts": {
+    "labels": ["security"]
+  }
 }

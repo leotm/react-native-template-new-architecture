@@ -42,8 +42,6 @@ yarn start
 
 ## Silicon (M1) Macs
 
-_[Apple Silicon (M1) troubleshooting guide (RN 0.64/0.65/0.66)](https://github.com/facebook/react-native/issues/31941)_
-
 ### iOS (arm64)
 
 ```sh
@@ -65,20 +63,24 @@ sdk.dir=/Users/<user>/Library/Android/sdk
 ndk.dir=/Users/<user>/Library/Android/sdk/ndk/25.0.8221429
 ```
 
-- _Strip: ` rcX` suffix / (trailing) spaces / final final linebreak - otherwise `fcntl(): Bad file descriptor`_
-- _NB: [ndk.dir setting in local.properties file is deprecated](https://developer.android.com/studio/releases?utm_source=android-studio#4-0-0-ndk-dir)_
+_Strip: ` rcX` suffix / (trailing) spaces / final final linebreak - otherwise `fcntl(): Bad file descriptor`_
 
 Open [Android Studio - Preview release - Canary build](https://developer.android.com/studio/preview)
 - Open Project, set the [JDK](https://github.com/leotm/react-native-template-new-architecture/wiki/Android#jdk)
 - [SDK Manager > SDK Tools > NDK > ⬇️ 25.0.8221429 rc2](https://user-images.githubusercontent.com/1881059/158474758-c8c1412c-2f35-4d0d-abc7-6ba18c65827c.png)
-- Isolate/Remove libs like `react-native-screens` ([clean issue](https://github.com/reactwg/react-native-releases/discussions/13#discussioncomment-2254502) resolved) / `react-native-safe-area-context` [until resolved](https://github.com/software-mansion/react-native-screens/issues/1389#issuecomment-1086895179)
-- [Build only one ABI during development](https://reactnative.dev/docs/build-speed#build-only-one-abi-during-development-android-only) or [all 4 default ABIs](https://github.com/leotm/react-native-template-new-architecture/blob/master/android/gradle.properties#L33)
+- [Build only one ABI during development](https://reactnative.dev/docs/build-speed#build-only-one-abi-during-development-android-only)
+- [Build all 4 default ABIs first](https://github.com/leotm/react-native-template-new-architecture/blob/master/android/gradle.properties#L33) with libraries like `react-native-screens` ([clean issue](https://github.com/reactwg/react-native-releases/discussions/13#discussioncomment-2254502) resolved) or `react-native-safe-area-context` till resolved
 - Open e.g. `Pixel_3a_API_31_arm64-v8a` <s>[Initial Preview v3: Google APIs System Image](https://github.com/google/android-emulator-m1-preview)</s>
 - Make Project
   
 ```sh
 yarn android
 ```
+
+### Troubleshooting
+
+- _[Apple Silicon (M1) troubleshooting guide (RN 0.64/0.65/0.66)](https://github.com/facebook/react-native/issues/31941)_
+- _[New Architecture - Troubleshooting](https://reactnative.dev/docs/next/new-architecture-troubleshooting)_
 
 ## Storybook v6 alpha
 
