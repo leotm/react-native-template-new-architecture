@@ -72,11 +72,11 @@ jobs:
       if: always()
       run: npx react-native info
 
-    - name: Clean Android
+    - name: Clean with Gradle
       if: always()
       run: cd android && ./gradlew clean
 
-    - name: Clean Android (x86_64)
+    - name: Clean with Gradle (x86_64)
       if: always()
       run: cd android && ./gradlew clean -PreactNativeArchitectures=x86_64
       
@@ -87,23 +87,31 @@ jobs:
     #     APP_BUILD_SCRIPT=/home/runner/work/react-native-template-new-architecture/react-native-template-new-architecture/node_modules/react-native/ReactAndroid/src/main/jni/react/jni/Android.mk
     #      NDK_APPLICATION_MK=/home/runner/work/react-native-template-new-architecture/react-native-template-new-architecture/node_modules/react-native/ReactAndroid/src/main/jni/Application.mk
 
-    - name: Build Android (1st time)
+    - name: Build with Gradle
       if: always()
       run: cd android && ./gradlew assembleDebug
 
     # - name: Remove build cache
       # run: rm -rf app/build
 
-    - name: Build Android (2nd time)
+    - name: Build with Gradle
       if: always()
       run: cd android && ./gradlew assembleDebug
 
-    - name: Build Android (3d time x86_64 arch only)
+    - name: Build Android (x86_64)
       if: always()
       run: cd android && ./gradlew assembleDebug -PreactNativeArchitectures=x86_64
 
-#     - name: Build with Gradle
-#       uses: gradle/gradle-build-action@v2
-#       with:
-#         arguments: build
-#         build-root-directory: android
+    - name: Build with Gradle
+      if: always()
+      uses: gradle/gradle-build-action@v2.1.5
+      with:
+        arguments: assembleDebug
+        build-root-directory: android
+
+    - name: Build with Gradle
+      if: always()
+      uses: gradle/gradle-build-action@v2.1.5
+      with:
+        arguments: assembleDebug
+        build-root-directory: android
