@@ -42,11 +42,11 @@ jobs:
         install-location: 'toolchains' # NDK tollchain path
         force: true # install toolchain, default false
 
-    - name: Set up NDK 21e
+    - name: Set up NDK r24
       if: always()
       uses: nttld/setup-ndk@v1.0.6
       with:
-        ndk-version: r21e
+        ndk-version: r24
 
       # r22
       # r23b
