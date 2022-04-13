@@ -212,9 +212,9 @@ android {
             // This can be removed once this is solved: https://issuetracker.google.com/issues/207403732
             // preBuild.dependsOn(packageReactNdkLibs)
             configureNdkBuildRelease.dependsOn(preBuild)
-            configureNdkBuildRelease.dependsOn(preReleaseBuild)
+            // configureNdkBuildRelease.dependsOn(preReleaseBuild)
             configureNdkBuildDebug.dependsOn(preBuild)
-            configureNdkBuildDebug.dependsOn(preDebugBuild)
+            // configureNdkBuildDebug.dependsOn(preDebugBuild)
             reactNativeArchitectures().each { architecture ->
                 tasks.findByName("configureNdkBuildDebug[${architecture}]")?.configure {
                     dependsOn("preDebugBuild")
