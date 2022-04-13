@@ -14,16 +14,18 @@ on:
     branches: [ master ]
 
 # env:
+  # TODO: Just the NDK_VERSION would be easier
+  # ANDROID_NDK_HOME: /usr/local/lib/android/sdk/ndk/24.0.8215888
+  # ANDROID_NDK_ROOT: /usr/local/lib/android/sdk/ndk/24.0.8215888
 
 jobs:
   build-android:
 
     runs-on: ubuntu-latest
-    
-    env:
-      # TODO: Just the NDK_VERSION would be easier
-      ANDROID_NDK_HOME: /usr/local/lib/android/sdk/ndk/24.0.8215888
-      ANDROID_NDK_ROOT: /usr/local/lib/android/sdk/ndk/24.0.8215888
+
+    # env:
+      # ANDROID_NDK_HOME: /usr/local/lib/android/sdk/ndk/24.0.8215888
+      # ANDROID_NDK_ROOT: /usr/local/lib/android/sdk/ndk/24.0.8215888
 
     steps:
 
@@ -48,10 +50,10 @@ jobs:
       with:
         ndk-version: r24
 
-#     - name: Set NDK r24
-#       run: |
-#         export ANDROID_NDK_HOME=/usr/local/lib/android/sdk/ndk/24.0.8215888
-#         export ANDROID_NDK_ROOT=/usr/local/lib/android/sdk/ndk/24.0.8215888
+    # - name: Set NDK r24
+      # run: |
+        # export ANDROID_NDK_HOME=/usr/local/lib/android/sdk/ndk/24.0.8215888
+        # export ANDROID_NDK_ROOT=/usr/local/lib/android/sdk/ndk/24.0.8215888
 
     - name: Install with Yarn
       if: always()
@@ -68,7 +70,7 @@ jobs:
     - name: Clean with Gradle (x86_64)
       if: always()
       run: cd android && ./gradlew clean -PreactNativeArchitectures=x86_64
-      
+
     # - name: Build project Make-based (not CMake)
     #   run: |
     #     /usr/local/lib/android/sdk/ndk/24.0.8215888/ndk-build
