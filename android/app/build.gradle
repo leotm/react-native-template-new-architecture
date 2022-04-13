@@ -210,7 +210,7 @@ android {
             // Due to a bug inside AGP, we have to explicitly set a dependency
             // between configureNdkBuild* tasks and the preBuild tasks.
             // This can be removed once this is solved: https://issuetracker.google.com/issues/207403732
-            preBuild.dependsOn(packageReactNdkLibs)
+            // preBuild.dependsOn(packageReactNdkLibs)
             configureNdkBuildRelease.dependsOn(preBuild)
             configureNdkBuildRelease.dependsOn(preReleaseBuild)
             configureNdkBuildDebug.dependsOn(preBuild)
