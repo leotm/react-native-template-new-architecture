@@ -17547,7 +17547,7 @@ fsevents@^1.2.7:
     react: experimental
     react-codemod: 5.4.3
     react-dom: experimental
-    react-native: 0.68.0
+    react-native: 0.68.1
     react-native-clean-project: 4.0.1
     react-native-codegen: 0.0.14
     react-native-flipper: 0.140.0
@@ -19705,7 +19705,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-codegen@npm:*, react-native-codegen@npm:0.0.14":
+"react-native-codegen@npm:0.0.14":
   version: 0.0.14
   resolution: "react-native-codegen@npm:0.0.14"
   dependencies:
@@ -19759,19 +19759,10 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-gradle-plugin@npm:0.0.6":
+"react-native-gradle-plugin@npm:0.0.6, react-native-gradle-plugin@npm:^0.0.6":
   version: 0.0.6
   resolution: "react-native-gradle-plugin@npm:0.0.6"
   checksum: 185ad348931ef4f58065b50bbf80558af668b1ef11c31067aab7f1cd85b18809a62fcf0b7a18444726dacd098042771a570c0ac76bb8976c3ccbe7c86cff0e11
-  languageName: node
-  linkType: hard
-
-"react-native-gradle-plugin@npm:^0.0.5":
-  version: 0.0.5
-  resolution: "react-native-gradle-plugin@npm:0.0.5"
-  dependencies:
-    react-native-codegen: "*"
-  checksum: ee14e5abc692fadb66527334e00ce57bfb7371fae82711f3a1c658c8896e93daee17019e533b1eb0323606f812fa5c645e67348f4169ecc0cb9fa3de3706b5e6
   languageName: node
   linkType: hard
 
@@ -19861,9 +19852,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native@npm:0.68.0":
-  version: 0.68.0
-  resolution: "react-native@npm:0.68.0"
+"react-native@npm:0.68.1":
+  version: 0.68.1
+  resolution: "react-native@npm:0.68.1"
   dependencies:
     "@jest/create-cache-key-function": ^27.0.1
     "@react-native-community/cli": ^7.0.3
@@ -19888,20 +19879,20 @@ fsevents@^1.2.7:
     promise: ^8.0.3
     react-devtools-core: ^4.23.0
     react-native-codegen: ^0.0.13
-    react-native-gradle-plugin: ^0.0.5
+    react-native-gradle-plugin: ^0.0.6
     react-refresh: ^0.4.0
     react-shallow-renderer: 16.14.1
     regenerator-runtime: ^0.13.2
     scheduler: ^0.20.2
     stacktrace-parser: ^0.1.3
-    use-subscription: ^1.0.0
+    use-subscription: ">=1.0.0 <1.6.0"
     whatwg-fetch: ^3.0.0
     ws: ^6.1.4
   peerDependencies:
     react: 17.0.2
   bin:
     react-native: cli.js
-  checksum: 2232376ac65e63c8b2895b6fcb84299dd42ef6502b0d2d26a64758f4de871c64f261e116b6a0930a0e6b3320a68d46cbbe4daa5eb50fd517d90aa0eb451b189c
+  checksum: 72916e7ac092ca68702254d2a80db80b340e735f1ea654d5146e54037cf20410c182477d1c7f59dd4c6d854472a67b5ed6c279640d515235998717ba12757a39
   languageName: node
   linkType: hard
 
@@ -23429,12 +23420,14 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"use-subscription@npm:^1.0.0":
-  version: 1.6.0
-  resolution: "use-subscription@npm:1.6.0"
+"use-subscription@npm:>=1.0.0 <1.6.0":
+  version: 1.5.1
+  resolution: "use-subscription@npm:1.5.1"
+  dependencies:
+    object-assign: ^4.1.1
   peerDependencies:
-    react: ^18.0.0
-  checksum: 0ce15a3ed1f66f78cb2d7a83ff4980e2ac93054b0bcbdc4e492e77fed599233372aaaf9c9fd9b370484c491c5aee0b980859db1108ad63ee4cdba0f468c4f5d1
+    react: ^16.8.0 || ^17.0.0
+  checksum: 96e64977a573244fd11350a3141b2cf57fb72dd9dd902f387c8a0a565d0a948bc81588bd7378c6ef6defc0d1119f37f73aac4a7a287c8443abd444bd4e7bbea8
   languageName: node
   linkType: hard
 
