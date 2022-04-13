@@ -48,29 +48,10 @@ jobs:
       with:
         ndk-version: r21e
 
-    - name: Set up NDK 22
-      if: always()
-      uses: nttld/setup-ndk@v1.0.6
-      with:
-        ndk-version: r22
-
-    - name: Set up NDK 23b
-      if: always()
-      uses: nttld/setup-ndk@v1.0.6
-      with:
-        ndk-version: r23b
-
-    - name: Set up NDK 24
-      if: always()
-      uses: nttld/setup-ndk@v1.0.6
-      with:
-        ndk-version: r24
-
-    - name: Set up NDK 25-beta2
-      if: always()
-      uses: nttld/setup-ndk@v1.0.6
-      with:
-        ndk-version: r25-beta2
+      # r22
+      # r23b
+      # r24
+      # r25-beta2
 
     - name: Install with Yarn
       if: always()
