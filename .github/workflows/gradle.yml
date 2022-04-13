@@ -46,31 +46,31 @@ jobs:
       if: always()
       uses: nttld/setup-ndk@v1.0.6
       with:
-        ndk-version: ndk-r21e
+        ndk-version: r21e
 
     - name: Set up NDK 22
       if: always()
       uses: nttld/setup-ndk@v1.0.6
       with:
-        ndk-version: ndk-r22
+        ndk-version: r22
 
     - name: Set up NDK 23b
       if: always()
       uses: nttld/setup-ndk@v1.0.6
       with:
-        ndk-version: ndk-r23b
+        ndk-version: r23b
 
     - name: Set up NDK 24
       if: always()
       uses: nttld/setup-ndk@v1.0.6
       with:
-        ndk-version: ndk-r24
+        ndk-version: r24
 
     - name: Set up NDK 25-beta2
       if: always()
       uses: nttld/setup-ndk@v1.0.6
       with:
-        ndk-version: ndk-r25-beta2
+        ndk-version: r25-beta2
 
     - name: Install with Yarn
       if: always()
@@ -106,18 +106,18 @@ jobs:
       if: always()
       run: cd android && ./gradlew assembleDebug
 
-    - name: Build Android (x86_64)
+    - name: Build with Gradle (x86_64)
       if: always()
       run: cd android && ./gradlew assembleDebug -PreactNativeArchitectures=x86_64
 
-    - name: Build with Gradle
+    - name: Build with Gradle (action)
       if: always()
       uses: gradle/gradle-build-action@v2.1.5
       with:
         arguments: assembleDebug
         build-root-directory: android
 
-    - name: Build with Gradle
+    - name: Build with Gradle (action)
       if: always()
       uses: gradle/gradle-build-action@v2.1.5
       with:
