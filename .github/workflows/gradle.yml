@@ -13,10 +13,17 @@ on:
   pull_request:
     branches: [ master ]
 
+# env:
+
 jobs:
   build-android:
 
     runs-on: ubuntu-latest
+    
+    env:
+      # TODO: Just the NDK_VERSION would be easier
+      ANDROID_NDK_HOME: /usr/local/lib/android/sdk/ndk/24.0.8215888
+      ANDROID_NDK_ROOT: /usr/local/lib/android/sdk/ndk/24.0.8215888
 
     steps:
 
@@ -41,7 +48,10 @@ jobs:
       with:
         ndk-version: r24
 
-    # Next: Nightly or https://github.com/facebook/react-native/pull/33588
+#     - name: Set NDK r24
+#       run: |
+#         export ANDROID_NDK_HOME=/usr/local/lib/android/sdk/ndk/24.0.8215888
+#         export ANDROID_NDK_ROOT=/usr/local/lib/android/sdk/ndk/24.0.8215888
 
     - name: Install with Yarn
       if: always()
