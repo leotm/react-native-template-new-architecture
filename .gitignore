@@ -76,6 +76,7 @@ buck-out/
 #
 .yarn/*
 !.yarn/cache
+.yarn/cache/@swc-core-*.zip
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
