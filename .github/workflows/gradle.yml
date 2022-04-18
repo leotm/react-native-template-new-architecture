@@ -45,7 +45,6 @@ jobs:
     # Custom: r24, r25-beta2
 
     - name: Set up NDK r24
-      if: always()
       uses: nttld/setup-ndk@v1.0.6
       with:
         ndk-version: r24
@@ -56,20 +55,16 @@ jobs:
         # export ANDROID_NDK_ROOT=/usr/local/lib/android/sdk/ndk/24.0.8215888
 
     - name: Install with Yarn
-      if: always()
       run: yarn
 
-    - name: Debug info
-      if: always()
-      run: npx react-native info
+    - name: Install with Yarn (2)
+      run: yarn
 
     - name: Clean with Gradle
-      if: always()
       run: cd android && ./gradlew clean
 
-    - name: Clean with Gradle (x86_64)
-      if: always()
-      run: cd android && ./gradlew clean -PreactNativeArchitectures=x86_64
+    - name: Clean with Gradle (2)
+      run: cd android && ./gradlew clean
 
     # - name: Build project Make-based (not CMake)
     #   run: |
@@ -78,31 +73,35 @@ jobs:
     #     APP_BUILD_SCRIPT=/home/runner/work/react-native-template-new-architecture/react-native-template-new-architecture/node_modules/react-native/ReactAndroid/src/main/jni/react/jni/Android.mk
     #      NDK_APPLICATION_MK=/home/runner/work/react-native-template-new-architecture/react-native-template-new-architecture/node_modules/react-native/ReactAndroid/src/main/jni/Application.mk
 
-    - name: Build with Gradle
-      if: always()
-      run: cd android && ./gradlew assembleDebug
+    - name: Build with Gradle - Debug
+      run: cd android && chmod +x gradlew && ./gradlew assembleDebug
 
     # - name: Remove build cache
-      # run: rm -rf app/build
+    #   run: rm -rf app/build
 
-    - name: Build with Gradle
-      if: always()
-      run: cd android && ./gradlew assembleDebug
+    - name: Build with Gradle - Debug (2)
+      run: cd android && chmod +x gradlew && ./gradlew assembleDebug
 
-    - name: Build with Gradle (x86_64)
-      if: always()
-      run: cd android && ./gradlew assembleDebug -PreactNativeArchitectures=x86_64
+    # Clean x2
 
-    - name: Build with Gradle (action)
-      if: always()
-      uses: gradle/gradle-build-action@v2.1.5
-      with:
-        arguments: assembleDebug
-        build-root-directory: android
+    - name: Build with Gradle - Release
+      run: cd android && chmod +x gradlew && ./gradlew assembleRelease
 
-    - name: Build with Gradle (action)
-      if: always()
-      uses: gradle/gradle-build-action@v2.1.5
-      with:
-        arguments: assembleDebug
-        build-root-directory: android
+    # - name: Remove build cache
+    #   run: rm -rf app/build
+
+    - name: Build with Gradle - Release (2)
+      run: cd android && chmod +x gradlew && ./gradlew assembleRelease
+
+    # Clean x2
+
+#     - name: Build with Gradle (action)
+#       if: always()
+#       uses: gradle/gradle-build-action@v2.1.5
+#       with:
+#         arguments: assembleDebug
+#         build-root-directory: android
+#
+#         0s.
+#         Post job cleanup.
+#         Cache will not be saved: not restored in main action step.
