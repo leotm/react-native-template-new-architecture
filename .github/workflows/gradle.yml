@@ -14,24 +14,23 @@ on:
     branches: [ master ]
 
 # env:
-  # TODO: Just the NDK_VERSION would be easier
-  # ANDROID_NDK_HOME: /usr/local/lib/android/sdk/ndk/24.0.8215888
-  # ANDROID_NDK_ROOT: /usr/local/lib/android/sdk/ndk/24.0.8215888
+#   ANDROID_NDK_HOME: /usr/local/lib/android/sdk/ndk/x.x.x
+#   ANDROID_NDK_ROOT: /usr/local/lib/android/sdk/ndk/x.x.x
 
 jobs:
   build-android:
 
     runs-on: ubuntu-latest
 
-    # env:
-      # ANDROID_NDK_HOME: /usr/local/lib/android/sdk/ndk/24.0.8215888
-      # ANDROID_NDK_ROOT: /usr/local/lib/android/sdk/ndk/24.0.8215888
+#     env:
+#       ANDROID_NDK_HOME: /usr/local/lib/android/sdk/ndk/x.x.x
+#       ANDROID_NDK_ROOT: /usr/local/lib/android/sdk/ndk/x.x.x
 
     steps:
 
     - uses: actions/checkout@v3
 
-    # JDK
+#     JDK
 
     - name: Set up JDK 18
       uses: actions/setup-java@v3.1.1
@@ -39,69 +38,42 @@ jobs:
         java-version: 18
         distribution: temurin
 
-    # NDK
-    # Standalone toolchains (obsolete)
-    # Ubuntu 20.04: r21e, r22, r23b
-    # Custom: r24, r25-beta2
+#     NDK (Standalone toolchains obsolete)
 
-    - name: Set up NDK r24
+    - name: Set up NDK 25 Beta 2
       uses: nttld/setup-ndk@v1.0.6
       with:
-        ndk-version: r24
+        ndk-version: r25-beta2 # Ubuntu 20.04: r21e, r22, r23b, Custom: r24+
 
-    # - name: Set NDK r24
+    # - name: Set NDK r24 env vars
       # run: |
-        # export ANDROID_NDK_HOME=/usr/local/lib/android/sdk/ndk/24.0.8215888
-        # export ANDROID_NDK_ROOT=/usr/local/lib/android/sdk/ndk/24.0.8215888
+        # export ANDROID_NDK_HOME=/usr/local/lib/android/sdk/ndk/x.x.x
+        # export ANDROID_NDK_ROOT=/usr/local/lib/android/sdk/ndk/x.x.x
 
-    - name: Install with Yarn
+    - name: Install with Yarn # 5s cached
       run: yarn
 
-    - name: Install with Yarn (2)
-      run: yarn
+#     - name: Clean with Gradle # 40m, same repeated, ~75% less 1 ABI
+#       run: cd android && ./gradlew clean
 
-    - name: Clean with Gradle
-      run: cd android && ./gradlew clean
+#     - name: Build project Make-based (not CMake)
+#       run: |
+#         /usr/local/lib/android/sdk/ndk/24.0.8215888/ndk-build
+#         NDK_PROJECT_PATH=null
+#         APP_BUILD_SCRIPT=/home/runner/work/react-native-template-new-architecture/react-native-template-new-architecture/node_modules/react-native/ReactAndroid/src/main/jni/react/jni/Android.mk
+#         NDK_APPLICATION_MK=/home/runner/work/react-native-template-new-architecture/react-native-template-new-architecture/node_modules/react-native/ReactAndroid/src/main/jni/Application.mk
 
-    - name: Clean with Gradle (2)
-      run: cd android && ./gradlew clean
+#     - name: Build Release with Gradle
+#       run: cd android && chmod +x gradlew && ./gradlew <task>
 
-    # - name: Build project Make-based (not CMake)
-    #   run: |
-    #     /usr/local/lib/android/sdk/ndk/24.0.8215888/ndk-build
-    #     NDK_PROJECT_PATH=null
-    #     APP_BUILD_SCRIPT=/home/runner/work/react-native-template-new-architecture/react-native-template-new-architecture/node_modules/react-native/ReactAndroid/src/main/jni/react/jni/Android.mk
-    #      NDK_APPLICATION_MK=/home/runner/work/react-native-template-new-architecture/react-native-template-new-architecture/node_modules/react-native/ReactAndroid/src/main/jni/Application.mk
+    - name: Build Debug with Gradle
+      uses: gradle/gradle-build-action@v2.1.5
+      with:
+        arguments: assembleDebug
+        build-root-directory: android
 
-    - name: Build with Gradle - Debug
-      run: cd android && chmod +x gradlew && ./gradlew assembleDebug
-
-    # - name: Remove build cache
-    #   run: rm -rf app/build
-
-    - name: Build with Gradle - Debug (2)
-      run: cd android && chmod +x gradlew && ./gradlew assembleDebug
-
-    # Clean x2
-
-    - name: Build with Gradle - Release
-      run: cd android && chmod +x gradlew && ./gradlew assembleRelease
-
-    # - name: Remove build cache
-    #   run: rm -rf app/build
-
-    - name: Build with Gradle - Release (2)
-      run: cd android && chmod +x gradlew && ./gradlew assembleRelease
-
-    # Clean x2
-
-#     - name: Build with Gradle (action)
-#       if: always()
-#       uses: gradle/gradle-build-action@v2.1.5
-#       with:
-#         arguments: assembleDebug
-#         build-root-directory: android
-#
-#         0s.
-#         Post job cleanup.
-#         Cache will not be saved: not restored in main action step.
+    - name: Build Release with Gradle
+      uses: gradle/gradle-build-action@v2.1.5
+      with:
+        arguments: assembleRelease
+        build-root-directory: android
