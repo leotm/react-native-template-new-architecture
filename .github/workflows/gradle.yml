@@ -45,7 +45,7 @@ jobs:
       with:
         ndk-version: r25-beta2 # Ubuntu 20.04: r21e, r22, r23b, Custom: r24+
 
-    # - name: Set NDK r24 env vars
+    # - name: Set NDK X env vars
       # run: |
         # export ANDROID_NDK_HOME=/usr/local/lib/android/sdk/ndk/x.x.x
         # export ANDROID_NDK_ROOT=/usr/local/lib/android/sdk/ndk/x.x.x
@@ -58,19 +58,13 @@ jobs:
 
 #     - name: Build project Make-based (not CMake)
 #       run: |
-#         /usr/local/lib/android/sdk/ndk/24.0.8215888/ndk-build
+#         /usr/local/lib/android/sdk/ndk/x.x.x/ndk-build
 #         NDK_PROJECT_PATH=null
 #         APP_BUILD_SCRIPT=/home/runner/work/react-native-template-new-architecture/react-native-template-new-architecture/node_modules/react-native/ReactAndroid/src/main/jni/react/jni/Android.mk
 #         NDK_APPLICATION_MK=/home/runner/work/react-native-template-new-architecture/react-native-template-new-architecture/node_modules/react-native/ReactAndroid/src/main/jni/Application.mk
 
 #     - name: Build Release with Gradle
 #       run: cd android && chmod +x gradlew && ./gradlew <task>
-
-    - name: Build Debug with Gradle
-      uses: gradle/gradle-build-action@v2.1.5
-      with:
-        arguments: assembleDebug
-        build-root-directory: android
 
     - name: Build Release with Gradle
       uses: gradle/gradle-build-action@v2.1.5
