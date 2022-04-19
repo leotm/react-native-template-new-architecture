@@ -66,11 +66,11 @@ jobs:
 #     - name: Build Release with Gradle
 #       run: cd android && chmod +x gradlew && ./gradlew <task>
 
-#     - name: Build Debug with Gradle
-#       uses: gradle/gradle-build-action@v2.1.5
-#       with:
-#         arguments: assembleDebug
-#         build-root-directory: android
+    - name: Build Debug with Gradle
+      uses: gradle/gradle-build-action@v2.1.5
+      with:
+        arguments: assembleDebug
+        build-root-directory: android
 
     - name: Build Release with Gradle
       uses: gradle/gradle-build-action@v2.1.5
