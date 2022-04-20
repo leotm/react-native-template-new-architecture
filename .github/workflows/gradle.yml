@@ -86,9 +86,9 @@ jobs:
         arguments: assembleRelease
         build-root-directory: android
 
-    - name: Build Release with Gradle (2)
-      if: always()
-      uses: gradle/gradle-build-action@v2.1.5
-      with:
-        arguments: assembleRelease
-        build-root-directory: android
+#     - name: Build Release with Gradle (2)
+#       if: always()
+#       uses: gradle/gradle-build-action@v2.1.5
+#       with:
+#         arguments: assembleRelease
+#         build-root-directory: android
