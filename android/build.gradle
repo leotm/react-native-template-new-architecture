@@ -29,7 +29,7 @@ buildscript {
     }
     dependencies {
         // https://mvnrepository.com/artifact/com.android.tools.build/gradle?repo=google
-        classpath("com.android.tools.build:gradle:7.0.4")
+        classpath("com.android.tools.build:gradle:7.1.1")
         classpath("com.facebook.react:react-native-gradle-plugin")
         classpath("de.undercouch:gradle-download-task:5.0.5")
         // NOTE: Do not place your application dependencies here; they belong
