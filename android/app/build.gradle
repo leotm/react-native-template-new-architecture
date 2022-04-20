@@ -138,7 +138,7 @@ def reactNativeArchitectures() {
 }
 
 android {
-    ndkVersion '25.0.8221429 rc2'
+    ndkVersion rootProject.ext.ndkVersion
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
