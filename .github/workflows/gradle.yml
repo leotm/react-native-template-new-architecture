@@ -72,7 +72,21 @@ jobs:
         arguments: assembleDebug
         build-root-directory: android
 
+    - name: Build Debug with Gradle (2)
+      if: always()
+      uses: gradle/gradle-build-action@v2.1.5
+      with:
+        arguments: assembleDebug
+        build-root-directory: android
+
     - name: Build Release with Gradle
+      if: always()
+      uses: gradle/gradle-build-action@v2.1.5
+      with:
+        arguments: assembleRelease
+        build-root-directory: android
+
+    - name: Build Release with Gradle (2)
       if: always()
       uses: gradle/gradle-build-action@v2.1.5
       with:
