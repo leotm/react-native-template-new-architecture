@@ -12956,9 +12956,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flipper-server@npm:0.142.0":
-  version: 0.142.0
-  resolution: "flipper-server@npm:0.142.0"
+"flipper-server@npm:0.143.0":
+  version: 0.143.0
+  resolution: "flipper-server@npm:0.143.0"
   dependencies:
     exit-hook: ^2.1.1
     http-proxy: ^1.18.1
@@ -12968,7 +12968,7 @@ __metadata:
     xdg-basedir: ^4
   bin:
     flipper-server: server.js
-  checksum: 41c8a4fd0f2c1c0494d7ef90a2f94ca34c262cd756ee2479ed10b50283de9be2e435230abb066f733e0f4d72863c47ff97fda5362bb8af24dd1bb2d8ede2a026
+  checksum: 1532a66c382629f9760c0aaa907b241e91dc15c24cc8022bac6bbd45dc39d85e6618e3c82706a5232d871cb3ed20dcd258af379a3e71531e3789f5f386e717d5
   languageName: node
   linkType: hard
 
@@ -17546,7 +17546,7 @@ fsevents@^1.2.7:
     eslint-plugin-sort-keys-fix: 1.1.2
     eslint-plugin-typescript-sort-keys: 2.1.0
     eslint-plugin-yml: 0.14.0
-    flipper-server: 0.142.0
+    flipper-server: 0.143.0
     husky: 7.0.4
     jest: 27.5.1
     lint-staged: 12.3.8
@@ -17558,7 +17558,7 @@ fsevents@^1.2.7:
     react-native: 0.68.1
     react-native-clean-project: 4.0.1
     react-native-codegen: 0.0.14
-    react-native-flipper: 0.142.0
+    react-native-flipper: 0.143.0
     react-native-gradle-plugin: 0.0.6
     react-native-rename: 2.9.0
     react-native-safe-area-context: 4.2.4
@@ -19758,13 +19758,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-flipper@npm:0.142.0":
-  version: 0.142.0
-  resolution: "react-native-flipper@npm:0.142.0"
+"react-native-flipper@npm:0.143.0":
+  version: 0.143.0
+  resolution: "react-native-flipper@npm:0.143.0"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
     react-native: ">0.62.0"
-  checksum: 88765a2117e5971814205945d9a52876d18974a70edd646698aa0b8fc611eef16ed57abe90d286088fee53bdfdfcae20a6fb848092afb492298ae40ff5c294d9
+  checksum: 028bb4fb3c36779e5dbd712fdb703d463db5218d4faaed2c4b69a6fb59f868f13fad6dfeba1b6515ee74790904d1d3e87560564435261a70f071c312ff32a148
   languageName: node
   linkType: hard
 
