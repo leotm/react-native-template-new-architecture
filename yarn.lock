@@ -4386,9 +4386,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/native-stack@npm:6.6.1":
-  version: 6.6.1
-  resolution: "@react-navigation/native-stack@npm:6.6.1"
+"@react-navigation/native-stack@npm:6.6.2":
+  version: 6.6.2
+  resolution: "@react-navigation/native-stack@npm:6.6.2"
   dependencies:
     "@react-navigation/elements": ^1.3.3
     warn-once: ^0.1.0
@@ -4398,7 +4398,7 @@ __metadata:
     react-native: "*"
     react-native-safe-area-context: ">= 3.0.0"
     react-native-screens: ">= 3.0.0"
-  checksum: 75c7ab748b605a68d86ef3e859523578a297be9b94ba2f9ab3e7d7b64231325a6b307168f32f20eeddfc7e9c5f924a1acc625dbaf074ff00a5267619ae3c18f6
+  checksum: 292832d0d78a886ba61ddffc0963b78d45f547245fdf3efa074d82cecced97ae13003f8213ebd96c1fe8ccc00b6a88233e7ce1bfe669ad3fa62e72134990aeeb
   languageName: node
   linkType: hard
 
@@ -17500,7 +17500,7 @@ fsevents@^1.2.7:
     "@react-native-community/eslint-config": 3.0.1
     "@react-native-community/slider": 4.2.2
     "@react-navigation/native": 6.0.10
-    "@react-navigation/native-stack": 6.6.1
+    "@react-navigation/native-stack": 6.6.2
     "@storybook/addon-actions": 6.4.22
     "@storybook/addon-controls": 6.4.22
     "@storybook/addon-knobs": 6.4.0
