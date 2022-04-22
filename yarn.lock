@@ -16907,9 +16907,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"metro-react-native-babel-preset@npm:0.70.1":
-  version: 0.70.1
-  resolution: "metro-react-native-babel-preset@npm:0.70.1"
+"metro-react-native-babel-preset@npm:0.70.2":
+  version: 0.70.2
+  resolution: "metro-react-native-babel-preset@npm:0.70.2"
   dependencies:
     "@babel/core": ^7.14.0
     "@babel/plugin-proposal-async-generator-functions": ^7.0.0
@@ -16952,7 +16952,7 @@ fsevents@^1.2.7:
     react-refresh: ^0.4.0
   peerDependencies:
     "@babel/core": "*"
-  checksum: 1369cf115b048ab3851293fb0ba64f00e0cc7e536646ff6c4f40b229f93fbee6de043ba1a61e210799a15f57136045c64bc8aef1e33b203a1e10cbf29c286413
+  checksum: fd79bb7f6e7cb1480f173a2cbd535dff3d8ddaccb157fb37e098109e4c0af4421334a88beac455aa112702c318e9b28294ca9a91a7a3906539f2563fb1af64f4
   languageName: node
   linkType: hard
 
@@ -17550,7 +17550,7 @@ fsevents@^1.2.7:
     husky: 7.0.4
     jest: 27.5.1
     lint-staged: 12.3.8
-    metro-react-native-babel-preset: 0.70.1
+    metro-react-native-babel-preset: 0.70.2
     prettier: 2.6.2
     react: experimental
     react-codemod: 5.4.3
