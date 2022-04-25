@@ -62,7 +62,7 @@ jobs:
     - name: Build Debug with Gradle
       uses: gradle/gradle-build-action@v2.1.5
       with:
-        arguments: assembleDebug -PreactNativeArchitectures=x86_64
+        arguments: assembleDebug
         build-root-directory: android
 
     - name: Build Debug with Gradle
