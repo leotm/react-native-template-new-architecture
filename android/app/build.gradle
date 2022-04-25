@@ -278,7 +278,7 @@ dependencies {
     // https://developer.android.com/reference/kotlin/androidx/swiperefreshlayout/widget/package-summary
     // https://android.googlesource.com/platform/frameworks/support/+/refs/heads/androidx-main/swiperefreshlayout/swiperefreshlayout
     // https://github.com/android/views-widgets-samples
-    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01"
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
 
     debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}") {
         exclude group:'com.facebook.fbjni'
