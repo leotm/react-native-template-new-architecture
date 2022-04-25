@@ -19,8 +19,6 @@ import {
   ReloadInstructions
 } from 'react-native/Libraries/NewAppScreen'
 
-import StorybookUIRoot from '../.storybook/Storybook'
-
 if (__DEV__) {
   import('../ReactotronConfig')
     .then(() => {
@@ -120,7 +118,7 @@ const styles = StyleSheet.create({
 })
 
 // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition, no-constant-condition
-export default false ? StorybookUIRoot : App
+export default App
 
 // export default Reactotron.storybookSwitcher(storybook)(App)
 // https://github.com/infinitered/reactotron/issues/1160
