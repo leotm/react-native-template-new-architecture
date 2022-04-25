@@ -43,10 +43,8 @@ module.exports = {
     'lib',
     'babel.config.js',
     'metro.config.js',
-    '.eslintrc.js',
+    '.eslintrc.js'
     // '!/.github', // False positive: Error loading '@typescript-eslint/await-thenable' requires parserOptions.project
-    '!/.storybook',
-    '.storybook/storybook.requires.js' // Codegen
   ],
   plugins: [
     'deprecation',
