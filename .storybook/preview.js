@@ -4,7 +4,7 @@
  */
 
 // import { FC } from 'react'
-import { withBackgrounds } from '@storybook/addon-ondevice-backgrounds'
+// import { withBackgrounds } from '@storybook/addon-ondevice-backgrounds'
 import { StyleSheet, View } from 'react-native'
 // import type { DecoratorFunction } from '@storybook/addon-actions'
 
@@ -18,8 +18,8 @@ export const decorators = [
     <View style={styles.container}>
       <StoryFn />
     </View>
-  ),
-  withBackgrounds
+  )
+  // withBackgrounds
 ]
 
 export const parameters = {

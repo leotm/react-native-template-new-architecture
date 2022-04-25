@@ -1,8 +1,9 @@
 import './storybook.requires'
 
-import { getStorybookUI } from '@storybook/react-native'
+// import { getStorybookUI } from '@storybook/react-native'
 
 // https://github.com/storybookjs/react-native#getstorybookui-options
-const StorybookUIRoot = getStorybookUI({})
+// const StorybookUIRoot = getStorybookUI({})
 
-export default StorybookUIRoot
+// export default StorybookUIRoot
+export default null
