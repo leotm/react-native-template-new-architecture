@@ -59,13 +59,25 @@ jobs:
 #     - name: Build <Task> with Gradle
 #       run: cd android && chmod +x gradlew && ./gradlew <task>
 
-    - name: Build Debug with Gradle
+    - name: Clean with Gradle (x86_64)
       uses: gradle/gradle-build-action@v2.1.5
       with:
-        arguments: assembleDebug
+        arguments: clean -PreactNativeArchitectures=x86_64
         build-root-directory: android
 
-    - name: Build Debug with Gradle
+    - name: Clean with Gradle (x86_64)
+      uses: gradle/gradle-build-action@v2.1.5
+      with:
+        arguments: clean -PreactNativeArchitectures=x86_64
+        build-root-directory: android
+
+    - name: Build Debug with Gradle (x86_64)
+      uses: gradle/gradle-build-action@v2.1.5
+      with:
+        arguments: assembleDebug -PreactNativeArchitectures=x86_64
+        build-root-directory: android
+
+    - name: Build Debug with Gradle (x86_64)
       uses: gradle/gradle-build-action@v2.1.5
       with:
         arguments: assembleDebug -PreactNativeArchitectures=x86_64
