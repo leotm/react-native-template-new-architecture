@@ -144,6 +144,7 @@ android {
 
     defaultConfig {
         applicationId "com.leotm.myapp"
+        multiDexEnabled true
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -273,6 +274,8 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
 
     implementation project(":ReactAndroid")  // From node_modules
+    
+    implementation "androidx.multidex:multidex:2.0.1"
     
     // https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout
     // https://developer.android.com/reference/kotlin/androidx/swiperefreshlayout/widget/package-summary
