@@ -13,24 +13,23 @@ on:
   pull_request:
     branches: [ master ]
 
+# Global envs
 # env:
 #   ANDROID_NDK_HOME: /usr/local/lib/android/sdk/ndk/x.x.x
 #   ANDROID_NDK_ROOT: /usr/local/lib/android/sdk/ndk/x.x.x
+
+# TODO: Avoid brutally editing/setting ndk.dir in local.properties
 
 jobs:
   build-android:
 
     runs-on: ubuntu-latest
 
-#     env:
-#       ANDROID_NDK_HOME: /usr/local/lib/android/sdk/ndk/x.x.x
-#       ANDROID_NDK_ROOT: /usr/local/lib/android/sdk/ndk/x.x.x
+    # Local job envs
 
     steps:
 
     - uses: actions/checkout@v3
-
-#     JDK
 
     - name: Set up JDK 18
       uses: actions/setup-java@v3.1.1
@@ -38,49 +37,32 @@ jobs:
         java-version: 18
         distribution: temurin
 
-#     NDK (Standalone toolchains obsolete)
-
+    # (Standalone toolchains obsolete)
+    # Ubuntu 20.04: r21e, r22, r23b, Custom: r24+
     - name: Set up NDK 25 Beta 2
       uses: nttld/setup-ndk@v1.0.6
       with:
-        ndk-version: r25-beta2 # Ubuntu 20.04: r21e, r22, r23b, Custom: r24+
+        ndk-version: r25-beta2
 
-    # - name: Set NDK X env vars
-      # run: |
-        # export ANDROID_NDK_HOME=/usr/local/lib/android/sdk/ndk/x.x.x
-        # export ANDROID_NDK_ROOT=/usr/local/lib/android/sdk/ndk/x.x.x
+    # - name: Or manually set NDK X env vars
+    #   run: |
+    #     export ANDROID_NDK_HOME=/usr/local/lib/android/sdk/ndk/x.x.x
+    #     export ANDROID_NDK_ROOT=/usr/local/lib/android/sdk/ndk/x.x.x
 
-    - name: Install with Yarn # 5s cached
+    - name: Install all project dependencies
       run: yarn
 
-#     - name: Clean with Gradle # 40m, same repeated, ~75% less 1 ABI
-#       run: cd android && ./gradlew clean
-
-#     - name: Build <Task> with Gradle
-#       run: cd android && chmod +x gradlew && ./gradlew <task>
-
-    - name: Clean with Gradle (x86_64)
+    # Avoid poisoned cache problems
+    - name: Delete Android build pre-computed outputs
       uses: gradle/gradle-build-action@v2.1.5
       with:
-        arguments: clean -PreactNativeArchitectures=x86_64
+        arguments: clean
         build-root-directory: android
 
-    - name: Clean with Gradle (x86_64)
+    - name: Build application Debug APK with Gradle
       uses: gradle/gradle-build-action@v2.1.5
       with:
-        arguments: clean -PreactNativeArchitectures=x86_64
-        build-root-directory: android
-
-    - name: Build Debug with Gradle (x86_64)
-      uses: gradle/gradle-build-action@v2.1.5
-      with:
-        arguments: assembleDebug -PreactNativeArchitectures=x86_64
-        build-root-directory: android
-
-    - name: Build Debug with Gradle (x86_64)
-      uses: gradle/gradle-build-action@v2.1.5
-      with:
-        arguments: assembleDebug -PreactNativeArchitectures=x86_64
+        arguments: assembleDebug
         build-root-directory: android
 
 #     - name: Build project Make-based (not CMake)
@@ -90,10 +72,16 @@ jobs:
 #         APP_BUILD_SCRIPT=/home/runner/work/react-native-template-new-architecture/react-native-template-new-architecture/node_modules/react-native/ReactAndroid/src/main/jni/react/jni/Android.mk
 #         NDK_APPLICATION_MK=/home/runner/work/react-native-template-new-architecture/react-native-template-new-architecture/node_modules/react-native/ReactAndroid/src/main/jni/Application.mk
 
-#       TODO: https://github.com/leotm/react-native-template-new-architecture/issues/553
-#     - name: Build Release with Gradle (x86_64)
-#       if: always()
-#       uses: gradle/gradle-build-action@v2.1.5
-#       with:
-#         arguments: assembleRelease -PreactNativeArchitectures=x86_64
-#         build-root-directory: android
+# E2E Release APK for Detox per VM image architecture for AVD
+# --active-arch-only
+# - M1: -PreactNativeArchitectures=arm64-v8a
+# - Other: -PreactNativeArchitectures=x86_64
+
+# Release AAB/APK with all 4 ABIs
+# - 1 AAB/APK, 1 upload
+# - Consider ccache without matrix
+# - Parallelise each ABI via matrix
+#   - Upload each ABI seperately
+# - Consider sccache
+#   - Bigger organisation/team
+#   - Running more frequent builds
