@@ -17562,7 +17562,6 @@ fsevents@^1.2.7:
     react-native-gradle-plugin: 0.0.6
     react-native-rename: 2.9.0
     react-native-safe-area-context: 4.2.4
-    react-native-screens: 3.13.1
     react-query: 3.34.20
     react-test-renderer: experimental
     reactotron-react-native: 5.0.1
@@ -19602,15 +19601,6 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-freeze@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "react-freeze@npm:1.0.0"
-  peerDependencies:
-    react: ^17.0.0
-  checksum: c746b9d369c77296c277626cf7dd5ff24d49657e2f16412d14f845d1b428588184c0009374119f7dec24be37ab8c134d15aa4ecd57360c874880af508dcc577b
-  languageName: node
-  linkType: hard
-
 "react-helmet-async@npm:^1.0.2":
   version: 1.0.9
   resolution: "react-helmet-async@npm:1.0.9"
@@ -19860,19 +19850,6 @@ fsevents@^1.2.7:
     react: "*"
     react-native: "*"
   checksum: 492a78b7728448dc802b528c7a0c526a7a00e7079e00925426dcdfcaff057d6fc460ca7838ec1737622609ad92a17640d676c96dcc0d0e0bcc13dc4800533d5e
-  languageName: node
-  linkType: hard
-
-"react-native-screens@npm:3.13.1":
-  version: 3.13.1
-  resolution: "react-native-screens@npm:3.13.1"
-  dependencies:
-    react-freeze: ^1.0.0
-    warn-once: ^0.1.0
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-  checksum: aaab7071f65ea7b3be197417e073d0cad06c80fcb2a956faaeb020322c8002963f4d14ba96550484e96d156a48a29989c1485f47ec4bcd98c9701fe8de5c7cc1
   languageName: node
   linkType: hard
 
