@@ -36,6 +36,7 @@ jobs:
       with:
         java-version: 18
         distribution: temurin
+        cache: 'gradle'
 
     # (Standalone toolchains obsolete)
     # Ubuntu 20.04: r21e, r22, r23b, Custom: r24+
