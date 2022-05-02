@@ -17651,9 +17651,9 @@ fsevents@^1.2.7:
     react-dom: experimental
     react-native: 0.68.1
     react-native-clean-project: 4.0.1
-    react-native-codegen: 0.0.14
+    react-native-codegen: 0.0.15
     react-native-flipper: 0.143.0
-    react-native-gradle-plugin: 0.0.6
+    react-native-gradle-plugin: 0.0.7
     react-native-rename: 2.9.0
     react-native-safe-area-context: 4.2.5
     react-query: 3.34.20
@@ -19815,15 +19815,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-codegen@npm:0.0.14":
-  version: 0.0.14
-  resolution: "react-native-codegen@npm:0.0.14"
+"react-native-codegen@npm:0.0.15":
+  version: 0.0.15
+  resolution: "react-native-codegen@npm:0.0.15"
   dependencies:
     "@babel/parser": ^7.14.0
     flow-parser: ^0.121.0
     jscodeshift: ^0.13.1
     nullthrows: ^1.1.1
-  checksum: 2e22f472e504b035a032fcb4c13412ecd60971cb2f11a161c674219f379afcc8098103503dc5f394ac92e8f6cbd2dce68ad3d8b7eb5cb1cd01a4e548063cf97c
+  checksum: 45f94a0148fad504ab8a347607dbb5168f7b9e824b62f9bef33ef1f9d602b1c7ec3dcb8ea89edf885bee286bd4840f86e4d62a7b16a2a1677e50e7e5defb7af5
   languageName: node
   linkType: hard
 
@@ -19869,7 +19869,14 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-gradle-plugin@npm:0.0.6, react-native-gradle-plugin@npm:^0.0.6":
+"react-native-gradle-plugin@npm:0.0.7":
+  version: 0.0.7
+  resolution: "react-native-gradle-plugin@npm:0.0.7"
+  checksum: 959ce3bcbc8362909210fae894e4b414a0afdff39fe1683463214b7feddae6beaf8584ebe62323b1e91ba31de00311e826588e0d807c93a949e445b1770cac27
+  languageName: node
+  linkType: hard
+
+"react-native-gradle-plugin@npm:^0.0.6":
   version: 0.0.6
   resolution: "react-native-gradle-plugin@npm:0.0.6"
   checksum: 185ad348931ef4f58065b50bbf80558af668b1ef11c31067aab7f1cd85b18809a62fcf0b7a18444726dacd098042771a570c0ac76bb8976c3ccbe7c86cff0e11
