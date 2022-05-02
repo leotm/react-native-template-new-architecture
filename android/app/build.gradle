@@ -1,11 +1,6 @@
 apply plugin: "com.android.application"
 
-apply plugin: "com.facebook.react"
 
-react {
-    reactRoot = rootProject.file("../node_modules/react-native/")
-    codegenDir = rootProject.file("../node_modules/react-native-codegen/")
-}
 
 import com.android.build.OutputFile
 import org.apache.tools.ant.taskdefs.condition.Os
@@ -87,7 +82,7 @@ import org.apache.tools.ant.taskdefs.condition.Os
 
 project.ext.react = [
     entryFile: "index.ts",
-    enableHermes: false,  // clean and rebuild if changing, needed for nightly
+    enableHermes: true,  // clean and rebuild if changing
 ]
 
 apply from: "../../node_modules/react-native/react.gradle"
@@ -144,7 +139,6 @@ android {
 
     defaultConfig {
         applicationId "com.leotm.myapp"
-        multiDexEnabled true
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -274,14 +268,12 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
 
     implementation project(":ReactAndroid")  // From node_modules
-    
-    implementation "androidx.multidex:multidex:2.0.1"
-    
+
     // https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout
     // https://developer.android.com/reference/kotlin/androidx/swiperefreshlayout/widget/package-summary
     // https://android.googlesource.com/platform/frameworks/support/+/refs/heads/androidx-main/swiperefreshlayout/swiperefreshlayout
     // https://github.com/android/views-widgets-samples
-    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01"
 
     debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}") {
         exclude group:'com.facebook.fbjni'
