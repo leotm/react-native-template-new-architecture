@@ -66,6 +66,12 @@ jobs:
         arguments: assembleDebug
         build-root-directory: android
 
+    - name: Build application Release APK with Gradle
+      uses: gradle/gradle-build-action@v2.1.5
+      with:
+        arguments: assembleRelease
+        build-root-directory: android
+
 #     - name: Build project Make-based (not CMake)
 #       run: |
 #         /usr/local/lib/android/sdk/ndk/x.x.x/ndk-build
