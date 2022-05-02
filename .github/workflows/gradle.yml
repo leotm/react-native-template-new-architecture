@@ -53,17 +53,17 @@ jobs:
     - name: Install all project dependencies
       run: yarn
 
-    - name: Build application Debug APK with Gradle
-      uses: gradle/gradle-build-action@v2.1.5
-      with:
-        arguments: assembleDebug
-        build-root-directory: android
-
     # Avoid poisoned cache problems
     - name: Delete Android build pre-computed outputs
       uses: gradle/gradle-build-action@v2.1.5
       with:
         arguments: clean
+        build-root-directory: android
+
+    - name: Build application Debug APK with Gradle
+      uses: gradle/gradle-build-action@v2.1.5
+      with:
+        arguments: assembleDebug
         build-root-directory: android
 
     - name: Build application Release APK with Gradle
