@@ -97,12 +97,14 @@ jobs:
         ANDROID_NDK_ROOT: ${{ steps.setup-ndk.outputs.ndk-path }}
 
     - name: Build application Debug APK with Gradle
+      if: always()
       uses: gradle/gradle-build-action@v2.1.5
       with:
         arguments: assembleDebug
         build-root-directory: android
 
     - name: Build application Release APK with Gradle
+      if: always()
       uses: gradle/gradle-build-action@v2.1.5
       with:
         arguments: assembleRelease
