@@ -42,6 +42,13 @@ jobs:
     - name: Debug info
       run: npx react-native info
 
+    - name: List files/folders in root and GitHub path
+      run: |
+        ls
+        cat $GITHUB_PATH
+        cd $GITHUB_PATH
+        ls
+
     # (Standalone toolchains obsolete)
     # Ubuntu 20.04: r21e, r22, r23b, Custom: r24+
     - name: Set up NDK 25 Beta 2
@@ -51,7 +58,9 @@ jobs:
 
     - name: Copy NDK 25 Beta 2 to ndk-bundle
       run: |
+        ls
         cd /usr/local/lib/android/sdk/ndk
+        ls
         cp -rf 25.0.8221429/* ndk-bundle/
 
     - name: Debug info
