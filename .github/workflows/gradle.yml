@@ -49,30 +49,41 @@ jobs:
       id: setup-ndk
       with:
         ndk-version: r25-beta2
+        # Added to path by default
 
     - name: Debug info
       run: npx react-native info
 
-    - name: Manually set NDK env vars
-      run: |
-        export ANDROID_NDK_HOME=/usr/local/lib/android/sdk/ndk/25.0.8221429
-        export ANDROID_NDK_ROOT=/usr/local/lib/android/sdk/ndk/25.0.8221429
+#     - name: Manually set NDK env vars
+#       run: |
+#         export ANDROID_NDK_HOME=/usr/local/lib/android/sdk/ndk/25.0.8221429
+#         export ANDROID_NDK_ROOT=/usr/local/lib/android/sdk/ndk/25.0.8221429
 
-    - name: Debug info
-      run: npx react-native info
+#     - name: Debug info
+#       run: npx react-native info
 
     - name: Install all project dependencies
       run: yarn
-      
+
+    - name: steps.setup-ndk.outputs.ndk-path
+      run: | # /opt/hostedtoolcache/ndk/r25-beta2/x64
+        echo "${{ steps.setup-ndk.outputs.ndk-path }}"
+        
     - name: /usr/local/lib/android/sdk/ndk
       run: |
         cd /usr/local/lib/android/sdk/ndk
         ls
-    #   cp -rf 25.0.8221429/* ndk-bundle
-
-    - name: steps.setup-ndk.outputs.ndk-path
+        
+    - name: /opt/hostedtoolcache/ndk
       run: |
-        echo "${{ steps.setup-ndk.outputs.ndk-path }}"
+        cd "${{ steps.setup-ndk.outputs.ndk-path }}"
+        cd ..
+        cd ..
+        ls
+
+    - name: cp -rf /opt/hostedtoolcache/ndk/r25-beta2/x64 /usr/local/lib/android/sdk/ndk-bundle
+      run: |
+        cp -rf /opt/hostedtoolcache/ndk/r25-beta2/x64 /usr/local/lib/android/sdk/ndk-bundle
 
     # Avoid poisoned cache problems
     - name: Delete Android build pre-computed outputs
@@ -83,7 +94,7 @@ jobs:
         build-root-directory: android
       env:
         ANDROID_NDK_HOME: ${{ steps.setup-ndk.outputs.ndk-path }}
-#         ANDROID_NDK_ROOT: /usr/local/lib/android/sdk/ndk/25.0.8221429
+        ANDROID_NDK_ROOT: ${{ steps.setup-ndk.outputs.ndk-path }}
 
     - name: Build application Debug APK with Gradle
       uses: gradle/gradle-build-action@v2.1.5
