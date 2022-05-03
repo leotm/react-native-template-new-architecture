@@ -46,6 +46,7 @@ jobs:
     # Ubuntu 20.04: r21e, r22, r23b, Custom: r24+
     - name: Set up NDK 25 Beta 2
       uses: nttld/setup-ndk@v1.0.6
+      id: setup-ndk
       with:
         ndk-version: r25-beta2
 
