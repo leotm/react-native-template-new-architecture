@@ -73,7 +73,6 @@ jobs:
     - name: steps.setup-ndk.outputs.ndk-path
       run: |
         echo "${{ steps.setup-ndk.outputs.ndk-path }}"
-        cat ${{ steps.setup-ndk.outputs.ndk-path }}
 
     # Avoid poisoned cache problems
     - name: Delete Android build pre-computed outputs
