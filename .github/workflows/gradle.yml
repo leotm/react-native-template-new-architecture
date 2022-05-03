@@ -49,6 +49,11 @@ jobs:
       with:
         ndk-version: r25-beta2
 
+    - name: Copy NDK 25 Beta 2 to ndk-bundle
+      run: |
+        cd /usr/local/lib/android/sdk/ndk
+        cp -rf 25.0.8221429/* ndk-bundle/
+
     - name: Debug info
       run: npx react-native info
 
