@@ -13,9 +13,9 @@ on:
   pull_request:
     branches: [ master ]
 
-env:
-  ANDROID_NDK_HOME: /usr/local/lib/android/sdk/ndk/25.0.8221429
-  ANDROID_NDK_ROOT: /usr/local/lib/android/sdk/ndk/25.0.8221429
+# env:
+#   ANDROID_NDK_HOME: /usr/local/lib/android/sdk/ndk/25.0.8221429
+#   ANDROID_NDK_ROOT: /usr/local/lib/android/sdk/ndk/25.0.8221429
 
 # TODO: Avoid brutally editing/setting ndk.dir in local.properties
 
@@ -24,9 +24,9 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    env:
-      ANDROID_NDK_HOME: /usr/local/lib/android/sdk/ndk/25.0.8221429
-      ANDROID_NDK_ROOT: /usr/local/lib/android/sdk/ndk/25.0.8221429
+#     env:
+#       ANDROID_NDK_HOME: /usr/local/lib/android/sdk/ndk/25.0.8221429
+#       ANDROID_NDK_ROOT: /usr/local/lib/android/sdk/ndk/25.0.8221429
 
     steps:
 
@@ -44,15 +44,15 @@ jobs:
 
     # (Standalone toolchains obsolete)
     # Ubuntu 20.04: r21e, r22, r23b, Custom: r24+
-    - name: Set up NDK 25 Beta 2
-      uses: nttld/setup-ndk@v1.0.6
-      id: setup-ndk
-      with:
-        ndk-version: r25-beta2
-        # Added to path by default
+#     - name: Set up NDK 25 Beta 2
+#       uses: nttld/setup-ndk@v1.0.6
+#       id: setup-ndk
+#       with:
+#         ndk-version: r25-beta2
+#         # Added to path by default
 
-    - name: Debug info
-      run: npx react-native info
+#     - name: Debug info
+#       run: npx react-native info
 
 #     - name: Manually set NDK env vars
 #       run: |
@@ -65,25 +65,25 @@ jobs:
     - name: Install all project dependencies
       run: yarn
 
-    - name: steps.setup-ndk.outputs.ndk-path
-      run: | # /opt/hostedtoolcache/ndk/r25-beta2/x64
-        echo "${{ steps.setup-ndk.outputs.ndk-path }}"
+#     - name: steps.setup-ndk.outputs.ndk-path
+#       run: | # /opt/hostedtoolcache/ndk/r25-beta2/x64
+#         echo "${{ steps.setup-ndk.outputs.ndk-path }}"
         
-    - name: /usr/local/lib/android/sdk/ndk
-      run: |
-        cd /usr/local/lib/android/sdk/ndk
-        ls
+#     - name: /usr/local/lib/android/sdk/ndk
+#       run: |
+#         cd /usr/local/lib/android/sdk/ndk
+#         ls
         
-    - name: /opt/hostedtoolcache/ndk
-      run: |
-        cd "${{ steps.setup-ndk.outputs.ndk-path }}"
-        cd ..
-        cd ..
-        ls
+#     - name: /opt/hostedtoolcache/ndk
+#       run: |
+#         cd "${{ steps.setup-ndk.outputs.ndk-path }}"
+#         cd ..
+#         cd ..
+#         ls
 
-    - name: cp -rf /opt/hostedtoolcache/ndk/r25-beta2/x64 /usr/local/lib/android/sdk/ndk-bundle
-      run: |
-        cp -rf /opt/hostedtoolcache/ndk/r25-beta2/x64 /usr/local/lib/android/sdk/ndk-bundle
+#     - name: cp -rf /opt/hostedtoolcache/ndk/r25-beta2/x64 /usr/local/lib/android/sdk/ndk-bundle
+#       run: |
+#         cp -rf /opt/hostedtoolcache/ndk/r25-beta2/x64 /usr/local/lib/android/sdk/ndk-bundle
 
     # Avoid poisoned cache problems
     - name: Delete Android build pre-computed outputs
@@ -92,9 +92,9 @@ jobs:
       with:
         arguments: clean
         build-root-directory: android
-      env:
-        ANDROID_NDK_HOME: ${{ steps.setup-ndk.outputs.ndk-path }}
-        ANDROID_NDK_ROOT: ${{ steps.setup-ndk.outputs.ndk-path }}
+#       env:
+#         ANDROID_NDK_HOME: ${{ steps.setup-ndk.outputs.ndk-path }}
+#         ANDROID_NDK_ROOT: ${{ steps.setup-ndk.outputs.ndk-path }}
 
     - name: Build application Debug APK with Gradle
       if: always()
