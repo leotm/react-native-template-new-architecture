@@ -42,12 +42,11 @@ jobs:
     - name: Debug info
       run: npx react-native info
 
-    - name: List files/folders in root and GitHub path
-      run: |
-        ls
-        cat $GITHUB_PATH
-        cd $GITHUB_PATH
-        ls
+    - name: List
+      run: ls
+
+    - name: $GITHUB_PATH
+      run: cat $GITHUB_PATH
 
     # (Standalone toolchains obsolete)
     # Ubuntu 20.04: r21e, r22, r23b, Custom: r24+
