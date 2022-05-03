@@ -63,10 +63,16 @@ jobs:
     - name: Install all project dependencies
       run: yarn
       
-    - name: Copy NDK 25 Beta 2 to ndk-bundle
+    - name: /usr/local/lib/android/sdk/ndk
       run: |
         cd /usr/local/lib/android/sdk/ndk
-        cp -rf 25.0.8221429/* ndk-bundle/
+        ls
+    #   cp -rf 25.0.8221429/* ndk-bundle
+
+    - name: steps.setup-ndk.outputs.ndk-path
+      run: |
+        echo "${{ steps.setup-ndk.outputs.ndk-path }}"
+        cat ${{ steps.setup-ndk.outputs.ndk-path }}
 
     # Avoid poisoned cache problems
     - name: Delete Android build pre-computed outputs
