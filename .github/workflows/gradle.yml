@@ -42,25 +42,12 @@ jobs:
     - name: Debug info
       run: npx react-native info
 
-    - name: List
-      run: ls
-
-    - name: $GITHUB_PATH
-      run: cat $GITHUB_PATH
-
     # (Standalone toolchains obsolete)
     # Ubuntu 20.04: r21e, r22, r23b, Custom: r24+
     - name: Set up NDK 25 Beta 2
       uses: nttld/setup-ndk@v1.0.6
       with:
         ndk-version: r25-beta2
-
-    - name: Copy NDK 25 Beta 2 to ndk-bundle
-      run: |
-        ls
-        cd /usr/local/lib/android/sdk/ndk
-        ls
-        cp -rf 25.0.8221429/* ndk-bundle/
 
     - name: Debug info
       run: npx react-native info
@@ -83,8 +70,8 @@ jobs:
         arguments: clean
         build-root-directory: android
       env:
-        ANDROID_NDK_HOME: /usr/local/lib/android/sdk/ndk/25.0.8221429
-        ANDROID_NDK_ROOT: /usr/local/lib/android/sdk/ndk/25.0.8221429
+        ANDROID_NDK_HOME: ${{ steps.setup-ndk.outputs.ndk-path }}
+#         ANDROID_NDK_ROOT: /usr/local/lib/android/sdk/ndk/25.0.8221429
 
     - name: Build application Debug APK with Gradle
       uses: gradle/gradle-build-action@v2.1.5
