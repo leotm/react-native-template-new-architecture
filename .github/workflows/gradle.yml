@@ -13,10 +13,9 @@ on:
   pull_request:
     branches: [ master ]
 
-# Global envs
-# env:
-#   ANDROID_NDK_HOME: /usr/local/lib/android/sdk/ndk/x.x.x
-#   ANDROID_NDK_ROOT: /usr/local/lib/android/sdk/ndk/x.x.x
+env:
+  ANDROID_NDK_HOME: /usr/local/lib/android/sdk/ndk/25.0.8221429
+  ANDROID_NDK_ROOT: /usr/local/lib/android/sdk/ndk/25.0.8221429
 
 # TODO: Avoid brutally editing/setting ndk.dir in local.properties
 
