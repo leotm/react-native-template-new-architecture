@@ -62,9 +62,15 @@ jobs:
 
     - name: Install all project dependencies
       run: yarn
+      
+    - name: Copy NDK 25 Beta 2 to ndk-bundle
+      run: |
+        cd /usr/local/lib/android/sdk/ndk
+        cp -rf 25.0.8221429/* ndk-bundle/
 
     # Avoid poisoned cache problems
     - name: Delete Android build pre-computed outputs
+      if: always()
       uses: gradle/gradle-build-action@v2.1.5
       with:
         arguments: clean
