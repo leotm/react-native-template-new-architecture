@@ -24,7 +24,9 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    # Local job envs
+    env:
+      ANDROID_NDK_HOME: /usr/local/lib/android/sdk/ndk/25.0.8221429
+      ANDROID_NDK_ROOT: /usr/local/lib/android/sdk/ndk/25.0.8221429
 
     steps:
 
@@ -37,6 +39,9 @@ jobs:
         distribution: temurin
         cache: 'gradle'
 
+    - name: Debug info
+      run: npx react-native info
+
     # (Standalone toolchains obsolete)
     # Ubuntu 20.04: r21e, r22, r23b, Custom: r24+
     - name: Set up NDK 25 Beta 2
@@ -44,10 +49,16 @@ jobs:
       with:
         ndk-version: r25-beta2
 
-    # - name: Or manually set NDK X env vars
-    #   run: |
-    #     export ANDROID_NDK_HOME=/usr/local/lib/android/sdk/ndk/x.x.x
-    #     export ANDROID_NDK_ROOT=/usr/local/lib/android/sdk/ndk/x.x.x
+    - name: Debug info
+      run: npx react-native info
+
+    - name: Manually set NDK env vars
+      run: |
+        export ANDROID_NDK_HOME=/usr/local/lib/android/sdk/ndk/25.0.8221429
+        export ANDROID_NDK_ROOT=/usr/local/lib/android/sdk/ndk/25.0.8221429
+
+    - name: Debug info
+      run: npx react-native info
 
     - name: Install all project dependencies
       run: yarn
@@ -58,6 +69,9 @@ jobs:
       with:
         arguments: clean
         build-root-directory: android
+      env:
+        ANDROID_NDK_HOME: /usr/local/lib/android/sdk/ndk/25.0.8221429
+        ANDROID_NDK_ROOT: /usr/local/lib/android/sdk/ndk/25.0.8221429
 
     - name: Build application Debug APK with Gradle
       uses: gradle/gradle-build-action@v2.1.5
