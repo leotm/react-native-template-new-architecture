@@ -17655,7 +17655,7 @@ fsevents@^1.2.7:
     react-native-flipper: 0.143.0
     react-native-gradle-plugin: 0.0.7
     react-native-rename: 2.9.0
-    react-query: 3.34.20
+    react-query: 3.38.1
     react-test-renderer: experimental
     reactotron-react-native: 5.0.1
     ts-node: 10.7.0
@@ -20069,21 +20069,21 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-query@npm:3.34.20":
-  version: 3.34.20
-  resolution: "react-query@npm:3.34.20"
+"react-query@npm:3.38.1":
+  version: 3.38.1
+  resolution: "react-query@npm:3.38.1"
   dependencies:
     "@babel/runtime": ^7.5.5
     broadcast-channel: ^3.4.1
     match-sorter: ^6.0.2
   peerDependencies:
-    react: ^16.8.0 || ^17.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
   peerDependenciesMeta:
     react-dom:
       optional: true
     react-native:
       optional: true
-  checksum: 4381936f051b3ac90435f700ebe83a73cfb210f90acd7914ca0b5d6a85d89cfc31ace918fdce9ba1cfb0b404e86c522407a843cd9991a2526d6f4826ff3c0522
+  checksum: 2edb95dbc0184aa1858e7a47161372c871d0077583e439cfce4473231f426a222990ad313ad1eaf6fca1025e502d006f4f92008b346a83900be148a7e3ededc2
   languageName: node
   linkType: hard
 
