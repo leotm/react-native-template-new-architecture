@@ -14911,7 +14911,7 @@ fsevents@^1.2.7:
     react-dom: 18.1.0
     react-native: 0.69.0-rc.0
     react-native-clean-project: 4.0.1
-    react-native-codegen: 0.0.16
+    react-native-codegen: 0.69.0
     react-native-flipper: 0.143.0
     react-native-gradle-plugin: 0.0.7
     react-native-rename: 2.9.0
@@ -16822,15 +16822,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-codegen@npm:0.0.16":
-  version: 0.0.16
-  resolution: "react-native-codegen@npm:0.0.16"
+"react-native-codegen@npm:0.69.0":
+  version: 0.69.0
+  resolution: "react-native-codegen@npm:0.69.0"
   dependencies:
     "@babel/parser": ^7.14.0
     flow-parser: ^0.121.0
     jscodeshift: ^0.13.1
     nullthrows: ^1.1.1
-  checksum: 8be59cb39bf15df229da0bf818097337f571a75709cc075e0c41a99be177fd3e551ae119411c19abd9d27edda13f5c3785f6d7fe9cc63e1a8515ebeaea5f6ec6
+  checksum: 54bfd07b7d5c1b166b010fddf30591eaeceb41add84355a7ba2688e7f2b1298f52d5313e1b0b5017ddedc99bd71ae97f2c02dbc3ef29c98587207af5dde3675e
   languageName: node
   linkType: hard
 
