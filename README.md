@@ -55,26 +55,25 @@ _Or [iOS (Intel x86_64)](https://github.com/leotm/react-native-template-new-arch
 
 ### Android
 
-[Building-from-source#prerequisites](https://github.com/facebook/react-native/wiki/Building-from-source#prerequisites), but with [NDK 25.0.8221429 rc2](https://github.com/reactwg/react-native-releases/discussions/13#discussioncomment-2269256)
+[Building-from-source#prerequisites](https://github.com/facebook/react-native/wiki/Building-from-source#prerequisites), but with NDK 25.0.8528842 rc4
 
 ```
 # android/local.properties
 sdk.dir=/Users/<user>/Library/Android/sdk
-ndk.dir=/Users/<user>/Library/Android/sdk/ndk/25.0.8221429
+ndk.dir=/Users/<user>/Library/Android/sdk/ndk/25.0.8528842
 ```
 
 _Strip: ` rcX` suffix / (trailing) spaces / final final linebreak - otherwise `fcntl(): Bad file descriptor`_
 
 Open [Android Studio - Preview release - Canary build](https://developer.android.com/studio/preview)
 - Open Project, set the [JDK](https://github.com/leotm/react-native-template-new-architecture/wiki/Android#jdk)
-- [SDK Manager > SDK Tools > NDK > ⬇️ 25.0.8221429 rc2](https://user-images.githubusercontent.com/1881059/158474758-c8c1412c-2f35-4d0d-abc7-6ba18c65827c.png)
-- [Build only one ABI during development](https://reactnative.dev/docs/build-speed#build-only-one-abi-during-development-android-only)
-- [Build all 4 default ABIs first](https://github.com/leotm/react-native-template-new-architecture/blob/master/android/gradle.properties#L33) with libraries like `react-native-screens` ([clean issue](https://github.com/reactwg/react-native-releases/discussions/13#discussioncomment-2254502) resolved) or `react-native-safe-area-context` till resolved
-- Open e.g. `Pixel_3a_API_31_arm64-v8a` <s>[Initial Preview v3: Google APIs System Image](https://github.com/google/android-emulator-m1-preview)</s>
+- [SDK Manager > SDK Tools > NDK > ⬇️ 25.0.8528842 rc4](https://user-images.githubusercontent.com/1881059/158474758-c8c1412c-2f35-4d0d-abc7-6ba18c65827c.png)
+- Build [all 4 default ABIs](https://github.com/leotm/react-native-template-new-architecture/blob/master/android/gradle.properties#L33) first with other libraries
+- Open an arm64 AVD e.g. `Pixel_3a_API_31_arm64-v8a` <s>[Initial Preview v3: Google APIs System Image](https://github.com/google/android-emulator-m1-preview)</s>
 - Make Project
   
 ```sh
-yarn android
+yarn android --active-arch-only
 ```
 
 ### Troubleshooting
