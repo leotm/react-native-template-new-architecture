@@ -1,7 +1,7 @@
 /* eslint-disable react-native/no-raw-text, no-console */
 // https://github.com/Intellicode/eslint-plugin-react-native/issues/271
 
-import type { FC } from 'react'
+import type { FC, ReactNode } from 'react'
 import {
   SafeAreaView,
   ScrollView,
@@ -29,7 +29,10 @@ if (__DEV__) {
     .catch(() => console.error)
 }
 
-const Section: FC<{ title: string }> = ({ children, title }) => {
+const Section: FC<{ children: ReactNode; title: string }> = ({
+  children,
+  title
+}) => {
   const isDarkMode = useColorScheme() === 'dark'
   return (
     <View style={styles.sectionContainer}>
