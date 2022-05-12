@@ -85,6 +85,7 @@ module.exports = {
      * - class Atom extends Component<{ children: ReactNode, onPress: () => void }>
      * - const Atom = ({ children, onPress }: { children: ReactNode; onPress: () => void }) => <></> // Inferred JSX.Element
      * - const Atom: FC<{ onPress: () => void }>
+     * React 17 PropsWithChildren, now removed for generic P in React 18
      */
     '@typescript-eslint/no-unnecessary-type-arguments': 'off',
     '@typescript-eslint/no-unused-vars': [

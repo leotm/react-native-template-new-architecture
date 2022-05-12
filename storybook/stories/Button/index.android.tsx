@@ -1,7 +1,7 @@
-import type { FC } from 'react'
+import type { FC, ReactNode } from 'react'
 import { TouchableNativeFeedback } from 'react-native'
 
-const Button: FC<{ onPress: () => void }> = ({
+const Button: FC<{ children: ReactNode; onPress: () => void }> = ({
   onPress = () => {
     // do nothing.
   },
