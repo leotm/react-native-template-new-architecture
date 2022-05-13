@@ -14853,7 +14853,7 @@ fsevents@^1.2.7:
     react-native-rename: 2.9.0
     react-query: 3.38.1
     react-test-renderer: 18.1.0
-    reactotron-react-native: 5.0.1
+    reactotron-react-native: 5.0.2
     ts-node: 10.7.0
     typescript: beta
   languageName: unknown
@@ -17223,9 +17223,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"reactotron-react-native@npm:5.0.1":
-  version: 5.0.1
-  resolution: "reactotron-react-native@npm:5.0.1"
+"reactotron-react-native@npm:5.0.2":
+  version: 5.0.2
+  resolution: "reactotron-react-native@npm:5.0.2"
   dependencies:
     mitt: 1.1.3
     query-string: 6.10.1
@@ -17237,7 +17237,7 @@ fsevents@^1.2.7:
   dependenciesMeta:
     react-native-flipper:
       optional: true
-  checksum: 31c73ca6c0149229c3ad8d72e1213ef03806d8ff278cf9cc662096afd33c27dddf67f8590e48da6e12bdbf7ed1df4f69e56822ca5bc4729947010d00effe6974
+  checksum: 044ca744f39b3658fb327957031b29c5f64c3165142831a22caff84444d1456bf451cda4ff4788b1d35d5452eaeea06792c9c853ead447d6c54d9fc6838975bd
   languageName: node
   linkType: hard
 
@@ -19780,11 +19780,11 @@ resolve@^2.0.0-next.3:
 
 "typescript@patch:typescript@beta#~builtin<compat/typescript>":
   version: 4.7.0-beta
-  resolution: "typescript@patch:typescript@npm%3A4.7.0-beta#~builtin<compat/typescript>::version=4.7.0-beta&hash=bda367"
+  resolution: "typescript@patch:typescript@npm%3A4.7.0-beta#~builtin<compat/typescript>::version=4.7.0-beta&hash=7ad353"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 1c965eee339d6008535b08b5fdd6e4227aeede2e042df5dca8aaa02d468c146a2c33d3a62ec0600c093f3cea2db6b98528b424d951f6536734c1db116a066057
+  checksum: b6fc6e1f43d23cbc38ec895d73a5c9b3e4f2153aada68eded2810414d918fb607010b2840679698c877e647915f425d1237b30e4cdaa479682b597514a37f96d
   languageName: node
   linkType: hard
 
