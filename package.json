@@ -35,8 +35,8 @@
     "@react-navigation/native": "6.0.10",
     "@react-navigation/native-stack": "6.6.2",
     "react": "18.1.0",
-    "react-native": "0.69.0-rc.0",
-    "react-native-codegen": "0.69.0",
+    "react-native": "0.69.0-rc.1",
+    "react-native-codegen": "0.69.1",
     "react-query": "3.38.1"
   },
   "devDependencies": {
@@ -62,20 +62,20 @@
     "@storybook/linter-config": "3.1.2",
     "@storybook/react-native": "next",
     "@storybook/react-native-server": "next",
-    "@swc/core": "1.2.179",
-    "@swc/wasm": "1.2.179",
-    "@types/jest": "27.5.0",
-    "@types/node": "16.11.33",
-    "@types/react": "18.0.8",
-    "@types/react-native": "0.67.6",
+    "@swc/core": "1.2.183",
+    "@swc/wasm": "1.2.183",
+    "@types/jest": "27.5.1",
+    "@types/node": "16.11.35",
+    "@types/react": "18.0.9",
+    "@types/react-native": "0.67.7",
     "@types/react-test-renderer": "18.0.0",
     "@types/ws": "8.5.3",
-    "@typescript-eslint/eslint-plugin": "5.22.0",
-    "@typescript-eslint/parser": "5.22.0",
+    "@typescript-eslint/eslint-plugin": "5.23.0",
+    "@typescript-eslint/parser": "5.23.0",
     "babel-jest": "27.5.1",
     "babel-loader": "8.2.5",
     "babel-plugin-transform-inline-environment-variables": "0.4.4",
-    "eslint": "8.14.0",
+    "eslint": "8.15.0",
     "eslint-config-airbnb-typescript": "17.0.0",
     "eslint-config-airbnb-typescript-prettier": "5.0.0",
     "eslint-config-react-native-typescript": "2.2.6",
@@ -105,7 +105,7 @@
     "react-native-gradle-plugin": "0.0.7",
     "react-native-rename": "2.9.0",
     "react-test-renderer": "18.1.0",
-    "reactotron-react-native": "5.0.1",
+    "reactotron-react-native": "5.0.2",
     "ts-node": "10.7.0",
     "typescript": "beta"
   },
@@ -137,5 +137,5 @@
       "prettier --write"
     ]
   },
-  "packageManager": "yarn@3.2.0"
+  "packageManager": "yarn@3.2.1"
 }
