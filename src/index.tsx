@@ -19,7 +19,8 @@ import {
   ReloadInstructions
 } from 'react-native/Libraries/NewAppScreen'
 
-import StorybookUIRoot from '../.storybook/Storybook'
+// TODO: Fix Storybook v6.0.1-alpha.7 crash and upgrade to v6.0.1-beta.6
+import _StorybookUIRoot from '../.storybook/Storybook'
 
 if (__DEV__) {
   import('../ReactotronConfig')
@@ -123,7 +124,7 @@ const styles = StyleSheet.create({
 })
 
 // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition, no-constant-condition
-export default false ? StorybookUIRoot : App
+export default App // Or StorybookUIRoot
 
 // export default Reactotron.storybookSwitcher(storybook)(App)
 // https://github.com/infinitered/reactotron/issues/1160
