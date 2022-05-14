@@ -4,7 +4,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 platform :ios, '12.4'
 install! 'cocoapods', :deterministic_uuids => false
 
-flipperkit_version = '0.138.0'
+flipperkit_version = '0.145.0'
 
 ENV['RCT_NEW_ARCH_ENABLED'] = '1'
 
