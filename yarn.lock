@@ -1512,7 +1512,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:7.17.9, @babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.14.8, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.16.7, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.4.4, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.6.2, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:7.17.9, @babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.14.8, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.16.7, @babel/runtime@npm:^7.17.9, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.4.4, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.6.2, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
   version: 7.17.9
   resolution: "@babel/runtime@npm:7.17.9"
   dependencies:
@@ -4593,6 +4593,13 @@ __metadata:
   version: 2.0.3
   resolution: "@types/unist@npm:2.0.3"
   checksum: 4427306b094561da28164e7e5250c4e6b382cb8eac40bf7e6bb0ff1e6e00c13e47aaf32e4a08fc8ba54602d07f79a39fb9ba304cc9dc886b1e3caf824649edbd
+  languageName: node
+  linkType: hard
+
+"@types/use-sync-external-store@npm:^0.0.3":
+  version: 0.0.3
+  resolution: "@types/use-sync-external-store@npm:0.0.3"
+  checksum: 161ddb8eec5dbe7279ac971531217e9af6b99f7783213566d2b502e2e2378ea19cf5e5ea4595039d730aa79d3d35c6567d48599f69773a02ffcff1776ec2a44e
   languageName: node
   linkType: hard
 
@@ -14896,7 +14903,7 @@ fsevents@^1.2.7:
     react-native-flipper: 0.145.0
     react-native-gradle-plugin: 0.0.7
     react-native-rename: 2.9.0
-    react-query: 3.38.1
+    react-query: beta
     react-test-renderer: 18.1.0
     reactotron-react-native: 5.0.2
     ts-node: 10.7.0
@@ -17039,13 +17046,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-query@npm:3.38.1":
-  version: 3.38.1
-  resolution: "react-query@npm:3.38.1"
+"react-query@npm:beta":
+  version: 4.0.0-beta.11
+  resolution: "react-query@npm:4.0.0-beta.11"
   dependencies:
-    "@babel/runtime": ^7.5.5
+    "@babel/runtime": ^7.17.9
+    "@types/use-sync-external-store": ^0.0.3
     broadcast-channel: ^3.4.1
     match-sorter: ^6.0.2
+    use-sync-external-store: ^1.0.0
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
   peerDependenciesMeta:
@@ -17053,7 +17062,7 @@ fsevents@^1.2.7:
       optional: true
     react-native:
       optional: true
-  checksum: 2edb95dbc0184aa1858e7a47161372c871d0077583e439cfce4473231f426a222990ad313ad1eaf6fca1025e502d006f4f92008b346a83900be148a7e3ededc2
+  checksum: a2df0a8b62d47d8e5b2fdfc6467b6d7d2e918a29d636e5b043110bf9555b2e626ae34e05cf73900e526925d5fca700451627f4e137c14e958703a2e1ba2c9010
   languageName: node
   linkType: hard
 
