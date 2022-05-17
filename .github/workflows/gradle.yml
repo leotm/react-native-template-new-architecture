@@ -65,19 +65,19 @@ jobs:
 
     # Avoid poisoned cache problems
     - name: Delete Android build pre-computed outputs
-      uses: gradle/gradle-build-action@v2.1.5
+      uses: gradle/gradle-build-action@v2.1.6
       with:
         arguments: clean
         build-root-directory: android
 
     - name: Build application Debug APK with Gradle
-      uses: gradle/gradle-build-action@v2.1.5
+      uses: gradle/gradle-build-action@v2.1.6
       with:
         arguments: assembleDebug
         build-root-directory: android
 
     - name: Build application Release APK with Gradle
-      uses: gradle/gradle-build-action@v2.1.5
+      uses: gradle/gradle-build-action@v2.1.6
       with:
         arguments: assembleRelease
         build-root-directory: android
