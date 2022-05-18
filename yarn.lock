@@ -9646,17 +9646,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-yml@npm:0.15.0":
-  version: 0.15.0
-  resolution: "eslint-plugin-yml@npm:0.15.0"
+"eslint-plugin-yml@npm:1.0.0":
+  version: 1.0.0
+  resolution: "eslint-plugin-yml@npm:1.0.0"
   dependencies:
     debug: ^4.3.2
     lodash: ^4.17.21
     natural-compare: ^1.4.0
-    yaml-eslint-parser: ^0.5.0
+    yaml-eslint-parser: ^1.0.0
   peerDependencies:
     eslint: ">=6.0.0"
-  checksum: e8220eaf586efdf6e5580471399ea39d7204e185f94c26d78ca5d93affc95a8753162dfc2f435ab89d10b5484190ea64c4be56f2b4da0205a7fbe76a14cd09e7
+  checksum: b345604d1ebbe0b61887c22d998d0217ae0b662072ecbc5f532513b61bcae2df1dc8bf5459c23f63cc38d223b8bebdf6382eefcbe30a46dec8adbc07e693d54e
   languageName: node
   linkType: hard
 
@@ -14888,7 +14888,7 @@ fsevents@^1.2.7:
     eslint-plugin-simple-import-sort: 7.0.0
     eslint-plugin-sort-keys-fix: 1.1.2
     eslint-plugin-typescript-sort-keys: 2.1.0
-    eslint-plugin-yml: 0.15.0
+    eslint-plugin-yml: 1.0.0
     flipper-server: 0.145.0
     husky: 7.0.4
     jest: 27.5.1
@@ -21021,14 +21021,14 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"yaml-eslint-parser@npm:^0.5.0":
-  version: 0.5.0
-  resolution: "yaml-eslint-parser@npm:0.5.0"
+"yaml-eslint-parser@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "yaml-eslint-parser@npm:1.0.1"
   dependencies:
     eslint-visitor-keys: ^3.0.0
     lodash: ^4.17.21
-    yaml: ^1.10.2
-  checksum: f4b316407fa3a98e35808c3321617be8d01333df23e5ac5c00b1bd2c497845aeebab4bd506209f38b1e48c3d0483ade8b2c2f0251d131924435ed718d88b2c26
+    yaml: ^2.0.0
+  checksum: 48290ce20c8524e56798ed35113021d4cb1d4f3d6361a945d65a00753202b57dfd17fc400d4c21cc6915e7f79b2fd0cd85af3a267304aabfbdb165357e6edd5f
   languageName: node
   linkType: hard
 
@@ -21036,6 +21036,13 @@ resolve@^2.0.0-next.3:
   version: 1.10.2
   resolution: "yaml@npm:1.10.2"
   checksum: ce4ada136e8a78a0b08dc10b4b900936912d15de59905b2bf415b4d33c63df1d555d23acb2a41b23cf9fb5da41c256441afca3d6509de7247daa062fd2c5ea5f
+  languageName: node
+  linkType: hard
+
+"yaml@npm:^2.0.0":
+  version: 2.1.0
+  resolution: "yaml@npm:2.1.0"
+  checksum: 59323a8b51b10d9ad0eab951e7a1f315f1076c123b08ffe60441add1df4fa3433b1d5783b21c50a65536e9d853b23fa567921dbd4bc0d711be2dbf14a06be03b
   languageName: node
   linkType: hard
 
