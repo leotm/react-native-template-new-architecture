@@ -66,17 +66,18 @@ jobs:
         cd cmake-3.23.1-linux-x86_64
         ./bin/cmake --version
 
-    # Avoid poisoned cache problems
-    - name: Delete Android build pre-computed outputs
-      uses: gradle/gradle-build-action@v2.1.6
-      with:
-        arguments: clean
-        build-root-directory: android
-
     - name: Build application Debug APK with Gradle
       uses: gradle/gradle-build-action@v2.1.6
       with:
         arguments: assembleDebug
+        build-root-directory: android
+
+    # Avoid release poisoned cache problems
+    # Preserve hosted agent free disk space
+    - name: Delete Android build pre-computed outputs
+      uses: gradle/gradle-build-action@v2.1.6
+      with:
+        arguments: clean
         build-root-directory: android
 
     - name: Build application Release APK with Gradle
