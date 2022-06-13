@@ -16,8 +16,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Log Yarn version
+        run: yarn -v
+
       - name: Download latest canary release from the Yarn repo
         run: yarn set version canary
+
+      - name: Log Yarn version
+        run: yarn -v
 
       - name: Install with Yarn
         run: yarn
