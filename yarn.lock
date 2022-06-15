@@ -2513,13 +2513,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/slider@npm:4.2.2":
-  version: 4.2.2
-  resolution: "@react-native-community/slider@npm:4.2.2"
+"@react-native-community/slider@npm:4.2.3":
+  version: 4.2.3
+  resolution: "@react-native-community/slider@npm:4.2.3"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 377bd8e52cc4182003694ff35cea29cae23ff4862c507dce012759eada6fb42737a2d0d0a1d4b01f92b10cbdcd375f4ccb4a960e29b3f0611740bc4c25dee755
+  checksum: ab8d0132b1ed40928aa1b9844177ea46d7af888488a09a806cae1d7679258f63c1c540b5efd97fea4c800719440930cfab4d03e0e247f4a5d8473c9c6099774a
   languageName: node
   linkType: hard
 
@@ -14905,7 +14905,7 @@ fsevents@^1.2.7:
     "@react-native-community/cli": next
     "@react-native-community/datetimepicker": 6.1.3
     "@react-native-community/eslint-config": 3.0.2
-    "@react-native-community/slider": 4.2.2
+    "@react-native-community/slider": 4.2.3
     "@react-navigation/native": 6.0.10
     "@react-navigation/native-stack": 6.6.2
     "@storybook/addon-actions": 6.5.9
