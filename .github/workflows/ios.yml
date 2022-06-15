@@ -1,0 +1,54 @@
+name: iOS CI with Xcode
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build-ios:
+
+    runs-on: macos-12
+    
+    # ruby: 2.7.6, 3.0.4, 3.1.2 (../.ruby-version: 2.7.5)
+    # CocoaPods: 1.11.3
+
+    steps:
+
+    - uses: actions/checkout@v3
+
+#    - uses: mikehardy/buildcache-action@v1
+
+#      TODO: yarn cache
+#      TODO: node_modules cache
+
+     - name: Install all project dependencies
+       run: yarn
+
+#    - uses: ruby/setup-ruby@v1
+#      with:
+#        bundler-cache: true # bundle install and cache installed gems automatically
+#    - run: bundle exec rake?
+
+#      TODO: Restore Pods cache
+#    - uses: setup/cocoapods
+#    - name: Install pods (--repo-update?)
+#      run: cd ios && pod install --clean-install
+
+#    - name: Install pods (--repo-update?)
+#      run: cd ios && pod install --clean-install
+
+#     Xcodebuild (archive)
+#     yukiarrr/ios-build-action
+
+#     fastlane:ios:debug
+#    - name: yarn ios (Debug)
+#      run: yarn ios
+
+#    - name: Clean
+#      run: xcodebuild clean
+
+#      https://github.com/reactwg/react-native-releases/discussions/21#discussioncomment-2945972
+#    - name: yarn ios (Release)
+#      run: yarn ios
