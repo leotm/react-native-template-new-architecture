@@ -23,8 +23,8 @@ jobs:
 #      TODO: yarn cache
 #      TODO: node_modules cache
 
-     - name: Install all project dependencies
-       run: yarn
+    - name: Install all project dependencies
+      run: yarn
 
 #    - uses: ruby/setup-ruby@v1
 #      with:
