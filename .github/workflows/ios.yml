@@ -36,15 +36,19 @@ jobs:
 #    - name: Install pods (--repo-update?)
 #      run: cd ios && pod install --clean-install
 
-#    - name: Install pods (--repo-update?)
-#      run: cd ios && pod install --clean-install
+    - name: Install pods
+      run: cd ios && pod install
+#                                --repo-update
+#                                --clean-install
 
-#     Xcodebuild (archive)
-#     yukiarrr/ios-build-action
+#      Xcodebuild (archive)
+#      yukiarrr/ios-build-action
 
-#     fastlane:ios:debug
+#      fastlane:ios:debug
 #    - name: yarn ios (Debug)
 #      run: yarn ios
+
+#      ---
 
 #    - name: Clean
 #      run: xcodebuild clean
