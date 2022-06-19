@@ -37,7 +37,7 @@ jobs:
 #      run: cd ios && pod install --clean-install
 
     - name: Install pods
-      run: cd ios && pod install && cd ..
+      run: cd ios && PRODUCTION=1 pod install && cd ..
 #                                --repo-update
 #                                --clean-install
 
