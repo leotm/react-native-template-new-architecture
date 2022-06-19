@@ -33,8 +33,6 @@ jobs:
 
 #      TODO: Restore Pods cache
 #    - uses: setup/cocoapods
-#    - name: Install pods (--repo-update?)
-#      run: cd ios && pod install --clean-install
 
     - name: Install pods
       run: cd ios && PRODUCTION=1 pod install && cd ..
