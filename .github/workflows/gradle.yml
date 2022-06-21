@@ -35,7 +35,7 @@ jobs:
       uses: hendrikmuhs/ccache-action@v1.2.2
 
     - name: Set up JDK 18
-      uses: actions/setup-java@v3.3.0
+      uses: actions/setup-java@v3.4.0
       with:
         java-version: 18
         distribution: temurin
