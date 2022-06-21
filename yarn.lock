@@ -1601,14 +1601,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@curveball/router@npm:0.3.0":
-  version: 0.3.0
-  resolution: "@curveball/router@npm:0.3.0"
+"@curveball/router@npm:0.4.1":
+  version: 0.4.1
+  resolution: "@curveball/router@npm:0.4.1"
   dependencies:
     path-to-regexp: ^6.2.0
   peerDependencies:
-    "@curveball/core": ">=0.16 <1"
-  checksum: 882fb4dfea067d2917026675d8236254063ac5ec3e5c762596811bd6f368bc3614b84967740b6bf3b68f22b28a599cbdcd8c77e916100fba60edf79e3206476a
+    "@curveball/core": ">=0.19 <1"
+  checksum: 398323514eb25f1e9397fd9fe17ebd68fd39254b3a3768ef2b066fb97682ad5e35b7afb17f65267808e6d66ceb67fcdd3bb1962606da8ac021fda578625d7745
   languageName: node
   linkType: hard
 
@@ -14899,7 +14899,7 @@ fsevents@^1.2.7:
     "@babel/preset-react": 7.17.12
     "@babel/runtime": 7.18.3
     "@curveball/core": 0.17.0
-    "@curveball/router": 0.3.0
+    "@curveball/router": 0.4.1
     "@react-native-async-storage/async-storage": 1.17.6
     "@react-native-community/checkbox": 0.5.12
     "@react-native-community/cli": next
