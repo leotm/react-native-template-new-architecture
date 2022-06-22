@@ -53,6 +53,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/eslint-parser@npm:^7.18.2":
+  version: 7.18.2
+  resolution: "@babel/eslint-parser@npm:7.18.2"
+  dependencies:
+    eslint-scope: ^5.1.1
+    eslint-visitor-keys: ^2.1.0
+    semver: ^6.3.0
+  peerDependencies:
+    "@babel/core": ">=7.11.0"
+    eslint: ^7.5.0 || ^8.0.0
+  checksum: dc9328cf3304b25c9029682e6b6196761e18d3ab80d66c3085a69c6f240fa2db91b824a61672e94139e73683b7ceeefe9ff58acac1ee89fe73274007b16e43d5
+  languageName: node
+  linkType: hard
+
 "@babel/generator@npm:^7.14.0, @babel/generator@npm:^7.18.2, @babel/generator@npm:^7.7.2":
   version: 7.18.2
   resolution: "@babel/generator@npm:7.18.2"
@@ -2460,14 +2474,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/eslint-config@npm:3.0.2":
-  version: 3.0.2
-  resolution: "@react-native-community/eslint-config@npm:3.0.2"
+"@react-native-community/eslint-config@npm:3.0.3":
+  version: 3.0.3
+  resolution: "@react-native-community/eslint-config@npm:3.0.3"
   dependencies:
+    "@babel/core": ^7.14.0
+    "@babel/eslint-parser": ^7.18.2
     "@react-native-community/eslint-plugin": ^1.1.0
     "@typescript-eslint/eslint-plugin": ^5.15.0
     "@typescript-eslint/parser": ^5.15.0
-    babel-eslint: ^10.1.0
     eslint-config-prettier: ^8.3.0
     eslint-plugin-eslint-comments: ^3.2.0
     eslint-plugin-flowtype: ^8.0.0
@@ -2479,7 +2494,7 @@ __metadata:
   peerDependencies:
     eslint: ">=7"
     prettier: ">=2"
-  checksum: 8169801f7c1f2fd72d22f1d2f19e44d7998dfe55232293f930a9168da7b12ad97ddf97b9e1d4431a8b78ef8abcc53622d4c91e35aa6a09d9d90912f3c8f14774
+  checksum: 5d2f48a9366fd292165265e7f51268ef1e31255b9b08ece023b3d46e42bfe30329760b4175fc1fec312d5b29b99af2c288e2baaf3ac50f5c231289c98b53c548
   languageName: node
   linkType: hard
 
@@ -9712,7 +9727,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-visitor-keys@npm:^2.0.0":
+"eslint-visitor-keys@npm:^2.0.0, eslint-visitor-keys@npm:^2.1.0":
   version: 2.1.0
   resolution: "eslint-visitor-keys@npm:2.1.0"
   checksum: e3081d7dd2611a35f0388bbdc2f5da60b3a3c5b8b6e928daffff7391146b434d691577aa95064c8b7faad0b8a680266bcda0a42439c18c717b80e6718d7e267d
@@ -14904,7 +14919,7 @@ fsevents@^1.2.7:
     "@react-native-community/checkbox": 0.5.12
     "@react-native-community/cli": next
     "@react-native-community/datetimepicker": 6.1.3
-    "@react-native-community/eslint-config": 3.0.2
+    "@react-native-community/eslint-config": 3.0.3
     "@react-native-community/slider": 4.2.3
     "@react-navigation/native": 6.0.10
     "@react-navigation/native-stack": 6.6.2
