@@ -14962,7 +14962,7 @@ fsevents@^1.2.7:
     react: 18.1.0
     react-codemod: 5.4.3
     react-dom: 18.1.0
-    react-native: 0.69.0-rc.6
+    react-native: 0.69.0
     react-native-clean-project: 4.0.1
     react-native-codegen: 0.69.1
     react-native-flipper: 0.145.0
@@ -17042,9 +17042,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native@npm:0.69.0-rc.6":
-  version: 0.69.0-rc.6
-  resolution: "react-native@npm:0.69.0-rc.6"
+"react-native@npm:0.69.0":
+  version: 0.69.0
+  resolution: "react-native@npm:0.69.0"
   dependencies:
     "@jest/create-cache-key-function": ^27.0.1
     "@react-native-community/cli": ^8.0.0
@@ -17083,7 +17083,7 @@ fsevents@^1.2.7:
     react: 18.0.0
   bin:
     react-native: cli.js
-  checksum: 30b9bd7ee18260f0e00fcfab9ebce43e781ca0ed500bc36dd08407a6941bbebce8ef0a193c8d2cba899d8cb8ed35b6435935446a3dc1497abae739c64189e0f4
+  checksum: c4aee5864a8199d70dbd5fd09691c1202fb0e0ff73d862bad86adaa40f26beaf2fb57b0c14337e25c3d81211534636642821e40f45bf1b7f786ba752645ca5aa
   languageName: node
   linkType: hard
 
