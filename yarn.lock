@@ -10019,6 +10019,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"exit-hook@npm:^2.1.1":
+  version: 2.2.1
+  resolution: "exit-hook@npm:2.2.1"
+  checksum: 1aa8359b6c5590a012d6cadf9cd337d227291bfcaa8970dc585d73dffef0582af34ed8ac56f6164f8979979fb417cff1eb49f03cdfd782f9332a30c773f0ada0
+  languageName: node
+  linkType: hard
+
 "exit@npm:^0.1.2":
   version: 0.1.2
   resolution: "exit@npm:0.1.2"
@@ -10435,12 +10442,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flipper-server@npm:0.151.0":
-  version: 0.151.0
-  resolution: "flipper-server@npm:0.151.0"
+"flipper-server@npm:0.145.0":
+  version: 0.145.0
+  resolution: "flipper-server@npm:0.145.0"
+  dependencies:
+    exit-hook: ^2.1.1
+    http-proxy: ^1.18.1
+    mac-ca: ^1.0.6
+    node-fetch: ^2.6.7
+    ws: ^8.5.0
+    xdg-basedir: ^4
   bin:
     flipper-server: server.js
-  checksum: 6030f87ff70a36d8e865454adfc64b94f40cd3d734fce836f13f6836682ded39b7cb679a44b5a61fbf61ae90662122759ee5c38ef77d495232058b85f5dbda46
+  checksum: 2d4ba7dba34b54e6b76e51d9582675ed5ac10bba9127fd97db65ad52b7b90dece1f8cc17249ae0bf8883e6fb0f622d6255172b5bf846834f1ef834654b8833dd
   languageName: node
   linkType: hard
 
@@ -10474,6 +10488,16 @@ __metadata:
   dependencies:
     tslib: ^2.0.3
   checksum: 1ae12a7c0884eeb3c92e4abc95a3ba0405da80d36f4928a21c687e564cfce04a7e71aef077286160250b4fb64f25671f9df219f86c65a17c4848063ae0b2eb51
+  languageName: node
+  linkType: hard
+
+"follow-redirects@npm:^1.0.0":
+  version: 1.14.9
+  resolution: "follow-redirects@npm:1.14.9"
+  peerDependenciesMeta:
+    debug:
+      optional: true
+  checksum: f5982e0eb481818642492d3ca35a86989c98af1128b8e1a62911a3410621bc15d2b079e8170b35b19d3bdee770b73ed431a257ed86195af773771145baa57845
   languageName: node
   linkType: hard
 
@@ -11424,6 +11448,17 @@ fsevents@^1.2.7:
     agent-base: 6
     debug: 4
   checksum: c6a5da5a1929416b6bbdf77b1aca13888013fe7eb9d59fc292e25d18e041bb154a8dfada58e223fc7b76b9b2d155a87e92e608235201f77d34aa258707963a82
+  languageName: node
+  linkType: hard
+
+"http-proxy@npm:^1.18.1":
+  version: 1.18.1
+  resolution: "http-proxy@npm:1.18.1"
+  dependencies:
+    eventemitter3: ^4.0.0
+    follow-redirects: ^1.0.0
+    requires-port: ^1.0.0
+  checksum: f5bd96bf83e0b1e4226633dbb51f8b056c3e6321917df402deacec31dd7fe433914fc7a2c1831cf7ae21e69c90b3a669b8f434723e9e8b71fd68afe30737b6a5
   languageName: node
   linkType: hard
 
@@ -13757,6 +13792,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"mac-ca@npm:^1.0.6":
+  version: 1.0.6
+  resolution: "mac-ca@npm:1.0.6"
+  dependencies:
+    node-forge: ^0.10.0
+  checksum: c64edee8b840b00e717b26f8b216db0e6ca3268bc8a50851cfecbcca7fa1a8ec118c34c2898d72a43dd5b05bdaaa73b02df1284a246e0217e4d1c448e236e5c1
+  languageName: node
+  linkType: hard
+
 "make-dir@npm:^2.0.0, make-dir@npm:^2.1.0":
   version: 2.1.0
   resolution: "make-dir@npm:2.1.0"
@@ -14919,7 +14963,7 @@ fsevents@^1.2.7:
     eslint-plugin-sort-keys-fix: 1.1.2
     eslint-plugin-typescript-sort-keys: 2.1.0
     eslint-plugin-yml: 1.0.0
-    flipper-server: 0.151.0
+    flipper-server: 0.145.0
     husky: 8.0.1
     jest: 27.5.1
     lint-staged: 13.0.3
@@ -14931,7 +14975,7 @@ fsevents@^1.2.7:
     react-native: 0.69.0
     react-native-clean-project: 4.0.1
     react-native-codegen: 0.69.1
-    react-native-flipper: 0.151.0
+    react-native-flipper: 0.145.0
     react-native-gradle-plugin: 0.0.7
     react-native-rename: 2.9.0
     react-query: beta
@@ -15049,7 +15093,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"node-fetch@npm:^2.2.0, node-fetch@npm:^2.6.0":
+"node-fetch@npm:^2.2.0, node-fetch@npm:^2.6.0, node-fetch@npm:^2.6.7":
   version: 2.6.7
   resolution: "node-fetch@npm:2.6.7"
   dependencies:
@@ -15060,6 +15104,13 @@ fsevents@^1.2.7:
     encoding:
       optional: true
   checksum: 8d816ffd1ee22cab8301c7756ef04f3437f18dace86a1dae22cf81db8ef29c0bf6655f3215cb0cdb22b420b6fe141e64b26905e7f33f9377a7fa59135ea3e10b
+  languageName: node
+  linkType: hard
+
+"node-forge@npm:^0.10.0":
+  version: 1.2.1
+  resolution: "node-forge@npm:1.2.1"
+  checksum: af4f88c3f69362359f35f6a9e231b35c96d906eeb6e976fb92742afe7fcdd76439dc22b41ce3755389d171f6320756ec7505bdfa7b252466c091b8c519a22674
   languageName: node
   linkType: hard
 
@@ -16888,13 +16939,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-flipper@npm:0.151.0":
-  version: 0.151.0
-  resolution: "react-native-flipper@npm:0.151.0"
+"react-native-flipper@npm:0.145.0":
+  version: 0.145.0
+  resolution: "react-native-flipper@npm:0.145.0"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
     react-native: ">0.62.0"
-  checksum: 71f624c54f0c01abe597643131d79232a549141748fa3176c34c3070e3d49080c2d999409effb592088fc809bc376c501357753fe47892bac2246aa73d415a80
+  checksum: b737e6a97f085364249aeb66fb92448e2aac09a4b6edec4700be8fe2b30f494032832d26ca15fc4dc0e231348a4d5365c07f2af3402f8d42633f35b115d8eea9
   languageName: node
   linkType: hard
 
@@ -17933,6 +17984,13 @@ fsevents@^1.2.7:
   version: 1.1.0
   resolution: "requireindex@npm:1.1.0"
   checksum: 397057d97d7f753a3851abf0d6db94c295bd8254536f71f622b896ba08ea8c0d3e3771c8b009a557e6ce602f4245c0588836cdf59c4ce588fff721a7b855d323
+  languageName: node
+  linkType: hard
+
+"requires-port@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "requires-port@npm:1.0.0"
+  checksum: eee0e303adffb69be55d1a214e415cf42b7441ae858c76dfc5353148644f6fd6e698926fc4643f510d5c126d12a705e7c8ed7e38061113bdf37547ab356797ff
   languageName: node
   linkType: hard
 
@@ -20985,6 +21043,28 @@ resolve@^2.0.0-next.3:
     utf-8-validate:
       optional: true
   checksum: 5c1f669a166fb57560b4e07f201375137fa31d9186afde78b1508926345ce546332f109081574ddc4e38cc474c5406b5fc71c18d71eb75f6e2d2245576976cba
+  languageName: node
+  linkType: hard
+
+"ws@npm:^8.5.0":
+  version: 8.5.0
+  resolution: "ws@npm:8.5.0"
+  peerDependencies:
+    bufferutil: ^4.0.1
+    utf-8-validate: ^5.0.2
+  peerDependenciesMeta:
+    bufferutil:
+      optional: true
+    utf-8-validate:
+      optional: true
+  checksum: 76f2f90e40344bf18fd544194e7067812fb1372b2a37865678d8f12afe4b478ff2ebc0c7c0aff82cd5e6b66fc43d889eec0f1865c2365d8f7a66d92da7744a77
+  languageName: node
+  linkType: hard
+
+"xdg-basedir@npm:^4":
+  version: 4.0.0
+  resolution: "xdg-basedir@npm:4.0.0"
+  checksum: 0073d5b59a37224ed3a5ac0dd2ec1d36f09c49f0afd769008a6e9cd3cd666bd6317bd1c7ce2eab47e1de285a286bad11a9b038196413cd753b79770361855f3c
   languageName: node
   linkType: hard
 
