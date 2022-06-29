@@ -4235,6 +4235,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tsconfig/react-native@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@tsconfig/react-native@npm:2.0.0"
+  checksum: 7b73900ceb7a7a139f22fa0f1fce007dc4f693e64b72eed2139668ac4732147106f7255c9d5e3c6011164dd8fe9e9cf36ffec27d272b3149caefcbcf85e25d95
+  languageName: node
+  linkType: hard
+
 "@types/babel__core@npm:^7.0.0, @types/babel__core@npm:^7.1.14":
   version: 7.1.14
   resolution: "@types/babel__core@npm:7.1.14"
@@ -14935,6 +14942,7 @@ fsevents@^1.2.7:
     "@storybook/react-native-server": next
     "@swc/core": 1.2.206
     "@swc/wasm": 1.2.206
+    "@tsconfig/react-native": 2.0.0
     "@types/jest": 27.5.2
     "@types/node": 16.11.41
     "@types/react": 18.0.14
