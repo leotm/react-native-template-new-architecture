@@ -68,7 +68,10 @@ buck-out/
 
 # TypeScript
 #
-/lib/
+# - Redirected compiler output if emitted e.g. /lib/
+# - Incremental compilation output
+
+tsconfig.tsbuildinfo
 
 # ESLint
 #
