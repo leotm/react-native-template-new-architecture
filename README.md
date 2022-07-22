@@ -30,7 +30,7 @@ Android | iOS
 
 ## Yarn v3
 
-_Upgrading from v1 `classic`_
+_Upgrading from `classic`_ v1
 
 ```sh
 cd ~
@@ -74,9 +74,13 @@ _Or [iOS (Intel x86_64)](https://github.com/leotm/react-native-template-new-arch
 
 ### Android
 
+#### NDK
+
+Fat M1 components: ndk-build, LLVM, CMake, Make, Python, Ninja, shader-tools, simpleperf - [yasm remaining](https://github.com/android/ndk/issues/1549)
+
 <details>
 
-<summary>NDK</summary>
+<summary>Setup</summary>
     
 [Building-from-source#prerequisites](https://github.com/facebook/react-native/wiki/Building-from-source#prerequisites), but with NDK 25.0.8528842 rc4
 
@@ -90,9 +94,11 @@ _Strip: ` rcX` suffix / (trailing) spaces / final final linebreak - otherwise `f
     
 </details>
 
+#### Android Studio
+
 <details>
 
-<summary>Android Studio</summary>
+<summary>Setup</summary>
     
 Open [Android Studio - Preview release - Canary build](https://developer.android.com/studio/preview)
 - Open Project, set the [JDK](https://github.com/leotm/react-native-template-new-architecture/wiki/Android#jdk)
@@ -109,8 +115,9 @@ yarn android --active-arch-only
 
 ### Troubleshooting
 
-- _[Apple Silicon (M1) troubleshooting guide (RN 0.64/0.65/0.66)](https://github.com/facebook/react-native/issues/31941)_
-- _[New Architecture - Troubleshooting](https://reactnative.dev/docs/next/new-architecture-troubleshooting)_
+- [New Architecture - Troubleshooting](https://reactnative.dev/docs/next/new-architecture-troubleshooting)
+- [Apple Silicon (M1) troubleshooting guide (RN 0.64/0.65/0.66)](https://github.com/facebook/react-native/issues/31941)
+- [react-native-community/upgrade-support](https://github.com/react-native-community/upgrade-support)
 
 ## Storybook v6 beta
 
