@@ -51,7 +51,7 @@ yarn setup # 🤖 versioned version
 
 https://github.com/leotm/react-native-template-new-architecture/blob/01f1c9864f55367004effbe26d3f33590784704b/package.json#L146
 
-_More [here](stackoverflow)_
+_[More](https://stackoverflow.com/a/70864409/1998086)_
 
 ## Start
 
