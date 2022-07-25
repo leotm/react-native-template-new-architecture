@@ -30,6 +30,8 @@ if (__DEV__) {
     .catch(() => console.error)
 }
 
+/* $FlowFixMe[missing-local-annot] The type annotation(s) required by Flow's
+ * LTI update could not be added via codemod */
 const Section: FC<{ children: ReactNode; title: string }> = ({
   children,
   title
@@ -67,7 +69,10 @@ export const App = () => {
 
   return (
     <SafeAreaView style={backgroundStyle}>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+      <StatusBar
+        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
+        backgroundColor={backgroundStyle.backgroundColor}
+      />
 
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"

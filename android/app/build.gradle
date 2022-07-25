@@ -159,6 +159,11 @@ android {
                     // Make sure this target name is the same you specify inside the
                     // src/main/jni/Android.mk file for the `LOCAL_MODULE` variable.
                     targets "leotm_myapp_appmodules"
+                    // Fix for windows limit on number of character in file paths and in command lines
+                    // Atm causing: Could not get unknown property 'Os' for object of type com.android.build.gradle.internal.dsl.ExternalNativeNdkBuildOptions
+                    // if (Os.isFamily(Os.FAMILY_WINDOWS)) {
+                    //     arguments "NDK_APP_SHORT_COMMANDS=true"
+                    // }
                 }
             }
             if (!enableSeparateBuildPerCPUArchitecture) {

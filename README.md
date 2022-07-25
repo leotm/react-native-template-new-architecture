@@ -7,7 +7,9 @@
 <h6 align="center">““”̿ ̿ ̿ ̿ ̿’̿’̵͇̿̿з=(*▽*)=ε/̵͇̿̿/̿ ̿ ̿ ̿ ̿’““</h6>
 <h6 align="center">IDKFA</h6>
 
-[![NPM RN pkg ver](https://img.shields.io/badge/React%20Native-0.69.0-red.svg)](https://github.com/facebook/react-native/releases)
+<div align="center">
+
+[![NPM RN pkg ver](https://img.shields.io/badge/React%20Native-0.70.0-red.svg)](https://github.com/facebook/react-native/releases)
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](#)
 [![Linter](https://badges.aleen42.com/src/eslint.svg)](#)
 [![Formatter: prettier](https://img.shields.io/badge/Formatter-Prettier-f8bc45.svg)](#)
@@ -16,23 +18,40 @@
 [![Docs](https://img.shields.io/badge/Docs%3F-yes-green.svg)](https://github.com/leotm/react-native-template-new-architecture/wiki)
 [![Project](https://img.shields.io/badge/Proj%3F-yes-green.svg)](https://github.com/leotm/react-native-template-new-architecture/projects/1)
 
+</div>
+
+Android | iOS
+--- | ---
+![](https://user-images.githubusercontent.com/1881059/180299352-4f8bd8de-67b0-48a2-b9c4-f4ff93d01538.png) | ![](https://user-images.githubusercontent.com/1881059/180302484-0e983b6e-65e9-417e-925a-3f55340e55b2.png)
+
 ## Setup
 
-[Fresh M1](https://github.com/leotm/react-native-template-new-architecture/wiki/M1-Setup)
+[Fresh M1/M2](https://github.com/leotm/react-native-template-new-architecture/wiki/M1-Setup)
 
-## Yarn
+## Yarn v3
+
+_Upgrading from `classic`_ v1
 
 ```sh
-yarn set version berry # Globally, outside repo
-yarn set version canary # Bonus, to keep up w Renovate bot
+cd ~
+yarn set version berry
 ```
+
+[`canary` v4 🚧](https://github.com/leotm/react-native-template-new-architecture/pull/672)
 
 ## Install
 
 ```sh
-yarn
-yarn setup # If bonus n/a
+yarn # 🍺 version
 ```
+
+```sh
+yarn setup # 🤖 versioned version 
+```
+
+https://github.com/leotm/react-native-template-new-architecture/blob/01f1c9864f55367004effbe26d3f33590784704b/package.json#L146
+
+_[More](https://stackoverflow.com/a/70864409/1998086)_
 
 ## Start
 
@@ -40,7 +59,7 @@ yarn setup # If bonus n/a
 yarn start
 ```
 
-## Silicon (M1) Macs
+## Silicon (M1/M2) Macs
 
 ### iOS (arm64)
 
@@ -55,6 +74,14 @@ _Or [iOS (Intel x86_64)](https://github.com/leotm/react-native-template-new-arch
 
 ### Android
 
+#### NDK
+
+Fat M1 components: ndk-build, LLVM, CMake, Make, Python, Ninja, shader-tools, simpleperf - [yasm remaining](https://github.com/android/ndk/issues/1549)
+
+<details>
+
+<summary>Setup</summary>
+    
 [Building-from-source#prerequisites](https://github.com/facebook/react-native/wiki/Building-from-source#prerequisites), but with NDK 25.0.8528842 rc4
 
 ```
@@ -64,13 +91,23 @@ ndk.dir=/Users/<user>/Library/Android/sdk/ndk/25.0.8528842
 ```
 
 _Strip: ` rcX` suffix / (trailing) spaces / final final linebreak - otherwise `fcntl(): Bad file descriptor`_
+    
+</details>
 
+#### Android Studio
+
+<details>
+
+<summary>Setup</summary>
+    
 Open [Android Studio - Preview release - Canary build](https://developer.android.com/studio/preview)
 - Open Project, set the [JDK](https://github.com/leotm/react-native-template-new-architecture/wiki/Android#jdk)
 - [SDK Manager > SDK Tools > NDK > ⬇️ 25.0.8528842 rc4](https://user-images.githubusercontent.com/1881059/158474758-c8c1412c-2f35-4d0d-abc7-6ba18c65827c.png)
 - Build [all 4 default ABIs](https://github.com/leotm/react-native-template-new-architecture/blob/master/android/gradle.properties#L33) first with other libraries
 - Open an arm64 AVD e.g. `Pixel_3a_API_31_arm64-v8a` <s>[Initial Preview v3: Google APIs System Image](https://github.com/google/android-emulator-m1-preview)</s>
 - Make Project
+    
+</details>
   
 ```sh
 yarn android --active-arch-only
@@ -78,30 +115,22 @@ yarn android --active-arch-only
 
 ### Troubleshooting
 
-- _[Apple Silicon (M1) troubleshooting guide (RN 0.64/0.65/0.66)](https://github.com/facebook/react-native/issues/31941)_
-- _[New Architecture - Troubleshooting](https://reactnative.dev/docs/next/new-architecture-troubleshooting)_
+- [New Architecture - Troubleshooting](https://reactnative.dev/docs/next/new-architecture-troubleshooting)
+- [Apple Silicon (M1) troubleshooting guide (RN 0.64/0.65/0.66)](https://github.com/facebook/react-native/issues/31941)
+- [react-native-community/upgrade-support](https://github.com/react-native-community/upgrade-support)
 
-## Storybook v6 alpha
+## Storybook v6 beta
 
-[src/index.tsx](https://github.com/leotm/react-native-template-new-architecture/blob/master/src/index.tsx#L123)
-
-```diff
-- export default false ? StorybookUIRoot : App 
-+ export default true ? StorybookUIRoot : App 
-```
+https://github.com/leotm/react-native-template-new-architecture/blob/01f1c9864f55367004effbe26d3f33590784704b/src/index.tsx#L132
   
 _Soon: [v6 rn storybook server](https://github.com/storybookjs/react-native/projects/2#card-68690945)_
 
 ## Storybook v5
 
-[metro.config.js](https://github.com/leotm/react-native-template-new-architecture/blob/master/metro.config.js#L16)
-  
-```diff
--       inlineRequires: true
-+       inlineRequires: false
-# https://github.com/facebook/hermes/issues/135
-# https://github.com/facebook/react-native/issues/31969
-```
+https://github.com/leotm/react-native-template-new-architecture/blob/01f1c9864f55367004effbe26d3f33590784704b/metro.config.js#L16
+
+- https://github.com/facebook/hermes/issues/135
+- https://github.com/facebook/react-native/issues/31969
 
 ```sh
 # @storybook/react-native-server v5
