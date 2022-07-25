@@ -143,5 +143,8 @@
       "prettier --write"
     ]
   },
-  "packageManager": "yarn@3.2.2"
+  "packageManager": "yarn@3.2.2",
+  "resolutions": {
+    "react-native@0.70.0-rc.0": "patch:react-native@npm:0.70.0-rc.0#.yarn/patches/react-native-npm-0.70.0-rc.0-00aa7e4469.patch"
+  }
 }
