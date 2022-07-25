@@ -15360,9 +15360,9 @@ fsevents@^1.2.7:
     react-dom: 18.1.0
     react-native: 0.70.0-rc.0
     react-native-clean-project: 4.0.1
-    react-native-codegen: 0.69.1
+    react-native-codegen: 0.70.3
     react-native-flipper: 0.154.0
-    react-native-gradle-plugin: 0.0.7
+    react-native-gradle-plugin: 0.70.0
     react-native-rename: 2.9.0
     react-query: beta
     react-test-renderer: 18.1.0
@@ -17303,19 +17303,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-codegen@npm:0.69.1":
-  version: 0.69.1
-  resolution: "react-native-codegen@npm:0.69.1"
-  dependencies:
-    "@babel/parser": ^7.14.0
-    flow-parser: ^0.121.0
-    jscodeshift: ^0.13.1
-    nullthrows: ^1.1.1
-  checksum: 056acf384f9cc9b1e42e20e7295d0471e62dc1369fc65670cdb3d0a8960da701ee9da0c6b91c7dd7a531500c62c3ffd576cba461d3f5f1dcbfc76a3a6dbcb97a
-  languageName: node
-  linkType: hard
-
-"react-native-codegen@npm:^0.70.3":
+"react-native-codegen@npm:0.70.3, react-native-codegen@npm:^0.70.3":
   version: 0.70.3
   resolution: "react-native-codegen@npm:0.70.3"
   dependencies:
@@ -17357,14 +17345,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-gradle-plugin@npm:0.0.7":
-  version: 0.0.7
-  resolution: "react-native-gradle-plugin@npm:0.0.7"
-  checksum: 959ce3bcbc8362909210fae894e4b414a0afdff39fe1683463214b7feddae6beaf8584ebe62323b1e91ba31de00311e826588e0d807c93a949e445b1770cac27
-  languageName: node
-  linkType: hard
-
-"react-native-gradle-plugin@npm:^0.70.0":
+"react-native-gradle-plugin@npm:0.70.0, react-native-gradle-plugin@npm:^0.70.0":
   version: 0.70.0
   resolution: "react-native-gradle-plugin@npm:0.70.0"
   checksum: 519124f3108d1a28a60288ec09965d5e950625809f6b9986c700950b057dc44eeddfeb2acf31ad193df4486369b3742cc02278818e8a7c7a7a3ef1e6135beb08
