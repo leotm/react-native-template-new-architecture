@@ -19902,11 +19902,11 @@ resolve@^2.0.0-next.3:
 
 "typescript@patch:typescript@beta#~builtin<compat/typescript>":
   version: 4.8.0-beta
-  resolution: "typescript@patch:typescript@npm%3A4.8.0-beta#~builtin<compat/typescript>::version=4.8.0-beta&hash=7ad353"
+  resolution: "typescript@patch:typescript@npm%3A4.8.0-beta#~builtin<compat/typescript>::version=4.8.0-beta&hash=f456af"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 034224067be9bed501811eaa3c251c5ed7aec459265dea5253185918685628c7e5678436066ac7c5817ef98d59e8d4104606f5294103ebcb4a6f69e2c109c27f
+  checksum: ebd2e08f6b72da7be89ee82ff4d587ca247866a571e05573f7da5a3437ae774f9ae7bdf0074ecc84bdd7095e07d6b021437128ec9541cafa9885ad5c5f3f06ff
   languageName: node
   linkType: hard
 
