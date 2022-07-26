@@ -18,6 +18,9 @@ jobs:
 
     - uses: actions/checkout@v3
 
+    - name: npx react-native info
+      run: npx react-native info
+
 #    - uses: mikehardy/buildcache-action@v1
 
 #      TODO: yarn cache
