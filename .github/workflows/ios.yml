@@ -42,6 +42,9 @@ jobs:
 #                                --repo-update
 #                                --clean-install
 
+    - name: Bundle app for release
+      run: npx react-native bundle --dev false --entry-file index.ts --bundle-output ios/main.jsbundle --platform ios
+
     - name: Build app for release
       run: npx react-native run-ios --configuration Release
 
