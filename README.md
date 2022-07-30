@@ -22,7 +22,7 @@
 
 Android | iOS
 --- | ---
-![](https://user-images.githubusercontent.com/1881059/180299352-4f8bd8de-67b0-48a2-b9c4-f4ff93d01538.png) | ![](https://user-images.githubusercontent.com/1881059/180302484-0e983b6e-65e9-417e-925a-3f55340e55b2.png)
+![](https://user-images.githubusercontent.com/1881059/181913706-48e6e15d-98b9-42d7-868d-4779a0ad153c.png) | ![](https://user-images.githubusercontent.com/1881059/181913707-1953742d-df14-4dff-b435-a1cf698ef46d.png)
 
 ## Setup
 
