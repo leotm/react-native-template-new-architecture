@@ -41,7 +41,7 @@
     "@react-navigation/native": "6.0.11",
     "@react-navigation/native-stack": "6.7.0",
     "react": "18.1.0",
-    "react-native": "0.70.0-rc.0",
+    "react-native": "0.70.0-rc.1",
     "react-native-codegen": "0.70.3",
     "react-query": "beta"
   },
@@ -143,8 +143,5 @@
       "prettier --write"
     ]
   },
-  "packageManager": "yarn@3.2.2",
-  "resolutions": {
-    "react-native@0.70.0-rc.0": "patch:react-native@npm:0.70.0-rc.0#.yarn/patches/react-native-npm-0.70.0-rc.0-00aa7e4469.patch"
-  }
+  "packageManager": "yarn@3.2.2"
 }
