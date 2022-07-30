@@ -36,12 +36,12 @@
   "dependencies": {
     "@react-native-async-storage/async-storage": "1.17.7",
     "@react-native-community/checkbox": "0.5.12",
-    "@react-native-community/datetimepicker": "6.2.2",
+    "@react-native-community/datetimepicker": "6.3.0",
     "@react-native-community/slider": "4.2.4",
     "@react-navigation/native": "6.0.11",
     "@react-navigation/native-stack": "6.7.0",
     "react": "18.1.0",
-    "react-native": "0.70.0-rc.0",
+    "react-native": "0.70.0-rc.1",
     "react-native-codegen": "0.70.3",
     "react-query": "beta"
   },
@@ -68,12 +68,12 @@
     "@storybook/linter-config": "3.1.2",
     "@storybook/react-native": "6.0.1-beta.7",
     "@storybook/react-native-server": "next",
-    "@swc/core": "1.2.218",
-    "@swc/wasm": "1.2.218",
+    "@swc/core": "1.2.220",
+    "@swc/wasm": "1.2.220",
     "@types/jest": "27.5.2",
-    "@types/node": "16.11.45",
+    "@types/node": "16.11.46",
     "@types/react": "18.0.15",
-    "@types/react-native": "0.69.3",
+    "@types/react-native": "0.69.4",
     "@types/react-test-renderer": "18.0.0",
     "@types/ws": "8.5.3",
     "@typescript-eslint/eslint-plugin": "5.31.0",
@@ -89,7 +89,7 @@
     "eslint-plugin-deprecation": "1.3.2",
     "eslint-plugin-detox": "1.0.0",
     "eslint-plugin-import": "2.26.0",
-    "eslint-plugin-jest": "26.6.0",
+    "eslint-plugin-jest": "26.7.0",
     "eslint-plugin-jsx-a11y": "6.6.1",
     "eslint-plugin-react": "7.30.1",
     "eslint-plugin-react-hooks": "4.6.0",
@@ -97,7 +97,7 @@
     "eslint-plugin-simple-import-sort": "7.0.0",
     "eslint-plugin-sort-keys-fix": "1.1.2",
     "eslint-plugin-typescript-sort-keys": "2.1.0",
-    "eslint-plugin-yml": "1.0.0",
+    "eslint-plugin-yml": "1.1.0",
     "flipper-server": "0.156.0",
     "husky": "8.0.1",
     "jest": "27.5.1",
@@ -143,8 +143,5 @@
       "prettier --write"
     ]
   },
-  "packageManager": "yarn@3.2.2",
-  "resolutions": {
-    "react-native@0.70.0-rc.0": "patch:react-native@npm:0.70.0-rc.0#.yarn/patches/react-native-npm-0.70.0-rc.0-00aa7e4469.patch"
-  }
+  "packageManager": "yarn@3.2.2"
 }
