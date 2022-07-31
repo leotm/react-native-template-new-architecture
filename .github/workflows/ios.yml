@@ -38,12 +38,15 @@ jobs:
 #    - uses: setup/cocoapods
 
     - name: Install pods
-      run: cd ios && PRODUCTION=1 pod install && cd ..
-#                                --repo-update
-#                                --clean-install
+      run: cd ios && pod install && cd ..
 
     - name: Build app for Debug
       run: npx react-native run-ios --configuration Debug
+
+    - name: Install pods (prod)
+      run: cd ios && PRODUCTION=1 pod install && cd ..
+#                                --repo-update
+#                                --clean-install
 
     - name: Bundle app for release
       run: npx react-native bundle --entry-file='index.ts' --bundle-output='./ios/main.jsbundle' --dev=false --platform='ios' --assets-dest='./ios'
