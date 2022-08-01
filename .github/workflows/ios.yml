@@ -37,11 +37,11 @@ jobs:
 #      TODO: Restore Pods cache
 #    - uses: setup/cocoapods
 
-    - name: Install pods
-      run: cd ios && pod install && cd ..
+#    - name: Install pods
+#      run: cd ios && pod install && cd ..
 
-    - name: Build app for Debug
-      run: npx react-native run-ios --configuration Debug
+#    - name: Build app for Debug
+#      run: npx react-native run-ios --configuration Debug
 
     - name: Install pods (prod)
       run: cd ios && PRODUCTION=1 pod install && cd ..
