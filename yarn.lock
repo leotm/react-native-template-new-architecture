@@ -10559,12 +10559,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flipper-server@npm:0.156.0":
-  version: 0.156.0
-  resolution: "flipper-server@npm:0.156.0"
+"flipper-server@npm:0.157.0":
+  version: 0.157.0
+  resolution: "flipper-server@npm:0.157.0"
   bin:
     flipper-server: server.js
-  checksum: df1b1cb5f9bb158bffb563f4fe18bc394b919af98d0ad712289ca9fa0f96d86ec47509287a13649bd81f381028f8815894abffe3e1d364c9dbbaafcb23077bf6
+  checksum: aa8302ee6a97c2f45c33a1a15ab671c7304253c6a05acc37845a94c8e923eab061ed9d441f14c91ee2b9bfa2a5a69e3c32d33219a1a1204f1a0ea3a8d62b9740
   languageName: node
   linkType: hard
 
@@ -15311,7 +15311,7 @@ fsevents@^1.2.7:
     eslint-plugin-sort-keys-fix: 1.1.2
     eslint-plugin-typescript-sort-keys: 2.1.0
     eslint-plugin-yml: 1.1.0
-    flipper-server: 0.156.0
+    flipper-server: 0.157.0
     husky: 8.0.1
     jest: 28.1.3
     lint-staged: 13.0.3
@@ -15323,7 +15323,7 @@ fsevents@^1.2.7:
     react-native: 0.70.0-rc.1
     react-native-clean-project: 4.0.1
     react-native-codegen: 0.70.3
-    react-native-flipper: 0.156.0
+    react-native-flipper: 0.157.0
     react-native-gradle-plugin: 0.70.0
     react-native-rename: 2.9.0
     react-query: beta
@@ -17267,13 +17267,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-flipper@npm:0.156.0":
-  version: 0.156.0
-  resolution: "react-native-flipper@npm:0.156.0"
+"react-native-flipper@npm:0.157.0":
+  version: 0.157.0
+  resolution: "react-native-flipper@npm:0.157.0"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
     react-native: ">0.62.0"
-  checksum: a1b1d298ac33fc1382b892ca88f4680dd531341d17b6ce140065523c60c04540689c6de80dd9da2a2bae74ddf7b32d1641deed03b2128d240bccd945c4ba68b2
+  checksum: ef17743beb28bdcf5b2e0744eace156570ad91baad9ea21d74a2fd83123a8cf1b4ee6f58db4029d9c3bd26f590a689173a19b84b086e0c329f133eb75cc06409
   languageName: node
   linkType: hard
 
