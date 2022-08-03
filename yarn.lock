@@ -2484,37 +2484,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/cli@npm:next":
-  version: 8.0.0-alpha.0
-  resolution: "@react-native-community/cli@npm:8.0.0-alpha.0"
-  dependencies:
-    "@react-native-community/cli-config": ^8.0.0-alpha.0
-    "@react-native-community/cli-debugger-ui": ^8.0.0-alpha.0
-    "@react-native-community/cli-doctor": ^8.0.0-alpha.0
-    "@react-native-community/cli-hermes": ^8.0.0-alpha.0
-    "@react-native-community/cli-plugin-metro": ^8.0.0-alpha.0
-    "@react-native-community/cli-server-api": ^8.0.0-alpha.0
-    "@react-native-community/cli-tools": ^8.0.0-alpha.0
-    "@react-native-community/cli-types": ^8.0.0-alpha.0
-    chalk: ^4.1.2
-    commander: ^2.19.0
-    execa: ^1.0.0
-    find-up: ^4.1.0
-    fs-extra: ^8.1.0
-    graceful-fs: ^4.1.3
-    leven: ^3.1.0
-    lodash: ^4.17.15
-    minimist: ^1.2.0
-    prompts: ^2.4.0
-    semver: ^6.3.0
-  peerDependencies:
-    react-native: "*"
-  bin:
-    react-native: build/bin.js
-  checksum: 7b53ff7ed08dd3a8d3df0830326b05454592bd2ac9a503f72e285da8e212bc59751cd3000649b4985275ce5cb896ce9ab7b735fb19550c3a60408264d360d6bd
-  languageName: node
-  linkType: hard
-
 "@react-native-community/datetimepicker@npm:6.3.1":
   version: 6.3.1
   resolution: "@react-native-community/datetimepicker@npm:6.3.1"
@@ -14657,8 +14626,6 @@ fsevents@^1.2.7:
     "@curveball/router": 0.4.1
     "@react-native-async-storage/async-storage": 1.17.7
     "@react-native-community/checkbox": 0.5.12
-    "@react-native-community/datetimepicker": 6.3.0
-    "@react-native-community/cli": next
     "@react-native-community/datetimepicker": 6.3.1
     "@react-native-community/eslint-config": 3.0.3
     "@react-native-community/slider": 4.2.4
