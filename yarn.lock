@@ -2452,7 +2452,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/cli@npm:^9.0.0-alpha.5":
+"@react-native-community/cli@npm:9.0.0-alpha.5, @react-native-community/cli@npm:^9.0.0-alpha.5":
   version: 9.0.0-alpha.5
   resolution: "@react-native-community/cli@npm:9.0.0-alpha.5"
   dependencies:
@@ -14626,6 +14626,7 @@ fsevents@^1.2.7:
     "@curveball/router": 0.4.1
     "@react-native-async-storage/async-storage": 1.17.7
     "@react-native-community/checkbox": 0.5.12
+    "@react-native-community/cli": 9.0.0-alpha.5
     "@react-native-community/datetimepicker": 6.3.1
     "@react-native-community/eslint-config": 3.0.3
     "@react-native-community/slider": 4.2.4
