@@ -28,6 +28,9 @@ jobs:
       - name: Remove lockfile
         run: rm yarn.lock
 
+      - name: Git clean
+        run: git clean -fdx
+
       - name: Install with Yarn
         run: yarn
 
