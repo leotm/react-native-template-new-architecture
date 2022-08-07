@@ -14753,7 +14753,6 @@ fsevents@^1.2.7:
     react-native: 0.70.0-rc.1
     react-native-clean-project: 4.0.1
     react-native-codegen: 0.71.0
-    react-native-flipper: 0.157.0
     react-native-gradle-plugin: 0.70.0
     react-native-rename: 2.9.0
     react-query: beta
@@ -16688,16 +16687,6 @@ fsevents@^1.2.7:
     prop-types: ^15.5.10
     tinycolor2: ^1.4.1
   checksum: 9dce24baa7cf5999d4f595b71e809c12bfb755d6ac3fcdbfb5ca2abfe978df29cf513e622d0f1151a512eff4dde30411efff475d87fc80e2f7b580a97885b534
-  languageName: node
-  linkType: hard
-
-"react-native-flipper@npm:0.157.0":
-  version: 0.157.0
-  resolution: "react-native-flipper@npm:0.157.0"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-native: ">0.62.0"
-  checksum: ef17743beb28bdcf5b2e0744eace156570ad91baad9ea21d74a2fd83123a8cf1b4ee6f58db4029d9c3bd26f590a689173a19b84b086e0c329f133eb75cc06409
   languageName: node
   linkType: hard
 
