@@ -25,6 +25,9 @@ jobs:
       - name: Log Yarn version
         run: yarn -v
 
+      - name: Remove lockfile
+        run: rm yarn.lock
+
       - name: Install with Yarn
         run: yarn
 
