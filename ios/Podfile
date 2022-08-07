@@ -4,7 +4,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 platform :ios, '12.4'
 install! 'cocoapods', :deterministic_uuids => false
 
-# flipperkit_version = '0.145.0'
+flipperkit_version = '0.157.0'
 
 ENV['RCT_NEW_ARCH_ENABLED'] = '1'
 
@@ -25,7 +25,7 @@ target 'MyApp' do
     #
     # Note that if you have use_frameworks! enabled, Flipper will not work and
     # you should disable the next line.
-    :flipper_configuration => FlipperConfiguration.enabled,
+    :flipper_configuration => FlipperConfiguration.enabled(["Debug"], { 'Flipper' => flipperkit_version }),
     # Absolute path to app root
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
