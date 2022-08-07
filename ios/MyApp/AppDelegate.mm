@@ -31,8 +31,6 @@ static NSString *const kRNConcurrentRoot = @"concurrentRoot";
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  RCTEnableTurboModule(YES); // https://reactnative.dev/docs/next/new-architecture-app-modules-ios#3-enable-turbomodule-system
-
   RCTAppSetupPrepareApp(application);
 
   RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:launchOptions];

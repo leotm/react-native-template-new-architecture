@@ -35,7 +35,7 @@ jobs:
       uses: hendrikmuhs/ccache-action@v1.2.2
 
     - name: Set up JDK 18
-      uses: actions/setup-java@v3.3.0
+      uses: actions/setup-java@v3.4.1
       with:
         java-version: 18
         distribution: temurin
@@ -67,7 +67,7 @@ jobs:
         ./bin/cmake --version
 
     - name: Build application Debug APK with Gradle
-      uses: gradle/gradle-build-action@v2.1.7
+      uses: gradle/gradle-build-action@v2.2.2
       with:
         arguments: assembleDebug
         build-root-directory: android
@@ -75,13 +75,13 @@ jobs:
     # Avoid release poisoned cache problems
     # Preserve hosted agent free disk space
     - name: Delete Android build pre-computed outputs
-      uses: gradle/gradle-build-action@v2.1.7
+      uses: gradle/gradle-build-action@v2.2.2
       with:
         arguments: clean
         build-root-directory: android
 
     - name: Build application Release APK with Gradle
-      uses: gradle/gradle-build-action@v2.1.7
+      uses: gradle/gradle-build-action@v2.2.2
       with:
         arguments: assembleRelease
         build-root-directory: android

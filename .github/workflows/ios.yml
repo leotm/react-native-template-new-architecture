@@ -1,0 +1,57 @@
+name: iOS CI with Xcode
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build-ios:
+
+    runs-on: macos-12
+    
+    # ruby: 2.7.6, 3.0.4, 3.1.2 (../.ruby-version: 2.7.5)
+    # CocoaPods: 1.11.3
+
+    steps:
+
+    - uses: actions/checkout@v3
+
+#    - uses: mikehardy/buildcache-action@v1
+
+#      yarn cache
+#      node_modules cache
+
+    - name: Install all project dependencies
+      run: yarn
+
+    - name: npx react-native info
+      run: npx react-native info
+
+#    - uses: ruby/setup-ruby@v1
+#      with:
+#        bundler-cache: true # bundle install and cache installed gems automatically
+#    - run: bundle exec rake
+
+  #  - uses: setup/cocoapods # cache
+
+    - name: Install pods
+      run: cd ios && pod install && cd ..
+
+    - name: Build app for Debug
+      run: npx react-native run-ios --configuration Debug
+
+#    - name: Xcode clean
+#      run: xcodebuild clean
+
+    - name: Install pods (prod)
+      run: cd ios && PRODUCTION=1 pod install && cd ..
+#                                --repo-update
+#                                --clean-install
+
+    - name: Bundle app for release
+      run: npx react-native bundle --entry-file='index.ts' --bundle-output='./ios/main.jsbundle' --dev=false --platform='ios' --assets-dest='./ios'
+
+    - name: Build app for release
+      run: npx react-native run-ios --configuration Release
