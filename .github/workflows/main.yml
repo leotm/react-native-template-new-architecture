@@ -16,9 +16,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Remove lockfile
-        run: rm yarn.lock
-
       - name: Git clean
         run: git clean -fdx
 
