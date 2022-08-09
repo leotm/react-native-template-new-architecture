@@ -46,7 +46,7 @@ jobs:
     - name: Set up NDK 25 Beta 2
       uses: nttld/setup-ndk@v1.0.6
       with:
-        ndk-version: r25-beta2
+        ndk-version: r25
 
     # - name: Or manually set NDK X env vars
     #   run: |
