@@ -624,6 +624,29 @@ PODS:
   - React-jsinspector (0.70.0-rc.2)
   - React-logger (0.70.0-rc.2):
     - glog
+  - react-native-safe-area-context (4.3.1):
+    - RCT-Folly
+    - RCTRequired
+    - RCTTypeSafety
+    - React
+    - react-native-safe-area-context/common (= 4.3.1)
+    - react-native-safe-area-context/fabric (= 4.3.1)
+    - ReactCommon/turbomodule/core
+  - react-native-safe-area-context/common (4.3.1):
+    - RCT-Folly
+    - RCTRequired
+    - RCTTypeSafety
+    - React
+    - ReactCommon/turbomodule/core
+  - react-native-safe-area-context/fabric (4.3.1):
+    - RCT-Folly
+    - RCTRequired
+    - RCTTypeSafety
+    - React
+    - React-Codegen
+    - react-native-safe-area-context/common
+    - React-RCTFabric
+    - ReactCommon/turbomodule/core
   - react-native-slider (4.3.0):
     - RCT-Folly
     - RCTRequired
@@ -766,6 +789,7 @@ DEPENDENCIES:
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
+  - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - "react-native-slider (from `../node_modules/@react-native-community/slider`)"
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
@@ -851,6 +875,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
   React-logger:
     :path: "../node_modules/react-native/ReactCommon/logger"
+  react-native-safe-area-context:
+    :path: "../node_modules/react-native-safe-area-context"
   react-native-slider:
     :path: "../node_modules/@react-native-community/slider"
   React-perflogger:
@@ -927,6 +953,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: 12d1ed281abeda9428fb16c1026487542395c3b7
   React-jsinspector: 49a8875f27791316bb0039fa7627b4c1f0578cc7
   React-logger: 55ff3b00451ad1dc82654ba60134ec82ae4dbfed
+  react-native-safe-area-context: 9812064211b05789b1c8d5e7b5ca12eabaac00f2
   react-native-slider: c86005ffb1129943f5335d58058b9c448c1feded
   React-perflogger: f53712c718e55b63c34140834fea4e8775948930
   React-RCTActionSheet: 476de07b325fcd61e89b5556125272b1fa7475e8
