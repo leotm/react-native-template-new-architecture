@@ -4240,10 +4240,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/wasm@npm:1.2.224":
-  version: 1.2.224
-  resolution: "@swc/wasm@npm:1.2.224"
-  checksum: a7c19854277bd50b34e0322473391f453a40aa11fa2c3a80168b89a8f523becf8b4f1f98d522ee80fc442398ba018590d64f00d5926c297dd0828ee78029fc2e
+"@swc/wasm@npm:1.2.225":
+  version: 1.2.225
+  resolution: "@swc/wasm@npm:1.2.225"
+  checksum: 496484d445dd3c89b155fbf4d1b1f9b8e32fdc4985b27abdfb15c53a04b2418635bddaa2bedc52e33cb6b230b25e1463431ae7ae2220848878c4edcfd4fca5bd
   languageName: node
   linkType: hard
 
@@ -14563,7 +14563,7 @@ fsevents@^1.2.7:
     "@storybook/react-native": 6.0.1-beta.7
     "@storybook/react-native-server": next
     "@swc/core": 1.2.224
-    "@swc/wasm": 1.2.224
+    "@swc/wasm": 1.2.225
     "@tanstack/react-query": 4.0.11-beta.0
     "@types/jest": 28.1.6
     "@types/node": 16.11.47
@@ -19823,16 +19823,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"use-sync-external-store@npm:^1.0.0":
-  version: 1.1.0
-  resolution: "use-sync-external-store@npm:1.1.0"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: 8993a0b642f91d7fcdbb02b7b3ac984bd3af4769686f38291fe7fcfe73dfb73d6c64d20dfb7e5e7fbf5a6da8f5392d6f8e5b00c243a04975595946e82c02b883
-  languageName: node
-  linkType: hard
-
-"use-sync-external-store@npm:^1.2.0":
+"use-sync-external-store@npm:^1.0.0, use-sync-external-store@npm:^1.2.0":
   version: 1.2.0
   resolution: "use-sync-external-store@npm:1.2.0"
   peerDependencies:
