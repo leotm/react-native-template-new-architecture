@@ -2369,7 +2369,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/cli-platform-android@npm:^9.0.0-alpha.11, @react-native-community/cli-platform-android@npm:^9.0.0-alpha.5":
+"@react-native-community/cli-platform-android@npm:^9.0.0-alpha.10, @react-native-community/cli-platform-android@npm:^9.0.0-alpha.11":
   version: 9.0.0-alpha.11
   resolution: "@react-native-community/cli-platform-android@npm:9.0.0-alpha.11"
   dependencies:
@@ -2384,7 +2384,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/cli-platform-ios@npm:^9.0.0-alpha.12, @react-native-community/cli-platform-ios@npm:^9.0.0-alpha.5":
+"@react-native-community/cli-platform-ios@npm:^9.0.0-alpha.10, @react-native-community/cli-platform-ios@npm:^9.0.0-alpha.12":
   version: 9.0.0-alpha.12
   resolution: "@react-native-community/cli-platform-ios@npm:9.0.0-alpha.12"
   dependencies:
@@ -2458,7 +2458,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/cli@npm:9.0.0-alpha.12, @react-native-community/cli@npm:^9.0.0-alpha.9":
+"@react-native-community/cli@npm:9.0.0-alpha.12, @react-native-community/cli@npm:^9.0.0-alpha.11":
   version: 9.0.0-alpha.12
   resolution: "@react-native-community/cli@npm:9.0.0-alpha.12"
   dependencies:
@@ -14602,7 +14602,7 @@ fsevents@^1.2.7:
     react: 18.2.0
     react-codemod: 5.4.3
     react-dom: 18.2.0
-    react-native: 0.70.0-rc.2
+    react-native: 0.70.0-rc.3
     react-native-clean-project: 4.0.1
     react-native-codegen: 0.71.0
     react-native-gradle-plugin: 0.70.2
@@ -16528,7 +16528,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-gradle-plugin@npm:0.70.2, react-native-gradle-plugin@npm:^0.70.1":
+"react-native-gradle-plugin@npm:0.70.2, react-native-gradle-plugin@npm:^0.70.2":
   version: 0.70.2
   resolution: "react-native-gradle-plugin@npm:0.70.2"
   checksum: 4a118c5f9b04f6b22d1c02be9056f3e774574b954c779e3729d288876a11b4d44b85c401183e76808fe1acae277a05a22633b8a9f14fbfc72db9d45be11fd9c7
@@ -16622,14 +16622,14 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native@npm:0.70.0-rc.2":
-  version: 0.70.0-rc.2
-  resolution: "react-native@npm:0.70.0-rc.2"
+"react-native@npm:0.70.0-rc.3":
+  version: 0.70.0-rc.3
+  resolution: "react-native@npm:0.70.0-rc.3"
   dependencies:
     "@jest/create-cache-key-function": ^27.0.1
-    "@react-native-community/cli": ^9.0.0-alpha.9
-    "@react-native-community/cli-platform-android": ^9.0.0-alpha.5
-    "@react-native-community/cli-platform-ios": ^9.0.0-alpha.5
+    "@react-native-community/cli": ^9.0.0-alpha.11
+    "@react-native-community/cli-platform-android": ^9.0.0-alpha.10
+    "@react-native-community/cli-platform-ios": ^9.0.0-alpha.10
     "@react-native/assets": 1.0.0
     "@react-native/normalize-color": 2.0.0
     "@react-native/polyfills": 2.0.0
@@ -16649,7 +16649,7 @@ fsevents@^1.2.7:
     promise: ^8.0.3
     react-devtools-core: 4.24.0
     react-native-codegen: ^0.70.3
-    react-native-gradle-plugin: ^0.70.1
+    react-native-gradle-plugin: ^0.70.2
     react-refresh: ^0.4.0
     react-shallow-renderer: ^16.15.0
     regenerator-runtime: ^0.13.2
@@ -16662,7 +16662,7 @@ fsevents@^1.2.7:
     react: 18.1.0
   bin:
     react-native: cli.js
-  checksum: 2b338f95f5b4c26aa8534a483d6438e362245433c68a5fe18c6b0d671da18da430c49cfc766bb8da98469840ee5eba7292d5d989cbea31e621b987bfea2ae6a9
+  checksum: 9603fb7767ce6830c3c6ee9af8c8ac4483939f740e3ae1f8ccd965411745e9220ec9a81c5c761076dd8f0b3a1160af30ae53eaeb4936bc331028ec9d0777eef9
   languageName: node
   linkType: hard
 
