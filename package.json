@@ -44,6 +44,7 @@
     "react": "18.2.0",
     "react-native": "0.70.0-rc.3",
     "react-native-codegen": "0.71.0",
+    "react-native-gesture-handler": "2.5.0",
     "react-native-reanimated": "3.0.0-rc.1"
   },
   "devDependencies": {
@@ -143,5 +144,8 @@
       "prettier --write"
     ]
   },
-  "packageManager": "yarn@3.2.2"
+  "packageManager": "yarn@3.2.2",
+  "resolutions": {
+    "react-native-gesture-handler@2.5.0": "patch:react-native-gesture-handler@npm:2.5.0#.yarn/patches/react-native-gesture-handler-npm-2.5.0-99c2b9603f.patch"
+  }
 }

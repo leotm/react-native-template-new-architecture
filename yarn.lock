@@ -1638,6 +1638,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@egjs/hammerjs@npm:^2.0.17":
+  version: 2.0.17
+  resolution: "@egjs/hammerjs@npm:2.0.17"
+  dependencies:
+    "@types/hammerjs": ^2.0.36
+  checksum: 8945137cec5837edd70af3f2e0ea621543eb0aa3b667e6269ec6485350f4d120c2434b37c7c30b1cf42a65275dd61c1f24626749c616696d3956ac0c008c4766
+  languageName: node
+  linkType: hard
+
 "@emotion/cache@npm:^10.0.27, @emotion/cache@npm:^10.0.9":
   version: 10.0.29
   resolution: "@emotion/cache@npm:10.0.29"
@@ -4400,6 +4409,13 @@ __metadata:
   dependencies:
     "@types/node": "*"
   checksum: d076bb61f45d0fc42dee496ef8b1c2f8742e15d5e47e90e20d0243386e426c04d4efd408a48875ab432f7960b4ce3414db20ed0fbbfc7bcc89d84e574f6e045a
+  languageName: node
+  linkType: hard
+
+"@types/hammerjs@npm:^2.0.36":
+  version: 2.0.41
+  resolution: "@types/hammerjs@npm:2.0.41"
+  checksum: d16fbd688fc9b18cc270abe8dea8d4c50ef7bd8375e593d92c233d299387933a6b003c8db69819344833052458bc5f9ef1b472001277a49f095928d184356006
   languageName: node
   linkType: hard
 
@@ -14679,6 +14695,7 @@ fsevents@^1.2.7:
     react-native: 0.70.0-rc.3
     react-native-clean-project: 4.0.1
     react-native-codegen: 0.71.0
+    react-native-gesture-handler: 2.5.0
     react-native-gradle-plugin: 0.70.2
     react-native-reanimated: 3.0.0-rc.1
     react-native-rename: 2.9.0
@@ -16600,6 +16617,38 @@ fsevents@^1.2.7:
     react: ^16.8.1
     react-native: ^0.62.0
   checksum: 1186844c98f66017aac76457425bb32aec76b1733b2d84ddaac800bfc3c20af61996c7982a773833b2b8e99089acc669586a2bdcd3f8aef28f97f7b79bdcd9a2
+  languageName: node
+  linkType: hard
+
+"react-native-gesture-handler@npm:2.5.0":
+  version: 2.5.0
+  resolution: "react-native-gesture-handler@npm:2.5.0"
+  dependencies:
+    "@egjs/hammerjs": ^2.0.17
+    hoist-non-react-statics: ^3.3.0
+    invariant: ^2.2.4
+    lodash: ^4.17.21
+    prop-types: ^15.7.2
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: d086f14da7f45c24c675402a4e9dec0a5c32e7279110f1af0c178cae0b6ca40dea99f878120d7034ce9c84f01465f68d0f21dcc9c3869fd527ebd18255b73432
+  languageName: node
+  linkType: hard
+
+"react-native-gesture-handler@patch:react-native-gesture-handler@npm:2.5.0#.yarn/patches/react-native-gesture-handler-npm-2.5.0-99c2b9603f.patch::locator=myapp%40workspace%3A.":
+  version: 2.5.0
+  resolution: "react-native-gesture-handler@patch:react-native-gesture-handler@npm%3A2.5.0#.yarn/patches/react-native-gesture-handler-npm-2.5.0-99c2b9603f.patch::version=2.5.0&hash=4ac4ad&locator=myapp%40workspace%3A."
+  dependencies:
+    "@egjs/hammerjs": ^2.0.17
+    hoist-non-react-statics: ^3.3.0
+    invariant: ^2.2.4
+    lodash: ^4.17.21
+    prop-types: ^15.7.2
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 79fe1507ca24845a30f0a98ec9dd5b58a610b3a876627fcfb20803aaee6c439ca7e88c4fdc9506c44124c8b310d196937414cbaf13d3c99b97b7acb49f9e163e
   languageName: node
   linkType: hard
 
