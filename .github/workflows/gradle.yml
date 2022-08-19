@@ -67,7 +67,7 @@ jobs:
         ./bin/cmake --version
 
     - name: Build application Debug APK with Gradle
-      uses: gradle/gradle-build-action@v2.2.3
+      uses: gradle/gradle-build-action@v2.2.4
       with:
         arguments: assembleDebug
         build-root-directory: android
@@ -75,13 +75,13 @@ jobs:
     # Avoid release poisoned cache problems
     # Preserve hosted agent free disk space
     - name: Delete Android build pre-computed outputs
-      uses: gradle/gradle-build-action@v2.2.3
+      uses: gradle/gradle-build-action@v2.2.4
       with:
         arguments: clean
         build-root-directory: android
 
     - name: Build application Release APK with Gradle
-      uses: gradle/gradle-build-action@v2.2.3
+      uses: gradle/gradle-build-action@v2.2.4
       with:
         arguments: assembleRelease
         build-root-directory: android
