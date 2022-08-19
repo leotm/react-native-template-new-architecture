@@ -144,8 +144,5 @@
       "prettier --write"
     ]
   },
-  "packageManager": "yarn@3.2.2",
-  "resolutions": {
-    "react-native-gesture-handler@2.5.0": "patch:react-native-gesture-handler@npm:2.5.0#.yarn/patches/react-native-gesture-handler-npm-2.5.0-99c2b9603f.patch"
-  }
+  "packageManager": "yarn@3.2.2"
 }
