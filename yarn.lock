@@ -14695,7 +14695,7 @@ fsevents@^1.2.7:
     react-native: 0.70.0-rc.3
     react-native-clean-project: 4.0.1
     react-native-codegen: 0.71.0
-    react-native-gesture-handler: 2.5.0
+    react-native-gesture-handler: "software-mansion/react-native-gesture-handler#9a4bef2c0602c6cb8a95049725277c53f18b7569"
     react-native-gradle-plugin: 0.70.2
     react-native-reanimated: 3.0.0-rc.1
     react-native-rename: 2.9.0
@@ -16620,9 +16620,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-gesture-handler@npm:2.5.0":
+"react-native-gesture-handler@software-mansion/react-native-gesture-handler#9a4bef2c0602c6cb8a95049725277c53f18b7569":
   version: 2.5.0
-  resolution: "react-native-gesture-handler@npm:2.5.0"
+  resolution: "react-native-gesture-handler@https://github.com/software-mansion/react-native-gesture-handler.git#commit=9a4bef2c0602c6cb8a95049725277c53f18b7569"
   dependencies:
     "@egjs/hammerjs": ^2.0.17
     hoist-non-react-statics: ^3.3.0
@@ -16632,23 +16632,7 @@ fsevents@^1.2.7:
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: d086f14da7f45c24c675402a4e9dec0a5c32e7279110f1af0c178cae0b6ca40dea99f878120d7034ce9c84f01465f68d0f21dcc9c3869fd527ebd18255b73432
-  languageName: node
-  linkType: hard
-
-"react-native-gesture-handler@patch:react-native-gesture-handler@npm:2.5.0#.yarn/patches/react-native-gesture-handler-npm-2.5.0-99c2b9603f.patch::locator=myapp%40workspace%3A.":
-  version: 2.5.0
-  resolution: "react-native-gesture-handler@patch:react-native-gesture-handler@npm%3A2.5.0#.yarn/patches/react-native-gesture-handler-npm-2.5.0-99c2b9603f.patch::version=2.5.0&hash=4ac4ad&locator=myapp%40workspace%3A."
-  dependencies:
-    "@egjs/hammerjs": ^2.0.17
-    hoist-non-react-statics: ^3.3.0
-    invariant: ^2.2.4
-    lodash: ^4.17.21
-    prop-types: ^15.7.2
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-  checksum: 79fe1507ca24845a30f0a98ec9dd5b58a610b3a876627fcfb20803aaee6c439ca7e88c4fdc9506c44124c8b310d196937414cbaf13d3c99b97b7acb49f9e163e
+  checksum: 1c921630a40c17cff8c02d506550609ac8debf38cac7995cec53acf1832cd049ce85761cd831ada6d25bc399738fa1fc774f3a8a243eeae3fac2f23ab99c5578
   languageName: node
   linkType: hard
 
