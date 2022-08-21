@@ -14749,7 +14749,7 @@ fsevents@^1.2.7:
     react-native-clean-project: 4.0.1
     react-native-codegen: 0.71.0
     react-native-gradle-plugin: 0.70.2
-    react-native-reanimated: 3.0.0-rc.1
+    react-native-reanimated: 3.0.0-rc.2
     react-native-rename: 2.9.0
     react-test-renderer: 18.2.0
     reactotron-react-native: 5.0.2
@@ -16739,9 +16739,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-reanimated@npm:3.0.0-rc.1":
-  version: 3.0.0-rc.1
-  resolution: "react-native-reanimated@npm:3.0.0-rc.1"
+"react-native-reanimated@npm:3.0.0-rc.2":
+  version: 3.0.0-rc.2
+  resolution: "react-native-reanimated@npm:3.0.0-rc.2"
   dependencies:
     "@babel/plugin-transform-object-assign": ^7.16.7
     "@babel/preset-typescript": ^7.16.7
@@ -16754,7 +16754,7 @@ fsevents@^1.2.7:
     "@babel/core": ^7.0.0-0
     react: "*"
     react-native: "*"
-  checksum: 7df1ad349c62a434db1464728b27cf151680246472ab7bc7e3abb9f24c56714421367138da022e76e3944b7533403dd2caa2572113132aa339718dad09f8d819
+  checksum: 2dcce4e267f52760566e059327e8121e41da536aa6a1563acecba00b06c62c9b7a4d88fb74aa98408606cc6b82375b873833bbb7f29cad8bae98cec941d99618
   languageName: node
   linkType: hard
 
