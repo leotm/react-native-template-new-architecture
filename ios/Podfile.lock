@@ -624,7 +624,7 @@ PODS:
   - React-jsinspector (0.70.0-rc.3)
   - React-logger (0.70.0-rc.3):
     - glog
-  - react-native-slider (4.3.0):
+  - react-native-slider (4.3.1):
     - RCT-Folly
     - RCTRequired
     - RCTTypeSafety
@@ -708,9 +708,9 @@ PODS:
     - React-Core
   - RNCCheckbox (0.5.12):
     - React-Core
-  - RNDateTimePicker (6.3.1):
+  - RNDateTimePicker (6.3.2):
     - React-Core
-  - RNReanimated (3.0.0-rc.1):
+  - RNReanimated (3.0.0-rc.2):
     - DoubleConversion
     - FBLazyVector
     - FBReactNativeSpec
@@ -959,7 +959,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: 70734501469eb6a14da0d6a995b477ffc650f4e3
   React-jsinspector: a8186de0c2519e08573bfca97642e21448b6e0a7
   React-logger: 8ab3d18d882c00ac6e79bb8d3c050a3adc71f1b7
-  react-native-slider: c86005ffb1129943f5335d58058b9c448c1feded
+  react-native-slider: f573c9a45bd7c6fa1e1268c2fb7bd6b5d00a4669
   React-perflogger: 211ab4691a41379d03e90c844f35d3db7177cced
   React-RCTActionSheet: 6b79f36d7667c73fcba4e041fae9eaa70ac6e1e0
   React-RCTAnimation: 7ca23cab72c101cfb58031548a77273fee235bdf
@@ -976,8 +976,8 @@ SPEC CHECKSUMS:
   ReactCommon: f7fc6b8b10e8f16f65a8009be266cfc1478fb20d
   RNCAsyncStorage: b2489b49e38c85e10ed45a888d13a2a4c7b32ea1
   RNCCheckbox: ed1b4ca295475b41e7251ebae046360a703b6eb5
-  RNDateTimePicker: 95e0cb71cba4c2f08c62444029f834e6168a2b96
-  RNReanimated: 779710733786b54312c3f163b8de1ca7d7c1decf
+  RNDateTimePicker: 4f1fc917f5af9d9ae4c5fc0c63a4474d61338693
+  RNReanimated: 10249ac81b456595273588ce2195198d85fcbd28
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
   Yoga: 65fe91a246110ebd54e9c7388d98e90d861cb4e7
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
