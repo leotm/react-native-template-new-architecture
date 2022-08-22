@@ -14751,7 +14751,7 @@ fsevents@^1.2.7:
     react-native-gradle-plugin: 0.70.2
     react-native-reanimated: 3.0.0-rc.2
     react-native-rename: 2.9.0
-    react-native-safe-area-context: 4.3.1
+    react-native-safe-area-context: "th3rdwave/react-native-safe-area-context#13d542bc68c76910951be22e58816ca7ade89351"
     react-test-renderer: 18.2.0
     reactotron-react-native: 5.0.2
     ts-node: 10.9.1
@@ -16775,13 +16775,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-safe-area-context@npm:4.3.1":
-  version: 4.3.1
-  resolution: "react-native-safe-area-context@npm:4.3.1"
+"react-native-safe-area-context@th3rdwave/react-native-safe-area-context#13d542bc68c76910951be22e58816ca7ade89351":
+  version: 4.3.3
+  resolution: "react-native-safe-area-context@https://github.com/th3rdwave/react-native-safe-area-context.git#commit=13d542bc68c76910951be22e58816ca7ade89351"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 34a4bc60448b0bc6bfa3e952b00a12754cc30ce48c07540a6618179f2c170aa2db0919ac452376322778ed34c4c56fc5d40e17c2b74157c9a134d2b766143ca3
+  checksum: 5911972016af94f3b622c0821c22497791a6cc25833c78bb3a1dd91a747fd7213ff2d33c39bbf40cd4bbe0019dc768a198342bc3581166d03f7797fe1616cd0c
   languageName: node
   linkType: hard
 
