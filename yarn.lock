@@ -14695,7 +14695,7 @@ fsevents@^1.2.7:
     react-native: 0.70.0-rc.3
     react-native-clean-project: 4.0.1
     react-native-codegen: 0.71.0
-    react-native-gesture-handler: "software-mansion/react-native-gesture-handler#9a4bef2c0602c6cb8a95049725277c53f18b7569"
+    react-native-gesture-handler: "software-mansion/react-native-gesture-handler#917295fbbceff36f94643edf1a15cbcb55933ec6"
     react-native-gradle-plugin: 0.70.2
     react-native-reanimated: 3.0.0-rc.1
     react-native-rename: 2.9.0
@@ -16620,9 +16620,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-gesture-handler@software-mansion/react-native-gesture-handler#9a4bef2c0602c6cb8a95049725277c53f18b7569":
+"react-native-gesture-handler@software-mansion/react-native-gesture-handler#917295fbbceff36f94643edf1a15cbcb55933ec6":
   version: 2.5.0
-  resolution: "react-native-gesture-handler@https://github.com/software-mansion/react-native-gesture-handler.git#commit=9a4bef2c0602c6cb8a95049725277c53f18b7569"
+  resolution: "react-native-gesture-handler@https://github.com/software-mansion/react-native-gesture-handler.git#commit=917295fbbceff36f94643edf1a15cbcb55933ec6"
   dependencies:
     "@egjs/hammerjs": ^2.0.17
     hoist-non-react-statics: ^3.3.0
@@ -16632,7 +16632,7 @@ fsevents@^1.2.7:
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 1c921630a40c17cff8c02d506550609ac8debf38cac7995cec53acf1832cd049ce85761cd831ada6d25bc399738fa1fc774f3a8a243eeae3fac2f23ab99c5578
+  checksum: 73952eea680fcd7d3eaaf8fc44eb346420f3f14461e38255f590cd0b820d7ddad27548d4edca25834aa5d4f678110869c6c06aac7b0a138ceda428ae332b47ae
   languageName: node
   linkType: hard
 
