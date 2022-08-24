@@ -31,18 +31,6 @@ jobs:
 
     - uses: actions/checkout@v3
 
-    # (Standalone toolchains obsolete)
-    # Ubuntu 20.04: r21e, r22, r23b, Custom: r24+
-    - name: Set up NDK r25 LTS
-      uses: nttld/setup-ndk@v1.0.6
-      with:
-        ndk-version: r25
-
-    # - name: Or manually set NDK X env vars
-    #   run: |
-    #     export ANDROID_NDK_HOME=/usr/local/lib/android/sdk/ndk/x.x.x
-    #     export ANDROID_NDK_ROOT=/usr/local/lib/android/sdk/ndk/x.x.x
-
     - name: Install all project dependencies
       run: yarn
       
