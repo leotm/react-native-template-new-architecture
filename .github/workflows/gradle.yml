@@ -34,16 +34,6 @@ jobs:
     - name: Install all project dependencies
       run: yarn
       
-    - name: Get and extract cmake-3.23.1-linux-x86_64.tar.gz to /usr/local/lib/android/sdk
-      run: |
-        wget https://github.com/Kitware/CMake/releases/download/v3.23.1/cmake-3.23.1-linux-x86_64.tar.gz
-        tar xzf cmake-3.23.1-linux-x86_64.tar.gz
-        rm -rf cmake-3.23.1-linux-x86_64.tar.gz
-        mkdir -p /usr/local/lib/android/sdk/cmake/3.22.1
-        cp -rf cmake-3.23.1-linux-x86_64/* /usr/local/lib/android/sdk/cmake/3.22.1
-        cd cmake-3.23.1-linux-x86_64
-        ./bin/cmake --version
-
     - name: Build application Debug APK with Gradle
       uses: gradle/gradle-build-action@v2.2.5
       with:
