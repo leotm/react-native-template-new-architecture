@@ -19602,11 +19602,11 @@ resolve@^2.0.0-next.3:
 
 "typescript@patch:typescript@4.8.1-rc#~builtin<compat/typescript>":
   version: 4.8.1-rc
-  resolution: "typescript@patch:typescript@npm%3A4.8.1-rc#~builtin<compat/typescript>::version=4.8.1-rc&hash=f456af"
+  resolution: "typescript@patch:typescript@npm%3A4.8.1-rc#~builtin<compat/typescript>::version=4.8.1-rc&hash=a1c5e5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 527487387d373c0e7ca69d33bf03e35ed8cea794af4e78ee8f675e4875cfc095fd40690cf104489cfda9e6cedaf4794e8f9864c0dd30491cef7eb1b787b86005
+  checksum: 96b03a6fa21ec02097ed89acb552399135777173dd1523b5885a561320acf3be84c12e1fe9df4b2d451b45ea5af56d40acf171c56fd70932db9c11628d6aab2a
   languageName: node
   linkType: hard
 
