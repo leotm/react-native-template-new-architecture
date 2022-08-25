@@ -2587,18 +2587,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/core@npm:^6.2.2":
-  version: 6.2.2
-  resolution: "@react-navigation/core@npm:6.2.2"
+"@react-navigation/core@npm:^6.3.0":
+  version: 6.3.0
+  resolution: "@react-navigation/core@npm:6.3.0"
   dependencies:
-    "@react-navigation/routers": ^6.1.1
+    "@react-navigation/routers": ^6.1.2
     escape-string-regexp: ^4.0.0
     nanoid: ^3.1.23
     query-string: ^7.0.0
     react-is: ^16.13.0
+    use-latest-callback: ^0.1.5
   peerDependencies:
     react: "*"
-  checksum: ecc56be910c2eb98b8bb949db76cb59f0ce4b20479c05058244530383e363a57a4680ae638904810238f6cc29d67a140d0cc25b4cbcbce89808de3529ab45ebb
+  checksum: cdfda8055b89ab1f3c0714779644d51e8cce31545fbfe16cd10f540f142c9093abd5d7b9199836aa283eb8c9305f9a9fcdcc7dcdbfa08d3100d9b5421a1bc0ee
   languageName: node
   linkType: hard
 
@@ -2630,27 +2631,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/native@npm:6.0.11":
-  version: 6.0.11
-  resolution: "@react-navigation/native@npm:6.0.11"
+"@react-navigation/native@npm:6.0.12":
+  version: 6.0.12
+  resolution: "@react-navigation/native@npm:6.0.12"
   dependencies:
-    "@react-navigation/core": ^6.2.2
+    "@react-navigation/core": ^6.3.0
     escape-string-regexp: ^4.0.0
     fast-deep-equal: ^3.1.3
     nanoid: ^3.1.23
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 0dab07c8144d0b50cfbbd52f2a2da7dd9284d67ed1fd638691eed04fd035881f40233e88998d6337804af573c93bd484c641344b7fd19c4395d698463fb8972b
+  checksum: 7b5a83fb3167b74a0e9956297910abe793cfb965c0db411473ffc73ff7e5f3bd5b554a883fff17c9ad9ee7566fa20458428e17f34e46a6c8ee02fde16e142c19
   languageName: node
   linkType: hard
 
-"@react-navigation/routers@npm:^6.1.1":
-  version: 6.1.1
-  resolution: "@react-navigation/routers@npm:6.1.1"
+"@react-navigation/routers@npm:^6.1.2":
+  version: 6.1.2
+  resolution: "@react-navigation/routers@npm:6.1.2"
   dependencies:
     nanoid: ^3.1.23
-  checksum: 6889b4eca3ac99a6c0c047344a55b34a203264e60cdfbd9a7efaf7728dc90bec18a05ed5c4169146fb804909ddb782e014ccfd9a51a667b2e41ead23b1be0b68
+  checksum: 5512a93733b040a988b741f56dc859f1cb1b78dc429e09652d42f378b2fbfc8ccc37d8dbdf470e479a2427ab72a1fb579678778eb025d5d49c6f5df7a6dfb7c4
   languageName: node
   linkType: hard
 
@@ -14688,7 +14689,7 @@ fsevents@^1.2.7:
     "@react-native-community/datetimepicker": 6.3.2
     "@react-native-community/eslint-config": 3.1.0
     "@react-native-community/slider": 4.3.1
-    "@react-navigation/native": 6.0.11
+    "@react-navigation/native": 6.0.12
     "@react-navigation/native-stack": 6.7.0
     "@storybook/addon-actions": 6.5.10
     "@storybook/addon-controls": 6.5.10
@@ -19971,6 +19972,13 @@ resolve@^2.0.0-next.3:
     "@types/react":
       optional: true
   checksum: fd9061817d4945af37fd79866b1fe96a09cafe873169a66ec699140b609c64db6c60512d94ec3ca90967837026ea6e6d003901c557693708aeee11d392418a9e
+  languageName: node
+  linkType: hard
+
+"use-latest-callback@npm:^0.1.5":
+  version: 0.1.5
+  resolution: "use-latest-callback@npm:0.1.5"
+  checksum: a7af3275985b7918c3e0e7a57bb5fc8ad678b21673fc618fe778d111992bdabb4f9592cd3e0286e032a7c956ee3c9d1aba39801c13f32d68bc4c4a008e38783b
   languageName: node
   linkType: hard
 
