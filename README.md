@@ -49,7 +49,7 @@ yarn # 🍺 version
 yarn setup # 🤖 versioned version 
 ```
 
-https://github.com/leotm/react-native-template-new-architecture/blob/01f1c9864f55367004effbe26d3f33590784704b/package.json#L146
+https://github.com/leotm/react-native-template-new-architecture/blob/849ac8ff8512edbf51f580b4e85277456566a034/package.json#L146
 
 _[More](https://stackoverflow.com/a/70864409/1998086)_
 
