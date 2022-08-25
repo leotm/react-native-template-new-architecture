@@ -2603,23 +2603,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/elements@npm:^1.3.4":
-  version: 1.3.4
-  resolution: "@react-navigation/elements@npm:1.3.4"
+"@react-navigation/elements@npm:^1.3.5":
+  version: 1.3.5
+  resolution: "@react-navigation/elements@npm:1.3.5"
   peerDependencies:
     "@react-navigation/native": ^6.0.0
     react: "*"
     react-native: "*"
     react-native-safe-area-context: ">= 3.0.0"
-  checksum: 5dafd137705d3e70a26cf6484d901022d536a5f449e897640366c281df856637382887b95e0cb6f981b4eb27230067c46fa50aaabd23cc627d68a46da41c9383
+  checksum: 02768367b84278a85b627fc6a738a986c0af868768047ed6086a7796f04df722d030d65232d263502a14111abca8cc7715cce0c7ec959436e49c3ca72b3c796f
   languageName: node
   linkType: hard
 
-"@react-navigation/native-stack@npm:6.7.0":
-  version: 6.7.0
-  resolution: "@react-navigation/native-stack@npm:6.7.0"
+"@react-navigation/native-stack@npm:6.8.0":
+  version: 6.8.0
+  resolution: "@react-navigation/native-stack@npm:6.8.0"
   dependencies:
-    "@react-navigation/elements": ^1.3.4
+    "@react-navigation/elements": ^1.3.5
     warn-once: ^0.1.0
   peerDependencies:
     "@react-navigation/native": ^6.0.0
@@ -2627,7 +2627,7 @@ __metadata:
     react-native: "*"
     react-native-safe-area-context: ">= 3.0.0"
     react-native-screens: ">= 3.0.0"
-  checksum: 85ff46832662c7054a64475d8a7a4202a0f0108742f9a07f3f5b4e10e9d67c1d472d57e797a75371f5993a449446a53f3bbd85ab5db6beb76fd49868ae3539bf
+  checksum: f9173b26307d180c22e03dde50b557b3c8efc4b87aebd82f345ec0347730c8afbac74a7aca31565e3469d7d38e7994fc5cbd5bd15763140af0e3c9790402f1d5
   languageName: node
   linkType: hard
 
@@ -14571,7 +14571,7 @@ fsevents@^1.2.7:
     "@react-native-community/eslint-config": 3.1.0
     "@react-native-community/slider": 4.3.1
     "@react-navigation/native": 6.0.12
-    "@react-navigation/native-stack": 6.7.0
+    "@react-navigation/native-stack": 6.8.0
     "@storybook/addon-actions": 6.5.10
     "@storybook/addon-controls": 6.5.10
     "@storybook/addon-knobs": 6.4.0
