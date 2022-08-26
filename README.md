@@ -22,7 +22,7 @@
 
 Android | iOS
 --- | ---
-![181913706-48e6e15d-98b9-42d7-868d-4779a0ad153c](https://user-images.githubusercontent.com/1881059/183621257-1a14e1cc-0b4c-4fec-95d9-8a406b1c2fe6.png) | ![181913707-1953742d-df14-4dff-b435-a1cf698ef46d](https://user-images.githubusercontent.com/1881059/183621258-d2b9ac4b-f7fd-44f4-ab9b-2a37aa161ea7.png)
+![Android](https://user-images.githubusercontent.com/1881059/186873376-f79aadd4-db76-4fa3-b403-59d816596459.png) | ![iOS](https://user-images.githubusercontent.com/1881059/186873512-653ae581-dd7e-44d5-afb9-09c916a921e0.png)
 
 ## Setup
 
