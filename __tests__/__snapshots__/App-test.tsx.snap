@@ -3,7 +3,7 @@
 exports[`app renders correctly 1`] = `
 <RCTSafeAreaView
   style={
-    Object {
+    {
       "backgroundColor": "#F3F3F3",
     }
   }
@@ -11,7 +11,7 @@ exports[`app renders correctly 1`] = `
   <RCTScrollView
     contentInsetAdjustmentBehavior="automatic"
     style={
-      Object {
+      {
         "backgroundColor": "#F3F3F3",
       }
     }
@@ -20,13 +20,13 @@ exports[`app renders correctly 1`] = `
       <View
         accessibilityIgnoresInvertColors={true}
         style={
-          Array [
-            Object {
+          [
+            {
               "paddingBottom": 40,
               "paddingHorizontal": 32,
               "paddingTop": 96,
             },
-            Object {
+            {
               "backgroundColor": "#F3F3F3",
             },
           ]
@@ -35,24 +35,24 @@ exports[`app renders correctly 1`] = `
         <Image
           accessibilityRole="image"
           source={
-            Object {
+            {
               "testUri": "../Libraries/NewAppScreen/components/logo.png",
             }
           }
           style={
-            Array [
-              Object {
+            [
+              {
                 "bottom": 0,
                 "left": 0,
                 "position": "absolute",
                 "right": 0,
                 "top": 0,
               },
-              Object {
+              {
                 "height": undefined,
                 "width": undefined,
               },
-              Object {
+              {
                 "marginBottom": -192,
                 "marginLeft": -128,
                 "opacity": 0.2,
@@ -65,13 +65,13 @@ exports[`app renders correctly 1`] = `
         />
         <Text
           style={
-            Array [
-              Object {
+            [
+              {
                 "fontSize": 40,
                 "fontWeight": "700",
                 "textAlign": "center",
               },
-              Object {
+              {
                 "color": "#000",
               },
             ]
@@ -85,14 +85,14 @@ exports[`app renders correctly 1`] = `
       </View>
       <View
         style={
-          Object {
+          {
             "backgroundColor": "#FFF",
           }
         }
       >
         <View
           style={
-            Object {
+            {
               "marginTop": 32,
               "paddingHorizontal": 24,
             }
@@ -100,12 +100,12 @@ exports[`app renders correctly 1`] = `
         >
           <Text
             style={
-              Array [
-                Object {
+              [
+                {
                   "fontSize": 24,
                   "fontWeight": "600",
                 },
-                Object {
+                {
                   "color": "#000",
                 },
               ]
@@ -115,13 +115,13 @@ exports[`app renders correctly 1`] = `
           </Text>
           <Text
             style={
-              Array [
-                Object {
+              [
+                {
                   "fontSize": 18,
                   "fontWeight": "400",
                   "marginTop": 8,
                 },
-                Object {
+                {
                   "color": "#444",
                 },
               ]
@@ -130,7 +130,7 @@ exports[`app renders correctly 1`] = `
             Edit 
             <Text
               style={
-                Object {
+                {
                   "fontWeight": "700",
                 }
               }
@@ -142,7 +142,7 @@ exports[`app renders correctly 1`] = `
         </View>
         <View
           style={
-            Object {
+            {
               "marginTop": 32,
               "paddingHorizontal": 24,
             }
@@ -150,12 +150,12 @@ exports[`app renders correctly 1`] = `
         >
           <Text
             style={
-              Array [
-                Object {
+              [
+                {
                   "fontSize": 24,
                   "fontWeight": "600",
                 },
-                Object {
+                {
                   "color": "#000",
                 },
               ]
@@ -165,13 +165,13 @@ exports[`app renders correctly 1`] = `
           </Text>
           <Text
             style={
-              Array [
-                Object {
+              [
+                {
                   "fontSize": 18,
                   "fontWeight": "400",
                   "marginTop": 8,
                 },
-                Object {
+                {
                   "color": "#444",
                 },
               ]
@@ -181,7 +181,7 @@ exports[`app renders correctly 1`] = `
               Press 
               <Text
                 style={
-                  Object {
+                  {
                     "fontWeight": "700",
                   }
                 }
@@ -194,7 +194,7 @@ exports[`app renders correctly 1`] = `
         </View>
         <View
           style={
-            Object {
+            {
               "marginTop": 32,
               "paddingHorizontal": 24,
             }
@@ -202,12 +202,12 @@ exports[`app renders correctly 1`] = `
         >
           <Text
             style={
-              Array [
-                Object {
+              [
+                {
                   "fontSize": 24,
                   "fontWeight": "600",
                 },
-                Object {
+                {
                   "color": "#000",
                 },
               ]
@@ -217,13 +217,13 @@ exports[`app renders correctly 1`] = `
           </Text>
           <Text
             style={
-              Array [
-                Object {
+              [
+                {
                   "fontSize": 18,
                   "fontWeight": "400",
                   "marginTop": 8,
                 },
-                Object {
+                {
                   "color": "#444",
                 },
               ]
@@ -233,7 +233,7 @@ exports[`app renders correctly 1`] = `
               Press 
               <Text
                 style={
-                  Object {
+                  {
                     "fontWeight": "700",
                   }
                 }
@@ -244,7 +244,7 @@ exports[`app renders correctly 1`] = `
                
               <Text
                 style={
-                  Object {
+                  {
                     "fontWeight": "700",
                   }
                 }
@@ -257,7 +257,7 @@ exports[`app renders correctly 1`] = `
         </View>
         <View
           style={
-            Object {
+            {
               "marginTop": 32,
               "paddingHorizontal": 24,
             }
@@ -265,12 +265,12 @@ exports[`app renders correctly 1`] = `
         >
           <Text
             style={
-              Array [
-                Object {
+              [
+                {
                   "fontSize": 24,
                   "fontWeight": "600",
                 },
-                Object {
+                {
                   "color": "#000",
                 },
               ]
@@ -280,13 +280,13 @@ exports[`app renders correctly 1`] = `
           </Text>
           <Text
             style={
-              Array [
-                Object {
+              [
+                {
                   "fontSize": 18,
                   "fontWeight": "400",
                   "marginTop": 8,
                 },
-                Object {
+                {
                   "color": "#444",
                 },
               ]
@@ -297,7 +297,7 @@ exports[`app renders correctly 1`] = `
         </View>
         <View
           style={
-            Object {
+            {
               "marginTop": 32,
               "paddingHorizontal": 24,
             }
@@ -305,11 +305,11 @@ exports[`app renders correctly 1`] = `
         >
           <View
             style={
-              Array [
-                Object {
+              [
+                {
                   "height": 0.5,
                 },
-                Object {
+                {
                   "backgroundColor": "#DAE1E7",
                 },
               ]
@@ -328,7 +328,7 @@ exports[`app renders correctly 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "flexDirection": "row",
                 "flexWrap": "wrap",
@@ -340,7 +340,7 @@ exports[`app renders correctly 1`] = `
           >
             <Text
               style={
-                Object {
+                {
                   "color": "#1292B4",
                   "flex": 2,
                   "fontSize": 18,
@@ -352,14 +352,14 @@ exports[`app renders correctly 1`] = `
             </Text>
             <Text
               style={
-                Array [
-                  Object {
+                [
+                  {
                     "flex": 3,
                     "fontSize": 18,
                     "fontWeight": "400",
                     "paddingVertical": 16,
                   },
-                  Object {
+                  {
                     "color": "#444",
                   },
                 ]
@@ -370,11 +370,11 @@ exports[`app renders correctly 1`] = `
           </View>
           <View
             style={
-              Array [
-                Object {
+              [
+                {
                   "height": 0.5,
                 },
-                Object {
+                {
                   "backgroundColor": "#DAE1E7",
                 },
               ]
@@ -393,7 +393,7 @@ exports[`app renders correctly 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "flexDirection": "row",
                 "flexWrap": "wrap",
@@ -405,7 +405,7 @@ exports[`app renders correctly 1`] = `
           >
             <Text
               style={
-                Object {
+                {
                   "color": "#1292B4",
                   "flex": 2,
                   "fontSize": 18,
@@ -417,14 +417,14 @@ exports[`app renders correctly 1`] = `
             </Text>
             <Text
               style={
-                Array [
-                  Object {
+                [
+                  {
                     "flex": 3,
                     "fontSize": 18,
                     "fontWeight": "400",
                     "paddingVertical": 16,
                   },
-                  Object {
+                  {
                     "color": "#444",
                   },
                 ]
@@ -435,11 +435,11 @@ exports[`app renders correctly 1`] = `
           </View>
           <View
             style={
-              Array [
-                Object {
+              [
+                {
                   "height": 0.5,
                 },
-                Object {
+                {
                   "backgroundColor": "#DAE1E7",
                 },
               ]
@@ -458,7 +458,7 @@ exports[`app renders correctly 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "flexDirection": "row",
                 "flexWrap": "wrap",
@@ -470,7 +470,7 @@ exports[`app renders correctly 1`] = `
           >
             <Text
               style={
-                Object {
+                {
                   "color": "#1292B4",
                   "flex": 2,
                   "fontSize": 18,
@@ -482,14 +482,14 @@ exports[`app renders correctly 1`] = `
             </Text>
             <Text
               style={
-                Array [
-                  Object {
+                [
+                  {
                     "flex": 3,
                     "fontSize": 18,
                     "fontWeight": "400",
                     "paddingVertical": 16,
                   },
-                  Object {
+                  {
                     "color": "#444",
                   },
                 ]
@@ -500,11 +500,11 @@ exports[`app renders correctly 1`] = `
           </View>
           <View
             style={
-              Array [
-                Object {
+              [
+                {
                   "height": 0.5,
                 },
-                Object {
+                {
                   "backgroundColor": "#DAE1E7",
                 },
               ]
@@ -523,7 +523,7 @@ exports[`app renders correctly 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "flexDirection": "row",
                 "flexWrap": "wrap",
@@ -535,7 +535,7 @@ exports[`app renders correctly 1`] = `
           >
             <Text
               style={
-                Object {
+                {
                   "color": "#1292B4",
                   "flex": 2,
                   "fontSize": 18,
@@ -547,14 +547,14 @@ exports[`app renders correctly 1`] = `
             </Text>
             <Text
               style={
-                Array [
-                  Object {
+                [
+                  {
                     "flex": 3,
                     "fontSize": 18,
                     "fontWeight": "400",
                     "paddingVertical": 16,
                   },
-                  Object {
+                  {
                     "color": "#444",
                   },
                 ]
@@ -565,11 +565,11 @@ exports[`app renders correctly 1`] = `
           </View>
           <View
             style={
-              Array [
-                Object {
+              [
+                {
                   "height": 0.5,
                 },
-                Object {
+                {
                   "backgroundColor": "#DAE1E7",
                 },
               ]
@@ -588,7 +588,7 @@ exports[`app renders correctly 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "flexDirection": "row",
                 "flexWrap": "wrap",
@@ -600,7 +600,7 @@ exports[`app renders correctly 1`] = `
           >
             <Text
               style={
-                Object {
+                {
                   "color": "#1292B4",
                   "flex": 2,
                   "fontSize": 18,
@@ -612,14 +612,14 @@ exports[`app renders correctly 1`] = `
             </Text>
             <Text
               style={
-                Array [
-                  Object {
+                [
+                  {
                     "flex": 3,
                     "fontSize": 18,
                     "fontWeight": "400",
                     "paddingVertical": 16,
                   },
-                  Object {
+                  {
                     "color": "#444",
                   },
                 ]
@@ -630,11 +630,11 @@ exports[`app renders correctly 1`] = `
           </View>
           <View
             style={
-              Array [
-                Object {
+              [
+                {
                   "height": 0.5,
                 },
-                Object {
+                {
                   "backgroundColor": "#DAE1E7",
                 },
               ]
@@ -653,7 +653,7 @@ exports[`app renders correctly 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "flexDirection": "row",
                 "flexWrap": "wrap",
@@ -665,7 +665,7 @@ exports[`app renders correctly 1`] = `
           >
             <Text
               style={
-                Object {
+                {
                   "color": "#1292B4",
                   "flex": 2,
                   "fontSize": 18,
@@ -677,14 +677,14 @@ exports[`app renders correctly 1`] = `
             </Text>
             <Text
               style={
-                Array [
-                  Object {
+                [
+                  {
                     "flex": 3,
                     "fontSize": 18,
                     "fontWeight": "400",
                     "paddingVertical": 16,
                   },
-                  Object {
+                  {
                     "color": "#444",
                   },
                 ]
@@ -695,11 +695,11 @@ exports[`app renders correctly 1`] = `
           </View>
           <View
             style={
-              Array [
-                Object {
+              [
+                {
                   "height": 0.5,
                 },
-                Object {
+                {
                   "backgroundColor": "#DAE1E7",
                 },
               ]
@@ -718,7 +718,7 @@ exports[`app renders correctly 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "flexDirection": "row",
                 "flexWrap": "wrap",
@@ -730,7 +730,7 @@ exports[`app renders correctly 1`] = `
           >
             <Text
               style={
-                Object {
+                {
                   "color": "#1292B4",
                   "flex": 2,
                   "fontSize": 18,
@@ -742,14 +742,14 @@ exports[`app renders correctly 1`] = `
             </Text>
             <Text
               style={
-                Array [
-                  Object {
+                [
+                  {
                     "flex": 3,
                     "fontSize": 18,
                     "fontWeight": "400",
                     "paddingVertical": 16,
                   },
-                  Object {
+                  {
                     "color": "#444",
                   },
                 ]
@@ -760,11 +760,11 @@ exports[`app renders correctly 1`] = `
           </View>
           <View
             style={
-              Array [
-                Object {
+              [
+                {
                   "height": 0.5,
                 },
-                Object {
+                {
                   "backgroundColor": "#DAE1E7",
                 },
               ]
@@ -783,7 +783,7 @@ exports[`app renders correctly 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "flexDirection": "row",
                 "flexWrap": "wrap",
@@ -795,7 +795,7 @@ exports[`app renders correctly 1`] = `
           >
             <Text
               style={
-                Object {
+                {
                   "color": "#1292B4",
                   "flex": 2,
                   "fontSize": 18,
@@ -807,14 +807,14 @@ exports[`app renders correctly 1`] = `
             </Text>
             <Text
               style={
-                Array [
-                  Object {
+                [
+                  {
                     "flex": 3,
                     "fontSize": 18,
                     "fontWeight": "400",
                     "paddingVertical": 16,
                   },
-                  Object {
+                  {
                     "color": "#444",
                   },
                 ]
