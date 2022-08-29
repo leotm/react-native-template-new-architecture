@@ -4264,19 +4264,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:^4.0.11-beta.5":
-  version: 4.2.1
-  resolution: "@tanstack/query-core@npm:4.2.1"
-  checksum: f71854969e02de6c2cfbe25e8b11e275b61e1297a902e0d5c4beac580a87db99555c1c21d536d838ce5e0664bc49da7b60a3c6b8de334c7004c5005fe2a48030
+"@tanstack/query-core@npm:4.3.0-beta.4":
+  version: 4.3.0-beta.4
+  resolution: "@tanstack/query-core@npm:4.3.0-beta.4"
+  checksum: 223f16e9537efddc2b33352c6cb4a61fc6e1efa8fbebdccfc0c9813b5ebda0040055e8592a8924a2ffe8713c07678bbdc4f5dbbf6deaba5f1f7aaa67319143fa
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:4.0.11-beta.5":
-  version: 4.0.11-beta.5
-  resolution: "@tanstack/react-query@npm:4.0.11-beta.5"
+"@tanstack/react-query@npm:4.3.0-beta.4":
+  version: 4.3.0-beta.4
+  resolution: "@tanstack/react-query@npm:4.3.0-beta.4"
   dependencies:
-    "@tanstack/query-core": ^4.0.11-beta.5
-    "@types/use-sync-external-store": ^0.0.3
+    "@tanstack/query-core": 4.3.0-beta.4
     use-sync-external-store: ^1.2.0
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -4287,7 +4286,7 @@ __metadata:
       optional: true
     react-native:
       optional: true
-  checksum: 6903a83dc2bcb1c86f6788324cf0746dd1de789c9bba6c6b6131a2df8af9d546ed5e7e915382a6bae032c0a1d73483a31b549b059ea84725b4dac3347f1596b2
+  checksum: c773f43c7d709cbcaf8e57d7294ad80d1f895ed3e8811444f0a1531d9d30b490fd7a55dc1acbb88aea91bf01eba01b0cba9bae3f2349939d93302eb72fde4359
   languageName: node
   linkType: hard
 
@@ -4675,13 +4674,6 @@ __metadata:
   version: 2.0.3
   resolution: "@types/unist@npm:2.0.3"
   checksum: 4427306b094561da28164e7e5250c4e6b382cb8eac40bf7e6bb0ff1e6e00c13e47aaf32e4a08fc8ba54602d07f79a39fb9ba304cc9dc886b1e3caf824649edbd
-  languageName: node
-  linkType: hard
-
-"@types/use-sync-external-store@npm:^0.0.3":
-  version: 0.0.3
-  resolution: "@types/use-sync-external-store@npm:0.0.3"
-  checksum: 161ddb8eec5dbe7279ac971531217e9af6b99f7783213566d2b502e2e2378ea19cf5e5ea4595039d730aa79d3d35c6567d48599f69773a02ffcff1776ec2a44e
   languageName: node
   linkType: hard
 
@@ -14596,7 +14588,7 @@ fsevents@^1.2.7:
     "@storybook/react-native-server": next
     "@swc/core": 1.2.244
     "@swc/wasm": 1.2.244
-    "@tanstack/react-query": 4.0.11-beta.5
+    "@tanstack/react-query": 4.3.0-beta.4
     "@types/jest": 28.1.8
     "@types/node": 16.11.56
     "@types/react": 18.0.17
