@@ -710,6 +710,14 @@ PODS:
     - React-Core
   - RNDateTimePicker (6.3.2):
     - React-Core
+  - RNGestureHandler (2.6.0):
+    - RCT-Folly
+    - RCTRequired
+    - RCTTypeSafety
+    - React
+    - React-Codegen
+    - React-RCTFabric
+    - ReactCommon/turbomodule/core
   - RNReanimated (3.0.0-rc.2):
     - DoubleConversion
     - FBLazyVector
@@ -813,6 +821,7 @@ DEPENDENCIES:
   - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
   - "RNCCheckbox (from `../node_modules/@react-native-community/checkbox`)"
   - "RNDateTimePicker (from `../node_modules/@react-native-community/datetimepicker`)"
+  - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
@@ -917,6 +926,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@react-native-community/checkbox"
   RNDateTimePicker:
     :path: "../node_modules/@react-native-community/datetimepicker"
+  RNGestureHandler:
+    :path: "../node_modules/react-native-gesture-handler"
   RNReanimated:
     :path: "../node_modules/react-native-reanimated"
   Yoga:
@@ -977,6 +988,7 @@ SPEC CHECKSUMS:
   RNCAsyncStorage: 0c357f3156fcb16c8589ede67cc036330b6698ca
   RNCCheckbox: ed1b4ca295475b41e7251ebae046360a703b6eb5
   RNDateTimePicker: 4f1fc917f5af9d9ae4c5fc0c63a4474d61338693
+  RNGestureHandler: 182b4e135cc4fec4988687e2f123e302dc6b4b71
   RNReanimated: 10249ac81b456595273588ce2195198d85fcbd28
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
   Yoga: d7ebba05ea16d2c8b196d640cb8107f9f0aefcde
