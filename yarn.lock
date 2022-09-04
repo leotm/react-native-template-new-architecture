@@ -1607,16 +1607,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@curveball/core@npm:0.19.0":
-  version: 0.19.0
-  resolution: "@curveball/core@npm:0.19.0"
+"@curveball/core@npm:0.20.0":
+  version: 0.20.0
+  resolution: "@curveball/core@npm:0.20.0"
   dependencies:
     "@curveball/http-errors": ^0.4.0
+    "@curveball/kernel": ^0.20.0
     "@types/ws": ^8.5.3
-    accepts: ^1.3.7
     raw-body: ^2.4.1
     ws: ^8.5.0
-  checksum: d3b21a3dd52e24921d26d0ceaad214f26ab6384a74da66d2d397ff7dbb0bb222cb6f7406a1942c83f24b41ff48eb87e1d49e538610dcb6e1d12b99d93d3dab5f
+  checksum: ca9762674c05e68147bd65ad1536133a31cfc2fe42742714209b051f98bb7973713676db3683c6f794a06156ef03811bb795352a6f393623d1a9be800f438b93
   languageName: node
   linkType: hard
 
@@ -1624,6 +1624,19 @@ __metadata:
   version: 0.4.0
   resolution: "@curveball/http-errors@npm:0.4.0"
   checksum: a5d096412548eda58a2c4bfce3a4b24ed2618f3de38df0914f9c108fd316f8ede9f662a3f6e8f004f0d039297919d4617a5412c0fe9b4b2f582cb7965b296a50
+  languageName: node
+  linkType: hard
+
+"@curveball/kernel@npm:^0.20.0":
+  version: 0.20.0
+  resolution: "@curveball/kernel@npm:0.20.0"
+  dependencies:
+    "@curveball/http-errors": ^0.4.0
+    "@types/ws": ^8.5.3
+    accepts: ^1.3.7
+    raw-body: ^2.4.1
+    ws: ^8.5.0
+  checksum: 42c2aa8a0007a4a32eca44f970a4c32ed46144e2f236720390cd08c459c6eed68f65b3546b4017efc23b161752206a1e4635cf498c3d2b3b97857ae1babde725
   languageName: node
   linkType: hard
 
@@ -14596,7 +14609,7 @@ fsevents@^1.2.7:
     "@babel/core": 7.18.13
     "@babel/preset-react": 7.18.6
     "@babel/runtime": 7.18.9
-    "@curveball/core": 0.19.0
+    "@curveball/core": 0.20.0
     "@curveball/router": 0.4.2
     "@react-native-async-storage/async-storage": 1.17.10
     "@react-native-community/checkbox": 0.5.12
