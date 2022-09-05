@@ -14661,7 +14661,7 @@ fsevents@^1.2.7:
     react: 18.2.0
     react-codemod: 5.4.3
     react-dom: 18.2.0
-    react-native: 0.70.0-rc.4
+    react-native: 0.70.0
     react-native-clean-project: 4.0.1
     react-native-codegen: 0.71.0
     react-native-gesture-handler: 2.6.0
@@ -16717,9 +16717,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native@npm:0.70.0-rc.4":
-  version: 0.70.0-rc.4
-  resolution: "react-native@npm:0.70.0-rc.4"
+"react-native@npm:0.70.0":
+  version: 0.70.0
+  resolution: "react-native@npm:0.70.0"
   dependencies:
     "@jest/create-cache-key-function": ^27.0.1
     "@react-native-community/cli": ^9.0.0
@@ -16757,7 +16757,7 @@ fsevents@^1.2.7:
     react: 18.1.0
   bin:
     react-native: cli.js
-  checksum: c17d2b14bbfc8ace0c1f58574f26e54a89d25818eeb38f8c89036a54840528b8bdd6b633d56e694411e68a18547d5291887f01fff6373b60f3fa4db8b6bd5953
+  checksum: 3daa4636d6f0f2b21a6fd3df10a2a7efa819f68bcad3cebc126a0e9858d56744da5724a85fd3e7a429f1333ccb01545fc9883232e213b9caad522c66471ff946
   languageName: node
   linkType: hard
 
