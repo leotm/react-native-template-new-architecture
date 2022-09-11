@@ -4286,18 +4286,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:4.3.1":
-  version: 4.3.1
-  resolution: "@tanstack/query-core@npm:4.3.1"
-  checksum: af3fba99af5cd0ac018e400c96b1a7817cc0a252d6a8760d63812b73e0b6b8dcddf389529ba47db11b96f4f67edc38e8407e662ed623c60402f38f4fb93ca886
+"@tanstack/query-core@npm:4.3.3":
+  version: 4.3.3
+  resolution: "@tanstack/query-core@npm:4.3.3"
+  checksum: 252aeeaccf5983a7d0c42e2f05e005ebb234a8ff759453a7d199db97b6dd9d395bb4e2fd78466502cabc2db50e0842e8c300798756d355e187a2d41ec2bb4fe2
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:4.3.1":
-  version: 4.3.1
-  resolution: "@tanstack/react-query@npm:4.3.1"
+"@tanstack/react-query@npm:4.3.3":
+  version: 4.3.3
+  resolution: "@tanstack/react-query@npm:4.3.3"
   dependencies:
-    "@tanstack/query-core": 4.3.1
+    "@tanstack/query-core": 4.3.3
     use-sync-external-store: ^1.2.0
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -4308,7 +4308,7 @@ __metadata:
       optional: true
     react-native:
       optional: true
-  checksum: 11c707e1ab77e5d41a7e95ec2ad0fd0bf025346c151ca6dbacb13177d188a96147671d7d54b771d1a103feeb2f08b5ba9b65d04344cca457b0f954acda84e68b
+  checksum: 5f4f81b4d877fdedba34f2b5699206fd44b495fc0f5482c6ecf7710575680ca5601430cf486187c62b2ba7fdc04bafc40e1a2d274958affb778e14babda3f027
   languageName: node
   linkType: hard
 
@@ -14685,7 +14685,7 @@ fsevents@^1.2.7:
     "@storybook/react-native-server": next
     "@swc/core": 1.2.249
     "@swc/wasm": 1.2.249
-    "@tanstack/react-query": 4.3.1
+    "@tanstack/react-query": 4.3.3
     "@types/jest": 29.0.0
     "@types/node": 16.11.58
     "@types/react": 18.0.19
