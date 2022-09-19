@@ -2525,12 +2525,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/datetimepicker@npm:6.3.3":
-  version: 6.3.3
-  resolution: "@react-native-community/datetimepicker@npm:6.3.3"
+"@react-native-community/datetimepicker@npm:6.3.4":
+  version: 6.3.4
+  resolution: "@react-native-community/datetimepicker@npm:6.3.4"
   dependencies:
     invariant: ^2.2.4
-  checksum: b3459db40d0a9fb8bbfca0753a7f6f6e9c3b017d08b3deb888f9b336d1f6ecfa5489773f0131bdf846a95834128573bff7802c7b169ac9582d15f3f12dc27cd1
+  checksum: 30ce43d2c78af7dde4059414a2c23a621d86c23308dd5fb0b9802b26180e3ba91e8dd3e852d9284897b80277d24301634dd7e14f4681cc6dc0f1b621323fe72c
   languageName: node
   linkType: hard
 
@@ -14669,7 +14669,7 @@ fsevents@^1.2.7:
     "@react-native-async-storage/async-storage": 1.17.10
     "@react-native-community/checkbox": 0.5.12
     "@react-native-community/cli": 9.1.1
-    "@react-native-community/datetimepicker": 6.3.3
+    "@react-native-community/datetimepicker": 6.3.4
     "@react-native-community/eslint-config": 3.1.0
     "@react-native-community/slider": 4.3.1
     "@react-navigation/native": 6.0.13
