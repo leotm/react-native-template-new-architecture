@@ -14731,7 +14731,7 @@ fsevents@^1.2.7:
     react-native: 0.70.0
     react-native-clean-project: 4.0.1
     react-native-codegen: 0.71.0
-    react-native-gesture-handler: 2.6.1
+    react-native-gesture-handler: 2.6.2
     react-native-gradle-plugin: 0.70.2
     react-native-reanimated: 3.0.0-rc.3
     react-native-rename: 2.9.0
@@ -16655,9 +16655,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-gesture-handler@npm:2.6.1":
-  version: 2.6.1
-  resolution: "react-native-gesture-handler@npm:2.6.1"
+"react-native-gesture-handler@npm:2.6.2":
+  version: 2.6.2
+  resolution: "react-native-gesture-handler@npm:2.6.2"
   dependencies:
     "@egjs/hammerjs": ^2.0.17
     hoist-non-react-statics: ^3.3.0
@@ -16667,7 +16667,7 @@ fsevents@^1.2.7:
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 79ff09cba80075375841af9ecabbb2f40583dc980e329f6386b6bffb2714d1998edef78e6508ed2ad61ae5d6932819c28710745c99547ca1964f2aa2fa2ae311
+  checksum: 055523bbe20898cc6398d857278ad0ff54065f5afa623c6a232f661370c2383cdb1baeacf6db09b006b8fae488fb4a993c49ae6804da35a15ea66373d724991b
   languageName: node
   linkType: hard
 
