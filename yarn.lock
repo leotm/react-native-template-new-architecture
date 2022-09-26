@@ -2372,12 +2372,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/cli-doctor@npm:^9.1.1":
-  version: 9.1.1
-  resolution: "@react-native-community/cli-doctor@npm:9.1.1"
+"@react-native-community/cli-doctor@npm:^9.1.2":
+  version: 9.1.2
+  resolution: "@react-native-community/cli-doctor@npm:9.1.2"
   dependencies:
     "@react-native-community/cli-config": ^9.1.0
-    "@react-native-community/cli-platform-ios": ^9.1.0
+    "@react-native-community/cli-platform-ios": ^9.1.2
     "@react-native-community/cli-tools": ^9.1.0
     chalk: ^4.1.2
     command-exists: ^1.2.8
@@ -2392,7 +2392,7 @@ __metadata:
     strip-ansi: ^5.2.0
     sudo-prompt: ^9.0.0
     wcwidth: ^1.0.1
-  checksum: fd718bdaec0902972a162ddc61756aafb61994420bec79cf6901b349effbe83a553793b7bf269ea135104b95482a93d666184e94d0032a65c1f7d0ee26363ac8
+  checksum: a27fd0c1f78fda42827d7f538c9752e9d2c4453b0f551675ddcb19b6e6462490847c07d1e0e73002c364b54f4415097f1ac323bcbc698b7d9dff1b9db1910103
   languageName: node
   linkType: hard
 
@@ -2424,16 +2424,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/cli-platform-ios@npm:^9.0.0, @react-native-community/cli-platform-ios@npm:^9.1.0":
-  version: 9.1.0
-  resolution: "@react-native-community/cli-platform-ios@npm:9.1.0"
+"@react-native-community/cli-platform-ios@npm:^9.0.0, @react-native-community/cli-platform-ios@npm:^9.1.2":
+  version: 9.1.2
+  resolution: "@react-native-community/cli-platform-ios@npm:9.1.2"
   dependencies:
     "@react-native-community/cli-tools": ^9.1.0
     chalk: ^4.1.2
     execa: ^1.0.0
     glob: ^7.1.3
     ora: ^5.4.1
-  checksum: 87a61470b0747b24e544c41e94eab299e413aceecb439dbe900a1bf2999cf9ee4b3d1eeee1eb849b95641f146c15fd8b0d300481ab82a624a6d214f29ea99787
+  checksum: 060638f6ab7604c23e7878292c2f4e56f083c9e3e26cfc8703c0f5b20468d08c761d644608811b9e65143405b170f4998b3a2cd0a08a149f8fc7b758b535235e
   languageName: node
   linkType: hard
 
@@ -2498,14 +2498,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/cli@npm:9.1.1, @react-native-community/cli@npm:^9.0.0":
-  version: 9.1.1
-  resolution: "@react-native-community/cli@npm:9.1.1"
+"@react-native-community/cli@npm:9.1.2, @react-native-community/cli@npm:^9.0.0":
+  version: 9.1.2
+  resolution: "@react-native-community/cli@npm:9.1.2"
   dependencies:
     "@react-native-community/cli-clean": ^9.1.0
     "@react-native-community/cli-config": ^9.1.0
     "@react-native-community/cli-debugger-ui": ^9.0.0
-    "@react-native-community/cli-doctor": ^9.1.1
+    "@react-native-community/cli-doctor": ^9.1.2
     "@react-native-community/cli-hermes": ^9.1.0
     "@react-native-community/cli-plugin-metro": ^9.1.1
     "@react-native-community/cli-server-api": ^9.1.0
@@ -2521,7 +2521,7 @@ __metadata:
     semver: ^6.3.0
   bin:
     react-native: build/bin.js
-  checksum: 884813d243af4f877ff365df3759729eeb55fc16d2d8df0211348bf1c73950cd5a280435b11536ca7136ff22403c2b789d7275ca1b285926e6827dd0f8f8b796
+  checksum: d9a5d2dce0eaaeec5880246e2e40ca9e887554735300cf61b25f432c78672da28fa0d14d0c059cf707d538743ed39fa2e2f11a756acd4280d5b17f33a1d4f235
   languageName: node
   linkType: hard
 
@@ -14667,7 +14667,7 @@ fsevents@^1.2.7:
     "@curveball/router": 0.5.0
     "@react-native-async-storage/async-storage": 1.17.10
     "@react-native-community/checkbox": 0.5.12
-    "@react-native-community/cli": 9.1.1
+    "@react-native-community/cli": 9.1.2
     "@react-native-community/datetimepicker": 6.3.5
     "@react-native-community/eslint-config": 3.1.0
     "@react-native-community/slider": 4.3.1
