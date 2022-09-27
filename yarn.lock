@@ -4541,10 +4541,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:16.11.60, @types/node@npm:^14.0.10 || ^16.0.0":
-  version: 16.11.60
-  resolution: "@types/node@npm:16.11.60"
-  checksum: 8c9670801f736a06f5ec8dd4ade00cb8d822f1dd168ad255909af6f6439a50abc231fa684418810002fdcd4c282804f56ceee6e7d3cd3209736c4fad115f4b2c
+"@types/node@npm:*, @types/node@npm:16.11.62, @types/node@npm:^14.0.10 || ^16.0.0":
+  version: 16.11.62
+  resolution: "@types/node@npm:16.11.62"
+  checksum: 7086105ded0005a9dc80688250c3d6a8aa01a2bcee3e3934fd3f731786b0e9e47a47fb72be7bfa96f3266bdb14aa9713931ea108d3445a99e35ea127b2d2346e
   languageName: node
   linkType: hard
 
@@ -14692,7 +14692,7 @@ fsevents@^1.2.7:
     "@swc/wasm": 1.3.3
     "@tanstack/react-query": 4.6.1
     "@types/jest": 29.0.3
-    "@types/node": 16.11.60
+    "@types/node": 16.11.62
     "@types/react": 18.0.21
     "@types/react-native": 0.70.3
     "@types/react-test-renderer": 18.0.0
