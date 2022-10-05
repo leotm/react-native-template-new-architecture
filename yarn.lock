@@ -2895,9 +2895,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-ondevice-backgrounds@npm:6.0.1-beta.7":
-  version: 6.0.1-beta.7
-  resolution: "@storybook/addon-ondevice-backgrounds@npm:6.0.1-beta.7"
+"@storybook/addon-ondevice-backgrounds@npm:6.0.1-beta.8":
+  version: 6.0.1-beta.8
+  resolution: "@storybook/addon-ondevice-backgrounds@npm:6.0.1-beta.8"
   dependencies:
     "@storybook/addons": ~6.3
     "@storybook/api": ~6.3
@@ -2907,7 +2907,7 @@ __metadata:
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: e21188a7b5722d4a5aa293b65fd6b36e866b27a7c7e9d155eea9ba2b47c8b1549a58edccab0a154e66f48388332ea06d76345d10aa5187b78f3b3c4c47a388d2
+  checksum: 45ac2594046f2bde83356994a8fc77b04708f898ba85ed421b85316d730230486f6fbbb7c363e9279430affe3875f858d324a06f5091d703b4a570f03cf0b4e5
   languageName: node
   linkType: hard
 
@@ -14754,7 +14754,7 @@ fsevents@^1.2.7:
     "@storybook/addon-links": 6.5.12
     "@storybook/addon-notes": next
     "@storybook/addon-ondevice-actions": 6.0.1-beta.8
-    "@storybook/addon-ondevice-backgrounds": 6.0.1-beta.7
+    "@storybook/addon-ondevice-backgrounds": 6.0.1-beta.8
     "@storybook/addon-ondevice-controls": 6.0.1-beta.7
     "@storybook/addon-ondevice-knobs": next
     "@storybook/addon-ondevice-notes": 6.0.1-beta.7
