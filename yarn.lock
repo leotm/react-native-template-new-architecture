@@ -2957,9 +2957,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-ondevice-notes@npm:6.0.1-beta.7":
-  version: 6.0.1-beta.7
-  resolution: "@storybook/addon-ondevice-notes@npm:6.0.1-beta.7"
+"@storybook/addon-ondevice-notes@npm:6.0.1-beta.8":
+  version: 6.0.1-beta.8
+  resolution: "@storybook/addon-ondevice-notes@npm:6.0.1-beta.8"
   dependencies:
     "@emotion/core": ^10.0.20
     "@storybook/addons": ~6.3
@@ -2973,7 +2973,7 @@ __metadata:
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: c880ddfa82fb2c3bd375079016e89a1a928b21bcb3242d02de1216c07d14c5388d996011b022beeae4a9d90c166e620550320170d84b6e01ec27d9059793bb63
+  checksum: cfb1dc9c381115306e6a2cbfffdc0e6a525722e9a617e8bd6c938d818968ec1a2df74805ccd948eed0cd88cca7a372cd7b436273066b285e1416b5cd51b4b372
   languageName: node
   linkType: hard
 
@@ -14757,7 +14757,7 @@ fsevents@^1.2.7:
     "@storybook/addon-ondevice-backgrounds": 6.0.1-beta.8
     "@storybook/addon-ondevice-controls": 6.0.1-beta.8
     "@storybook/addon-ondevice-knobs": next
-    "@storybook/addon-ondevice-notes": 6.0.1-beta.7
+    "@storybook/addon-ondevice-notes": 6.0.1-beta.8
     "@storybook/addons": 6.5.12
     "@storybook/eslint-config-storybook": 3.1.2
     "@storybook/linter-config": 3.1.2
