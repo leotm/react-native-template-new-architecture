@@ -2942,19 +2942,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-ondevice-backgrounds@npm:6.0.1-beta.8":
-  version: 6.0.1-beta.8
-  resolution: "@storybook/addon-ondevice-backgrounds@npm:6.0.1-beta.8"
+"@storybook/addon-ondevice-backgrounds@npm:6.0.1-canary.0":
+  version: 6.0.1-canary.0
+  resolution: "@storybook/addon-ondevice-backgrounds@npm:6.0.1-canary.0"
   dependencies:
-    "@storybook/addons": ~6.3
-    "@storybook/api": ~6.3
-    "@storybook/client-api": ~6.3
+    "@storybook/addons": ^6.5
+    "@storybook/api": ^6.5
+    "@storybook/client-api": ^6.5
     core-js: ^3.0.1
     prop-types: ^15.7.2
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 45ac2594046f2bde83356994a8fc77b04708f898ba85ed421b85316d730230486f6fbbb7c363e9279430affe3875f858d324a06f5091d703b4a570f03cf0b4e5
+  checksum: 7c3a6fb17ef038344b6b28180ff5bb224a3cc4e680d63f750c63a8fb13101e927a12449a6ba962fbfdb4e3439974a0a7a432cf3cebeb82d137833b4d4ac898e8
   languageName: node
   linkType: hard
 
@@ -3191,7 +3191,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/api@npm:6.5.13":
+"@storybook/api@npm:6.5.13, @storybook/api@npm:^6.5":
   version: 6.5.13
   resolution: "@storybook/api@npm:6.5.13"
   dependencies:
@@ -3244,6 +3244,21 @@ __metadata:
     qs: ^6.10.0
     telejson: ^5.3.2
   checksum: 46a3cbaebe17222d5f1dcd7549e86c36051fb29668296aeebcf1b4a4d994152bf413c0f4d015fee968f184d67c85a7e665542657eb1e51b7112b55ccba2b3376
+  languageName: node
+  linkType: hard
+
+"@storybook/channel-postmessage@npm:6.5.13":
+  version: 6.5.13
+  resolution: "@storybook/channel-postmessage@npm:6.5.13"
+  dependencies:
+    "@storybook/channels": 6.5.13
+    "@storybook/client-logger": 6.5.13
+    "@storybook/core-events": 6.5.13
+    core-js: ^3.8.2
+    global: ^4.4.0
+    qs: ^6.10.0
+    telejson: ^6.0.8
+  checksum: 8d6ccfff2aeafaae30b5fc1af856be8d06b3703b96841ecc0d70959e51542514901763e1a291e1d0278afe31b23cc5c0a5b351994f321e9bd03490be5b51e2d0
   languageName: node
   linkType: hard
 
@@ -3362,6 +3377,37 @@ __metadata:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   checksum: 8510f61484b9fa740762e81ff3e5774125d8412e66006473674879086b3be664d44d873cd7bc1af59862097bb58a8fd34963ee3669ad0f139c7f888c29457b7e
+  languageName: node
+  linkType: hard
+
+"@storybook/client-api@npm:^6.5":
+  version: 6.5.13
+  resolution: "@storybook/client-api@npm:6.5.13"
+  dependencies:
+    "@storybook/addons": 6.5.13
+    "@storybook/channel-postmessage": 6.5.13
+    "@storybook/channels": 6.5.13
+    "@storybook/client-logger": 6.5.13
+    "@storybook/core-events": 6.5.13
+    "@storybook/csf": 0.0.2--canary.4566f4d.1
+    "@storybook/store": 6.5.13
+    "@types/qs": ^6.9.5
+    "@types/webpack-env": ^1.16.0
+    core-js: ^3.8.2
+    fast-deep-equal: ^3.1.3
+    global: ^4.4.0
+    lodash: ^4.17.21
+    memoizerific: ^1.11.3
+    qs: ^6.10.0
+    regenerator-runtime: ^0.13.7
+    store2: ^2.12.0
+    synchronous-promise: ^2.0.15
+    ts-dedent: ^2.0.0
+    util-deprecate: ^1.0.2
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: b0af25786b9144a55ebaa7754dd1b3701f5f8796770eaf59e7bc6d21ada12911fcbe4bf0da037d01bdda2c46138f265a948befe1f3de356fdc0ae3af80973388
   languageName: node
   linkType: hard
 
@@ -14746,7 +14792,7 @@ fsevents@^1.2.7:
     "@storybook/addon-links": 6.5.13
     "@storybook/addon-notes": next
     "@storybook/addon-ondevice-actions": 6.0.1-canary.0
-    "@storybook/addon-ondevice-backgrounds": 6.0.1-beta.8
+    "@storybook/addon-ondevice-backgrounds": 6.0.1-canary.0
     "@storybook/addon-ondevice-controls": 6.0.1-beta.8
     "@storybook/addon-ondevice-knobs": next
     "@storybook/addon-ondevice-notes": 6.0.1-beta.8
