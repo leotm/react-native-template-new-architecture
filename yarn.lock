@@ -3004,23 +3004,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-ondevice-notes@npm:6.0.1-beta.8":
-  version: 6.0.1-beta.8
-  resolution: "@storybook/addon-ondevice-notes@npm:6.0.1-beta.8"
+"@storybook/addon-ondevice-notes@npm:6.0.1-canary.0":
+  version: 6.0.1-canary.0
+  resolution: "@storybook/addon-ondevice-notes@npm:6.0.1-canary.0"
   dependencies:
     "@emotion/core": ^10.0.20
-    "@storybook/addons": ~6.3
-    "@storybook/api": ~6.3
-    "@storybook/client-api": ~6.3
-    "@storybook/client-logger": ~6.3
-    "@storybook/core-events": ~6.3
+    "@storybook/addons": ^6.5
+    "@storybook/api": ^6.5
+    "@storybook/client-api": ^6.5
+    "@storybook/client-logger": ^6.5
+    "@storybook/core-events": ^6.5
     core-js: ^3.0.1
     prop-types: ^15.7.2
     simple-markdown: ^0.7.3
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: cfb1dc9c381115306e6a2cbfffdc0e6a525722e9a617e8bd6c938d818968ec1a2df74805ccd948eed0cd88cca7a372cd7b436273066b285e1416b5cd51b4b372
+  checksum: 222f8aa4ccca4988a27a997fb3c783d31067c670ce3b4c844aff47f1e0062a5680de92e70d280bc8787a91b89f9ac368a6b8af20bc5090ae7bb0b8d2c37564d6
   languageName: node
   linkType: hard
 
@@ -3160,7 +3160,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/api@npm:6.3.13, @storybook/api@npm:~6.3":
+"@storybook/api@npm:6.3.13":
   version: 6.3.13
   resolution: "@storybook/api@npm:6.3.13"
   dependencies:
@@ -14795,7 +14795,7 @@ fsevents@^1.2.7:
     "@storybook/addon-ondevice-backgrounds": 6.0.1-canary.0
     "@storybook/addon-ondevice-controls": 6.0.1-canary.0
     "@storybook/addon-ondevice-knobs": next
-    "@storybook/addon-ondevice-notes": 6.0.1-beta.8
+    "@storybook/addon-ondevice-notes": 6.0.1-canary.0
     "@storybook/addons": 6.5.13
     "@storybook/eslint-config-storybook": 3.1.2
     "@storybook/linter-config": 3.1.2
