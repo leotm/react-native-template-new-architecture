@@ -2958,27 +2958,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-ondevice-controls@npm:6.0.1-beta.8":
-  version: 6.0.1-beta.8
-  resolution: "@storybook/addon-ondevice-controls@npm:6.0.1-beta.8"
+"@storybook/addon-ondevice-controls@npm:6.0.1-canary.0":
+  version: 6.0.1-canary.0
+  resolution: "@storybook/addon-ondevice-controls@npm:6.0.1-canary.0"
   dependencies:
     "@emotion/native": ^10.0.14
-    "@storybook/addons": ~6.3
-    "@storybook/client-logger": ~6.3
-    "@storybook/core-events": ~6.3
+    "@storybook/addons": ^6.5
+    "@storybook/client-logger": ^6.5
+    "@storybook/core-events": ^6.5
     core-js: ^3.0.1
     deep-equal: ^1.0.1
     prop-types: ^15.7.2
-    react-native-modal-datetime-picker: ^13.0.1
-    react-native-modal-selector: ^2.1.0
+    react-native-modal-datetime-picker: ^14.0.0
+    react-native-modal-selector: ^2.1.1
     tinycolor2: ^1.4.1
   peerDependencies:
     "@react-native-community/datetimepicker": "*"
     "@react-native-community/slider": "*"
-    "@storybook/addon-controls": ~6.3
+    "@storybook/addon-controls": ^6.5
     react: "*"
     react-native: "*"
-  checksum: f5ae4da94041e04930d5c7a35687bc85cef920e3199c6e4f60858edc1c078c353bba850778d5274e9eaadb9680ffa2e6edffe24029ec7d9586b9dd6058d71282
+  checksum: 44584faa780ae6e733e28a84188aae5c186fa763b62f187816953b42ede7ad417c982b27534de0270747590856db5cb6b535703c20dc32c2ab6c7b01f2ef5240
   languageName: node
   linkType: hard
 
@@ -3439,7 +3439,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/client-logger@npm:6.5.13":
+"@storybook/client-logger@npm:6.5.13, @storybook/client-logger@npm:^6.5":
   version: 6.5.13
   resolution: "@storybook/client-logger@npm:6.5.13"
   dependencies:
@@ -14793,7 +14793,7 @@ fsevents@^1.2.7:
     "@storybook/addon-notes": next
     "@storybook/addon-ondevice-actions": 6.0.1-canary.0
     "@storybook/addon-ondevice-backgrounds": 6.0.1-canary.0
-    "@storybook/addon-ondevice-controls": 6.0.1-beta.8
+    "@storybook/addon-ondevice-controls": 6.0.1-canary.0
     "@storybook/addon-ondevice-knobs": next
     "@storybook/addon-ondevice-notes": 6.0.1-beta.8
     "@storybook/addons": 6.5.13
@@ -16802,15 +16802,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-modal-datetime-picker@npm:^13.0.1":
-  version: 13.1.2
-  resolution: "react-native-modal-datetime-picker@npm:13.1.2"
+"react-native-modal-datetime-picker@npm:^14.0.0":
+  version: 14.0.0
+  resolution: "react-native-modal-datetime-picker@npm:14.0.0"
   dependencies:
     prop-types: ^15.7.2
   peerDependencies:
     "@react-native-community/datetimepicker": ">=3.0.0"
     react-native: ">=0.65.0"
-  checksum: 70a7875dbeb550f97aa26786262a434a5c88dfd048e642fa6e4a7e0b8411c8ff191463a5bb4a82bb18d603cc3b2ef60891bfcaa3144b9e0a40cd756bf662b4a1
+  checksum: 8a3742ca17356ed2a305094625bc9707d94e583d7f06c41532a768e3c32252133205b9bd7bfd058fc3a4ad70db10146ac7c773d590f54c5680f7b0bd19fbfa58
   languageName: node
   linkType: hard
 
@@ -16833,12 +16833,12 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-modal-selector@npm:^2.1.0":
-  version: 2.1.1
-  resolution: "react-native-modal-selector@npm:2.1.1"
+"react-native-modal-selector@npm:^2.1.1":
+  version: 2.1.2
+  resolution: "react-native-modal-selector@npm:2.1.2"
   dependencies:
     prop-types: ^15.5.10
-  checksum: bba33dfe55c7aae05cf07ace5c759fa5932fc5a79c29235bd4abbb6e34ccc11baf5f82513a47cd4e77cd3d3f1126e3d2bf2833c7e867e024e11da49cfc75bc50
+  checksum: c7b00ebceb6fe15e025ef1655483bc98fdb150453fb27e71d17a282a87317c5b1e242a1108f5247fac99594e6778470513d19c21e02eb2ce81f80688dd616419
   languageName: node
   linkType: hard
 
