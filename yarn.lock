@@ -2927,18 +2927,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-ondevice-actions@npm:6.0.1-beta.8":
-  version: 6.0.1-beta.8
-  resolution: "@storybook/addon-ondevice-actions@npm:6.0.1-beta.8"
+"@storybook/addon-ondevice-actions@npm:6.0.1-canary.0":
+  version: 6.0.1-canary.0
+  resolution: "@storybook/addon-ondevice-actions@npm:6.0.1-canary.0"
   dependencies:
-    "@storybook/addons": ~6.3
-    "@storybook/core-events": ~6.3
+    "@storybook/addons": ^6.5
+    "@storybook/core-events": ^6.5
     fast-deep-equal: ^2.0.1
   peerDependencies:
-    "@storybook/addon-actions": ~6.3
+    "@storybook/addon-actions": ^6.5
     react: "*"
     react-native: "*"
-  checksum: ab248b7c3b68c677d3cc8cbcc23c2c4e611e62ad001a016510c0f86226125eec43c635bc0eb9ba0219a454b7c1482b1c5c93b2faa3c81091a3d207578392b254
+  checksum: 8deaf2a5e4a0231ce902cccee7eb3a9447a3a9fa1eb2463334ef11ea58cd5fff33388268558468bd4957669b36a591a47ded91a15eb57f054033188812b49f93
   languageName: node
   linkType: hard
 
@@ -3077,7 +3077,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addons@npm:6.5.13":
+"@storybook/addons@npm:6.5.13, @storybook/addons@npm:^6.5":
   version: 6.5.13
   resolution: "@storybook/addons@npm:6.5.13"
   dependencies:
@@ -3643,7 +3643,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/core-events@npm:6.5.13":
+"@storybook/core-events@npm:6.5.13, @storybook/core-events@npm:^6.5":
   version: 6.5.13
   resolution: "@storybook/core-events@npm:6.5.13"
   dependencies:
@@ -14745,7 +14745,7 @@ fsevents@^1.2.7:
     "@storybook/addon-knobs": 6.4.0
     "@storybook/addon-links": 6.5.13
     "@storybook/addon-notes": next
-    "@storybook/addon-ondevice-actions": 6.0.1-beta.8
+    "@storybook/addon-ondevice-actions": 6.0.1-canary.0
     "@storybook/addon-ondevice-backgrounds": 6.0.1-beta.8
     "@storybook/addon-ondevice-controls": 6.0.1-beta.8
     "@storybook/addon-ondevice-knobs": next
