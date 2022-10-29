@@ -2942,9 +2942,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-ondevice-notes@npm:6.0.1-canary.1":
-  version: 6.0.1-canary.1
-  resolution: "@storybook/addon-ondevice-notes@npm:6.0.1-canary.1"
+"@storybook/addon-ondevice-notes@npm:6.0.1-canary.3":
+  version: 6.0.1-canary.3
+  resolution: "@storybook/addon-ondevice-notes@npm:6.0.1-canary.3"
   dependencies:
     "@emotion/core": ^10.0.20
     "@storybook/addons": ^6.5
@@ -2958,7 +2958,7 @@ __metadata:
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: b3ecbab66b966009b161c9877c49fb697fa34e112adf0617195fbddae77f782a2e882a664a175f903ff48ab85483cc592b248745510a17d7b97f7227e09b87c6
+  checksum: 88556785d5235b00c93bd70544f7f0f7873b95e1a3cd0e7dc38596105d400c3d5b0a64e3590fd554f5d10be6c41c18f7b9b735b5466c4a486c59791e7d9f7e10
   languageName: node
   linkType: hard
 
@@ -14489,7 +14489,7 @@ fsevents@^1.2.7:
     "@storybook/addon-ondevice-backgrounds": 6.0.1-canary.3
     "@storybook/addon-ondevice-controls": 6.0.1-canary.1
     "@storybook/addon-ondevice-knobs": next
-    "@storybook/addon-ondevice-notes": 6.0.1-canary.1
+    "@storybook/addon-ondevice-notes": 6.0.1-canary.3
     "@storybook/addons": 6.5.13
     "@storybook/eslint-config-storybook": 3.1.2
     "@storybook/linter-config": 3.1.2
