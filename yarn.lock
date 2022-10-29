@@ -2896,9 +2896,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-ondevice-controls@npm:6.0.1-canary.1":
-  version: 6.0.1-canary.1
-  resolution: "@storybook/addon-ondevice-controls@npm:6.0.1-canary.1"
+"@storybook/addon-ondevice-controls@npm:6.0.1-canary.3":
+  version: 6.0.1-canary.3
+  resolution: "@storybook/addon-ondevice-controls@npm:6.0.1-canary.3"
   dependencies:
     "@emotion/native": ^10.0.14
     "@storybook/addons": ^6.5
@@ -2916,7 +2916,7 @@ __metadata:
     "@storybook/addon-controls": ^6.5
     react: "*"
     react-native: "*"
-  checksum: 0eece2b79716302ab639c9f0c26ab0a7be39e659aa6132c9b4b1b71497b15779220d524cf41f65b999d082c700b765061207b3b2495bf360b5230d44070b398b
+  checksum: c6acf4add968ef7212e009d594b8892a20f7a69cfb5ada23e57475721fbd1a97156c19c3c645bdf9cd94bfb12baa842cdc558dc2f828734a00fe97a8d6d447b3
   languageName: node
   linkType: hard
 
@@ -14487,7 +14487,7 @@ fsevents@^1.2.7:
     "@storybook/addon-notes": next
     "@storybook/addon-ondevice-actions": 6.0.1-canary.1
     "@storybook/addon-ondevice-backgrounds": 6.0.1-canary.3
-    "@storybook/addon-ondevice-controls": 6.0.1-canary.1
+    "@storybook/addon-ondevice-controls": 6.0.1-canary.3
     "@storybook/addon-ondevice-knobs": next
     "@storybook/addon-ondevice-notes": 6.0.1-canary.3
     "@storybook/addons": 6.5.13
