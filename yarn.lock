@@ -10260,10 +10260,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flow-parser@npm:0.*":
-  version: 0.153.0
-  resolution: "flow-parser@npm:0.153.0"
-  checksum: 94f683bf11c5c5b24ddf240566da108f0a7f1e13d260803c2abf2e188c7b87b19e9d1675dd8c2e5d06f00ec61c9e47d4239b75846c0e7b6e7e0eb235f20a0f0f
+"flow-parser@npm:0.*, flow-parser@npm:^0.185.0":
+  version: 0.185.2
+  resolution: "flow-parser@npm:0.185.2"
+  checksum: 6c8cee6ef2a2f0e5a5dd29698dfc493c8148263ce52b061804c812877ef68b1d0747d8f17256f2ed36e105550eab27a37377be32f1fed4b72c434dda6e0c053c
   languageName: node
   linkType: hard
 
@@ -14538,7 +14538,7 @@ fsevents@^1.2.7:
     react-dom: 18.2.0
     react-native: 0.70.4
     react-native-clean-project: 4.0.1
-    react-native-codegen: 0.71.0
+    react-native-codegen: 0.71.1
     react-native-gesture-handler: 2.8.0
     react-native-gradle-plugin: 0.70.3
     react-native-reanimated: 3.0.0-rc.4
@@ -16416,15 +16416,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-codegen@npm:0.71.0":
-  version: 0.71.0
-  resolution: "react-native-codegen@npm:0.71.0"
+"react-native-codegen@npm:0.71.1":
+  version: 0.71.1
+  resolution: "react-native-codegen@npm:0.71.1"
   dependencies:
     "@babel/parser": ^7.14.0
-    flow-parser: ^0.121.0
+    flow-parser: ^0.185.0
     jscodeshift: ^0.13.1
     nullthrows: ^1.1.1
-  checksum: 2d71bdc9fa3acdf5cb9de27ef976e12cc12d96935e8025765f416b07b04d08755405413b8dba17a3f008d9a702fde529075bf71234cbca9802e7f3609422aff8
+  checksum: cdf612cc30522829ea6e23da3db6a3d5627781eb8a59df69f6fab5b1813975a586429c170e666c4fe39fdb36f345e6c34f2325bfa043d631e90e5bfb0bd7dd23
   languageName: node
   linkType: hard
 
