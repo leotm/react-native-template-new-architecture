@@ -4135,10 +4135,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/wasm@npm:1.3.11":
-  version: 1.3.11
-  resolution: "@swc/wasm@npm:1.3.11"
-  checksum: 4c19576351b52f2330ea0931ed38f434890ac8ee3ada3449038cce39d41af29db5c4716d3afdcbfbacdf7a684414f40db70666b58e0692a1c1e3bfa651c6b0be
+"@swc/wasm@npm:1.3.12":
+  version: 1.3.12
+  resolution: "@swc/wasm@npm:1.3.12"
+  checksum: d1a06b2ed16dd01231000e284ad2336df2f9296df67dd823930685c79d87f5e0069dcfce959f69719df145d7c2d3522a3d3dac0c70fc8410f56aa35b77118d31
   languageName: node
   linkType: hard
 
@@ -5860,14 +5860,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"async@npm:^3.2.2":
-  version: 3.2.3
-  resolution: "async@npm:3.2.3"
-  checksum: c4bee57ab2249af3dc83ca3ef9acfa8e822c0d5e5aa41bae3eaf7f673648343cd64ecd7d26091ffd357f3f044428b17b5f00098494b6cf8b6b3e9681f0636ca1
-  languageName: node
-  linkType: hard
-
-"async@npm:^3.2.3":
+"async@npm:^3.2.2, async@npm:^3.2.3":
   version: 3.2.4
   resolution: "async@npm:3.2.4"
   checksum: 43d07459a4e1d09b84a20772414aa684ff4de085cbcaec6eea3c7a8f8150e8c62aa6cd4e699fe8ee93c3a5b324e777d34642531875a0817a35697522c1b02e89
@@ -14549,7 +14542,7 @@ fsevents@^1.2.7:
     "@storybook/react-native": 6.0.1-canary.3
     "@storybook/react-native-server": next
     "@swc/core": 1.3.11
-    "@swc/wasm": 1.3.11
+    "@swc/wasm": 1.3.12
     "@tanstack/react-query": 4.14.1
     "@types/jest": 29.2.1
     "@types/node": 18.11.9
