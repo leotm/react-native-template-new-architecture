@@ -14525,9 +14525,9 @@ fsevents@^1.2.7:
     react: 18.2.0
     react-codemod: 5.4.3
     react-dom: 18.2.0
-    react-native: 0.70.4
+    react-native: 0.70.5
     react-native-clean-project: 4.0.1
-    react-native-codegen: 0.71.1
+    react-native-codegen: 0.71.2
     react-native-gesture-handler: 2.8.0
     react-native-gradle-plugin: 0.70.3
     react-native-reanimated: 3.0.0-rc.4
@@ -16405,15 +16405,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-codegen@npm:0.71.1":
-  version: 0.71.1
-  resolution: "react-native-codegen@npm:0.71.1"
+"react-native-codegen@npm:0.71.2":
+  version: 0.71.2
+  resolution: "react-native-codegen@npm:0.71.2"
   dependencies:
     "@babel/parser": ^7.14.0
     flow-parser: ^0.185.0
     jscodeshift: ^0.13.1
     nullthrows: ^1.1.1
-  checksum: cdf612cc30522829ea6e23da3db6a3d5627781eb8a59df69f6fab5b1813975a586429c170e666c4fe39fdb36f345e6c34f2325bfa043d631e90e5bfb0bd7dd23
+  checksum: 8c3f7b892891aec6e19e162360e10bc834dd30b2efe335325b89b0568dd61fc2a0487c182d8ad132a995e74c79dab029f23e5abfa026f47e85bfdd9c7e681d61
   languageName: node
   linkType: hard
 
@@ -16601,9 +16601,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native@npm:0.70.4":
-  version: 0.70.4
-  resolution: "react-native@npm:0.70.4"
+"react-native@npm:0.70.5":
+  version: 0.70.5
+  resolution: "react-native@npm:0.70.5"
   dependencies:
     "@jest/create-cache-key-function": ^29.0.3
     "@react-native-community/cli": 9.2.1
@@ -16641,7 +16641,7 @@ fsevents@^1.2.7:
     react: 18.1.0
   bin:
     react-native: cli.js
-  checksum: 2782b7811e4c815020b8c60b48b7b4cbb462e75e42a83ae2f80119553cf8317ceffc3bcc0d70df29e1ff1df689faf7a5d5117c593b2f99c23a88358113078051
+  checksum: 5aca6e1dba32c450078117c874e368efa7e291fbf37263a30935e395475343ad78f87d4e41d12742cc16d9fcaebd5175a631962fc5d620daa312079782d0a66c
   languageName: node
   linkType: hard
 
