@@ -2573,12 +2573,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/slider@npm:4.3.2":
-  version: 4.3.2
-  resolution: "@react-native-community/slider@npm:4.3.2"
-  dependencies:
-    "@types/react-test-renderer": ^18.0.0
-  checksum: 2f02c7df6c3609432efc5675e6e40574766c194e07d4baca8b11db0a80e085830aedb490478aaec239c57fafa99c55409ef7327d523d5002b7b53ba470232bdc
+"@react-native-community/slider@npm:4.3.3":
+  version: 4.3.3
+  resolution: "@react-native-community/slider@npm:4.3.3"
+  checksum: 2329dbefd678f848b9660793dff3a2f81ab65880821fbd208d240d1049c875f8dc67cf82218fdb89177ccbf9ac3120974569383e1a4eaf749d921f0076619ead
   languageName: node
   linkType: hard
 
@@ -4390,7 +4388,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-test-renderer@npm:18.0.0, @types/react-test-renderer@npm:^18.0.0":
+"@types/react-test-renderer@npm:18.0.0":
   version: 18.0.0
   resolution: "@types/react-test-renderer@npm:18.0.0"
   dependencies:
@@ -14467,7 +14465,7 @@ fsevents@^1.2.7:
     "@react-native-community/cli": 9.2.1
     "@react-native-community/datetimepicker": 6.3.5
     "@react-native-community/eslint-config": 3.2.0
-    "@react-native-community/slider": 4.3.2
+    "@react-native-community/slider": 4.3.3
     "@react-navigation/native": 6.0.13
     "@react-navigation/native-stack": 6.9.1
     "@storybook/addon-actions": 6.5.13
