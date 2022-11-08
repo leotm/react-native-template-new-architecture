@@ -2538,9 +2538,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/cli@npm:9.3.1":
-  version: 9.3.1
-  resolution: "@react-native-community/cli@npm:9.3.1"
+"@react-native-community/cli@npm:9.3.2":
+  version: 9.3.2
+  resolution: "@react-native-community/cli@npm:9.3.2"
   dependencies:
     "@react-native-community/cli-clean": ^9.2.1
     "@react-native-community/cli-config": ^9.2.1
@@ -2561,7 +2561,7 @@ __metadata:
     semver: ^6.3.0
   bin:
     react-native: build/bin.js
-  checksum: 79b678988b69c223154a2b77f19550445660d52bac3d079991ae46540581f62160cc140e8c9bed88528c744501f857e5e119d084c7cef5336cf060fa6cd64546
+  checksum: 474711ebfad0834e34026889004bc823b79817fc50fb9b614e987755b7073e251643d1078884d3b49f195c83b18bc32b0e608c512e3928fb0dec8dd6be42e180
   languageName: node
   linkType: hard
 
@@ -14517,7 +14517,7 @@ fsevents@^1.2.7:
     "@curveball/router": 0.5.0
     "@react-native-async-storage/async-storage": 1.17.10
     "@react-native-community/checkbox": 0.5.14
-    "@react-native-community/cli": 9.3.1
+    "@react-native-community/cli": 9.3.2
     "@react-native-community/datetimepicker": 6.3.5
     "@react-native-community/eslint-config": 3.2.0
     "@react-native-community/slider": 4.3.3
