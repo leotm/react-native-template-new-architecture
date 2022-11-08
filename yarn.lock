@@ -2309,9 +2309,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/checkbox@npm:0.5.12":
-  version: 0.5.12
-  resolution: "@react-native-community/checkbox@npm:0.5.12"
+"@react-native-community/checkbox@npm:0.5.14":
+  version: 0.5.14
+  resolution: "@react-native-community/checkbox@npm:0.5.14"
   peerDependencies:
     react: "*"
     react-native: ">= 0.62"
@@ -2319,7 +2319,7 @@ __metadata:
   peerDependenciesMeta:
     react-native-windows:
       optional: true
-  checksum: 9c07132873697732d32eb6729648a0c920dba8118d660eb22a6fcc4f5c4cc1f3c7aed2a022136a8053dcbc05cc8f546927a5086554ed08f72e806708b617ab33
+  checksum: 09380fe4ef955f610997d50ea516076f6f27d2ebafd9946bf4fc2794d9c3943bd8c1378a09554efdf8f94a82a9fa0ea102f8b72c6561688cac55f156fc667443
   languageName: node
   linkType: hard
 
@@ -14463,7 +14463,7 @@ fsevents@^1.2.7:
     "@curveball/core": 0.20.0
     "@curveball/router": 0.5.0
     "@react-native-async-storage/async-storage": 1.17.10
-    "@react-native-community/checkbox": 0.5.12
+    "@react-native-community/checkbox": 0.5.14
     "@react-native-community/cli": 9.2.1
     "@react-native-community/datetimepicker": 6.3.5
     "@react-native-community/eslint-config": 3.2.0
