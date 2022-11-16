@@ -13,16 +13,6 @@ jest.mock('@storybook/addon-ondevice-notes', () => ({
    */
   register: () => jest.fn()
 }))
-jest.mock('@storybook/addon-actions/dist/modern/preset/addArgs', () => ({
-  argsEnhancers: {
-    /**
-     * TODO: Figure why Jest unable to parse Array.prototype.forEach()
-     * e.g. argsEnhancers: []
-     * Jest config likely needs ES version bump or polyfill
-     */
-    forEach: jest.fn()
-  }
-}))
 jest.mock('@storybook/react-native', () => ({
   addDecorator: jest.fn(),
   addParameters: jest.fn(),
