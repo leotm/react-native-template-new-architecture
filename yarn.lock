@@ -1531,7 +1531,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:7.20.1, @babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.18.9, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.4.4, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:7.20.1, @babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.18.9, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.4.4, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
   version: 7.20.1
   resolution: "@babel/runtime@npm:7.20.1"
   dependencies:
@@ -2899,41 +2899,6 @@ __metadata:
   dependencies:
     "@sinonjs/commons": "npm:^1.7.0"
   checksum: ba7d46e9ff8074f3ccf14c2a6fc4c3beb3c784d6275342a40735b3f6a3c7adf7ccdaa222a58c7eaddb9ecba389aa037b3344a42f3541e27a4e1a5fcecde54d7c
-  languageName: node
-  linkType: hard
-
-"@storybook/addon-actions@npm:6.5.13":
-  version: 6.5.13
-  resolution: "@storybook/addon-actions@npm:6.5.13"
-  dependencies:
-    "@storybook/addons": "npm:6.5.13"
-    "@storybook/api": "npm:6.5.13"
-    "@storybook/client-logger": "npm:6.5.13"
-    "@storybook/components": "npm:6.5.13"
-    "@storybook/core-events": "npm:6.5.13"
-    "@storybook/csf": "npm:0.0.2--canary.4566f4d.1"
-    "@storybook/theming": "npm:6.5.13"
-    core-js: "npm:^3.8.2"
-    fast-deep-equal: "npm:^3.1.3"
-    global: "npm:^4.4.0"
-    lodash: "npm:^4.17.21"
-    polished: "npm:^4.2.2"
-    prop-types: "npm:^15.7.2"
-    react-inspector: "npm:^5.1.0"
-    regenerator-runtime: "npm:^0.13.7"
-    telejson: "npm:^6.0.8"
-    ts-dedent: "npm:^2.0.0"
-    util-deprecate: "npm:^1.0.2"
-    uuid-browser: "npm:^3.1.0"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-  peerDependenciesMeta:
-    react:
-      optional: true
-    react-dom:
-      optional: true
-  checksum: d859d9cdd8b350854da4e3a55ac1598630bf697b5cf26d407f1956299dd05f3e9ffb020242b1d2aff21e6002c40c35f489cbdb001f27340f8fccdadda7c8dd16
   languageName: node
   linkType: hard
 
@@ -10569,16 +10534,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-dom@npm:^1.0.0":
-  version: 1.1.0
-  resolution: "is-dom@npm:1.1.0"
-  dependencies:
-    is-object: "npm:^1.0.1"
-    is-window: "npm:^1.0.2"
-  checksum: 14924e5a8c3a48946adbf16478f06e6be069371881a9c7826649e92ee81b36a5839a552a1895e109e47132bd6588fb8d8ae6054af57c6cd5517e0a0fe7b8d58f
-  languageName: node
-  linkType: hard
-
 "is-empty@npm:^1.0.0":
   version: 1.2.0
   resolution: "is-empty@npm:1.2.0"
@@ -10756,13 +10711,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-object@npm:^1.0.1":
-  version: 1.0.2
-  resolution: "is-object@npm:1.0.2"
-  checksum: c8719cfb4c1bf333bcbfe74c3cc6602ca900d11681d5695be7d1679743d432ae559129089b7e1b23c1e23efbcdcc080875f8b069f1cd3f48d6442ac6fc457988
-  languageName: node
-  linkType: hard
-
 "is-path-inside@npm:^3.0.3":
   version: 3.0.3
   resolution: "is-path-inside@npm:3.0.3"
@@ -10884,13 +10832,6 @@ __metadata:
   dependencies:
     call-bind: "npm:^1.0.2"
   checksum: fdd5b2df8209f8387a86c8a504f6983fff0f90b46aabfe8d97ffbf34d2cbb6f64edbaec8da16deedd876c228b7b721ead65f42f20f1a0e7ebf294f669542c534
-  languageName: node
-  linkType: hard
-
-"is-window@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "is-window@npm:1.0.2"
-  checksum: 03e7a1ffa289bfe205db9026cb2b79d00c4fa6ce5beacc9a095e1fd731c049e98f86400bb05aa70b23b18bae01d644b4d8806375a18346fb834ad42b1b1281f7
   languageName: node
   linkType: hard
 
@@ -13465,7 +13406,6 @@ __metadata:
     "@react-native-community/slider": "npm:4.3.3"
     "@react-navigation/native": "npm:6.0.13"
     "@react-navigation/native-stack": "npm:6.9.1"
-    "@storybook/addon-actions": "npm:6.5.13"
     "@storybook/addon-controls": "npm:6.5.13"
     "@storybook/addon-knobs": "npm:6.4.0"
     "@storybook/addon-links": "npm:6.5.13"
@@ -14476,15 +14416,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"polished@npm:^4.2.2":
-  version: 4.2.2
-  resolution: "polished@npm:4.2.2"
-  dependencies:
-    "@babel/runtime": "npm:^7.17.8"
-  checksum: 4d89d22bdca4872551ccbc9702efec8d91958b04081da11046cc999cf79eb5d1e62e6008a943bcfc6e1a5264b652a547548a76df81332861b725e7f7c7ce8b1f
-  languageName: node
-  linkType: hard
-
 "popper.js@npm:^1.14.4, popper.js@npm:^1.14.7":
   version: 1.16.1
   resolution: "popper.js@npm:1.16.1"
@@ -14664,7 +14595,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.0.0, prop-types@npm:^15.5.10, prop-types@npm:^15.5.8, prop-types@npm:^15.6.0, prop-types@npm:^15.6.1, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
+"prop-types@npm:^15.5.10, prop-types@npm:^15.5.8, prop-types@npm:^15.6.0, prop-types@npm:^15.6.1, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -15017,19 +14948,6 @@ __metadata:
   peerDependencies:
     react: ^16.3.0 || ^17.0.0
   checksum: b81e58fb6ed04a5443728c9a30b6c3f4ed5f8b9b17863f53d6e93497b37d696745b01c5fa4dce530128333db760a471268f5262e3fdb9627d9522a3a58666571
-  languageName: node
-  linkType: hard
-
-"react-inspector@npm:^5.1.0":
-  version: 5.1.1
-  resolution: "react-inspector@npm:5.1.1"
-  dependencies:
-    "@babel/runtime": "npm:^7.0.0"
-    is-dom: "npm:^1.0.0"
-    prop-types: "npm:^15.0.0"
-  peerDependencies:
-    react: ^16.8.4 || ^17.0.0
-  checksum: 52e2b8fb051de60f9fac61a40801408689abe188501592840f87d4785d8ded082a55dae78027a7d227909eb63bf2583786ff728341b0629acc29e8147d0c133f
   languageName: node
   linkType: hard
 
@@ -18207,13 +18125,6 @@ __metadata:
   version: 1.0.1
   resolution: "utils-merge@npm:1.0.1"
   checksum: b72b8d7a0f7d63a9b1ced39a44b292994111c93cf9c4da8a561e4fe0d0232af7217a53d5aae3a950fb7ab6f423baf3e0d2d7c7c33dd6c4ec78d0a3c720ee6adb
-  languageName: node
-  linkType: hard
-
-"uuid-browser@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "uuid-browser@npm:3.1.0"
-  checksum: 52ee2603a2cf0f1eb4bbbacb32744278bbc25376fa2be11bf34b67fc68bdcbfe62c0ac191ea064e06d8b371b167cac6216b8625787c83bf0bbe5bd3a682282c6
   languageName: node
   linkType: hard
 
