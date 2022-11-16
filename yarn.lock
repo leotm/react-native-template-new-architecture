@@ -15011,7 +15011,7 @@ fsevents@^1.2.7:
     react-native-codegen: 0.71.2
     react-native-gesture-handler: 2.8.0
     react-native-gradle-plugin: 0.70.3
-    react-native-reanimated: 3.0.0-rc.5
+    react-native-reanimated: 3.0.0-rc.6
     react-native-rename: 2.9.0
     react-native-safe-area-context: 4.4.1
     react-native-screens: 3.18.2
@@ -17013,9 +17013,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-reanimated@npm:3.0.0-rc.5":
-  version: 3.0.0-rc.5
-  resolution: "react-native-reanimated@npm:3.0.0-rc.5"
+"react-native-reanimated@npm:3.0.0-rc.6":
+  version: 3.0.0-rc.6
+  resolution: "react-native-reanimated@npm:3.0.0-rc.6"
   dependencies:
     "@babel/plugin-transform-object-assign": ^7.16.7
     "@babel/preset-typescript": ^7.16.7
@@ -17028,7 +17028,7 @@ fsevents@^1.2.7:
     "@babel/core": ^7.0.0-0
     react: "*"
     react-native: "*"
-  checksum: 38223c7d3ff5269c3620050858e5b7cf3c577474a67d5cfb3aefa3be99219d2f0e6cd1d00a6a77ba5705e3ff9031e5e9dbe7c148243c14b3fe4ac10d86cf635a
+  checksum: a2f1fc0d95e6acdd0db6c4e65c15e6a9f3fe1e96bce845565ceb365529c20e669d07dcc3bf7929e979dd350901247dfd888a5e3dcefa3c474034830334080298
   languageName: node
   linkType: hard
 
