@@ -15026,7 +15026,7 @@ fsevents@^1.2.7:
     react-test-renderer: 18.2.0
     reactotron-react-native: 5.0.3
     ts-node: 10.9.1
-    typescript: 5.0.0-dev.20221129
+    typescript: 5.0.0-dev.20221130
   languageName: unknown
   linkType: soft
 
@@ -19810,23 +19810,23 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.0.0-dev.20221129":
-  version: 5.0.0-dev.20221129
-  resolution: "typescript@npm:5.0.0-dev.20221129"
+"typescript@npm:5.0.0-dev.20221130":
+  version: 5.0.0-dev.20221130
+  resolution: "typescript@npm:5.0.0-dev.20221130"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 6846422bd87549cbb6a42682d0a43967b9cb2fd0bc2086f4d5663695d01a6f5d69a369dc2c357d17c3954150eca11f5377fbf2248e15383bc02e75a28bc2493a
+  checksum: ef7ed3285bb8643aede479aa8b6bbce34dd819fd9d5b5dd36210f163c6a1e7ac8a402879c26606f1616efc90e8f8f6ac886b5d4073cddf2b9825e6f04de4ddf1
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@5.0.0-dev.20221129#~builtin<compat/typescript>":
-  version: 5.0.0-dev.20221129
-  resolution: "typescript@patch:typescript@npm%3A5.0.0-dev.20221129#~builtin<compat/typescript>::version=5.0.0-dev.20221129&hash=d73830"
+"typescript@patch:typescript@5.0.0-dev.20221130#~builtin<compat/typescript>":
+  version: 5.0.0-dev.20221130
+  resolution: "typescript@patch:typescript@npm%3A5.0.0-dev.20221130#~builtin<compat/typescript>::version=5.0.0-dev.20221130&hash=d73830"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 959067e22f9d2c86e3314ab3143b960bfd85f0bda8ed5a9e9d1a1e47f8d1e1d714173cfbd1b810d6399ac31b6ccb05e8c39b5fb8c846ab2b5262f7f06d154cf2
+  checksum: 9a83f85b8e6cf9b270d31114612f71bde8d25de334a48fa954b3354849711a2a8caef030b8059121894ea3bf6134f775f59a1bfb28088253b8c92a4dba6c0767
   languageName: node
   linkType: hard
 
