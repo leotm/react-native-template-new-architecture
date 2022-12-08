@@ -1,4 +1,5 @@
 /**
+ * Parsed by prestart script calling get-stories script
  * @storybook/react-native/scripts (loader.js)
  * ES6 mods not (yet) supported, for e.g.
  * main.{ts/mjs}: export default { ... }

@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "setup": "yarn",
+    "prestart": "yarn get-stories",
     "start": "react-native start",
     "start:reset": "react-native start --reset-cache",
     "android": "react-native run-android --active-arch-only",
@@ -61,7 +62,7 @@
     "@storybook/addon-controls": "6.5.14",
     "@storybook/addon-knobs": "6.4.0",
     "@storybook/addon-links": "6.5.14",
-    "@storybook/addon-notes": "next",
+    "@storybook/addon-notes": "5.3.21",
     "@storybook/addon-ondevice-actions": "6.0.1-canary.3",
     "@storybook/addon-ondevice-backgrounds": "6.0.1-canary.3",
     "@storybook/addon-ondevice-controls": "6.0.1-canary.3",
@@ -146,5 +147,5 @@
       "prettier --write"
     ]
   },
-  "packageManager": "yarn@3.3.0"
+  "packageManager": "yarn@4.0.0-rc.28"
 }

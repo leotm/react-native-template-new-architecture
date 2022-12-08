@@ -14,7 +14,6 @@ CenterView.defaultProps = {
 }
 
 CenterView.propTypes = {
-  // @ts-expect-error Type 'Requireable<ReactNodeLike>' is not assignable to type 'Validator<ReactNode>'
   children: PropTypes.node
 }
 
