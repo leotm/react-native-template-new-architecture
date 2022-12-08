@@ -19,7 +19,6 @@ jest.mock('@storybook/react-native', () => ({
   configure: jest.fn(),
   getStorybookUI: jest.fn()
 }))
-// @storybook/addon-ondevice-knobs
 jest.mock('@storybook/addon-ondevice-knobs', () => ({
   register: () => jest.fn()
 }))
