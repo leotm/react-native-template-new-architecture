@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-unresolved
 import './storybook.requires'
 
 import { getStorybookUI } from '@storybook/react-native'
