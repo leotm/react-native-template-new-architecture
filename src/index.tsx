@@ -19,7 +19,6 @@ import {
   ReloadInstructions
 } from 'react-native/Libraries/NewAppScreen'
 
-// TODO: Fix Storybook v6.0.1-alpha.7 crash and upgrade to v6.0.1-beta.6
 import _StorybookUIRoot from '../.storybook/Storybook'
 
 if (__DEV__) {
