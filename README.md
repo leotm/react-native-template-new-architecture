@@ -9,7 +9,7 @@
 
 <div align="center">
 
-[![NPM RN pkg ver](https://img.shields.io/badge/React%20Native-0.70.4-red.svg)](https://github.com/facebook/react-native/releases)
+[![NPM RN pkg ver](https://img.shields.io/badge/React%20Native-0.70.6-red.svg)](https://github.com/facebook/react-native/releases)
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](#)
 [![Linter](https://badges.aleen42.com/src/eslint.svg)](#)
 [![Formatter: prettier](https://img.shields.io/badge/Formatter-Prettier-f8bc45.svg)](#)
@@ -22,22 +22,22 @@
 
 Android | iOS
 --- | ---
-![Android](https://user-images.githubusercontent.com/1881059/186873376-f79aadd4-db76-4fa3-b403-59d816596459.png) | ![iOS](https://user-images.githubusercontent.com/1881059/186873512-653ae581-dd7e-44d5-afb9-09c916a921e0.png)
+![Android](https://user-images.githubusercontent.com/1881059/206861792-710af106-3070-40eb-9717-e32941d43327.png) | ![iOS](https://user-images.githubusercontent.com/1881059/206861794-17250417-623e-4f78-92a8-bcfc0cf344e6.png)
 
 ## Setup
 
 [Fresh M1/M2](https://github.com/leotm/react-native-template-new-architecture/wiki/M1-Setup)
 
-## Yarn v3
+## Yarn v4
 
-_Upgrading from `classic`_ v1
+_Upgrading from v1 `classic` or v3 `latest` / `berry` / `stable`_
 
 ```sh
 cd ~
-yarn set version berry
+yarn set version canary
 ```
 
-[`canary` v4 🚧](https://github.com/leotm/react-native-template-new-architecture/pull/672)
+_Remove generated files_
 
 ## Install
 
@@ -49,9 +49,11 @@ yarn # 🍺 version
 yarn setup # 🤖 versioned version 
 ```
 
-https://github.com/leotm/react-native-template-new-architecture/blob/2292d3acef82d2b844baf6878364a3226135687f/package.json#L147
+https://github.com/leotm/react-native-template-new-architecture/blob/4ac4978a128ac634b873cf0a6cd2a6a8f6732783/package.json#L150
 
-_[More](https://stackoverflow.com/a/70864409/1998086)_
+https://github.com/leotm/react-native-template-new-architecture/blob/4ac4978a128ac634b873cf0a6cd2a6a8f6732783/.yarnrc.yml#L3
+
+_[Why versioned](https://stackoverflow.com/a/70864409/1998086)_
 
 ## Start
 
@@ -70,17 +72,15 @@ pod install
 yarn ios
 ```
 
-_Or [iOS (Intel x86_64)](https://github.com/leotm/react-native-template-new-architecture/wiki/(New)-Architecture#building-for-ios-intel-x86_64-architecture)_
+_[The old Rosetta 2 Intel x86_64 way](https://github.com/leotm/react-native-template-new-architecture/wiki/(New)-Architecture#building-for-ios-intel-x86_64-architecture)_
 
 ### Android
 
 #### NDK
 
-Fat M1 components: ndk-build, LLVM, CMake, Make, Python, Ninja, shader-tools, simpleperf - [yasm remaining](https://github.com/android/ndk/issues/1549)
-
 <details>
 
-<summary>Setup</summary>
+_<summary>Old manual setup</summary>_
     
 [Building-from-source#prerequisites](https://github.com/facebook/react-native/wiki/Building-from-source#prerequisites), but with NDK 25.0.8775105
 
@@ -93,6 +93,8 @@ ndk.dir=/Users/<user>/Library/Android/sdk/ndk/25.0.8775105
 _Strip: ` rcX` suffix / (trailing) spaces / final final linebreak - otherwise `fcntl(): Bad file descriptor`_
     
 </details>
+
+_Fat M1 components: ndk-build, LLVM, CMake, Make, Python, Ninja, shader-tools, simpleperf - [yasm remaining](https://github.com/android/ndk/issues/1549)_
 
 #### Android Studio
 
@@ -108,6 +110,8 @@ Open [Android Studio - Preview release - Canary build](https://developer.android
 - Make Project
     
 </details>
+
+#### Run
   
 ```sh
 yarn android --active-arch-only
@@ -119,7 +123,7 @@ yarn android --active-arch-only
 - [Apple Silicon (M1) troubleshooting guide (RN 0.64/0.65/0.66)](https://github.com/facebook/react-native/issues/31941)
 - [react-native-community/upgrade-support](https://github.com/react-native-community/upgrade-support)
 
-## Storybook v6 beta
+## Storybook v6
 
 https://github.com/leotm/react-native-template-new-architecture/blob/01f1c9864f55367004effbe26d3f33590784704b/src/index.tsx#L132
   
