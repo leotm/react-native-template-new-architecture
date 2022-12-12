@@ -2942,11 +2942,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/core@npm:^6.4.4":
-  version: 6.4.4
-  resolution: "@react-navigation/core@npm:6.4.4"
+"@react-navigation/core@npm:^6.4.5":
+  version: 6.4.5
+  resolution: "@react-navigation/core@npm:6.4.5"
   dependencies:
-    "@react-navigation/routers": "npm:^6.1.5"
+    "@react-navigation/routers": "npm:^6.1.6"
     escape-string-regexp: "npm:^4.0.0"
     nanoid: "npm:^3.1.23"
     query-string: "npm:^7.1.3"
@@ -2954,27 +2954,27 @@ __metadata:
     use-latest-callback: "npm:^0.1.5"
   peerDependencies:
     react: "*"
-  checksum: 1ef7347f246153b8b94fa8e354569e5b4a0336e995f668b5554d4116cc6f3d8b90f640fd32f5088c81b46d89d5272a4744b314be9e4744053fdaa86fb6735307
+  checksum: 7cf6cd89a3324089bde5525382bc462636bd11ecde62bd4473de760f575f85c6066ef836a7aca32f04bbff43ae1b3263f9885bb1c3688b1894e4b66e55f7f8db
   languageName: node
   linkType: hard
 
-"@react-navigation/elements@npm:^1.3.10":
-  version: 1.3.10
-  resolution: "@react-navigation/elements@npm:1.3.10"
+"@react-navigation/elements@npm:^1.3.11":
+  version: 1.3.11
+  resolution: "@react-navigation/elements@npm:1.3.11"
   peerDependencies:
     "@react-navigation/native": ^6.0.0
     react: "*"
     react-native: "*"
     react-native-safe-area-context: ">= 3.0.0"
-  checksum: 1505301a1c31307c3d9424b93ff6178c8c14a4cd393e36a11c45fd8955e8034c203bfa4f576a6e361246fbfb757c346cff5dc3de4bce38a4be0d7386321ed3cf
+  checksum: 47b062c1bc086501e57a8847f5455ddb39b5fbff2d28cfc468a66cafbec0920f3a198b770cd058d8c569bc3a473c38e886c7cfc3eb8ec8bc2a831968e48cf5dd
   languageName: node
   linkType: hard
 
-"@react-navigation/native-stack@npm:6.9.5":
-  version: 6.9.5
-  resolution: "@react-navigation/native-stack@npm:6.9.5"
+"@react-navigation/native-stack@npm:6.9.6":
+  version: 6.9.6
+  resolution: "@react-navigation/native-stack@npm:6.9.6"
   dependencies:
-    "@react-navigation/elements": "npm:^1.3.10"
+    "@react-navigation/elements": "npm:^1.3.11"
     warn-once: "npm:^0.1.0"
   peerDependencies:
     "@react-navigation/native": ^6.0.0
@@ -2982,31 +2982,31 @@ __metadata:
     react-native: "*"
     react-native-safe-area-context: ">= 3.0.0"
     react-native-screens: ">= 3.0.0"
-  checksum: ac146290296ff61aae427f7505f5551c9f86c451ca1367fedc7a658e8533cf399cdef6c59c9f93e8a30c2f5b98d6c47a97e1c8e63a4207f03782bfeff23977d8
+  checksum: a586a1f6737a29a8594af825da14d63daa83eb892115c8ddc92e956e24ac61698f156d95866f14ac222d4c37b726e0bc72b879539c8742d3ae87013d9ca43ae6
   languageName: node
   linkType: hard
 
-"@react-navigation/native@npm:6.1.0":
-  version: 6.1.0
-  resolution: "@react-navigation/native@npm:6.1.0"
+"@react-navigation/native@npm:6.1.1":
+  version: 6.1.1
+  resolution: "@react-navigation/native@npm:6.1.1"
   dependencies:
-    "@react-navigation/core": "npm:^6.4.4"
+    "@react-navigation/core": "npm:^6.4.5"
     escape-string-regexp: "npm:^4.0.0"
     fast-deep-equal: "npm:^3.1.3"
     nanoid: "npm:^3.1.23"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: e168b12734067a383503c75dbb171658464a21688c41e734ea735ca382a8179a1f1df4565332af52fa31f46866019ee52bb011cf97cecc5db6654fcab2aa93c9
+  checksum: f8793f488346ebe759d76a3abf958eb0cbf55a020ab409468eef0fdadaa1322d07c1cd3bdc4f11e97d181f9dece2b25f5d725ecc0a0ffd5174c7a73187cc1db0
   languageName: node
   linkType: hard
 
-"@react-navigation/routers@npm:^6.1.5":
-  version: 6.1.5
-  resolution: "@react-navigation/routers@npm:6.1.5"
+"@react-navigation/routers@npm:^6.1.6":
+  version: 6.1.6
+  resolution: "@react-navigation/routers@npm:6.1.6"
   dependencies:
     nanoid: "npm:^3.1.23"
-  checksum: 283fdfd0f6a638c9db47933c53160e1124fa7ff29bca3edeb488bf3719d3caf20e3342288498a4e3f415aa1ef1fa2d5867586b820ea7f53f991a1e7d4dc5922d
+  checksum: e1bcf1adc270c732bad6b36bf04132c311579841626c4b8e74c337ffbcdde743afe794e271947799dedc97b87cc9039b9b80e0526f5171d504aa192d56126b28
   languageName: node
   linkType: hard
 
@@ -15112,8 +15112,8 @@ __metadata:
     "@react-native-community/datetimepicker": "npm:6.3.5"
     "@react-native-community/eslint-config": "npm:3.2.0"
     "@react-native-community/slider": "npm:4.3.3"
-    "@react-navigation/native": "npm:6.1.0"
-    "@react-navigation/native-stack": "npm:6.9.5"
+    "@react-navigation/native": "npm:6.1.1"
+    "@react-navigation/native-stack": "npm:6.9.6"
     "@storybook/addon-actions": "npm:6.5.14"
     "@storybook/addon-controls": "npm:6.5.14"
     "@storybook/addon-knobs": "npm:6.4.0"
