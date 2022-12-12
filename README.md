@@ -37,7 +37,7 @@ cd ~
 yarn set version canary
 ```
 
-_Remove generated files_
+_Clear generated files_
 
 ## Install
 
@@ -49,11 +49,8 @@ yarn # 🍺 version
 yarn setup # 🤖 versioned version 
 ```
 
-https://github.com/leotm/react-native-template-new-architecture/blob/4ac4978a128ac634b873cf0a6cd2a6a8f6732783/package.json#L150
-
-https://github.com/leotm/react-native-template-new-architecture/blob/4ac4978a128ac634b873cf0a6cd2a6a8f6732783/.yarnrc.yml#L3
-
-_[Why versioned](https://stackoverflow.com/a/70864409/1998086)_
+- [🚀 Breaking changes for Yarn 4](https://github.com/yarnpkg/berry/issues/3591)
+- _[🤖 Why versioned](https://stackoverflow.com/a/70864409/1998086)_
 
 ## Start
 
@@ -72,7 +69,7 @@ pod install
 yarn ios
 ```
 
-_[The old Rosetta 2 Intel x86_64 way](https://github.com/leotm/react-native-template-new-architecture/wiki/(New)-Architecture#building-for-ios-intel-x86_64-architecture)_
+_[Old Rosetta 2 Intel x86_64 way](https://github.com/leotm/react-native-template-new-architecture/wiki/(New)-Architecture#building-for-ios-intel-x86_64-architecture)_
 
 ### Android
 
@@ -100,7 +97,7 @@ _Fat M1 components: ndk-build, LLVM, CMake, Make, Python, Ninja, shader-tools, s
 
 <details>
 
-<summary>Setup</summary>
+_<summary>Old manual setup</summary>_
     
 Open [Android Studio - Preview release - Canary build](https://developer.android.com/studio/preview)
 - Open Project, set the [JDK](https://github.com/leotm/react-native-template-new-architecture/wiki/Android#jdk)
@@ -126,8 +123,6 @@ yarn android --active-arch-only
 ## Storybook v6
 
 https://github.com/leotm/react-native-template-new-architecture/blob/01f1c9864f55367004effbe26d3f33590784704b/src/index.tsx#L132
-  
-_Soon: [v6 rn storybook server](https://github.com/storybookjs/react-native/projects/2#card-68690945)_
 
 ## Storybook v5
 
