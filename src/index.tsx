@@ -29,8 +29,6 @@ if (__DEV__) {
     .catch(() => console.error)
 }
 
-/* $FlowFixMe[missing-local-annot] The type annotation(s) required by Flow's
- * LTI update could not be added via codemod */
 const Section: FC<{ children: ReactNode; title: string }> = ({
   children,
   title
@@ -127,7 +125,6 @@ const styles = StyleSheet.create({
   }
 })
 
-// eslint-disable-next-line @typescript-eslint/no-unnecessary-condition, no-constant-condition
 export default App // Or StorybookUIRoot
 
 // export default Reactotron.storybookSwitcher(storybook)(App)
