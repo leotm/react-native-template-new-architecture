@@ -2958,23 +2958,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/elements@npm:^1.3.11":
-  version: 1.3.11
-  resolution: "@react-navigation/elements@npm:1.3.11"
+"@react-navigation/elements@npm:^1.3.12":
+  version: 1.3.12
+  resolution: "@react-navigation/elements@npm:1.3.12"
   peerDependencies:
     "@react-navigation/native": ^6.0.0
     react: "*"
     react-native: "*"
     react-native-safe-area-context: ">= 3.0.0"
-  checksum: 47b062c1bc086501e57a8847f5455ddb39b5fbff2d28cfc468a66cafbec0920f3a198b770cd058d8c569bc3a473c38e886c7cfc3eb8ec8bc2a831968e48cf5dd
+  checksum: eaf9b9af6956af421721f255f9c91c0acab15ca0807f037ad3b76922427be6cb2ca00edc6d80a620081b8dea318252c325b909158a75e71373c02a2790efe8a6
   languageName: node
   linkType: hard
 
-"@react-navigation/native-stack@npm:6.9.6":
-  version: 6.9.6
-  resolution: "@react-navigation/native-stack@npm:6.9.6"
+"@react-navigation/native-stack@npm:6.9.7":
+  version: 6.9.7
+  resolution: "@react-navigation/native-stack@npm:6.9.7"
   dependencies:
-    "@react-navigation/elements": "npm:^1.3.11"
+    "@react-navigation/elements": "npm:^1.3.12"
     warn-once: "npm:^0.1.0"
   peerDependencies:
     "@react-navigation/native": ^6.0.0
@@ -2982,7 +2982,7 @@ __metadata:
     react-native: "*"
     react-native-safe-area-context: ">= 3.0.0"
     react-native-screens: ">= 3.0.0"
-  checksum: a586a1f6737a29a8594af825da14d63daa83eb892115c8ddc92e956e24ac61698f156d95866f14ac222d4c37b726e0bc72b879539c8742d3ae87013d9ca43ae6
+  checksum: 3cd9c7081d38123c0c3102dbfc3067c142e0ddf80764fa148515bced045861c425e7ba3ba69774fd8265f68e55e1930337a91981065f3eea9a2666dd8587539b
   languageName: node
   linkType: hard
 
@@ -15176,7 +15176,7 @@ __metadata:
     "@react-native-community/eslint-config": "npm:3.2.0"
     "@react-native-community/slider": "npm:4.3.3"
     "@react-navigation/native": "npm:6.1.1"
-    "@react-navigation/native-stack": "npm:6.9.6"
+    "@react-navigation/native-stack": "npm:6.9.7"
     "@storybook/addon-actions": "npm:6.5.14"
     "@storybook/addon-controls": "npm:6.5.14"
     "@storybook/addon-knobs": "npm:6.4.0"
