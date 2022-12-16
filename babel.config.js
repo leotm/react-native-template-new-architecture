@@ -1,8 +1,8 @@
 /**
-* metro-react-native-babel-preset includes
-* - @babel/preset-react jsx syntax plugin and transform plugins
-* - @babel/preset-typescript transform plugin
-*/
+ * metro-react-native-babel-preset includes
+ * - @babel/preset-react jsx syntax plugin and transform plugins
+ * - @babel/preset-typescript transform plugin
+ */
 
 module.exports = {
   presets: [
@@ -15,7 +15,7 @@ module.exports = {
          * - auto imports fn's JSX transpiles to like React
          * - adds __source and __self props too for debugging
          */
-        runtime: 'automatic', // default to classic
+        runtime: 'automatic' // default to classic
         /**
          * development: true
          * - adds __source and __self props too for debugging
