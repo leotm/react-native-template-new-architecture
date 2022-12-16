@@ -33,6 +33,7 @@ module.exports = {
        * Accessible from process.env.RN_ENV
        */
       'transform-inline-environment-variables'
-    ]
+    ],
+    'react-native-reanimated/plugin'
   ]
 }
