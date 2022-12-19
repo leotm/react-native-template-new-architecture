@@ -57,15 +57,15 @@
     "resolveJsonModule": true,
     "skipLibCheck": true                      /* Ignore e.g. node_modules: @storybook/client-api/dist/story_store.d.ts; @types/reach__router/index.d.ts; more likely to come',   */
   },
+  // Glob patterns .{a,b} or .?{a|b} unsupported :(
   "files":[
     "index.ts",
     "node.ts",
     "deno.ts",
     "types/globals.d.ts",
-    ".storybook/main.js"
   ],
   "include": [
-    "storybook",
+    ".storybook/*.*",
     "jest",
     "__tests__",
     "src"

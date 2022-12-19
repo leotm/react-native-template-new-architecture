@@ -46,7 +46,7 @@ yarn # 🍺 version
 ```
 
 ```sh
-yarn setup # 🤖 versioned version 
+yarn setup # 🤖 versioned version
 ```
 
 - [🚀 Breaking changes for Yarn 4](https://github.com/yarnpkg/berry/issues/3591)
@@ -78,7 +78,7 @@ _[Old Rosetta 2 Intel x86_64 way](https://github.com/leotm/react-native-template
 <details>
 
 _<summary>Old manual setup</summary>_
-    
+
 [Building-from-source#prerequisites](https://github.com/facebook/react-native/wiki/Building-from-source#prerequisites), but with NDK 25.0.8775105
 
 ```
@@ -88,7 +88,7 @@ ndk.dir=/Users/<user>/Library/Android/sdk/ndk/25.0.8775105
 ```
 
 _Strip: ` rcX` suffix / (trailing) spaces / final final linebreak - otherwise `fcntl(): Bad file descriptor`_
-    
+
 </details>
 
 _Fat M1 components: ndk-build, LLVM, CMake, Make, Python, Ninja, shader-tools, simpleperf - [yasm remaining](https://github.com/android/ndk/issues/1549)_
@@ -98,18 +98,18 @@ _Fat M1 components: ndk-build, LLVM, CMake, Make, Python, Ninja, shader-tools, s
 <details>
 
 _<summary>Old manual setup</summary>_
-    
+
 Open [Android Studio - Preview release - Canary build](https://developer.android.com/studio/preview)
 - Open Project, set the [JDK](https://github.com/leotm/react-native-template-new-architecture/wiki/Android#jdk)
 - [SDK Manager > SDK Tools > NDK > ⬇️ 25.0.8775105](https://user-images.githubusercontent.com/1881059/158474758-c8c1412c-2f35-4d0d-abc7-6ba18c65827c.png)
 - Build [all 4 default ABIs](https://github.com/leotm/react-native-template-new-architecture/blob/master/android/gradle.properties#L33) first with other libraries
 - Open an arm64 AVD e.g. `Pixel_3a_API_31_arm64-v8a` <s>[Initial Preview v3: Google APIs System Image](https://github.com/google/android-emulator-m1-preview)</s>
 - Make Project
-    
+
 </details>
 
 #### Run
-  
+
 ```sh
 yarn android --active-arch-only
 ```
@@ -122,9 +122,19 @@ yarn android --active-arch-only
 
 ## Storybook v6
 
+Add stories to `src/components/**/*.stories.(ts|tsx)`
+
+_Keep in sync with `.storybook` and `storybook_server` `/main.js`_
+
+```sh
+yarn get-stories
+```
+
 https://github.com/leotm/react-native-template-new-architecture/blob/01f1c9864f55367004effbe26d3f33590784704b/src/index.tsx#L132
 
-## Storybook v5
+<details>
+
+_<summary>Old v5 setup</summary>_
 
 https://github.com/leotm/react-native-template-new-architecture/blob/01f1c9864f55367004effbe26d3f33590784704b/metro.config.js#L16
 
@@ -135,10 +145,12 @@ https://github.com/leotm/react-native-template-new-architecture/blob/01f1c9864f5
 # @storybook/react-native-server v5
 yarn storybook
 ```
-  
+
 ```sh
 yarn <android/ios>
 ```
+
+</details>
 
 ## Node
 
@@ -147,13 +159,13 @@ _With [ts-node](https://github.com/TypeStrong/ts-node) and [curveball](https://g
 ```sh
 yarn server
 ```
-  
+
 ## Deno
-  
+
 ```sh
 brew install deno
 ```
-  
+
 ```sh
 yarn deno
 ```

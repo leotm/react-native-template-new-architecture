@@ -23,12 +23,22 @@ export const decorators = [
 ]
 
 export const parameters = {
-  backgrounds: [
-    { default: true, name: 'plain', value: 'white' },
-    { name: 'warm', value: 'hotpink' },
-    { name: 'cool', value: 'deepskyblue' }
-  ],
-  some_param: 'some value'
+  actions: { argTypesRegex: '^on[A-Z].*' },
+  backgrounds: {
+    default: 'plain',
+    values: [
+      { name: 'plain', value: 'white' },
+      { name: 'warm', value: 'hotpink' },
+      { name: 'cool', value: 'deepskyblue' }
+    ]
+  },
+  controls: {
+    matchers: {
+      color: /(background|color)$/i,
+      date: /Date$/
+    }
+  },
+  my_param: 'anything'
 }
 
 const styles = StyleSheet.create({

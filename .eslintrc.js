@@ -44,6 +44,7 @@ module.exports = {
     'babel.config.js',
     'metro.config.js',
     '.eslintrc.js',
+    'webpack.config.js',
     // '!/.github', // False positive: Error loading '@typescript-eslint/await-thenable' requires parserOptions.project
     '!/.storybook',
     '.storybook/storybook.requires.js' // Codegen
@@ -125,10 +126,8 @@ module.exports = {
           // Snapshot tests (Jest)
           '**/__tests__/**/*.{ts,tsx}', // react-test-renderer
           // Storybook config
-          '**/.storybook/*.{ts,tsx,js}',
-          '**/storybook/*.ts',
+          '.storybook/**/*.{ts,tsx,js}',
           // Stories (@storybook/react-native)
-          '**/stories/**/*.tsx', // v5
           'src/components/**/*.stories.tsx' // v6
         ]
       }

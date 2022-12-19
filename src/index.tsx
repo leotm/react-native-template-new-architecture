@@ -19,7 +19,7 @@ import {
   ReloadInstructions
 } from 'react-native/Libraries/NewAppScreen'
 
-import _StorybookUIRoot from '../.storybook/Storybook'
+// import StorybookUIRoot from '../.storybook/Storybook'
 
 if (__DEV__) {
   import('../ReactotronConfig')
