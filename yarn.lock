@@ -2465,17 +2465,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-async-storage/async-storage@npm:1.17.11":
-  version: 1.17.11
-  resolution: "@react-native-async-storage/async-storage@npm:1.17.11"
-  dependencies:
-    merge-options: "npm:^3.0.4"
-  peerDependencies:
-    react-native: ^0.0.0-0 || 0.60 - 0.71 || 1000.0.0
-  checksum: 3d1460380702443d870873e795cf81c2e39b2bef86cfebaf302b27e1339effafb490d99b6f8874ad6a35ebe23d5aa0b0948028e5fcc9b443e65f75fb1fa0f427
-  languageName: node
-  linkType: hard
-
 "@react-native-community/cli-clean@npm:^10.0.0":
   version: 10.0.0
   resolution: "@react-native-community/cli-clean@npm:10.0.0"
@@ -12773,7 +12762,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-plain-obj@npm:2.1.0, is-plain-obj@npm:^2.0.0, is-plain-obj@npm:^2.1.0":
+"is-plain-obj@npm:2.1.0, is-plain-obj@npm:^2.0.0":
   version: 2.1.0
   resolution: "is-plain-obj@npm:2.1.0"
   checksum: d07f99715f51b58ef452a809a416bd75da7ea10152f53adf469dd30b1e262e60f6f9c1182534a7ceb3e82a5516cd9aa9548d6dfd5df7ce03f6298b19691c81df
@@ -14722,15 +14711,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"merge-options@npm:^3.0.4":
-  version: 3.0.4
-  resolution: "merge-options@npm:3.0.4"
-  dependencies:
-    is-plain-obj: "npm:^2.1.0"
-  checksum: 02a84abcf6de9f3bf6b0081b8fc70cf1e376ac9605ac554e0fbc5487528b37c1de7d2b49b5e79f0dc0bd97752c601d4d96c4b9175858528248ec1d7162dc93ee
-  languageName: node
-  linkType: hard
-
 "merge-stream@npm:^2.0.0":
   version: 2.0.0
   resolution: "merge-stream@npm:2.0.0"
@@ -15517,7 +15497,6 @@ __metadata:
     "@babel/runtime": "npm:7.20.6"
     "@curveball/core": "npm:0.20.0"
     "@curveball/router": "npm:0.5.0"
-    "@react-native-async-storage/async-storage": "npm:1.17.11"
     "@react-native-community/cli": "npm:10.0.0"
     "@react-native-community/eslint-config": "npm:3.2.0"
     "@react-navigation/native": "npm:6.1.1"
