@@ -2476,20 +2476,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/checkbox@npm:0.5.14":
-  version: 0.5.14
-  resolution: "@react-native-community/checkbox@npm:0.5.14"
-  peerDependencies:
-    react: "*"
-    react-native: ">= 0.62"
-    react-native-windows: ">=0.62"
-  peerDependenciesMeta:
-    react-native-windows:
-      optional: true
-  checksum: 8ddc408dab39ba035dcc4e3fa238fde8c006be07c0d2b8cf4bda21746af325d7c57d21572142770e2d2014670eac81aa673c707085133beff62797c196696065
-  languageName: node
-  linkType: hard
-
 "@react-native-community/cli-clean@npm:^10.0.0":
   version: 10.0.0
   resolution: "@react-native-community/cli-clean@npm:10.0.0"
@@ -15532,7 +15518,6 @@ __metadata:
     "@curveball/core": "npm:0.20.0"
     "@curveball/router": "npm:0.5.0"
     "@react-native-async-storage/async-storage": "npm:1.17.11"
-    "@react-native-community/checkbox": "npm:0.5.14"
     "@react-native-community/cli": "npm:10.0.0"
     "@react-native-community/eslint-config": "npm:3.2.0"
     "@react-navigation/native": "npm:6.1.1"
