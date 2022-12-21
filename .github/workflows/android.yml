@@ -34,10 +34,10 @@ jobs:
     - name: Java version
       run: java --version
 
-    - name: Setup JDK 18
+    - name: Setup JDK 19
       uses: actions/setup-java@v3.4.1
       with:
-        java-version: 18
+        java-version: 19
         distribution: temurin
         cache: 'gradle'
 
