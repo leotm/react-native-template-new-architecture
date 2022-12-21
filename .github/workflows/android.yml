@@ -33,7 +33,10 @@ jobs:
 
     - name: Install all project dependencies
       run: yarn
-      
+
+    - name: npx react-native info
+      run: npx react-native info
+
     - name: Build application Debug APK with Gradle
       uses: gradle/gradle-build-action@v2.3.3
       with:
