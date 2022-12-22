@@ -26,14 +26,14 @@ module.exports = {
     ]
   ],
   plugins: [
-    [
+    // [
       /**
        * Allow custom env vars from Metro
        * e.g. RN_ENV=staging react-native start --reset-cache
        * Accessible from process.env.RN_ENV
        */
       // 'transform-inline-environment-variables'
-    ]
+    // ]
     // ['babel-plugin-react-docgen-typescript', { exclude: 'node_modules' }]
     // 'react-native-reanimated/plugin'
   ]
