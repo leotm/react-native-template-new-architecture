@@ -1,42 +1,79 @@
-name: Android
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+# This workflow will build a Java project with Gradle and cache/restore any dependencies to improve the workflow execution time
+# For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-gradle
+
+name: Java CI with Gradle
 
 on:
   push:
-    branches: [master]
+    branches: [ master ]
   pull_request:
-    branches: [master]
+    branches: [ master ]
+
+# Global envs
+# env:
+#   ANDROID_NDK_HOME: /usr/local/lib/android/sdk/ndk/x.x.x
+#   ANDROID_NDK_ROOT: /usr/local/lib/android/sdk/ndk/x.x.x
+
+# TODO: Avoid brutally editing/setting ndk.dir in local.properties
 
 jobs:
   build-android:
-    runs-on: ubuntu-latest
+
+    runs-on: ubuntu-22.04
+
+    # Local job envs
 
     steps:
-      - uses: actions/checkout@v3
 
-      - name: Setup JDK 18
-        uses: actions/setup-java@v3.4.1
-        with:
-          java-version: 18
-          distribution: temurin
-          cache: 'gradle'
+    - uses: actions/checkout@v3
 
-      - name: Install deps
-        run: yarn
+    - name: Install all project dependencies
+      run: yarn
 
-      # - name: Build Debug
-      #   uses: gradle/gradle-build-action@v2.2.2
-      #   with:
-      #     arguments: assembleDebug
-      #     build-root-directory: android
+    - name: npx react-native info
+      run: npx react-native info
 
-      # - name: Clean
-      #   uses: gradle/gradle-build-action@v2.2.2
-      #   with:
-      #     arguments: clean
-      #     build-root-directory: android
+    - name: Build application Debug APK with Gradle
+      uses: gradle/gradle-build-action@v2.3.3
+      with:
+        arguments: assembleDebug
+        build-root-directory: android
 
-      - name: Build Release
-        uses: gradle/gradle-build-action@v2.2.2
-        with:
-          arguments: assembleRelease
-          build-root-directory: android
+    # Avoid release poisoned cache problems
+    # Preserve hosted agent free disk space
+    - name: Delete Android build pre-computed outputs
+      uses: gradle/gradle-build-action@v2.3.3
+      with:
+        arguments: clean
+        build-root-directory: android
+
+    - name: Build application Release APK with Gradle
+      uses: gradle/gradle-build-action@v2.3.3
+      with:
+        arguments: assembleRelease
+        build-root-directory: android
+
+#     - name: Build project Make-based (not CMake)
+#       run: |
+#         /usr/local/lib/android/sdk/ndk/x.x.x/ndk-build
+#         NDK_PROJECT_PATH=null
+#         APP_BUILD_SCRIPT=/home/runner/work/react-native-template-new-architecture/react-native-template-new-architecture/node_modules/react-native/ReactAndroid/src/main/jni/react/jni/Android.mk
+#         NDK_APPLICATION_MK=/home/runner/work/react-native-template-new-architecture/react-native-template-new-architecture/node_modules/react-native/ReactAndroid/src/main/jni/Application.mk
+
+# E2E Release APK for Detox per VM image architecture for AVD
+# --active-arch-only
+# - M1: -PreactNativeArchitectures=arm64-v8a
+# - Other: -PreactNativeArchitectures=x86_64
+
+# Release AAB/APK with all 4 ABIs
+# - 1 AAB/APK, 1 upload
+# - Consider ccache without matrix
+# - Parallelise each ABI via matrix
+#   - Upload each ABI seperately
+# - Consider sccache
+#   - Bigger organisation/team
+#   - Running more frequent builds
