@@ -16182,7 +16182,7 @@ __metadata:
     react-native-clean-project: "npm:4.0.1"
     react-native-codegen: "npm:0.71.3"
     react-native-gesture-handler: "npm:2.8.0"
-    react-native-gradle-plugin: "npm:0.70.3"
+    react-native-gradle-plugin: "npm:0.71.12"
     react-native-reanimated: "npm:3.0.0-rc.8"
     react-native-rename: "npm:2.9.0"
     react-native-safe-area-context: "npm:4.4.1"
@@ -18136,7 +18136,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-gradle-plugin@npm:0.70.3, react-native-gradle-plugin@npm:^0.70.3":
+"react-native-gradle-plugin@npm:0.71.12":
+  version: 0.71.12
+  resolution: "react-native-gradle-plugin@npm:0.71.12"
+  checksum: e6f7e887681c31c3fddabb92b17f3027ad622ebd688e9d4486b7633b04ca4bf1a5d3a98e2beda9d8679befb8669987e61014233fee969e23e2f06add7863e5f1
+  languageName: node
+  linkType: hard
+
+"react-native-gradle-plugin@npm:^0.70.3":
   version: 0.70.3
   resolution: "react-native-gradle-plugin@npm:0.70.3"
   checksum: 150efff270415c875ca7fb60d1e271d6077cb3149acdaf85dbf10a6cff54b19480d42ad0dafe488e78eeecf123a94ec2c26f7c5405c2dae9a3b9e2898c3c50bb
