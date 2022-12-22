@@ -1,7 +1,7 @@
 /* eslint-disable react-native/no-raw-text, no-console */
 // https://github.com/Intellicode/eslint-plugin-react-native/issues/271
 
-import type { FC, ReactNode } from 'react'
+import type { PropsWithChildren } from 'react'
 import {
   SafeAreaView,
   ScrollView,
@@ -29,10 +29,11 @@ if (__DEV__) {
     .catch(() => console.error)
 }
 
-const Section: FC<{ children: ReactNode; title: string }> = ({
-  children,
-  title
-}) => {
+type SectionProps = PropsWithChildren<{
+  title: string
+}>
+
+const Section = ({ children, title }: SectionProps) => {
   const isDarkMode = useColorScheme() === 'dark'
   return (
     <View style={styles.sectionContainer}>
@@ -83,8 +84,8 @@ export const App = () => {
           }}
         >
           <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
+            Edit <Text style={styles.highlight}>src/index.tsx</Text> to change
+            this screen and then come back to see your edits.
           </Section>
 
           <Section title="See Your Changes">
