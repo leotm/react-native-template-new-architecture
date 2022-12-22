@@ -16183,7 +16183,7 @@ __metadata:
     react-native-codegen: "npm:0.71.3"
     react-native-gesture-handler: "npm:2.8.0"
     react-native-gradle-plugin: "npm:0.70.3"
-    react-native-reanimated: "npm:3.0.0-rc.8"
+    react-native-reanimated: "npm:3.0.0-rc.9"
     react-native-rename: "npm:2.9.0"
     react-native-safe-area-context: "npm:4.4.1"
     react-native-screens: "npm:3.18.2"
@@ -18164,12 +18164,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-reanimated@npm:3.0.0-rc.8":
-  version: 3.0.0-rc.8
-  resolution: "react-native-reanimated@npm:3.0.0-rc.8"
+"react-native-reanimated@npm:3.0.0-rc.9":
+  version: 3.0.0-rc.9
+  resolution: "react-native-reanimated@npm:3.0.0-rc.9"
   dependencies:
     "@babel/plugin-transform-object-assign": "npm:^7.16.7"
     "@babel/preset-typescript": "npm:^7.16.7"
+    convert-source-map: "npm:^1.7.0"
     invariant: "npm:^2.2.4"
     lodash.isequal: "npm:^4.5.0"
     setimmediate: "npm:^1.0.5"
@@ -18178,7 +18179,7 @@ __metadata:
     "@babel/core": ^7.0.0-0
     react: "*"
     react-native: "*"
-  checksum: e0d93df5ad77b6afc7e7d8c64506c6f2966599ac85fcc46f444b4a3b100169ee2c73142cf514e9a881ab847b5c487900a8cbde38b02532bcd46cbe05bf445032
+  checksum: 557aef3c944fb1040d36b0aeadda4cfedf280c7f361997ced9a6119cb09f50d8ad515ccdd35675b26076111d6cf9250e42b4272f7e0b07ebc8942ae1947c485d
   languageName: node
   linkType: hard
 
