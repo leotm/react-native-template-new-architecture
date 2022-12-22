@@ -139,9 +139,6 @@
       "./jest/setup.ts"
     ]
   },
-  "codegenConfig": {
-    "libraries": []
-  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
