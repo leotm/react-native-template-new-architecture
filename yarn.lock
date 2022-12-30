@@ -8597,6 +8597,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"deep-extend@npm:^0.6.0":
+  version: 0.6.0
+  resolution: "deep-extend@npm:0.6.0"
+  checksum: 9320ad7378ceb509703180d40da1625393906f55beeb10b55d9a1d39dc77e6e56e76c09eef905320330f89738df2c40bdf0e85777d14d5d3a8059c3cabbf3919
+  languageName: node
+  linkType: hard
+
 "deep-is@npm:^0.1.3, deep-is@npm:~0.1.3":
   version: 0.1.4
   resolution: "deep-is@npm:0.1.4"
@@ -12264,7 +12271,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ini@npm:^1.3.5":
+"ini@npm:^1.3.5, ini@npm:~1.3.0":
   version: 1.3.8
   resolution: "ini@npm:1.3.8"
   checksum: 37fad549288bc1d016dce7360166c87d28cd1e3ca4077bd30a1bd648285b9a4f6212062a121bec0f06673687a23642b1f945e940998055427c8c15fead710c3a
@@ -15518,7 +15525,7 @@ __metadata:
     react-native-clean-project: "npm:4.0.1"
     react-native-codegen: "npm:0.71.3"
     react-native-gradle-plugin: "npm:0.71.12"
-    react-native-rename: "npm:3.1.5"
+    react-native-rename: "npm:3.2.0"
     react-test-renderer: "npm:18.2.0"
     reactotron-react-native: "npm:5.0.3"
     ts-node: "npm:10.9.1"
@@ -17225,6 +17232,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"rc@npm:^1.0.1, rc@npm:^1.1.6":
+  version: 1.2.8
+  resolution: "rc@npm:1.2.8"
+  dependencies:
+    deep-extend: "npm:^0.6.0"
+    ini: "npm:~1.3.0"
+    minimist: "npm:^1.2.0"
+    strip-json-comments: "npm:~2.0.1"
+  bin:
+    rc: ./cli.js
+  checksum: 3dec0a5ac3d9400f510ed9eccc86c5a503ba6bf6865c30e16d57bcf6c53f4f2854138ede1e645d7e3fa6f6cd293daa384a1e4e0bd505688e79b0150ef2642949
+  languageName: node
+  linkType: hard
+
 "react-codemod@npm:5.4.3":
   version: 5.4.3
   resolution: "react-codemod@npm:5.4.3"
@@ -17438,9 +17459,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-rename@npm:3.1.5":
-  version: 3.1.5
-  resolution: "react-native-rename@npm:3.1.5"
+"react-native-rename@npm:3.2.0":
+  version: 3.2.0
+  resolution: "react-native-rename@npm:3.2.0"
   dependencies:
     chalk: "npm:^5.2.0"
     cheerio: "npm:^1.0.0-rc.12"
@@ -17450,9 +17471,10 @@ __metadata:
     html-entities: "npm:^2.3.3"
     replace-in-file: "npm:^6.3.5"
     shelljs: "npm:^0.8.5"
+    update-check: "npm:^1.5.4"
   bin:
     react-native-rename: lib/index.js
-  checksum: 96931a2b74d8d8c4f964ac65a688b44976b51a7c9f11fb19e9126265359d5324e0dc738d7c5b445ac913ec064d7ccb61485fc02212b322aee2a84420da76bd78
+  checksum: a5719c14f187e045c98c79db30271f3b6965fc3f81e8429a584994357442c0a4ce27845d367c2310b151f116c4617e670729cbba5340799ca8d307550643edc3
   languageName: node
   linkType: hard
 
@@ -17862,6 +17884,25 @@ __metadata:
     unicode-match-property-ecmascript: "npm:^2.0.0"
     unicode-match-property-value-ecmascript: "npm:^2.1.0"
   checksum: bd5e47912ab3412faffb09907d2cdf7d340ceb1cf2e6d0dc243e9288f371a00fa5bd8c41824815b29744d29a070faf776e4b57dc44f9e34d774c0da44dd2ac9c
+  languageName: node
+  linkType: hard
+
+"registry-auth-token@npm:3.3.2":
+  version: 3.3.2
+  resolution: "registry-auth-token@npm:3.3.2"
+  dependencies:
+    rc: "npm:^1.1.6"
+    safe-buffer: "npm:^5.0.1"
+  checksum: 35dce8fb89fe3c0bdc501fe8a30b64385ac64fa39ecc164c5253059a9719890119c047be787006924aafd92b9378f45576b7e54ce077aa5781618cf850ca118c
+  languageName: node
+  linkType: hard
+
+"registry-url@npm:3.1.0":
+  version: 3.1.0
+  resolution: "registry-url@npm:3.1.0"
+  dependencies:
+    rc: "npm:^1.0.1"
+  checksum: 272e88e389fe5ab739d39667ea3ae36b9d442321c55829a71aaa2e0671b64158b4ff6e465cd757d7a4f442397ae3393db997558878ac16768743c2c7ade35434
   languageName: node
   linkType: hard
 
@@ -19739,6 +19780,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"strip-json-comments@npm:~2.0.1":
+  version: 2.0.1
+  resolution: "strip-json-comments@npm:2.0.1"
+  checksum: 4c86af52d848e6cddafdf933702453a3ab3210e9a014c882ce7e271a7d09d413642b796b07c9b597bc0ea5b93d5aab71756cf3d4b2a5ca2d9db2a7be84ae49d9
+  languageName: node
+  linkType: hard
+
 "style-loader@npm:^1.3.0":
   version: 1.3.0
   resolution: "style-loader@npm:1.3.0"
@@ -20757,6 +20805,16 @@ __metadata:
   bin:
     browserslist-lint: cli.js
   checksum: e55ee7f0562821e40808b5f265e4dfbc1436cdddd4c436dfe73ae4e71215302907d4b430807d45fabbb4c23aa2d67757f26dbd8f93fc9718f814566536b386d0
+  languageName: node
+  linkType: hard
+
+"update-check@npm:^1.5.4":
+  version: 1.5.4
+  resolution: "update-check@npm:1.5.4"
+  dependencies:
+    registry-auth-token: "npm:3.3.2"
+    registry-url: "npm:3.1.0"
+  checksum: 32dfeb027e9d1d8bb74f593e866e37b967be29469516f3bd270ed700a2619d132ffa9161b1dd2a291189d25d8e82798ccf527f1ab595338ffd25b4c9dd42cb0b
   languageName: node
   linkType: hard
 
