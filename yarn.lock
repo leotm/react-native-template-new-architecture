@@ -15738,7 +15738,7 @@ __metadata:
     react: "npm:18.2.0"
     react-codemod: "npm:5.4.3"
     react-dom: "npm:18.2.0"
-    react-native: "npm:0.71.0-rc.5"
+    react-native: "npm:0.71.0-rc.6"
     react-native-clean-project: "npm:4.0.1"
     react-native-codegen: "npm:0.71.3"
     react-native-gradle-plugin: "npm:0.71.12"
@@ -17710,9 +17710,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native@npm:0.71.0-rc.5":
-  version: 0.71.0-rc.5
-  resolution: "react-native@npm:0.71.0-rc.5"
+"react-native@npm:0.71.0-rc.6":
+  version: 0.71.0-rc.6
+  resolution: "react-native@npm:0.71.0-rc.6"
   dependencies:
     "@jest/create-cache-key-function": "npm:^29.2.1"
     "@react-native-community/cli": "npm:10.0.0"
@@ -17752,7 +17752,7 @@ __metadata:
     react: 18.2.0
   bin:
     react-native: cli.js
-  checksum: 9b3eb5fcf9610e8d067402c31da0da868b84ee3e94373705fd825de5d82ca942eca7858b71c400053aa8c476211517579a8bec8199293d70dd4fa675506897e7
+  checksum: 45c55e535cedf481fdb83882e7fef4bf7bedf2906c8a093d99a0551b61de09366364f7799332e741df91a6359e689a487d9975bbb8d0bf35d6d04c519a7e9440
   languageName: node
   linkType: hard
 
