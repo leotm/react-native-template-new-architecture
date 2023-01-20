@@ -560,7 +560,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-proposal-numeric-separator@npm:^7.18.6":
+"@babel/plugin-proposal-numeric-separator@npm:^7.0.0, @babel/plugin-proposal-numeric-separator@npm:^7.18.6":
   version: 7.18.6
   resolution: "@babel/plugin-proposal-numeric-separator@npm:7.18.6"
   dependencies:
@@ -15021,15 +15021,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"metro-react-native-babel-preset@npm:0.74.0":
-  version: 0.74.0
-  resolution: "metro-react-native-babel-preset@npm:0.74.0"
+"metro-react-native-babel-preset@npm:0.74.1":
+  version: 0.74.1
+  resolution: "metro-react-native-babel-preset@npm:0.74.1"
   dependencies:
     "@babel/core": "npm:^7.20.0"
     "@babel/plugin-proposal-async-generator-functions": "npm:^7.0.0"
     "@babel/plugin-proposal-class-properties": "npm:^7.0.0"
     "@babel/plugin-proposal-export-default-from": "npm:^7.0.0"
     "@babel/plugin-proposal-nullish-coalescing-operator": "npm:^7.0.0"
+    "@babel/plugin-proposal-numeric-separator": "npm:^7.0.0"
     "@babel/plugin-proposal-object-rest-spread": "npm:^7.0.0"
     "@babel/plugin-proposal-optional-catch-binding": "npm:^7.0.0"
     "@babel/plugin-proposal-optional-chaining": "npm:^7.0.0"
@@ -15064,7 +15065,7 @@ __metadata:
     react-refresh: "npm:^0.4.0"
   peerDependencies:
     "@babel/core": "*"
-  checksum: c29c0ef13c761573d3e1983d849a6dacc73050595dae1bcf955116d39bb5cc871406d3b70394dfdb378c9297e0c99bf9a17435b625eb95defba00f791c17f6d4
+  checksum: f8bd0351c7f5f8ad5c2d7d8ffe40349b04a1dec6d421c8199090e7e71000407b6993c43c817fcdb3905dea8718d1fdba4bf0b1335d16864484f3156f88a2ec05
   languageName: node
   linkType: hard
 
@@ -15743,7 +15744,7 @@ __metadata:
     husky: "npm:8.0.3"
     jest: "npm:29.3.1"
     lint-staged: "npm:13.1.0"
-    metro-react-native-babel-preset: "npm:0.74.0"
+    metro-react-native-babel-preset: "npm:0.74.1"
     prettier: "npm:2.8.3"
     react: "npm:18.2.0"
     react-codemod: "npm:5.4.3"
