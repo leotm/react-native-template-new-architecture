@@ -1563,12 +1563,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:7.20.7, @babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.20.7, @babel/runtime@npm:^7.4.4, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7":
-  version: 7.20.7
-  resolution: "@babel/runtime@npm:7.20.7"
+"@babel/runtime@npm:7.20.13, @babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.20.7, @babel/runtime@npm:^7.4.4, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7":
+  version: 7.20.13
+  resolution: "@babel/runtime@npm:7.20.13"
   dependencies:
     regenerator-runtime: "npm:^0.13.11"
-  checksum: b22b904439569fa3b28627fc398d9bb9619f14bc9165cdf63ab5fa248660a10104ae81514607cbe55e4e26fe0d4048a89263f47f1f3da1e37f8e670b95acf244
+  checksum: 0e09b4915318248aeeccdf6dc6a8ccdeedbe4b7187fa4159eaa569c4a407c36f3b8689296296b25246671987efe2253dd6e3bab63a40deedcdbd49b8845204e6
   languageName: node
   linkType: hard
 
@@ -15677,7 +15677,7 @@ __metadata:
     "@babel/core": "npm:7.20.12"
     "@babel/preset-env": "npm:7.20.2"
     "@babel/preset-react": "npm:7.18.6"
-    "@babel/runtime": "npm:7.20.7"
+    "@babel/runtime": "npm:7.20.13"
     "@curveball/core": "npm:0.20.0"
     "@curveball/router": "npm:0.5.0"
     "@react-native-async-storage/async-storage": "npm:1.17.11"
