@@ -3213,9 +3213,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-ondevice-knobs@npm:6.0.1-beta.11":
-  version: 6.0.1-beta.11
-  resolution: "@storybook/addon-ondevice-knobs@npm:6.0.1-beta.11"
+"@storybook/addon-ondevice-knobs@npm:6.0.1-beta.12":
+  version: 6.0.1-beta.12
+  resolution: "@storybook/addon-ondevice-knobs@npm:6.0.1-beta.12"
   dependencies:
     "@emotion/native": "npm:^10.0.14"
     "@storybook/addons": "npm:^6.5.14"
@@ -3232,7 +3232,7 @@ __metadata:
     "@storybook/addon-knobs": ^6
     react: "*"
     react-native: "*"
-  checksum: c385394b78524ba347d7c74dfd795c37be85bc5bf3ae48c99c2f0a0df7f693ce305894e4d03043915a8b06154bee2e8233d0e3ccdc1d5ff43e5ea31701aa02a3
+  checksum: c0cd1d1e4f8303553a5285714004def3bfa8a0a73b69dd92617d79fde00bd77613ce14cc4a66d6c1f7e11ec3d24bd16d9db32bc4aff2938906d1ea451d53ccdc
   languageName: node
   linkType: hard
 
@@ -15526,7 +15526,7 @@ __metadata:
     "@storybook/addon-ondevice-actions": "npm:6.0.1-beta.11"
     "@storybook/addon-ondevice-backgrounds": "npm:6.0.1-beta.11"
     "@storybook/addon-ondevice-controls": "npm:6.0.1-beta.11"
-    "@storybook/addon-ondevice-knobs": "npm:6.0.1-beta.11"
+    "@storybook/addon-ondevice-knobs": "npm:6.0.1-beta.12"
     "@storybook/addon-ondevice-notes": "npm:6.0.1-beta.11"
     "@storybook/addons": "npm:6.5.16"
     "@storybook/docs-tools": "npm:6.5.16"
