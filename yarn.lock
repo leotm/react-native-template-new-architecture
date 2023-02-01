@@ -1170,6 +1170,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/plugin-transform-object-assign@npm:^7.16.7":
+  version: 7.18.6
+  resolution: "@babel/plugin-transform-object-assign@npm:7.18.6"
+  dependencies:
+    "@babel/helper-plugin-utils": "npm:^7.18.6"
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: be1f21314c454afab1be19b75966081a3bbba495dca980baac6df8b12919a2dfaf5cfd957f88d1ac0d033a8ef0c34c5e205233a4d933e9d4f64de5d9e690adc1
+  languageName: node
+  linkType: hard
+
 "@babel/plugin-transform-object-super@npm:^7.0.0, @babel/plugin-transform-object-super@npm:^7.18.6":
   version: 7.18.6
   resolution: "@babel/plugin-transform-object-super@npm:7.18.6"
@@ -1535,7 +1546,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-typescript@npm:^7.1.0, @babel/preset-typescript@npm:^7.12.7, @babel/preset-typescript@npm:^7.13.0":
+"@babel/preset-typescript@npm:^7.1.0, @babel/preset-typescript@npm:^7.12.7, @babel/preset-typescript@npm:^7.13.0, @babel/preset-typescript@npm:^7.16.7":
   version: 7.18.6
   resolution: "@babel/preset-typescript@npm:7.18.6"
   dependencies:
@@ -14269,6 +14280,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.isequal@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "lodash.isequal@npm:4.5.0"
+  checksum: d413585fd1dbcb6ebed6d9d98a7fe5e10cc6f653b6676a61a69185aa1f6ae5b4aac1367a632db0ee46197ee1ab6aa5b7428c1721f9b5459a3623e0cc930b9b77
+  languageName: node
+  linkType: hard
+
 "lodash.merge@npm:^4.6.2":
   version: 4.6.2
   resolution: "lodash.merge@npm:4.6.2"
@@ -15583,6 +15601,7 @@ __metadata:
     react-native-clean-project: "npm:4.0.1"
     react-native-codegen: "npm:0.71.3"
     react-native-gradle-plugin: "npm:0.71.14"
+    react-native-reanimated: "npm:3.0.0-rc.10"
     react-native-rename: "npm:3.2.12"
     react-test-renderer: "npm:18.2.0"
     reactotron-react-native: "npm:5.0.3"
@@ -17517,6 +17536,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-reanimated@npm:3.0.0-rc.10":
+  version: 3.0.0-rc.10
+  resolution: "react-native-reanimated@npm:3.0.0-rc.10"
+  dependencies:
+    "@babel/plugin-transform-object-assign": "npm:^7.16.7"
+    "@babel/preset-typescript": "npm:^7.16.7"
+    convert-source-map: "npm:^1.7.0"
+    invariant: "npm:^2.2.4"
+    lodash.isequal: "npm:^4.5.0"
+    setimmediate: "npm:^1.0.5"
+    string-hash-64: "npm:^1.0.3"
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+    react: "*"
+    react-native: "*"
+  checksum: 7f1400c065afb54784e09efb3d5da85aaa17e04f98c8b1d29558aa0c8089d0c78612b447f4948b22d187ee5eb88c6fe6d02d7951b9b5823479f506c36da1a79f
+  languageName: node
+  linkType: hard
+
 "react-native-rename@npm:3.2.12":
   version: 3.2.12
   resolution: "react-native-rename@npm:3.2.12"
@@ -18990,7 +19028,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"setimmediate@npm:^1.0.4":
+"setimmediate@npm:^1.0.4, setimmediate@npm:^1.0.5":
   version: 1.0.5
   resolution: "setimmediate@npm:1.0.5"
   checksum: 915f34e42dbc1602fee8407784b4775ff88087ba84a05a069c15711dc7b23e9d6fd514ede7133c8496525afe41c343f1827a6f8f50e925c962b853594a60ac26
@@ -19594,6 +19632,13 @@ __metadata:
   version: 0.3.1
   resolution: "string-argv@npm:0.3.1"
   checksum: a15b435702d7e13b85ed88b4d1ad566a8b085585c86eb4e18b2cb32d38565d0b04c69da30c9fbb968ed02628bed97a296984bc9ab703f8fd467dc07b213fb326
+  languageName: node
+  linkType: hard
+
+"string-hash-64@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "string-hash-64@npm:1.0.3"
+  checksum: 94ffc945b03f1243db4dc2fab4e920cebb3e738c4ed619c975f5102f6f2c4fb85e43fca5a94e24f9f91a01d5bb2864569be7d7dbdc6267f72a51b0a47b39e496
   languageName: node
   linkType: hard
 
