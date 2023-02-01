@@ -16,7 +16,7 @@ buildscript {
     }
     dependencies {
         // https://mvnrepository.com/artifact/com.android.tools.build/gradle?repo=google
-        classpath("com.android.tools.build:gradle:7.3.1")
+        classpath("com.android.tools.build:gradle:7.4.0")
         classpath("com.facebook.react:react-native-gradle-plugin")
         // classpath("de.undercouch:gradle-download-task:5.3.0")
     }
