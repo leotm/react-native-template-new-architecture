@@ -751,7 +751,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-syntax-flow@npm:^7.0.0, @babel/plugin-syntax-flow@npm:^7.18.0, @babel/plugin-syntax-flow@npm:^7.18.6":
+"@babel/plugin-syntax-flow@npm:^7.0.0, @babel/plugin-syntax-flow@npm:^7.12.1, @babel/plugin-syntax-flow@npm:^7.18.0, @babel/plugin-syntax-flow@npm:^7.18.6":
   version: 7.18.6
   resolution: "@babel/plugin-syntax-flow@npm:7.18.6"
   dependencies:
@@ -6774,6 +6774,15 @@ __metadata:
   version: 7.0.0-beta.0
   resolution: "babel-plugin-syntax-trailing-function-commas@npm:7.0.0-beta.0"
   checksum: 3c95be04aadcc6626a9dfed3881c793392cfe27479d4c7a2fde522d3de270a392160c62895aa080efb88b369eb625ddbf6fda8ab8ee18cb26fef2d732c7aa88b
+  languageName: node
+  linkType: hard
+
+"babel-plugin-transform-flow-enums@npm:^0.0.2":
+  version: 0.0.2
+  resolution: "babel-plugin-transform-flow-enums@npm:0.0.2"
+  dependencies:
+    "@babel/plugin-syntax-flow": "npm:^7.12.1"
+  checksum: b82b89e51b6b58b428bb25520fe74223487b1ff70d201175085e6ec153de3ed6cb8719553bd80cf361d7b2314490a5fb6446ef13f9b2adfe72e87e3389666f6e
   languageName: node
   linkType: hard
 
@@ -14944,9 +14953,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"metro-react-native-babel-preset@npm:0.75.0":
-  version: 0.75.0
-  resolution: "metro-react-native-babel-preset@npm:0.75.0"
+"metro-react-native-babel-preset@npm:0.75.1":
+  version: 0.75.1
+  resolution: "metro-react-native-babel-preset@npm:0.75.1"
   dependencies:
     "@babel/core": "npm:^7.20.0"
     "@babel/plugin-proposal-async-generator-functions": "npm:^7.0.0"
@@ -14985,10 +14994,11 @@ __metadata:
     "@babel/plugin-transform-typescript": "npm:^7.5.0"
     "@babel/plugin-transform-unicode-regex": "npm:^7.0.0"
     "@babel/template": "npm:^7.0.0"
+    babel-plugin-transform-flow-enums: "npm:^0.0.2"
     react-refresh: "npm:^0.4.0"
   peerDependencies:
     "@babel/core": "*"
-  checksum: c99a2d93edfb46996451f8e7e3980e02f8d94c6b8a926b76eeeba04eda59016e35550b78d1a940de2cdbd2d4ea2bb14fa08432524bdddaf189e7f9be25116e2c
+  checksum: 0be118ecece4e957e7ecc2db392226901a0a5084c524497c2142b4909e96e4bd59ae1b58a669bceb102b8f9248a84634abaf86bdc21061c092c03589f14e66da
   languageName: node
   linkType: hard
 
@@ -15608,7 +15618,7 @@ __metadata:
     husky: "npm:8.0.3"
     jest: "npm:29.4.3"
     lint-staged: "npm:13.1.2"
-    metro-react-native-babel-preset: "npm:0.75.0"
+    metro-react-native-babel-preset: "npm:0.75.1"
     prettier: "npm:2.8.4"
     react: "npm:18.2.0"
     react-codemod: "npm:5.4.3"
