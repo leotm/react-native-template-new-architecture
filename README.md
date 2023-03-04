@@ -111,7 +111,7 @@ Open [Android Studio - Preview release - Canary build](https://developer.android
 #### Run
 
 ```sh
-yarn android --active-arch-only
+yarn android
 ```
 
 ### Troubleshooting
@@ -128,6 +128,10 @@ _Keep in sync with `.storybook` and `storybook_server` `/main.js`_
 
 ```sh
 yarn get-stories
+```
+
+```sh
+yarn storybook-server # optional
 ```
 
 https://github.com/leotm/react-native-template-new-architecture/blob/01f1c9864f55367004effbe26d3f33590784704b/src/index.tsx#L132
