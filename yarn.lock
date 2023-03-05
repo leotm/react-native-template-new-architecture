@@ -3241,9 +3241,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-ondevice-actions@npm:6.0.1-beta.11":
-  version: 6.0.1-beta.11
-  resolution: "@storybook/addon-ondevice-actions@npm:6.0.1-beta.11"
+"@storybook/addon-ondevice-actions@npm:6.5.0-rc.5":
+  version: 6.5.0-rc.5
+  resolution: "@storybook/addon-ondevice-actions@npm:6.5.0-rc.5"
   dependencies:
     "@storybook/addons": "npm:^6.5.14"
     "@storybook/core-events": "npm:^6.5.14"
@@ -3252,13 +3252,13 @@ __metadata:
     "@storybook/addon-actions": ^6.5.14
     react: "*"
     react-native: "*"
-  checksum: 650b46bc8872c3f27c81d70d1bfd98595acbf77a73f33410c1061a3c536e8dfc525432fb3a387ea2094f90916835350df6620fe93c2f18992d5b53e6146f98bf
+  checksum: 0231d64afc74401e81feccaf18c369ab5296d68d38a0af064baaab426f11f48f7e70ed5a4fda51b3b8e54c004f5e6c425e99b3ad8ed8e972e5ecf1642ef4f9af
   languageName: node
   linkType: hard
 
-"@storybook/addon-ondevice-backgrounds@npm:6.0.1-beta.11":
-  version: 6.0.1-beta.11
-  resolution: "@storybook/addon-ondevice-backgrounds@npm:6.0.1-beta.11"
+"@storybook/addon-ondevice-backgrounds@npm:6.5.0-rc.5":
+  version: 6.5.0-rc.5
+  resolution: "@storybook/addon-ondevice-backgrounds@npm:6.5.0-rc.5"
   dependencies:
     "@storybook/addons": "npm:^6.5.14"
     "@storybook/api": "npm:^6.5.14"
@@ -3268,13 +3268,13 @@ __metadata:
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 57a36fea2f059e904217a31e91151464eddad7c85da69319ccc69db26b41d18fc886c758b857edcb954a7ce2bb6f31f5fe5c2746396ab52cd47240c9d0e7e294
+  checksum: 23fb15a3b28b266df49abedc95ce322948773a8017cfcdc52b2ce1a5f95ac5fb6ac440729f965e8f951d55921779fa65ddf742c74f21f49dccc24d3b3cb7403d
   languageName: node
   linkType: hard
 
-"@storybook/addon-ondevice-controls@npm:6.0.1-beta.11":
-  version: 6.0.1-beta.11
-  resolution: "@storybook/addon-ondevice-controls@npm:6.0.1-beta.11"
+"@storybook/addon-ondevice-controls@npm:6.5.0-rc.5":
+  version: 6.5.0-rc.5
+  resolution: "@storybook/addon-ondevice-controls@npm:6.5.0-rc.5"
   dependencies:
     "@emotion/native": "npm:^10.0.14"
     "@storybook/addons": "npm:^6.5.14"
@@ -3292,13 +3292,13 @@ __metadata:
     "@storybook/addon-controls": ^6.5.14
     react: "*"
     react-native: "*"
-  checksum: 49ae5d86d3ce4f694b47d1a4bc3c3b29beffebf141d2e0d19a25d4691ecaaf0567ea0abe96ada585007117e953a3674c7a1f58b6ce06bd867eb62b67042342f4
+  checksum: a9723842e038f3005a24ee411d4f67b3984197496f8fa14c833cd5b4894fb0182e7c3e5cd320189450686c9a1b4c32934c286bb785f196ca22db26eeb5605954
   languageName: node
   linkType: hard
 
-"@storybook/addon-ondevice-knobs@npm:6.0.1-beta.12":
-  version: 6.0.1-beta.12
-  resolution: "@storybook/addon-ondevice-knobs@npm:6.0.1-beta.12"
+"@storybook/addon-ondevice-knobs@npm:6.5.0-rc.5":
+  version: 6.5.0-rc.5
+  resolution: "@storybook/addon-ondevice-knobs@npm:6.5.0-rc.5"
   dependencies:
     "@emotion/native": "npm:^10.0.14"
     "@storybook/addons": "npm:^6.5.14"
@@ -3315,13 +3315,13 @@ __metadata:
     "@storybook/addon-knobs": ^6
     react: "*"
     react-native: "*"
-  checksum: c0cd1d1e4f8303553a5285714004def3bfa8a0a73b69dd92617d79fde00bd77613ce14cc4a66d6c1f7e11ec3d24bd16d9db32bc4aff2938906d1ea451d53ccdc
+  checksum: 084e6a281cc8a9876714a3fa560ec81261c3ce8e3d2e9aee99aa19659eafd15d40e3f589c79867ce94e754938cedc9681fbb94d3982e17f469f742c8b271650e
   languageName: node
   linkType: hard
 
-"@storybook/addon-ondevice-notes@npm:6.0.1-beta.11":
-  version: 6.0.1-beta.11
-  resolution: "@storybook/addon-ondevice-notes@npm:6.0.1-beta.11"
+"@storybook/addon-ondevice-notes@npm:6.5.0-rc.5":
+  version: 6.5.0-rc.5
+  resolution: "@storybook/addon-ondevice-notes@npm:6.5.0-rc.5"
   dependencies:
     "@emotion/core": "npm:^10.0.20"
     "@storybook/addons": "npm:^6.5.14"
@@ -3335,7 +3335,7 @@ __metadata:
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: f4be0f92e6d8a3ffabf2e48f2ad7a17be6fc6c948561e59034c4e1ba225237ee1691075c64b2c0a0f78c448ec0165233135c0a771e2abdc8ad2991625a9a0ee3
+  checksum: aa6de9b00427a2ba576a2dc14bdcb7e85d38679a260b5275cbf08d80fa2f36b2b261b19c0fbdc0e48daf2f1450c01b2d0121a3cd78bad630838cc2dd6df48d76
   languageName: node
   linkType: hard
 
@@ -3853,15 +3853,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/csf@npm:0.0.2--canary.7c6c115.0":
-  version: 0.0.2--canary.7c6c115.0
-  resolution: "@storybook/csf@npm:0.0.2--canary.7c6c115.0"
-  dependencies:
-    lodash: "npm:^4.17.15"
-  checksum: 0a871d542a697e4011126dcdf7ed74adb90a1f5777dc8db6957c4b9204fbe7cebe26d7d54cc2e12f13dda9bc7646eb1f54496169567c1a4bb558a8215456886c
-  languageName: node
-  linkType: hard
-
 "@storybook/docs-tools@npm:6.5.16":
   version: 6.5.16
   resolution: "@storybook/docs-tools@npm:6.5.16"
@@ -4048,9 +4039,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/react-native-server@npm:6.0.1-beta.12":
-  version: 6.0.1-beta.12
-  resolution: "@storybook/react-native-server@npm:6.0.1-beta.12"
+"@storybook/react-native-server@npm:6.5.0-rc.5":
+  version: 6.5.0-rc.5
+  resolution: "@storybook/react-native-server@npm:6.5.0-rc.5"
   dependencies:
     "@storybook/addons": "npm:^6.5.14"
     "@storybook/api": "npm:^6.5.14"
@@ -4071,13 +4062,13 @@ __metadata:
   bin:
     react-native-storybook-server: bin/index.js
     storybook-server: bin/index.js
-  checksum: b2805e0f63fcbc42d71f7549ce25f0521a22c368ad24e67c537e2e9ef010f0e962413f0148a0cad0d08223604d48f126dc55a9decb3882e0d1c5f52906419587
+  checksum: 1bb64a3c3f26c8047f149f21d2bc453797a56ea0779e56172eebf186b8553f165e1466dfad59fa381bfe5b7e138b54dc0bbe65a32f420e39fa06c4fa3203f4bd
   languageName: node
   linkType: hard
 
-"@storybook/react-native@npm:6.0.1-beta.11":
-  version: 6.0.1-beta.11
-  resolution: "@storybook/react-native@npm:6.0.1-beta.11"
+"@storybook/react-native@npm:6.5.0-rc.5":
+  version: 6.5.0-rc.5
+  resolution: "@storybook/react-native@npm:6.5.0-rc.5"
   dependencies:
     "@emotion/core": "npm:^10.0.20"
     "@emotion/native": "npm:^10.0.14"
@@ -4088,12 +4079,14 @@ __metadata:
     "@storybook/client-logger": "npm:^6.5.14"
     "@storybook/core-client": "npm:^6.5.14"
     "@storybook/core-events": "npm:^6.5.14"
-    "@storybook/csf": "npm:0.0.2--canary.7c6c115.0"
+    "@storybook/csf": "npm:0.0.2--canary.4566f4d.1"
     "@storybook/preview-web": "npm:^6.5.14"
     chokidar: "npm:^3.5.1"
     commander: "npm:^8.2.0"
+    deepmerge: "npm:^4.3.0"
     emotion-theming: "npm:^10.0.19"
     glob: "npm:^7.1.7"
+    jotai: "npm:^2.0.2"
     prettier: "npm:^2.4.1"
     react-native-swipe-gestures: "npm:^1.0.5"
     util: "npm:^0.12.4"
@@ -4105,7 +4098,7 @@ __metadata:
   bin:
     sb-rn-get-stories: bin/get-stories.js
     sb-rn-watcher: bin/watcher.js
-  checksum: 9133f3f7518150142d7ad29c4ef60506416e95355d1048d16d659b03ad74b69430fb0fd14b28a34f0fd45c62d1c835d701dd5102b4833cea9a2bef1443845bf2
+  checksum: 1a16ef023040337d099ed7f4997a2eac6ad40e64722e5a57fc64acc88796d934e0efb5e89c55d14d3d01613c5bc4ce9b2fd29f4d47efdfce0f9aee80b483d039
   languageName: node
   linkType: hard
 
@@ -8740,10 +8733,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"deepmerge@npm:^4.2.2":
-  version: 4.2.2
-  resolution: "deepmerge@npm:4.2.2"
-  checksum: f37e1f5e8cfca71833a43a5d14ad1bf533689b1e5acff72eefa9bdd26f1a4fe80153e29238e8b3052e5f8c4169a95992456f3b60cd50a9db94a84680712a9aca
+"deepmerge@npm:^4.2.2, deepmerge@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "deepmerge@npm:4.3.0"
+  checksum: 2240994bc74955ad60f0e182725b887a50508916824fd7dd750f642a1561749efda958a56fbe6e9778bf297bc0c4401ee281f774565c33afae6bf4d2c162c801
   languageName: node
   linkType: hard
 
@@ -13850,6 +13843,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jotai@npm:^2.0.2":
+  version: 2.0.3
+  resolution: "jotai@npm:2.0.3"
+  peerDependencies:
+    react: ">=17.0.0"
+  peerDependenciesMeta:
+    react:
+      optional: true
+  checksum: 634ef837062c1910a2559cc037186a4f57b23b20b8a8332ec327aa0da56ce37db255d6e7d31f641c0d6ebdb16f4b9a0f7a7ec73f3810090b464566f6323dfffa
+  languageName: node
+  linkType: hard
+
 "js-sdsl@npm:^4.1.4":
   version: 4.2.0
   resolution: "js-sdsl@npm:4.2.0"
@@ -15761,18 +15766,18 @@ __metadata:
     "@storybook/addon-essentials": "npm:6.5.16"
     "@storybook/addon-knobs": "npm:6.4.0"
     "@storybook/addon-links": "npm:6.5.16"
-    "@storybook/addon-ondevice-actions": "npm:6.0.1-beta.11"
-    "@storybook/addon-ondevice-backgrounds": "npm:6.0.1-beta.11"
-    "@storybook/addon-ondevice-controls": "npm:6.0.1-beta.11"
-    "@storybook/addon-ondevice-knobs": "npm:6.0.1-beta.12"
-    "@storybook/addon-ondevice-notes": "npm:6.0.1-beta.11"
+    "@storybook/addon-ondevice-actions": "npm:6.5.0-rc.5"
+    "@storybook/addon-ondevice-backgrounds": "npm:6.5.0-rc.5"
+    "@storybook/addon-ondevice-controls": "npm:6.5.0-rc.5"
+    "@storybook/addon-ondevice-knobs": "npm:6.5.0-rc.5"
+    "@storybook/addon-ondevice-notes": "npm:6.5.0-rc.5"
     "@storybook/addons": "npm:6.5.16"
     "@storybook/docs-tools": "npm:6.5.16"
     "@storybook/eslint-config-storybook": "npm:3.1.2"
     "@storybook/linter-config": "npm:3.1.2"
     "@storybook/react": "npm:6.5.16"
-    "@storybook/react-native": "npm:6.0.1-beta.11"
-    "@storybook/react-native-server": "npm:6.0.1-beta.12"
+    "@storybook/react-native": "npm:6.5.0-rc.5"
+    "@storybook/react-native-server": "npm:6.5.0-rc.5"
     "@swc/core": "npm:1.3.37"
     "@swc/wasm": "npm:1.3.37"
     "@tanstack/react-query": "npm:4.26.0"
