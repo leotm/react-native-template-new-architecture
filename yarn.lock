@@ -14224,9 +14224,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:13.1.4":
-  version: 13.1.4
-  resolution: "lint-staged@npm:13.1.4"
+"lint-staged@npm:13.2.0":
+  version: 13.2.0
+  resolution: "lint-staged@npm:13.2.0"
   dependencies:
     chalk: "npm:5.2.0"
     cli-truncate: "npm:^3.1.0"
@@ -14240,11 +14240,10 @@ __metadata:
     object-inspect: "npm:^1.12.3"
     pidtree: "npm:^0.6.0"
     string-argv: "npm:^0.3.1"
-    supports-color: "npm:9.3.1"
     yaml: "npm:^2.2.1"
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 1f3addc8843b3d9bfe13cd7266a976f88c1b91bb865f890556612addf75173fcaf3eda678b82df2e969103057e21262ec9ab13ec10b781e0804a308d87062c1c
+  checksum: 404babeea99de6d2e0141d1807d92c9853b3619476ad151e91584d91b398b0e95237be504eea892ea7d04f74555a7e8054dc7cbf1c6b8872f8d550dc43b4624b
   languageName: node
   linkType: hard
 
@@ -15816,7 +15815,7 @@ __metadata:
     html-webpack-plugin: "npm:5.5.0"
     husky: "npm:8.0.3"
     jest: "npm:29.5.0"
-    lint-staged: "npm:13.1.4"
+    lint-staged: "npm:13.2.0"
     metro-react-native-babel-preset: "npm:0.76.0"
     prettier: "npm:2.8.4"
     react: "npm:18.2.0"
@@ -20213,13 +20212,6 @@ __metadata:
   version: 9.2.1
   resolution: "sudo-prompt@npm:9.2.1"
   checksum: e6d6f485b36489c01127c9f1fd61ab35f184b973d7f3021fd252d933bb127f0bd7f98cc8219d1e62cbd4b8320b5894193e6405bf54f71746974c82318da9672a
-  languageName: node
-  linkType: hard
-
-"supports-color@npm:9.3.1":
-  version: 9.3.1
-  resolution: "supports-color@npm:9.3.1"
-  checksum: 4c447d3affdf21990d1a82921d7851c7058fb92a1909068b74b88b98151e5397c0adfc76f4d716623dfec3cd0618159ade7d4013a95a0497e3bc38035e74380c
   languageName: node
   linkType: hard
 
