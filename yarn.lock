@@ -10105,9 +10105,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-typescript-sort-keys@npm:2.1.0":
-  version: 2.1.0
-  resolution: "eslint-plugin-typescript-sort-keys@npm:2.1.0"
+"eslint-plugin-typescript-sort-keys@npm:2.3.0":
+  version: 2.3.0
+  resolution: "eslint-plugin-typescript-sort-keys@npm:2.3.0"
   dependencies:
     "@typescript-eslint/experimental-utils": "npm:^5.0.0"
     json-schema: "npm:^0.4.0"
@@ -10115,8 +10115,8 @@ __metadata:
   peerDependencies:
     "@typescript-eslint/parser": ^1 || ^2 || ^3 || ^4 || ^5
     eslint: ^5 || ^6 || ^7 || ^8
-    typescript: ^3 || ^4
-  checksum: da7dfe320768418ac78d09a4c1f760d0c8a213293ddd735b57d4ad6188a2ae4fd032225c00329b87a56e5086a969aacbd2a1e1a97c8f33815e8a30dc69bfbb27
+    typescript: ^3 || ^4 || ^5
+  checksum: 4f95ca81a2b51b190a6045d4d740ae00506dd3b6fd9df9869d7520a30deb0a5d495042f8d75d9ba4d9a564bfb75787490af5fd1dfdc36dd532dd109f3e06f208
   languageName: node
   linkType: hard
 
@@ -15837,7 +15837,7 @@ __metadata:
     eslint-plugin-react-native: "npm:4.0.0"
     eslint-plugin-simple-import-sort: "npm:9.0.0"
     eslint-plugin-sort-keys-fix: "npm:1.1.2"
-    eslint-plugin-typescript-sort-keys: "npm:2.1.0"
+    eslint-plugin-typescript-sort-keys: "npm:2.3.0"
     eslint-plugin-yml: "npm:1.5.0"
     flipper-server: "npm:0.162.0"
     html-webpack-plugin: "npm:5.5.0"
