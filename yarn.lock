@@ -3259,9 +3259,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-ondevice-actions@npm:6.5.0-rc.5":
-  version: 6.5.0-rc.5
-  resolution: "@storybook/addon-ondevice-actions@npm:6.5.0-rc.5"
+"@storybook/addon-ondevice-actions@npm:6.5.0-rc.6":
+  version: 6.5.0-rc.6
+  resolution: "@storybook/addon-ondevice-actions@npm:6.5.0-rc.6"
   dependencies:
     "@storybook/addons": "npm:^6.5.14"
     "@storybook/core-events": "npm:^6.5.14"
@@ -3270,7 +3270,7 @@ __metadata:
     "@storybook/addon-actions": ^6.5.14
     react: "*"
     react-native: "*"
-  checksum: 0231d64afc74401e81feccaf18c369ab5296d68d38a0af064baaab426f11f48f7e70ed5a4fda51b3b8e54c004f5e6c425e99b3ad8ed8e972e5ecf1642ef4f9af
+  checksum: b53b6d39d8cb9e2d41f9c55f7482ef317bcab16783af8a2dce4c943b4fb407ebd568fbb5e47365737b0d055c512844142a37ac2a71058ca42d0b4deb17b88a1b
   languageName: node
   linkType: hard
 
@@ -15794,7 +15794,7 @@ __metadata:
     "@storybook/addon-essentials": "npm:6.5.16"
     "@storybook/addon-knobs": "npm:6.4.0"
     "@storybook/addon-links": "npm:6.5.16"
-    "@storybook/addon-ondevice-actions": "npm:6.5.0-rc.5"
+    "@storybook/addon-ondevice-actions": "npm:6.5.0-rc.6"
     "@storybook/addon-ondevice-backgrounds": "npm:6.5.0-rc.5"
     "@storybook/addon-ondevice-controls": "npm:6.5.0-rc.5"
     "@storybook/addon-ondevice-knobs": "npm:6.5.0-rc.5"
