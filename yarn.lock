@@ -15862,7 +15862,7 @@ __metadata:
     reactotron-react-native: "npm:5.0.3"
     ts-node: "npm:10.9.1"
     typescript: "npm:beta"
-    webpack: "npm:5.76.2"
+    webpack: "npm:5.76.3"
     webpack-cli: "npm:5.0.1"
     webpack-dev-server: "npm:4.13.1"
   languageName: unknown
@@ -21850,9 +21850,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.76.2, webpack@npm:>=4.43.0 <6.0.0":
-  version: 5.76.2
-  resolution: "webpack@npm:5.76.2"
+"webpack@npm:5.76.3, webpack@npm:>=4.43.0 <6.0.0":
+  version: 5.76.3
+  resolution: "webpack@npm:5.76.3"
   dependencies:
     "@types/eslint-scope": "npm:^3.7.3"
     "@types/estree": "npm:^0.0.51"
@@ -21883,7 +21883,7 @@ __metadata:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: d5a95c226f9252b0e6db00efce035ef7db30634f2ad22c91268c3010bf9d7c3648ea214d0032730103efe86787875ade86885a8d8c8fef89485449098083f261
+  checksum: 2bb8f52f031bb5f485429eb842fcfbc56be1c9af6dcb58e6b04482b9d94677e8eb4d2605efc597d8f78b30ca2dc39d775e428a00904f85315df3d2f0a3fcf137
   languageName: node
   linkType: hard
 
