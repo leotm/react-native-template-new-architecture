@@ -4084,9 +4084,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/react-native@npm:6.5.0-rc.6":
-  version: 6.5.0-rc.6
-  resolution: "@storybook/react-native@npm:6.5.0-rc.6"
+"@storybook/react-native@npm:6.5.0-rc.7":
+  version: 6.5.0-rc.7
+  resolution: "@storybook/react-native@npm:6.5.0-rc.7"
   dependencies:
     "@emotion/core": "npm:^10.0.20"
     "@emotion/native": "npm:^10.0.14"
@@ -4116,7 +4116,7 @@ __metadata:
   bin:
     sb-rn-get-stories: bin/get-stories.js
     sb-rn-watcher: bin/watcher.js
-  checksum: 9b037c117d23ccd82e622ba3d41e21ec8557be78e88b85a87d50a373b4db2457fd5050525a5945129a69e910a8ab73b14cd361ecc5853c07ac2f5c2c3836d154
+  checksum: 04d31482327c39ab79887411f3392c0c1ad3cf5fd40959f69b3086bf04d39360422272c42262682ba5c3312ffb5da649e4e9d5f1c9391c3c34095834730a8343
   languageName: node
   linkType: hard
 
@@ -15804,7 +15804,7 @@ __metadata:
     "@storybook/eslint-config-storybook": "npm:3.1.2"
     "@storybook/linter-config": "npm:3.1.2"
     "@storybook/react": "npm:6.5.16"
-    "@storybook/react-native": "npm:6.5.0-rc.6"
+    "@storybook/react-native": "npm:6.5.0-rc.7"
     "@storybook/react-native-server": "npm:6.5.0-rc.6"
     "@swc/core": "npm:1.3.42"
     "@swc/wasm": "npm:1.3.42"
