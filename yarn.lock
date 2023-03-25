@@ -3337,9 +3337,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-ondevice-notes@npm:6.5.0-rc.7":
-  version: 6.5.0-rc.7
-  resolution: "@storybook/addon-ondevice-notes@npm:6.5.0-rc.7"
+"@storybook/addon-ondevice-notes@npm:6.5.0-rc.9":
+  version: 6.5.0-rc.9
+  resolution: "@storybook/addon-ondevice-notes@npm:6.5.0-rc.9"
   dependencies:
     "@emotion/core": "npm:^10.0.20"
     "@storybook/addons": "npm:^6.5.14"
@@ -3353,7 +3353,7 @@ __metadata:
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 22012d52a76cf7e73d4e3224bb1a7e8e80d01d8e6fe2f7c6ac3795a065b873d6c5aba05096c05746289f2858c75ddac0f0f61b9cc3182603149b740c04972631
+  checksum: 74558458599e3a2f8029f4b1502d98829cbf0ffba613eedc9e7cb92fc227f8fbd2be4701b2d08eb2a60c4f0c29779afe4ee84dfe49cf4e981c2d0c8150b8bbb7
   languageName: node
   linkType: hard
 
@@ -15798,7 +15798,7 @@ __metadata:
     "@storybook/addon-ondevice-backgrounds": "npm:6.5.0-rc.9"
     "@storybook/addon-ondevice-controls": "npm:6.5.0-rc.9"
     "@storybook/addon-ondevice-knobs": "npm:6.5.0-rc.7"
-    "@storybook/addon-ondevice-notes": "npm:6.5.0-rc.7"
+    "@storybook/addon-ondevice-notes": "npm:6.5.0-rc.9"
     "@storybook/addons": "npm:6.5.16"
     "@storybook/docs-tools": "npm:6.5.16"
     "@storybook/eslint-config-storybook": "npm:3.1.2"
