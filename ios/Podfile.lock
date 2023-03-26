@@ -749,8 +749,14 @@ PODS:
   - RNCCheckbox (0.5.15):
     - BEMCheckBox (~> 1.4)
     - React-Core
-  - RNDateTimePicker (6.3.5):
-    - React-Core
+  - RNDateTimePicker (7.0.0):
+    - RCT-Folly
+    - RCTRequired
+    - RCTTypeSafety
+    - React
+    - React-Codegen
+    - React-RCTFabric
+    - ReactCommon/turbomodule/core
   - RNGestureHandler (2.9.0):
     - RCT-Folly
     - RCTRequired
@@ -1053,7 +1059,7 @@ SPEC CHECKSUMS:
   ReactCommon: 03be76588338a27a88d103b35c3c44a3fd43d136
   RNCAsyncStorage: 09fc8595e6d6f6d5abf16b23a56b257d9c6b7c5b
   RNCCheckbox: 43bcc6493611468af0e19f19f029dab3da8561c4
-  RNDateTimePicker: aa967ff49ba197c8235d1013ddeb7514aededae4
+  RNDateTimePicker: 2cd08707b706bebd370a5ef24e49acb88bafc996
   RNGestureHandler: 9d2ebd17a9fef618d9720e3d95ff5e6607acf8d4
   RNReanimated: b38271c7b72560b7f9c3d0bf531faa8feb4da93a
   RNScreens: 4666ca0a74ee229b2332c5d22d2a8b81ba9202be
@@ -1061,6 +1067,6 @@ SPEC CHECKSUMS:
   Yoga: 921eb014669cf9c718ada68b08d362517d564e0c
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: ae104a6e510eded4e9aeee53f376fbaa194202e7
+PODFILE CHECKSUM: 5003d287c4bebdbde238040aa3a5354e23b1fca0
 
 COCOAPODS: 1.12.0
