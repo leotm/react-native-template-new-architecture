@@ -4058,9 +4058,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/react-native-server@npm:6.5.0-rc.11":
-  version: 6.5.0-rc.11
-  resolution: "@storybook/react-native-server@npm:6.5.0-rc.11"
+"@storybook/react-native-server@npm:6.5.1":
+  version: 6.5.1
+  resolution: "@storybook/react-native-server@npm:6.5.1"
   dependencies:
     "@storybook/addons": "npm:^6.5.14"
     "@storybook/api": "npm:^6.5.14"
@@ -4081,7 +4081,7 @@ __metadata:
   bin:
     react-native-storybook-server: bin/index.js
     storybook-server: bin/index.js
-  checksum: 856f4895f67d648e710c53b88f2d52733433dfa3e09de565b911afcb98b9dbe079ccfb1842cdc446c394e3d87e18d93325ccbe93b973c0c87962ca48eca0ce7e
+  checksum: a57684e6afc1797f4919b6f1dde0beaf2653ed3e126d802211d12da4a2523f44ac92466b4fef4f4679b81b55af1752d92daba4153ab6dc83738687bfb5e7cf99
   languageName: node
   linkType: hard
 
@@ -15806,7 +15806,7 @@ __metadata:
     "@storybook/linter-config": "npm:3.1.2"
     "@storybook/react": "npm:6.5.16"
     "@storybook/react-native": "npm:6.5.0-rc.11"
-    "@storybook/react-native-server": "npm:6.5.0-rc.11"
+    "@storybook/react-native-server": "npm:6.5.1"
     "@swc/core": "npm:1.3.42"
     "@swc/wasm": "npm:1.3.42"
     "@tanstack/react-query": "npm:4.28.0"
