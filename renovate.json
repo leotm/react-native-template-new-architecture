@@ -21,6 +21,12 @@
       "automerge": false
     },
     {
+      "matchSourceUrlPrefixes": ["https://github.com/storybookjs/react-native"],
+      "groupName": "storybookjs/react-native monorepo",
+      "labels": ["devDeps", "react native", "storybook"],
+      "automerge": false
+    },
+    {
       "matchSourceUrlPrefixes": [
         "https://github.com/DefinitelyTyped/DefinitelyTyped"
       ],
