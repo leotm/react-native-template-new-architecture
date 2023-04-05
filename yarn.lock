@@ -5336,7 +5336,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/experimental-utils@npm:^5.0.0, @typescript-eslint/experimental-utils@npm:^5.57.0":
+"@typescript-eslint/experimental-utils@npm:^5.0.0":
   version: 5.57.0
   resolution: "@typescript-eslint/experimental-utils@npm:5.57.0"
   dependencies:
@@ -5565,7 +5565,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:5.57.1, @typescript-eslint/utils@npm:^5.10.0":
+"@typescript-eslint/utils@npm:5.57.1, @typescript-eslint/utils@npm:^5.10.0, @typescript-eslint/utils@npm:^5.57.0":
   version: 5.57.1
   resolution: "@typescript-eslint/utils@npm:5.57.1"
   dependencies:
@@ -9904,17 +9904,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-deprecation@npm:1.4.0":
-  version: 1.4.0
-  resolution: "eslint-plugin-deprecation@npm:1.4.0"
+"eslint-plugin-deprecation@npm:1.4.1":
+  version: 1.4.1
+  resolution: "eslint-plugin-deprecation@npm:1.4.1"
   dependencies:
-    "@typescript-eslint/experimental-utils": "npm:^5.57.0"
+    "@typescript-eslint/utils": "npm:^5.57.0"
     tslib: "npm:^2.3.1"
     tsutils: "npm:^3.21.0"
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
     typescript: ^3.7.5 || ^4.0.0 || ^5.0.0
-  checksum: faeb87a89a0631c2e752d8210d3f84112d815a6b6d439070b0d5a29600d3447ad32cf33748785f5edfd233998449c6bc135d1d9ca9b3381a3dcef5537069b200
+  checksum: 000dce3c62dfbb3be537d4fc53e633e92b1c7a302774dd936a45d2631c92efb7bb16f57c66d804cecdf82a552eb9793e95a538d6b370e51483b34e0d752899b4
   languageName: node
   linkType: hard
 
@@ -16195,7 +16195,7 @@ __metadata:
     eslint-config-airbnb-typescript-prettier: "npm:5.0.0"
     eslint-config-react-native-typescript: "npm:2.2.6"
     eslint-plugin-communist-spelling: "npm:1.0.0"
-    eslint-plugin-deprecation: "npm:1.4.0"
+    eslint-plugin-deprecation: "npm:1.4.1"
     eslint-plugin-detox: "npm:1.0.0"
     eslint-plugin-import: "npm:2.27.5"
     eslint-plugin-jest: "npm:27.2.1"
