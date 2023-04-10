@@ -10,7 +10,7 @@ jobs:
   build-ios:
 
     runs-on: macos-12
-    
+
     # ruby: 2.7.6, 3.0.4, 3.1.2 (../.ruby-version: 2.7.5)
     # CocoaPods: 1.11.3
 
