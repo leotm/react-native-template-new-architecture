@@ -39,7 +39,7 @@ jobs:
         cache: 'gradle'
 
     - name: Install all project dependencies
-      run: yarn
+      run: yarn && yarn setup
 
     - name: npx react-native info
       run: npx react-native info
