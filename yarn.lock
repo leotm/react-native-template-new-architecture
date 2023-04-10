@@ -2350,6 +2350,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@lavamoat/preinstall-always-fail@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@lavamoat/preinstall-always-fail@npm:1.0.0"
+  checksum: 21f445a5ed86ca538e42a50ee60b37ad3e4cd4bc089594b86bafa741d9acf4c516625a79ac3242621e07e9ec458a50f9d8a2cbfe38bdc17301e83715292b1169
+  languageName: node
+  linkType: hard
+
 "@leichtgewicht/ip-codec@npm:^2.0.1":
   version: 2.0.4
   resolution: "@leichtgewicht/ip-codec@npm:2.0.4"
@@ -16430,6 +16437,7 @@ __metadata:
     "@curveball/core": "npm:0.21.1"
     "@curveball/router": "npm:0.6.0"
     "@lavamoat/allow-scripts": "npm:2.3.0"
+    "@lavamoat/preinstall-always-fail": "npm:1.0.0"
     "@react-native-async-storage/async-storage": "npm:1.18.1"
     "@react-native-community/checkbox": "npm:0.5.15"
     "@react-native-community/cli": "npm:11.1.2"
