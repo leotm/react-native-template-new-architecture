@@ -5115,14 +5115,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.0.38, @types/react@npm:>=16.0.0":
-  version: 18.0.38
-  resolution: "@types/react@npm:18.0.38"
+"@types/react@npm:*, @types/react@npm:18.2.6, @types/react@npm:>=16.0.0":
+  version: 18.2.6
+  resolution: "@types/react@npm:18.2.6"
   dependencies:
     "@types/prop-types": "npm:*"
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: f0b5999085c1b4b081d7203ffcffa6ec4fe11214279e2477457e304d358da8dee78357518b3beefe81e29f2d3d6203cf2633c6d687ac727221126bc9a6188fbc
+  checksum: 7b71e98c9ca9e5a7db8573ba96bf018e42f87591832cee85e3606334aa6203af8df1e562d349dc6fd5984621d6dfe8d1b2a2521c933803cc12755d31373c8e5a
   languageName: node
   linkType: hard
 
@@ -16245,7 +16245,7 @@ __metadata:
     "@tsconfig/react-native": "npm:3.0.0"
     "@types/jest": "npm:29.5.1"
     "@types/node": "npm:18.16.14"
-    "@types/react": "npm:18.0.38"
+    "@types/react": "npm:18.2.6"
     "@types/react-native": "npm:0.71.7"
     "@types/react-test-renderer": "npm:18.0.0"
     "@types/ws": "npm:8.5.4"
