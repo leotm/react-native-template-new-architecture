@@ -2569,14 +2569,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-async-storage/async-storage@npm:1.18.1":
-  version: 1.18.1
-  resolution: "@react-native-async-storage/async-storage@npm:1.18.1"
+"@react-native-async-storage/async-storage@npm:1.18.2":
+  version: 1.18.2
+  resolution: "@react-native-async-storage/async-storage@npm:1.18.2"
   dependencies:
     merge-options: "npm:^3.0.4"
   peerDependencies:
     react-native: ^0.0.0-0 || 0.60 - 0.72 || 1000.0.0
-  checksum: 09f176310ca606d7474ace2cee3c4b525e18ee7c9ec6dd274e83b6a16b47ea3815e8c0d2abc3cfb9186cdc844e7a3ff05fc144f1343d3d92a23e470f29b02a17
+  checksum: b70ca5ffc11eb54fb7e79839014d90af4e8da03f1e50e2fbdf0e9834afd49385a6b0d853b61f734f4e4c9c356a504782422e0a48c3fabcb199b9f475d7423a99
   languageName: node
   linkType: hard
 
@@ -16189,7 +16189,7 @@ __metadata:
     "@curveball/router": "npm:0.6.0"
     "@lavamoat/allow-scripts": "npm:2.3.1"
     "@lavamoat/preinstall-always-fail": "npm:1.0.0"
-    "@react-native-async-storage/async-storage": "npm:1.18.1"
+    "@react-native-async-storage/async-storage": "npm:1.18.2"
     "@react-native-community/checkbox": "npm:0.5.15"
     "@react-native-community/cli": "npm:11.2.3"
     "@react-native-community/datetimepicker": "npm:7.0.1"
