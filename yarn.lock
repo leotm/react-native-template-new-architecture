@@ -4969,13 +4969,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:29.5.1":
-  version: 29.5.1
-  resolution: "@types/jest@npm:29.5.1"
+"@types/jest@npm:29.5.3":
+  version: 29.5.3
+  resolution: "@types/jest@npm:29.5.3"
   dependencies:
     expect: "npm:^29.0.0"
     pretty-format: "npm:^29.0.0"
-  checksum: 1a67d4fe2de71feaaa46db749d748d4b13972bbe1fb536a3e8c6e81933a1c143c196b4c8be2656f1fba87f6d567d78a0581c3993a5fb0baeec8772d05fdf54f3
+  checksum: 8027e5f2319259d1ba80dca54551f7dcedb9aea678ca6aab5fc6c09d75c63ec6a7d37a605ca09f79fdc0d3877a5c7603262d7da0d2c933f5552b4942640628f2
   languageName: node
   linkType: hard
 
@@ -16219,7 +16219,7 @@ __metadata:
     "@swc/wasm": "npm:1.3.59"
     "@tanstack/react-query": "npm:4.29.25"
     "@tsconfig/react-native": "npm:3.0.2"
-    "@types/jest": "npm:29.5.1"
+    "@types/jest": "npm:29.5.3"
     "@types/node": "npm:18.16.14"
     "@types/react": "npm:18.2.6"
     "@types/react-native": "npm:0.72.2"
