@@ -2580,9 +2580,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/checkbox@npm:0.5.15":
-  version: 0.5.15
-  resolution: "@react-native-community/checkbox@npm:0.5.15"
+"@react-native-community/checkbox@npm:0.5.16":
+  version: 0.5.16
+  resolution: "@react-native-community/checkbox@npm:0.5.16"
   peerDependencies:
     react: "*"
     react-native: ">= 0.62"
@@ -2590,7 +2590,7 @@ __metadata:
   peerDependenciesMeta:
     react-native-windows:
       optional: true
-  checksum: 3767a24eee63d8e735ffe8f34960112e5be69ce2225eca6c6fb453481652c5597e6f4a5130c7624100b2329e92a9cffb65250b6e1359e89b2d84581d20f2b696
+  checksum: dec987eceaff6c4d43011045d9dfc567f9ddd336e291c31b4784d4f95cbe186455ca72f0b15c4aa3a055d6f8ef123a97fca5b5481b8456b999fc9d056161bd35
   languageName: node
   linkType: hard
 
@@ -16190,7 +16190,7 @@ __metadata:
     "@lavamoat/allow-scripts": "npm:2.3.1"
     "@lavamoat/preinstall-always-fail": "npm:1.0.0"
     "@react-native-async-storage/async-storage": "npm:1.18.2"
-    "@react-native-community/checkbox": "npm:0.5.15"
+    "@react-native-community/checkbox": "npm:0.5.16"
     "@react-native-community/cli": "npm:11.2.3"
     "@react-native-community/datetimepicker": "npm:7.0.1"
     "@react-native-community/eslint-config": "npm:3.2.0"
