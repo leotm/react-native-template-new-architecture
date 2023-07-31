@@ -12308,9 +12308,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-webpack-plugin@npm:5.5.1":
-  version: 5.5.1
-  resolution: "html-webpack-plugin@npm:5.5.1"
+"html-webpack-plugin@npm:5.5.3":
+  version: 5.5.3
+  resolution: "html-webpack-plugin@npm:5.5.3"
   dependencies:
     "@types/html-minifier-terser": "npm:^6.0.0"
     html-minifier-terser: "npm:^6.0.2"
@@ -12319,7 +12319,7 @@ __metadata:
     tapable: "npm:^2.0.0"
   peerDependencies:
     webpack: ^5.20.0
-  checksum: a94355ef27230d17b158356959a220911c8b58b8103d9976a38833592ed258154b6c0784cc46a863318c310b947b905eb780c624578248e45d882ad848fa705f
+  checksum: 784b78b0a06159a9c24a43abde1411d80f4a39fe94083eb13c8681e88bcd3b577b11fcd098f6473463713ee9c8daa4a3b9dec9ef3a7d1f32873ab6d90bb37e02
   languageName: node
   linkType: hard
 
@@ -16278,7 +16278,7 @@ __metadata:
     eslint-plugin-typescript-sort-keys: "npm:2.3.0"
     eslint-plugin-yml: "npm:1.6.0"
     flipper-server: "npm:0.162.0"
-    html-webpack-plugin: "npm:5.5.1"
+    html-webpack-plugin: "npm:5.5.3"
     husky: "npm:8.0.3"
     jest: "npm:29.5.0"
     lint-staged: "npm:13.2.2"
