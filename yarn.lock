@@ -10922,16 +10922,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.0.3, fast-glob@npm:^3.2.11, fast-glob@npm:^3.2.9":
-  version: 3.2.12
-  resolution: "fast-glob@npm:3.2.12"
+"fast-glob@npm:^3.0.3, fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.0":
+  version: 3.3.1
+  resolution: "fast-glob@npm:3.3.1"
   dependencies:
     "@nodelib/fs.stat": "npm:^2.0.2"
     "@nodelib/fs.walk": "npm:^1.2.3"
     glob-parent: "npm:^5.1.2"
     merge2: "npm:^1.3.0"
     micromatch: "npm:^4.0.4"
-  checksum: 3b98e0cadbf2aea3fa2be76e28b0c895bb18d920ccb7b3d3f603a464e3dc2c6a89a8afb9f9765226bd4d4d74b70e880721ff7a57a267c2eaa11353f35d42d11b
+  checksum: e26659062337c60300761c4e46eeabba295ae4140dee6332e69977d920d7d96cb502f8b8a2358e131f088f9d30a98789c9920398896b317f028ba73dee710b01
   languageName: node
   linkType: hard
 
@@ -11883,16 +11883,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globby@npm:^13.1.3":
-  version: 13.1.3
-  resolution: "globby@npm:13.1.3"
+"globby@npm:^13.1.4":
+  version: 13.2.2
+  resolution: "globby@npm:13.2.2"
   dependencies:
     dir-glob: "npm:^3.0.1"
-    fast-glob: "npm:^3.2.11"
-    ignore: "npm:^5.2.0"
+    fast-glob: "npm:^3.3.0"
+    ignore: "npm:^5.2.4"
     merge2: "npm:^1.4.1"
     slash: "npm:^4.0.0"
-  checksum: a4b8f38a118310286f684c0146301f375f40b9550fa172f37a668f7de0b52d955f7f5c05e83885b517cedb39ebfc523a7155efa8e3366c375d3fff14e5924af4
+  checksum: d1304681950c25e5d37b95a72a39146371efe30c73f1bc157c2f74d303524ef73f18e1bf579e34cc0798523a819bff7370be77e5acf817e621120510d387203a
   languageName: node
   linkType: hard
 
@@ -12566,10 +12566,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ignore@npm:^5.0.0, ignore@npm:^5.0.5, ignore@npm:^5.1.1, ignore@npm:^5.1.8, ignore@npm:^5.2.0":
-  version: 5.2.1
-  resolution: "ignore@npm:5.2.1"
-  checksum: 6b24bc1067595721e6158dd4d0f88e9ebf5f9542e8b69156a93400cc2d1428102e8437b851883c3da2d2c70842330efd4d90519c2027113ee2c8142745cfb357
+"ignore@npm:^5.0.0, ignore@npm:^5.0.5, ignore@npm:^5.1.1, ignore@npm:^5.1.8, ignore@npm:^5.2.0, ignore@npm:^5.2.4":
+  version: 5.2.4
+  resolution: "ignore@npm:5.2.4"
+  checksum: 55c58d848bb753a2b7e0b4a19352f9212eae2e4a05e4a12753e90b921108a6caa140adf958a5084b144bedd886b44e3bc93f6b4839e5aba1fb4a72c6625da4c1
   languageName: node
   linkType: hard
 
@@ -16340,7 +16340,7 @@ __metadata:
     react-native-gesture-handler: "npm:2.9.0"
     react-native-gradle-plugin: "npm:0.71.17"
     react-native-reanimated: "npm:3.0.2"
-    react-native-rename: "npm:3.2.12"
+    react-native-rename: "npm:3.2.13"
     react-native-safe-area-context: "npm:4.5.3"
     react-native-screens: "npm:3.20.0"
     react-test-renderer: "npm:18.2.0"
@@ -18410,15 +18410,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-rename@npm:3.2.12":
-  version: 3.2.12
-  resolution: "react-native-rename@npm:3.2.12"
+"react-native-rename@npm:3.2.13":
+  version: 3.2.13
+  resolution: "react-native-rename@npm:3.2.13"
   dependencies:
     chalk: "npm:^5.2.0"
     cheerio: "npm:^1.0.0-rc.12"
-    commander: "npm:^10.0.0"
+    commander: "npm:^10.0.1"
     dotenv: "npm:^16.0.3"
-    globby: "npm:^13.1.3"
+    globby: "npm:^13.1.4"
     html-entities: "npm:^2.3.3"
     normalize-path: "npm:^3.0.0"
     replace-in-file: "npm:^6.3.5"
@@ -18426,7 +18426,7 @@ __metadata:
     update-check: "npm:^1.5.4"
   bin:
     react-native-rename: lib/index.js
-  checksum: bc74bf8ee34c3a66e12159ac31b4a171427a4bdc0699f8576765bbfe0ca700e4b1ce964fec50af1e2906d5b7c291160228646d2e56c8bce5703aa6d5ebc029d0
+  checksum: d397698b1f36437e41bc711bec174fbdecfcbeec96d998629e0eb36ec3101954d1b7a6295939aece594a6e4f55422fb4757c5f55b9f443cdc64303a7d639268e
   languageName: node
   linkType: hard
 
