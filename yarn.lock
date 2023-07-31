@@ -14532,9 +14532,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:13.2.2":
-  version: 13.2.2
-  resolution: "lint-staged@npm:13.2.2"
+"lint-staged@npm:13.2.3":
+  version: 13.2.3
+  resolution: "lint-staged@npm:13.2.3"
   dependencies:
     chalk: "npm:5.2.0"
     cli-truncate: "npm:^3.1.0"
@@ -14551,7 +14551,7 @@ __metadata:
     yaml: "npm:^2.2.2"
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 3806845ef891482c8458868d7463e99165bf46891b45ccdd9a72124c69f6da98e18b931c38ae038f472659cabbf63351cc429d8090110d840f98290dd76b16b4
+  checksum: d2d468b17628ac81a71f50863585b09e4edec34d75b71ca7ca9a22b532f982fcb850af044a7c0e7028a1925e96c0d95ad3905dfffb065d027c39c38490be6c95
   languageName: node
   linkType: hard
 
@@ -16281,7 +16281,7 @@ __metadata:
     html-webpack-plugin: "npm:5.5.3"
     husky: "npm:8.0.3"
     jest: "npm:29.5.0"
-    lint-staged: "npm:13.2.2"
+    lint-staged: "npm:13.2.3"
     metro-react-native-babel-preset: "npm:0.76.4"
     prettier: "npm:2.8.8"
     react: "npm:18.2.0"
