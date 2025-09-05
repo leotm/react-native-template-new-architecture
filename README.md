@@ -26,7 +26,7 @@ Android | iOS
 
 ## Setup
 
-[Fresh M1/M2](https://github.com/leotm/react-native-template-new-architecture/wiki/M1-Setup)
+[Fresh Apple Silicon](https://github.com/leotm/react-native-template-new-architecture/wiki/Apple-Silicon-setup)
 
 ## Yarn v4
 
