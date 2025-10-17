@@ -9945,9 +9945,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-react-native-typescript@npm:2.2.6":
-  version: 2.2.6
-  resolution: "eslint-config-react-native-typescript@npm:2.2.6"
+"eslint-config-react-native-typescript@npm:2.2.7":
+  version: 2.2.7
+  resolution: "eslint-config-react-native-typescript@npm:2.2.7"
   dependencies:
     "@react-native-community/eslint-config": "npm:^2.0.0"
     "@typescript-eslint/parser": "npm:^4.15.0"
@@ -9959,7 +9959,7 @@ __metadata:
   peerDependencies:
     eslint: "*"
     typescript: "*"
-  checksum: 5ae7b06b97403b7d872f50b3c7a1b83aac2b0993fc26405b54d52ea25821c062d5a59d4b5f484d4caef49c0f799cb2168a0fb67322d9fa7ab117e376856d1cd0
+  checksum: 2016a09c9303be61a937df636807e3c8d4a23642b0eee1d19fa50ff7a077fb1e99282c917d2cebf134996207ce7522439632231dca51e3344a004d7b7c1989fc
   languageName: node
   linkType: hard
 
@@ -16299,7 +16299,7 @@ __metadata:
     eslint: "npm:8.40.0"
     eslint-config-airbnb-typescript: "npm:17.0.0"
     eslint-config-airbnb-typescript-prettier: "npm:5.0.0"
-    eslint-config-react-native-typescript: "npm:2.2.6"
+    eslint-config-react-native-typescript: "npm:2.2.7"
     eslint-plugin-communist-spelling: "npm:1.0.0"
     eslint-plugin-deprecation: "npm:1.4.1"
     eslint-plugin-detox: "npm:1.0.0"
