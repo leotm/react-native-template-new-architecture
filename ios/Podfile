@@ -14,7 +14,8 @@ ENV['RCT_NEW_ARCH_ENABLED'] = '1'
 #   dependencies: {
 #     ...(process.env.NO_FLIPPER ? { 'react-native-flipper': { platforms: { ios: null } } } : {}),
 # ```
-flipper_config = ENV['NO_FLIPPER'] == "1" ? FlipperConfiguration.disabled : FlipperConfiguration.enabled(["Debug"], { 'Flipper' => flipperkit_version })
+disabled = ENV['CI'] || ENV['NO_FLIPPER'] == '1'
+flipper_config = disabled ? FlipperConfiguration.disabled : FlipperConfiguration.enabled(["Debug"], { 'Flipper' => flipperkit_version })
 
 linkage = ENV['USE_FRAMEWORKS']
 if linkage != nil
