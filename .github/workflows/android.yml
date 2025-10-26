@@ -5,7 +5,7 @@
 # This workflow will build a Java project with Gradle and cache/restore any dependencies to improve the workflow execution time
 # For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-gradle
 
-name: Java CI with Gradle
+name: Android CI with Gradle
 
 on:
   push:
@@ -13,7 +13,7 @@ on:
   pull_request:
     branches: [ master ]
 
-# Global envs
+# Global workflow envs
 # env:
 #   ANDROID_NDK_HOME: /usr/local/lib/android/sdk/ndk/x.x.x
 #   ANDROID_NDK_ROOT: /usr/local/lib/android/sdk/ndk/x.x.x
@@ -38,25 +38,28 @@ jobs:
         distribution: temurin
         cache: 'gradle'
 
-    - name: Install all project dependencies
+#       yarn cache
+#       node_modules cache
+
+    - name: Install deps and setup
       run: yarn && yarn setup
 
     - name: npx react-native info
       run: npx react-native info
 
-    - name: Build application Debug APK with Gradle
-      uses: gradle/gradle-build-action@v2.4.2
-      with:
-        arguments: assembleDebug
-        build-root-directory: android
+#     - name: Build application Debug APK with Gradle
+#       uses: gradle/gradle-build-action@v2.4.2
+#       with:
+#         arguments: assembleDebug
+#         build-root-directory: android
 
-    # Avoid release poisoned cache problems
-    # Preserve hosted agent free disk space
-    - name: Delete Android build pre-computed outputs
-      uses: gradle/gradle-build-action@v2.4.2
-      with:
-        arguments: clean
-        build-root-directory: android
+#     Avoid release poisoned cache problems
+#     Preserve hosted agent free disk space
+#     - name: Delete Android build pre-computed outputs
+#       uses: gradle/gradle-build-action@v2.4.2
+#       with:
+#         arguments: clean
+#         build-root-directory: android
 
     - name: Build application Release APK with Gradle
       uses: gradle/gradle-build-action@v2.4.2
