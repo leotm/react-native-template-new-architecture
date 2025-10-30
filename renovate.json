@@ -1,73 +1,67 @@
 {
-  "extends": [
-    "config:base",
-    ":automergePatch",
-    ":prHourlyLimitNone",
-    ":switchToGradleLite"
-  ],
+  "extends": ["config:recommended", ":automergePatch", ":prHourlyLimitNone"],
   "postUpdateOptions": ["yarnDedupeHighest"],
   "timezone": "Europe/London",
   "dependencyDashboard": true,
   "lockFileMaintenance": {
     "enabled": true,
-    "enabledManagers": ["yarn"]
+    "enabledManagers": ["npm"]
   },
   "packageRules": [
     {
-      "matchSourceUrlPrefixes": ["https://github.com/swc-project/swc"],
       "groupName": "swc monorepo",
-      "labels": ["devDeps", "swc", "transpiling"]
+      "labels": ["devDeps", "swc", "transpiling"],
+      "matchSourceUrls": ["https://github.com/swc-project/swc{/,}**"]
     },
     {
-      "matchSourceUrlPrefixes": ["https://github.com/facebook/react-native"],
       "groupName": "react-native monorepo",
       "labels": ["deps", "react native"],
-      "automerge": false
+      "automerge": false,
+      "matchSourceUrls": ["https://github.com/facebook/react-native{/,}**"]
     },
     {
-      "matchSourceUrlPrefixes": ["https://github.com/storybookjs/react-native"],
       "groupName": "storybookjs/react-native monorepo",
       "labels": ["devDeps", "react native", "storybook"],
-      "automerge": false
+      "automerge": false,
+      "matchSourceUrls": ["https://github.com/storybookjs/react-native{/,}**"]
     },
     {
-      "matchSourceUrlPrefixes": [
-        "https://github.com/DefinitelyTyped/DefinitelyTyped"
-      ],
-      "labels": ["devDeps", "type"]
-    },
-    {
-      "matchPackagePrefixes": ["@react-native-community/"],
-      "addLabels": ["community"]
-    },
-    {
-      "matchSourceUrlPrefixes": ["https://github.com/facebook/flipper"],
-      "groupName": "flipper monorepo",
-      "labels": ["devDeps", "flipper"],
-      "packageRules": [
-        {
-          "matchPackageNames": ["react-native-flipper"],
-          "addLabels": ["ios", "pods"],
-          "automerge": false
-        },
-        {
-          "matchPackageNames": ["flipper-server"],
-          "addLabels": ["js", "node"]
-        }
+      "labels": ["devDeps", "type"],
+      "matchSourceUrls": [
+        "https://github.com/DefinitelyTyped/DefinitelyTyped{/,}**"
       ]
     },
     {
-      "matchPackagePatterns": ["eslint"],
+      "addLabels": ["community"],
+      "matchPackageNames": ["@react-native-community/{/,}**"]
+    },
+    {
+      "groupName": "flipper monorepo",
+      "labels": ["devDeps", "flipper"],
+      "matchSourceUrls": ["https://github.com/facebook/flipper{/,}**"],
+      "matchPackageNames": ["react-native-flipper"],
+      "addLabels": ["ios", "pods"],
+      "automerge": false
+    },
+    {
+      "groupName": "flipper monorepo",
+      "labels": ["devDeps", "flipper"],
+      "matchSourceUrls": ["https://github.com/facebook/flipper{/,}**"],
+      "matchPackageNames": ["flipper-server"],
+      "addLabels": ["js", "node"]
+    },
+    {
       "groupName": "eslint monorepo",
-      "addLabels": ["devDeps", "linting"]
+      "addLabels": ["devDeps", "linting"],
+      "matchPackageNames": ["/eslint/"]
     },
     {
-      "matchPackagePatterns": ["jest$"],
-      "addLabels": ["devDeps", "jest"]
+      "addLabels": ["devDeps", "jest"],
+      "matchPackageNames": ["/jest$/"]
     },
     {
-      "matchPackagePatterns": ["react$"],
-      "addLabels": ["react"]
+      "addLabels": ["react"],
+      "matchPackageNames": ["/react$/"]
     }
   ],
   "vulnerabilityAlerts": {
