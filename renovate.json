@@ -8,6 +8,10 @@
   "postUpdateOptions": ["yarnDedupeHighest"],
   "timezone": "Europe/London",
   "dependencyDashboard": true,
+  "lockFileMaintenance": {
+    "enabled": true,
+    "enabledManagers": ["npm"]
+  },
   "packageRules": [
     {
       "matchSourceUrlPrefixes": ["https://github.com/swc-project/swc"],
