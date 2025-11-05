@@ -1,69 +1,54 @@
+// https://docs.renovatebot.com/presets-default
 {
-  "extends": ["config:recommended", ":prHourlyLimitNone"],
+  "extends": [
+    // bundle presets
+    "config:best-practices", // https://docs.renovatebot.com/presets-config/#configbest-practices
+    // raw atomic presets
+    ":prHourlyLimitNone",
+    ":maintainLockFilesWeekly"
+  ],
+  // https://docs.renovatebot.com/configuration-options/#postupdateoptions
   "postUpdateOptions": ["yarnDedupeHighest"],
   "timezone": "Europe/London",
-  "dependencyDashboard": true,
-  "lockFileMaintenance": {
-    "enabled": true
-  },
   "packageRules": [
+    // https://docs.renovatebot.com/presets-group
+    // https://docs.renovatebot.com/presets-monorepo
+    {
+      // TODO: upstream group:react-nativeMonorepo
+      // TODO: upstream monorepo:react-native
+      "groupName": "react-native monorepo",
+      "matchSourceUrls": ["github.com/facebook/react-native"],
+      "addLabels": ["dependencies", "react native"],
+      "automerge": false
+    },
+    {
+      "matchPackageNames": ["/react-native/"],
+      "addLabels": ["react native"]
+    },
+    {
+      "matchPackageNames": ["@react-native-community"],
+      "addLabels": ["community"]
+    },
     {
       "groupName": "swc monorepo",
-      "labels": ["devDeps", "swc", "transpiling"],
-      "matchSourceUrls": ["https://github.com/swc-project/swc{/,}**"]
-    },
-    {
-      "groupName": "react-native monorepo",
-      "labels": ["deps", "react native"],
-      "automerge": false,
-      "matchSourceUrls": ["https://github.com/facebook/react-native{/,}**"]
-    },
-    {
-      "groupName": "storybookjs/react-native monorepo",
-      "labels": ["devDeps", "react native", "storybook"],
-      "automerge": false,
-      "matchSourceUrls": ["https://github.com/storybookjs/react-native{/,}**"]
-    },
-    {
-      "labels": ["devDeps", "type"],
-      "matchSourceUrls": [
-        "https://github.com/DefinitelyTyped/DefinitelyTyped{/,}**"
-      ]
-    },
-    {
-      "addLabels": ["community"],
-      "matchPackageNames": ["@react-native-community/{/,}**"]
+      "addLabels": ["devDeps", "swc", "transpiling"],
+      "matchSourceUrls": ["github.com/swc-project/swc"]
     },
     {
       "groupName": "flipper monorepo",
-      "labels": ["devDeps", "flipper"],
-      "matchSourceUrls": ["https://github.com/facebook/flipper{/,}**"],
+      "addLabels": ["devDeps", "flipper", "ios", "pods"],
+      "matchSourceUrls": ["github.com/facebook/flipper"],
       "matchPackageNames": ["react-native-flipper"],
-      "addLabels": ["ios", "pods"],
       "automerge": false
     },
     {
       "groupName": "flipper monorepo",
-      "labels": ["devDeps", "flipper"],
-      "matchSourceUrls": ["https://github.com/facebook/flipper{/,}**"],
-      "matchPackageNames": ["flipper-server"],
-      "addLabels": ["js", "node"]
-    },
-    {
-      "groupName": "eslint monorepo",
-      "addLabels": ["devDeps", "linting"],
-      "matchPackageNames": ["/eslint/"]
-    },
-    {
-      "addLabels": ["devDeps", "jest"],
-      "matchPackageNames": ["/jest$/"]
-    },
-    {
-      "addLabels": ["react"],
-      "matchPackageNames": ["/react$/"]
+      "addLabels": ["devDeps", "flipper", "js", "node"],
+      "matchSourceUrls": ["github.com/facebook/flipper"],
+      "matchPackageNames": ["flipper-server"]
     }
   ],
   "vulnerabilityAlerts": {
-    "labels": ["security"]
+    "addLabels": ["security"]
   }
 }
