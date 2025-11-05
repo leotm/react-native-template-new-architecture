@@ -32,7 +32,7 @@ jobs:
     - uses: actions/checkout@v3
 
     - name: Setup JDK 19
-      uses: actions/setup-java@v3.11.0
+      uses: actions/setup-java@17f84c3641ba7b8f6deff6309fc4c864478f5d62 # v3.14.1
       with:
         java-version: 19
         distribution: temurin
