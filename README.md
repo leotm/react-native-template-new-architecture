@@ -24,33 +24,17 @@ Android | iOS
 --- | ---
 ![Android](https://user-images.githubusercontent.com/1881059/206861792-710af106-3070-40eb-9717-e32941d43327.png) | ![iOS](https://user-images.githubusercontent.com/1881059/206861794-17250417-623e-4f78-92a8-bcfc0cf344e6.png)
 
-## Setup
+## Set Up Your Environment
 
-[Fresh Apple Silicon](https://github.com/leotm/react-native-template-new-architecture/wiki/Apple-Silicon-setup)
-
-## Yarn v4
-
-_Upgrading from v1 `classic` or v3 `latest` / `berry` / `stable`_
-
-```sh
-cd ~
-yarn set version canary
-```
-
-_Clear generated files_
+[**Fresh Apple Silicon 🔥 (macOS arm64)**](https://github.com/leotm/react-native-template-new-architecture/wiki/Apple-Silicon-setup)
 
 ## Install
 
 ```sh
-yarn # 🍺 version
+corepack enable
+yarn
+yarn setup
 ```
-
-```sh
-yarn setup # 🤖 versioned version
-```
-
-- [🚀 Breaking changes for Yarn 4](https://github.com/yarnpkg/berry/issues/3591)
-- _[🤖 Why versioned](https://stackoverflow.com/a/70864409/1998086)_
 
 ## Start
 
@@ -58,22 +42,20 @@ yarn setup # 🤖 versioned version
 yarn start
 ```
 
-## Silicon (M1/M2) Macs
-
-### iOS (arm64)
+## iOS
 
 ```sh
 cd ios
 pod install
-..
+cd ..
 yarn ios
 ```
 
 _[Old Rosetta 2 Intel x86_64 way](https://github.com/leotm/react-native-template-new-architecture/wiki/(New)-Architecture#building-for-ios-intel-x86_64-architecture)_
 
-### Android
+## Android
 
-#### NDK
+### NDK
 
 <details>
 
@@ -91,9 +73,7 @@ _Strip: ` rcX` suffix / (trailing) spaces / final final linebreak - otherwise `f
 
 </details>
 
-_Fat M1 components: ndk-build, LLVM, CMake, Make, Python, Ninja, shader-tools, simpleperf - [yasm remaining](https://github.com/android/ndk/issues/1549)_
-
-#### Android Studio
+### Android Studio
 
 <details>
 
@@ -108,17 +88,11 @@ Open [Android Studio - Preview release - Canary build](https://developer.android
 
 </details>
 
-#### Run
+### Run
 
 ```sh
 yarn android
 ```
-
-### Troubleshooting
-
-- [New Architecture - Troubleshooting](https://reactnative.dev/docs/next/new-architecture-troubleshooting)
-- [Apple Silicon (M1) troubleshooting guide (RN 0.64/0.65/0.66)](https://github.com/facebook/react-native/issues/31941)
-- [react-native-community/upgrade-support](https://github.com/react-native-community/upgrade-support)
 
 ## Storybook v6
 
