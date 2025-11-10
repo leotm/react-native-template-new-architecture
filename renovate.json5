@@ -30,6 +30,17 @@
       "addLabels": ["community"]
     },
     {
+      "groupName": "@lavamoat/allow-scripts",
+      "matchPackageNames": [
+        // https://lavamoat.github.io/guides/allow-scripts/#setup
+        // https://github.com/LavaMoat/LavaMoat/tree/main/packages/allow-scripts#setup
+        // https://github.com/LavaMoat/LavaMoat/blob/main/packages/allow-scripts/src/setup.js#L133-L134
+        "@lavamoat/preinstall-always-fail",
+        "@lavamoat/allow-scripts"
+      ],
+      "addLabels": ["dependencies", "lavamoat"]
+    },
+    {
       "groupName": "swc monorepo",
       "addLabels": ["devDeps", "swc", "transpiling"],
       "matchSourceUrls": ["github.com/swc-project/swc"]
