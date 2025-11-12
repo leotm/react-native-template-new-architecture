@@ -41,6 +41,13 @@
       "addLabels": ["dependencies", "lavamoat"]
     },
     {
+      // https://github.com/actions/runner-images
+      // https://github.com/actions/partner-runner-images
+      "matchManagers": ["github-actions"],
+      // https://github.com/renovatebot/renovate/tree/main/lib/modules/datasource/github-runners#unstable-runners
+      "ignoreUnstable": false
+    },
+    {
       "groupName": "swc monorepo",
       "addLabels": ["devDeps", "swc", "transpiling"],
       "matchSourceUrls": ["github.com/swc-project/swc"]
