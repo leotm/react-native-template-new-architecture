@@ -23,7 +23,7 @@ on:
 jobs:
   build-android:
 
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04 # https://github.com/actions/runner-images/blob/main/images/ubuntu/Ubuntu2404-Readme.md
 
     # Local job envs
 
