@@ -22,6 +22,9 @@ jobs:
       - name: Run @lavamoat/git-safe-dependencies
         run: yarn git-safe-dependencies
 
+      - name: Run @lavamoat/git-safe-dependencies (git-safe-actions)
+        run: yarn git-safe-actions
+
       - name: Compile with TypeScript
         run: yarn tsc
 
