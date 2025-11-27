@@ -19,6 +19,9 @@ jobs:
       - name: Install with Yarn
         run: yarn && yarn setup
 
+      - name: Run @lavamoat/git-safe-dependencies
+        run: yarn git-safe-dependencies
+
       - name: Compile with TypeScript
         run: yarn tsc
 
