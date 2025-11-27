@@ -14496,7 +14496,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:4.1.1":
+"js-yaml@npm:4.1.1, js-yaml@npm:^4.1.0":
   version: 4.1.1
   resolution: "js-yaml@npm:4.1.1"
   dependencies:
@@ -14507,7 +14507,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:^3.10.0":
+"js-yaml@npm:^3.10.0, js-yaml@npm:^3.13.1, js-yaml@npm:^3.6.1":
   version: 3.14.2
   resolution: "js-yaml@npm:3.14.2"
   dependencies:
@@ -14516,29 +14516,6 @@ __metadata:
   bin:
     js-yaml: bin/js-yaml.js
   checksum: 10/172e0b6007b0bf0fc8d2469c94424f7dd765c64a047d2b790831fecef2204a4054eabf4d911eb73ab8c9a3256ab8ba1ee8d655b789bf24bf059c772acc2075a1
-  languageName: node
-  linkType: hard
-
-"js-yaml@npm:^3.13.1, js-yaml@npm:^3.6.1":
-  version: 3.14.1
-  resolution: "js-yaml@npm:3.14.1"
-  dependencies:
-    argparse: "npm:^1.0.7"
-    esprima: "npm:^4.0.0"
-  bin:
-    js-yaml: bin/js-yaml.js
-  checksum: 10/9e22d80b4d0105b9899135365f746d47466ed53ef4223c529b3c0f7a39907743fdbd3c4379f94f1106f02755b5e90b2faaf84801a891135544e1ea475d1a1379
-  languageName: node
-  linkType: hard
-
-"js-yaml@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "js-yaml@npm:4.1.0"
-  dependencies:
-    argparse: "npm:^2.0.1"
-  bin:
-    js-yaml: bin/js-yaml.js
-  checksum: 10/c138a34a3fd0d08ebaf71273ad4465569a483b8a639e0b118ff65698d257c2791d3199e3f303631f2cb98213fa7b5f5d6a4621fd0fff819421b990d30d967140
   languageName: node
   linkType: hard
 
@@ -16740,7 +16717,7 @@ __metadata:
     react-codemod: "npm:5.4.4"
     react-dom: "npm:18.2.0"
     react-native: "npm:0.71.12"
-    react-native-clean-project: "npm:4.0.1"
+    react-native-clean-project: "npm:4.0.3"
     react-native-codegen: "npm:0.71.5"
     react-native-gesture-handler: "npm:2.9.0"
     react-native-gradle-plugin: "npm:0.71.19"
@@ -18817,12 +18794,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-clean-project@npm:4.0.1":
-  version: 4.0.1
-  resolution: "react-native-clean-project@npm:4.0.1"
+"react-native-clean-project@npm:4.0.3":
+  version: 4.0.3
+  resolution: "react-native-clean-project@npm:4.0.3"
   bin:
     react-native-clean-project: source/index.js
-  checksum: 10/f404b14468fdaf8aeec4a867a07f246fd1579cd4410ea367db774726e987c5cc914e91b31a971e2e1e081ecf9d9ff18c682a143b08ff445efd4ca3b364567350
+  checksum: 10/14928d314d77336e1e08eabf94495d1a97bf473b31bd351b3c9ab5c1b35dac18d44e3d55eaf352c9670111b89bd5f54d849457a4d4d42f69a47260e94a8fbc97
   languageName: node
   linkType: hard
 
@@ -21837,14 +21814,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.0.0, tslib@npm:^2.0.1, tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.3.1":
-  version: 2.4.1
-  resolution: "tslib@npm:2.4.1"
-  checksum: 10/e14311d5392ec0e3519feb9afdb54483d7f3aa2d3def6f1a1a30bd3deca5dfeadd106e80bee9ba880bce86a2e50854c9fe5958572cd188d7ac6f8625101a6a8f
-  languageName: node
-  linkType: hard
-
-"tslib@npm:^2.4.0":
+"tslib@npm:^2.0.0, tslib@npm:^2.0.1, tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.3.1, tslib@npm:^2.4.0":
   version: 2.8.1
   resolution: "tslib@npm:2.8.1"
   checksum: 10/3e2e043d5c2316461cb54e5c7fe02c30ef6dccb3384717ca22ae5c6b5bc95232a6241df19c622d9c73b809bea33b187f6dbc73030963e29950c2141bc32a79f7
