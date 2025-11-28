@@ -5154,10 +5154,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:18.16.20":
-  version: 18.16.20
-  resolution: "@types/node@npm:18.16.20"
-  checksum: 10/51417c73065cc112554648a6b98977bc0181d46c457072d9891204c9d85912bd49dbae560cebfb8a621f4a27f13c225fb564f76490b8541f44918ff992123bd3
+"@types/node@npm:*, @types/node@npm:18.19.130":
+  version: 18.19.130
+  resolution: "@types/node@npm:18.19.130"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: 10/ebb85c6edcec78df926de27d828ecbeb1b3d77c165ceef95bfc26e171edbc1924245db4eb2d7d6230206fe6b1a1f7665714fe1c70739e9f5980d8ce31af6ef82
   languageName: node
   linkType: hard
 
@@ -16666,7 +16668,7 @@ __metadata:
     "@tanstack/react-query": "npm:4.29.25"
     "@tsconfig/react-native": "npm:3.0.8"
     "@types/jest": "npm:29.5.3"
-    "@types/node": "npm:18.16.20"
+    "@types/node": "npm:18.19.130"
     "@types/react": "npm:18.2.20"
     "@types/react-native": "npm:0.72.2"
     "@types/react-test-renderer": "npm:18.0.0"
@@ -21984,6 +21986,13 @@ __metadata:
     has-symbols: "npm:^1.0.3"
     which-boxed-primitive: "npm:^1.0.2"
   checksum: 10/06e1ee41c1095e37281cb71a975cb3350f7cb470a0665d2576f02cc9564f623bd90cfc0183693b8a7fdf2d242963dcc3010b509fa3ac683f540c765c0f3e7e43
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~5.26.4":
+  version: 5.26.5
+  resolution: "undici-types@npm:5.26.5"
+  checksum: 10/0097779d94bc0fd26f0418b3a05472410408877279141ded2bd449167be1aed7ea5b76f756562cb3586a07f251b90799bab22d9019ceba49c037c76445f7cddd
   languageName: node
   linkType: hard
 
