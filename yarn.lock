@@ -8025,10 +8025,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^5.2.0":
-  version: 5.2.0
-  resolution: "chalk@npm:5.2.0"
-  checksum: 10/daadc187314c851cd94f1058dd870a2dd351dfaef8cf69048977fc56bce120f02f7aca77eb7ca88bf7a37ab6c15922e12b43f4ffa885f4fd2d9e15dd14c61a1b
+"chalk@npm:^5.3.0":
+  version: 5.6.2
+  resolution: "chalk@npm:5.6.2"
+  checksum: 10/1b2f48f6fba1370670d5610f9cd54c391d6ede28f4b7062dd38244ea5768777af72e5be6b74fb6c6d54cb84c4a2dff3f3afa9b7cb5948f7f022cfd3d087989e0
   languageName: node
   linkType: hard
 
@@ -9566,10 +9566,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:^16.0.3":
-  version: 16.0.3
-  resolution: "dotenv@npm:16.0.3"
-  checksum: 10/d6788c8e40b35ad9a9ca29249dccf37fa6b3ad26700fcbc87f2f41101bf914f5193a04e36a3d23de70b1dcb8e5d5a3b21e151debace2c4cd08d868be500a1b29
+"dotenv@npm:^16.3.1":
+  version: 16.6.1
+  resolution: "dotenv@npm:16.6.1"
+  checksum: 10/1d1897144344447ffe62aa1a6d664f4cd2e0784e0aff787eeeec1940ded32f8e4b5b506d665134fc87157baa086fce07ec6383970a2b6d2e7985beaed6a4cc14
   languageName: node
   linkType: hard
 
@@ -12024,7 +12024,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^7.0.0, glob@npm:^7.0.3, glob@npm:^7.1.3, glob@npm:^7.1.4, glob@npm:^7.1.6, glob@npm:^7.1.7, glob@npm:^7.2.0":
+"glob@npm:^7.0.0, glob@npm:^7.0.3, glob@npm:^7.1.3, glob@npm:^7.1.4, glob@npm:^7.1.6, glob@npm:^7.1.7":
   version: 7.2.3
   resolution: "glob@npm:7.2.3"
   dependencies:
@@ -12038,16 +12038,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^8.0.1":
-  version: 8.0.3
-  resolution: "glob@npm:8.0.3"
+"glob@npm:^8.0.1, glob@npm:^8.1.0":
+  version: 8.1.0
+  resolution: "glob@npm:8.1.0"
   dependencies:
     fs.realpath: "npm:^1.0.0"
     inflight: "npm:^1.0.4"
     inherits: "npm:2"
     minimatch: "npm:^5.0.1"
     once: "npm:^1.3.0"
-  checksum: 10/cd002c04010ffddba426376c3046466b923b5450f89a434e6a9df6bfec369a4e907afc436303d7fbc34366dcf37056dcc3bec41e41ce983ed8d78b6035ecc317
+  checksum: 10/9aab1c75eb087c35dbc41d1f742e51d0507aa2b14c910d96fb8287107a10a22f4bbdce26fc0a3da4c69a20f7b26d62f1640b346a4f6e6becfff47f335bb1dc5e
   languageName: node
   linkType: hard
 
@@ -12141,7 +12141,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globby@npm:^13.1.4":
+"globby@npm:^13.2.0":
   version: 13.2.2
   resolution: "globby@npm:13.2.2"
   dependencies:
@@ -12545,10 +12545,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-entities@npm:^2.1.0, html-entities@npm:^2.3.2, html-entities@npm:^2.3.3":
-  version: 2.3.3
-  resolution: "html-entities@npm:2.3.3"
-  checksum: 10/24f6b77ce234e263f3d44530de2356e67c313c8ba7e5f6e02c16dcea3a950711d8820afb320746d57b8dae61fde7aaaa7f60017b706fa4bce8624ba3c29ad316
+"html-entities@npm:^2.1.0, html-entities@npm:^2.3.2, html-entities@npm:^2.4.0":
+  version: 2.6.0
+  resolution: "html-entities@npm:2.6.0"
+  checksum: 10/06d4e7a3ba6243bba558af176e56f85e09894b26d911bc1ef7b2b9b3f18b46604360805b32636f080e954778e9a34313d1982479a05a5aa49791afd6a4229346
   languageName: node
   linkType: hard
 
@@ -16710,7 +16710,7 @@ __metadata:
     react-native-gesture-handler: "npm:2.9.0"
     react-native-gradle-plugin: "npm:0.71.19"
     react-native-reanimated: "npm:3.0.2"
-    react-native-rename: "npm:3.2.13"
+    react-native-rename: "npm:3.2.17"
     react-native-safe-area-context: "npm:4.5.5"
     react-native-screens: "npm:3.20.0"
     react-test-renderer: "npm:18.2.0"
@@ -18874,23 +18874,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-rename@npm:3.2.13":
-  version: 3.2.13
-  resolution: "react-native-rename@npm:3.2.13"
+"react-native-rename@npm:3.2.17":
+  version: 3.2.17
+  resolution: "react-native-rename@npm:3.2.17"
   dependencies:
-    chalk: "npm:^5.2.0"
+    chalk: "npm:^5.3.0"
     cheerio: "npm:^1.0.0-rc.12"
     commander: "npm:^10.0.1"
-    dotenv: "npm:^16.0.3"
-    globby: "npm:^13.1.4"
-    html-entities: "npm:^2.3.3"
+    dotenv: "npm:^16.3.1"
+    globby: "npm:^13.2.0"
+    html-entities: "npm:^2.4.0"
     normalize-path: "npm:^3.0.0"
-    replace-in-file: "npm:^6.3.5"
+    replace-in-file: "npm:^7.0.1"
     shelljs: "npm:^0.8.5"
     update-check: "npm:^1.5.4"
   bin:
     react-native-rename: lib/index.js
-  checksum: 10/d6414acafc34bd9ee817b51a3a03c34bfb16c8f8694de1f9554ee9d89438028c058ff9f366ecd31a72812ce5a988899881a63bb6b3c594c538195c4a57a96ae7
+  checksum: 10/f657805e20021ce62f93fd056bf2c5771d3b1b00f42a9dc449ad39d00ab0e92f5017693343d25e0e327a542c15a38c538a2b0a195639a1945c7860fb5b4c9295
   languageName: node
   linkType: hard
 
@@ -19782,16 +19782,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"replace-in-file@npm:^6.3.5":
-  version: 6.3.5
-  resolution: "replace-in-file@npm:6.3.5"
+"replace-in-file@npm:^7.0.1":
+  version: 7.2.0
+  resolution: "replace-in-file@npm:7.2.0"
   dependencies:
     chalk: "npm:^4.1.2"
-    glob: "npm:^7.2.0"
-    yargs: "npm:^17.2.1"
+    glob: "npm:^8.1.0"
+    yargs: "npm:^17.7.2"
   bin:
     replace-in-file: bin/cli.js
-  checksum: 10/25cbfe7efd4c97a745ac6e2f666743e113082c583b537a6fb94e028e11aa37b58f09e3a413b7c7d1a579438f5609e82f89d85b72f88952c99ef7a93d41992ed1
+  checksum: 10/9d08fc6c65dc3a06cb386ce00d03ca1acdfade394ca79e349777d2cc4dc346827b589ad6749e42aba602725e462b84d2386a77e22120cd3b8b8d764684f1e8d7
   languageName: node
   linkType: hard
 
@@ -23439,7 +23439,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yargs@npm:17.7.2, yargs@npm:^17.2.1, yargs@npm:^17.3.1, yargs@npm:^17.5.1, yargs@npm:^17.6.2":
+"yargs@npm:17.7.2, yargs@npm:^17.3.1, yargs@npm:^17.5.1, yargs@npm:^17.6.2, yargs@npm:^17.7.2":
   version: 17.7.2
   resolution: "yargs@npm:17.7.2"
   dependencies:
