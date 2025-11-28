@@ -62,7 +62,7 @@ jobs:
 #         build-root-directory: android
 
     - name: Build application Release APK with Gradle
-      uses: gradle/gradle-build-action@749f47bda3e44aa060e82d7b3ef7e40d953bd629 # v2.4.2
+      uses: gradle/gradle-build-action@a8f75513eafdebd8141bd1cd4e30fcd194af8dfa # v2.12.0
       with:
         arguments: assembleRelease
         build-root-directory: android
