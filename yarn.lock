@@ -5381,12 +5381,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ws@npm:8.5.5, @types/ws@npm:^8.5.1, @types/ws@npm:^8.5.3":
-  version: 8.5.5
-  resolution: "@types/ws@npm:8.5.5"
+"@types/ws@npm:8.18.1, @types/ws@npm:^8.5.1, @types/ws@npm:^8.5.3":
+  version: 8.18.1
+  resolution: "@types/ws@npm:8.18.1"
   dependencies:
     "@types/node": "npm:*"
-  checksum: 10/b2d7da5bd469c2ff1ddcfba1da33a556dc02c539e727001e7dc7b4182935154143e96a101cc091686acefb4e115c8ee38111c6634934748b8dd2db0c851c50ab
+  checksum: 10/1ce05e3174dcacf28dae0e9b854ef1c9a12da44c7ed73617ab6897c5cbe4fccbb155a20be5508ae9a7dde2f83bd80f5cf3baa386b934fc4b40889ec963e94f3a
   languageName: node
   linkType: hard
 
@@ -16672,7 +16672,7 @@ __metadata:
     "@types/react": "npm:18.2.20"
     "@types/react-native": "npm:0.72.2"
     "@types/react-test-renderer": "npm:18.0.0"
-    "@types/ws": "npm:8.5.5"
+    "@types/ws": "npm:8.18.1"
     "@typescript-eslint/eslint-plugin": "npm:5.59.11"
     "@typescript-eslint/parser": "npm:5.59.11"
     babel-jest: "npm:29.5.0"
