@@ -49,19 +49,19 @@
     },
     {
       "groupName": "swc monorepo",
-      "addLabels": ["devDeps", "swc", "transpiling"],
+      "addLabels": ["devDependencies", "swc", "transpiling"],
       "matchSourceUrls": ["github.com/swc-project/swc"]
     },
     {
       "groupName": "flipper monorepo",
-      "addLabels": ["devDeps", "flipper", "ios", "pods"],
+      "addLabels": ["devDependencies", "flipper", "ios", "pods"],
       "matchSourceUrls": ["github.com/facebook/flipper"],
       "matchPackageNames": ["react-native-flipper"],
       "automerge": false
     },
     {
       "groupName": "flipper monorepo",
-      "addLabels": ["devDeps", "flipper", "js", "node"],
+      "addLabels": ["devDependencies", "flipper", "js", "node"],
       "matchSourceUrls": ["github.com/facebook/flipper"],
       "matchPackageNames": ["flipper-server"]
     }
