@@ -14,9 +14,9 @@
     // https://docs.renovatebot.com/presets-group
     // https://docs.renovatebot.com/presets-monorepo
     {
-      "extends": ["group:eslintMonorepo"], // extends monorepo:eslint (official source)
-      "addLabels": ["devDependencies", "linting"],
-      "matchPackageNames": ["/eslint/"] // include all eslint related packages
+      // e.g. eslint, eslint-plugin-react-native, eslint-config-airbnb-typescript
+      "matchPackageNames": ["/eslint/"],
+      "addLabels": ["devDependencies", "linting"]
     },
     {
       // TODO: upstream group:react-nativeMonorepo
