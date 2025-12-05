@@ -11469,15 +11469,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flipper-server@npm:0.162.0":
-  version: 0.162.0
-  resolution: "flipper-server@npm:0.162.0"
-  bin:
-    flipper-server: server.js
-  checksum: 10/97fb0b04c28b20f885b0c251936342e1e9410e61f6a207390affb31bf8b591eb57fcee4a6e153a7f5d4bc63ac38a2243bcbf902192ff9c8fcbce32cc051d7de7
-  languageName: node
-  linkType: hard
-
 "flow-parser@npm:0.*":
   version: 0.195.0
   resolution: "flow-parser@npm:0.195.0"
@@ -16688,7 +16679,6 @@ __metadata:
     eslint-plugin-sort-keys-fix: "npm:1.1.2"
     eslint-plugin-typescript-sort-keys: "npm:2.3.0"
     eslint-plugin-yml: "npm:1.6.0"
-    flipper-server: "npm:0.162.0"
     html-webpack-plugin: "npm:5.5.3"
     husky: "npm:9.1.7"
     jest: "npm:29.5.0"
