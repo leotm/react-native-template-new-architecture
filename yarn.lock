@@ -10387,9 +10387,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-deprecation@npm:1.4.1":
-  version: 1.4.1
-  resolution: "eslint-plugin-deprecation@npm:1.4.1"
+"eslint-plugin-deprecation@npm:1.5.0":
+  version: 1.5.0
+  resolution: "eslint-plugin-deprecation@npm:1.5.0"
   dependencies:
     "@typescript-eslint/utils": "npm:^5.57.0"
     tslib: "npm:^2.3.1"
@@ -10397,7 +10397,7 @@ __metadata:
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
     typescript: ^3.7.5 || ^4.0.0 || ^5.0.0
-  checksum: 10/ccbca707164f8bb5cbd21e1ca591e21c3fab06a34df5846705511e77a135b59737e44aaa6a80158633d73a7aa7250e4bcd498d2f489345b14d0a97d7c1eef1c4
+  checksum: 10/a27fe68d68b878f4af025eb1fe5c8e311def6c0624534e26fedd8421521ee6a48dae9a181640a87b20886d781bb578682be3ee7d7a68e7bbdd515fb2c0686713
   languageName: node
   linkType: hard
 
@@ -16994,7 +16994,7 @@ __metadata:
     eslint-config-airbnb-typescript-prettier: "npm:5.0.0"
     eslint-config-react-native-typescript: "npm:2.2.7"
     eslint-plugin-communist-spelling: "npm:1.0.0"
-    eslint-plugin-deprecation: "npm:1.4.1"
+    eslint-plugin-deprecation: "npm:1.5.0"
     eslint-plugin-detox: "npm:1.0.0"
     eslint-plugin-import: "npm:2.27.5"
     eslint-plugin-jest: "npm:27.9.0"
