@@ -6,6 +6,8 @@ on:
   pull_request:
     branches: [ master ]
 
+  workflow_dispatch:
+
 jobs:
   build-ios:
     # if PR contains both 'devDependencies' and 'linting' labels (see: renovate.json5) don't run (i.e. skip) this expensive job
