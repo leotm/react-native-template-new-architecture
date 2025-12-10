@@ -31,8 +31,9 @@
       "addLabels": ["react native"]
     },
     {
+      // e.g. @react-native-community/datetimepicker, @react-native-community/image-editor, @react-native-community/netinfo
       "matchPackageNames": ["@react-native-community"],
-      "addLabels": ["community"]
+      "addLabels": ["community"] // do not add "dependencies" label (e.g. @react-native-community/cli falls under "devDependencies")
     },
     {
       "groupName": "@lavamoat/allow-scripts",
