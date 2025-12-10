@@ -27,8 +27,9 @@
       "automerge": false
     },
     {
+      // e.g. @react-native-firebase/app, @sentry/react-native, lottie-react-native, react-native-reanimated
       "matchPackageNames": ["/react-native/"],
-      "addLabels": ["react native"]
+      "addLabels": ["react native"] // do not add "dependencies" label (e.g. @testing-library/react-native falls under "devDependencies")
     },
     {
       // e.g. @react-native-community/datetimepicker, @react-native-community/image-editor, @react-native-community/netinfo
