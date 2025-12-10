@@ -5,6 +5,20 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+    paths:
+      - 'ios/**'
+      - 'Gemfile'
+      - '.github/workflows/ios.yml'
+      - 'index.{js,ts}'
+      - 'metro.config.js'
+      - 'babel.config.js'
+      - 'react-native.config.js'
+      - 'package.json'
+      - 'yarn.lock'
+      # - 'package-lock.json'
+      # - 'pnpm-lock.yaml'
+      # - 'bun.lock'
+      # - 'vlt-lock.json'
 
   workflow_dispatch:
 
