@@ -14,6 +14,11 @@
     // https://docs.renovatebot.com/presets-group
     // https://docs.renovatebot.com/presets-monorepo
     {
+      // e.g. @types/jest, @types/react, @types/node
+      "matchPackageNames": ["/@types/"],
+      "addLabels": ["devDependencies", "types"]
+    },
+    {
       // e.g. eslint, eslint-plugin-react-native, eslint-config-airbnb-typescript
       "matchPackageNames": ["/eslint/"],
       "addLabels": ["devDependencies", "linting"]
