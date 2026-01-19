@@ -9,7 +9,7 @@
 
 <div align="center">
 
-[![NPM RN pkg ver](https://img.shields.io/badge/React%20Native-0.71.12-red.svg)](https://github.com/facebook/react-native/releases)
+[![NPM RN pkg ver](https://img.shields.io/badge/React%20Native-0.83.0-red.svg)](https://github.com/facebook/react-native/releases)
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](#)
 [![Linter](https://badges.aleen42.com/src/eslint.svg)](#)
 [![Formatter: prettier](https://img.shields.io/badge/Formatter-Prettier-f8bc45.svg)](#)
@@ -20,6 +20,8 @@
 
 </div>
 
+
+<!-- TODO: Update Android/iOS screenshots -->
 Android | iOS
 --- | ---
 ![Android](https://user-images.githubusercontent.com/1881059/206861792-710af106-3070-40eb-9717-e32941d43327.png) | ![iOS](https://user-images.githubusercontent.com/1881059/206861794-17250417-623e-4f78-92a8-bcfc0cf344e6.png)
@@ -46,7 +48,8 @@ yarn start
 
 ```sh
 cd ios
-pod install
+bundle install
+bundle exec pod install
 cd ..
 yarn ios
 ```
@@ -95,6 +98,9 @@ yarn android
 ```
 
 ## Storybook v6
+
+> [!NOTE]
+> TODO: Migrate RN Storybook from 6.5.x to 10 (RN 0.71 to 0.83)
 
 Add stories to `src/components/**/*.stories.(ts|tsx)`
 

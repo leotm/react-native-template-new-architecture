@@ -1,4 +1,8 @@
 /**
+ * TODO: Migrate RN Storybook from 6.5.x to 10 (RN 0.71 to 0.83)
+ */
+
+/**
  * Parsed by sb-rn-get-stories to auto generate storybook.requires.js
  * ES6 mods not (yet) supported, for e.g.
  * main.{ts/mjs}: export default { ... }

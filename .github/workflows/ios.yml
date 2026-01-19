@@ -65,4 +65,4 @@ jobs:
     - name: Install pods (release)
       run: cd ios && PRODUCTION=1 pod install  && cd .. # --clean-install --repo-update
     - name: Build iOS (release)
-      run: npx react-native run-ios --configuration Release
+      run: yarn ios:release

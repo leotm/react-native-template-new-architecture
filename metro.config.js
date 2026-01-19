@@ -1,10 +1,12 @@
-/**
- * Metro configuration for React Native
- * https://github.com/facebook/react-native
- */
-// const path = require('path')
+const { getDefaultConfig, mergeConfig } = require('@react-native/metro-config')
 
-module.exports = {
+/**
+ * Metro configuration
+ * https://reactnative.dev/docs/metro
+ *
+ * @type {import('@react-native/metro-config').MetroConfig}
+ */
+const config = {
   // watchFolders: [path.resolve(__dirname, '../../')],
   transformer: {
     getTransformOptions: async () => ({
@@ -20,6 +22,9 @@ module.exports = {
     })
   },
   resolver: {
+    // TODO: Migrate RN Storybook from 6.5.x to 10 (RN 0.71 to 0.83)
     resolverMainFields: ['sbmodern', 'react-native', 'browser', 'main']
   }
 }
+
+module.exports = mergeConfig(getDefaultConfig(__dirname), config)
