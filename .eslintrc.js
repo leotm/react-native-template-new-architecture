@@ -1,6 +1,7 @@
 module.exports = {
   root: true,
   extends: [
+    '@react-native', // @react-native/eslint-config
     // All
     'eslint:all', // Pairs well with plugin:react/all
     'plugin:react/all', // Pairs well with eslint:all
@@ -13,9 +14,8 @@ module.exports = {
     'plugin:react-hooks/recommended',
     // Misc
     'airbnb-typescript-prettier',
-    // 'react-native-typescript', // [ERR_PACKAGE_PATH_NOT_EXPORTED]: Failed to load plugin 'flowtype'
-    // '@react-native-community', // [ERR_PACKAGE_PATH_NOT_EXPORTED]: Failed to load plugin 'flowtype'
-    // 'plugin:prettier/recommended', // Incompatible with eslint-plugin-yml
+    // 'react-native-typescript', // TODO: [ERR_PACKAGE_PATH_NOT_EXPORTED]: Failed to load plugin 'flowtype'
+    'plugin:prettier/recommended',
     'plugin:yml/prettier'
   ],
   parser: '@typescript-eslint/parser',
@@ -40,16 +40,21 @@ module.exports = {
     'jest/globals': true
   },
   ignorePatterns: [
+    // '!/.github', // TODO: False positive: Error loading '@typescript-eslint/await-thenable' requires parserOptions.project
     'lib',
     'babel.config.js',
     'metro.config.js',
     '.eslintrc.js',
     'webpack.config.js',
-    // '!/.github', // False positive: Error loading '@typescript-eslint/await-thenable' requires parserOptions.project
+    'vendor', // Generated for iOS build: bundle install
+    // TODO: Migrate RN Storybook from 6.5.x to 10 (RN 0.71 to 0.83)
     '!/.storybook',
-    '.storybook/storybook.requires.js' // Codegen
+    '.storybook/storybook.requires.js', // Codegen
+    '.storybook/Storybook.tsx', // Imports generated file
   ],
   plugins: [
+    'react',
+    'react-native',
     'deprecation',
     'simple-import-sort',
     'sort-keys-fix',
@@ -62,7 +67,6 @@ module.exports = {
     'deprecation/deprecation': 'error',
     'no-shadow': 'off',
     'communist-spelling/communist-spelling': 'error',
-    'react-native/no-color-literals': 'off',
     'react/jsx-props-no-spreading': 'off',
     // Sorts
     'typescript-sort-keys/interface': 'error',
@@ -97,7 +101,6 @@ module.exports = {
     'react/static-property-placement': ['error', 'static public field'], // https://github.com/Microsoft/TypeScript/wiki/What%27s-new-in-TypeScript#support-for-defaultprops-in-jsx
     'react/jsx-no-literals': 'off',
     'react/jsx-max-depth': 'off',
-    // 'react-native/no-raw-text': ['error', { skip: 'Text.Text' }], // https://github.com/Intellicode/eslint-plugin-react-native/issues/271
     'react/react-in-jsx-scope': 'off',
     'react/no-multi-comp': 'off',
     'react/jsx-one-expression-per-line': 'off',
@@ -108,6 +111,9 @@ module.exports = {
         unnamedComponents: 'arrow-function'
       }
     ],
+    // React Native
+    'react-native/no-color-literals': 'off',
+    'react-native/no-raw-text': ['error', { skip: ['Text.Text'] }], // https://github.com/Intellicode/eslint-plugin-react-native/issues/271
     // Jest
     'jest/require-hook': 'off',
     // Imports/Exports
@@ -125,6 +131,7 @@ module.exports = {
           '**/*{.,_}{test,spec}.{ts,tsx}',
           // Snapshot tests (Jest)
           '**/__tests__/**/*.{ts,tsx}', // react-test-renderer
+          // TODO: Migrate RN Storybook from 6.5.x to 10 (RN 0.71 to 0.83)
           // Storybook config
           '.storybook/**/*.{ts,tsx,js}',
           // Stories (@storybook/react-native)

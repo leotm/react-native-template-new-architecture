@@ -6,7 +6,7 @@
 
 module.exports = {
   presets: [
-    'module:metro-react-native-babel-preset',
+    'module:@react-native/babel-preset',
     [
       '@babel/preset-react',
       {
@@ -29,12 +29,12 @@ module.exports = {
     [
       /**
        * Allow custom env vars from Metro
-       * e.g. RN_ENV=staging react-native start --reset-cache
+       * e.g. RN_ENV=staging react-native start
        * Accessible from process.env.RN_ENV
        */
       'transform-inline-environment-variables'
     ],
-    ['babel-plugin-react-docgen-typescript', { exclude: 'node_modules' }],
-    'react-native-reanimated/plugin'
+    ['babel-plugin-react-docgen-typescript', { exclude: 'node_modules' }]
+    // e.g. 'react-native-reanimated/plugin'
   ]
 }

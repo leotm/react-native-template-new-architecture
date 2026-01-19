@@ -1,11 +1,6 @@
-/**
- * Use index.ts
- * Only here for iOS Release build bundling
- */
-
 import { AppRegistry } from 'react-native'
 
-import { name } from './app.json'
-import Root from './src'
+import { name as appName } from './app.json'
+import App from './src'
 
-AppRegistry.registerComponent(name, () => Root)
+AppRegistry.registerComponent(appName, () => App)

@@ -1,4 +1,8 @@
 /**
+ * TODO: Migrate RN Storybook from 6.5.x to 10 (RN 0.71 to 0.83)
+ */
+
+/**
  * ES6 mods not (yet) supported for typed .tsx
  * Preserve .js ext for correct storybook.requires.js codegen
  */

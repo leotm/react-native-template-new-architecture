@@ -1,128 +1,52 @@
-/* eslint-disable react-native/no-raw-text, no-console */
-// https://github.com/Intellicode/eslint-plugin-react-native/issues/271
-
-import type { PropsWithChildren } from 'react'
+import { NewAppScreen } from '@react-native/new-app-screen'
+import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native'
 import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View
-} from 'react-native'
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions
-} from 'react-native/Libraries/NewAppScreen'
+  SafeAreaProvider,
+  useSafeAreaInsets
+} from 'react-native-safe-area-context'
 
+// TODO: Migrate RN Storybook from 6.5.x to 10 (RN 0.71 to 0.83)
 // import StorybookUIRoot from '../.storybook/Storybook'
 
-if (__DEV__) {
-  import('../ReactotronConfig')
-    .then(() => {
-      console.log('Reactotron Configured')
-    })
-    .catch(() => console.error)
+// TODO: Fix Error Unable to resolve module react-native/Libraries/Network/XHRInterceptor from .../node_modules/reactotron-react-native/dist/index.js:
+// react-native/Libraries/Network/XHRInterceptor could not be found within the project or in these directories: node_modules
+// if (__DEV__) {
+//   import('../ReactotronConfig')
+//     .then(() => {
+//       // eslint-disable-next-line no-console
+//       console.log('Reactotron Configured')
+//     })
+//     // eslint-disable-next-line no-console
+//     .catch(() => console.error)
+// }
+
+const App = () => {
+  const isDarkMode = useColorScheme() === 'dark'
+
+  return (
+    <SafeAreaProvider>
+      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+      <AppContent />
+    </SafeAreaProvider>
+  )
 }
 
-type SectionProps = PropsWithChildren<{
-  title: string
-}>
+const AppContent = () => {
+  const safeAreaInsets = useSafeAreaInsets()
 
-const Section = ({ children, title }: SectionProps) => {
-  const isDarkMode = useColorScheme() === 'dark'
   return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          { color: isDarkMode ? Colors.white : Colors.black }
-        ]}
-      >
-        {title}
-      </Text>
-
-      <Text
-        style={[
-          styles.sectionDescription,
-          { color: isDarkMode ? Colors.light : Colors.dark }
-        ]}
-      >
-        {children}
-      </Text>
+    <View style={styles.container}>
+      <NewAppScreen
+        templateFileName="App.tsx"
+        safeAreaInsets={safeAreaInsets}
+      />
     </View>
   )
 }
 
-export const App = () => {
-  const isDarkMode = useColorScheme() === 'dark'
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter
-  }
-
-  return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-        backgroundColor={backgroundStyle.backgroundColor}
-      />
-
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}
-      >
-        <Header />
-
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white
-          }}
-        >
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>src/index.tsx</Text> to change
-            this screen and then come back to see your edits.
-          </Section>
-
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-
-          <LearnMoreLinks />
-        </View>
-      </ScrollView>
-    </SafeAreaView>
-  )
-}
-
 const styles = StyleSheet.create({
-  highlight: {
-    fontWeight: '700'
-  },
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24
-  },
-  sectionDescription: {
-    fontSize: 18,
-    fontWeight: '400',
-    marginTop: 8
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600'
+  container: {
+    flex: 1
   }
 })
 
