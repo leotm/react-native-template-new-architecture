@@ -5,6 +5,12 @@
  */
 
 module.exports = {
+  /**
+   * @lavamoat/react-native-lockdown
+   * Avoid transforming SES Hermes (and JSC) shims
+   * TODO: https://github.com/endojs/endo/issues/662 upstream
+   */
+  ignore: [/\/ses\.cjs$/, /\/ses-hermes\.cjs$/],
   presets: [
     'module:@react-native/babel-preset',
     [

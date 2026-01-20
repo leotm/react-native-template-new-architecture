@@ -1,4 +1,5 @@
 const { getDefaultConfig, mergeConfig } = require('@react-native/metro-config')
+const { lockdownSerializer } = require('@lavamoat/react-native-lockdown')
 
 /**
  * Metro configuration
@@ -8,6 +9,7 @@ const { getDefaultConfig, mergeConfig } = require('@react-native/metro-config')
  */
 const config = {
   // watchFolders: [path.resolve(__dirname, '../../')],
+  serializer: lockdownSerializer({ hermesRuntime: true }),
   transformer: {
     getTransformOptions: async () => ({
       transform: {
