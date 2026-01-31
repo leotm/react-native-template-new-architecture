@@ -5,6 +5,12 @@
  */
 
 module.exports = {
+  /**
+   * @lavamoat/react-native-lockdown
+   * Exclude SES (Hermes and JSC) shims from transformation
+   * Preserve their integrity
+   */
+  ignore: [/\/ses\.cjs$/, /\/ses-hermes\.cjs$/],
   presets: [
     'module:@react-native/babel-preset',
     [
