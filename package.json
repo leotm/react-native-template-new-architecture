@@ -25,7 +25,6 @@
     "get-stories": "sb-rn-get-stories --config-path=./.storybook",
     "storybook-watcher": "sb-rn-watcher --config-path=./.storybook",
     "storybook-server": "react-native-storybook-server",
-    "flipper-server": "flipper-server",
     "node-server": "ts-node node.ts",
     "deno-server": "deno run --allow-net deno.ts",
     "rename": "yarn react-native-rename",
