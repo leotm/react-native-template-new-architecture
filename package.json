@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "setup": "allow-scripts",
+    "allow:auto": "allow-scripts auto",
     "start": "react-native start",
     "start:reset": "react-native start --reset-cache",
     "android": "react-native run-android --active-arch-only",
