@@ -14,7 +14,6 @@ module.exports = {
     'plugin:react-hooks/recommended',
     // Misc
     'airbnb-typescript-prettier',
-    // 'react-native-typescript', // TODO: [ERR_PACKAGE_PATH_NOT_EXPORTED]: Failed to load plugin 'flowtype'
     'plugin:prettier/recommended',
     'plugin:yml/prettier'
   ],
