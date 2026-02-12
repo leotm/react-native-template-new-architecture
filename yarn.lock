@@ -16436,7 +16436,7 @@ __metadata:
     husky: "npm:9.1.7"
     jest: "npm:29.7.0"
     lint-staged: "npm:16.2.7"
-    prettier: "npm:2.8.8"
+    prettier: "npm:3.8.1"
     react: "npm:19.2.0"
     react-codemod: "npm:5.4.4"
     react-native: "npm:0.83.0"
@@ -17949,12 +17949,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.8.8, prettier@npm:^2.4.1":
-  version: 2.8.8
-  resolution: "prettier@npm:2.8.8"
+"prettier@npm:3.8.1":
+  version: 3.8.1
+  resolution: "prettier@npm:3.8.1"
   bin:
-    prettier: bin-prettier.js
-  checksum: 10/00cdb6ab0281f98306cd1847425c24cbaaa48a5ff03633945ab4c701901b8e96ad558eb0777364ffc312f437af9b5a07d0f45346266e8245beaf6247b9c62b24
+    prettier: bin/prettier.cjs
+  checksum: 10/3da1cf8c1ef9bea828aa618553696c312e951f810bee368f6887109b203f18ee869fe88f66e65f9cf60b7cb1f2eae859892c860a300c062ff8ec69c381fc8dbd
   languageName: node
   linkType: hard
 
@@ -17964,6 +17964,15 @@ __metadata:
   bin:
     prettier: bin-prettier.js
   checksum: 10/b3a03b35fa0835f5d95e4fde6244280fe8e132f1cd009a6804039f77bf09d79f8f770ab8105adc467376a6a446ee8ccf6fc97d01d980d8ef052d10f69217946f
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^2.4.1":
+  version: 2.8.8
+  resolution: "prettier@npm:2.8.8"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 10/00cdb6ab0281f98306cd1847425c24cbaaa48a5ff03633945ab4c701901b8e96ad558eb0777364ffc312f437af9b5a07d0f45346266e8245beaf6247b9c62b24
   languageName: node
   linkType: hard
 
