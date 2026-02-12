@@ -16266,10 +16266,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mitt@npm:1.1.3":
-  version: 1.1.3
-  resolution: "mitt@npm:1.1.3"
-  checksum: 10/831dbea19bbbc7ee051caaa9279072d610bc66b6b5fbabaf21720c0942e402c9f4e1abbef7d3e22cb0757ca00831d9af4106d23717f0aa3fd897f65f11d8ff70
+"mitt@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "mitt@npm:3.0.1"
+  checksum: 10/287c70d8e73ffc25624261a4989c783768aed95ecb60900f051d180cf83e311e3e59865bfd6e9d029cdb149dc20ba2f128a805e9429c5c4ce33b1416c65bbd14
   languageName: node
   linkType: hard
 
@@ -16444,7 +16444,7 @@ __metadata:
     react-native-rename: "npm:3.2.17"
     react-native-safe-area-context: "npm:5.6.2"
     react-test-renderer: "npm:19.2.0"
-    reactotron-react-native: "npm:5.0.3"
+    reactotron-react-native: "npm:5.1.18"
     ts-node: "npm:10.9.2"
     typescript: "npm:5.9.3"
     webpack-cli: "npm:5.0.2"
@@ -18215,17 +18215,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"query-string@npm:6.10.1":
-  version: 6.10.1
-  resolution: "query-string@npm:6.10.1"
-  dependencies:
-    decode-uri-component: "npm:^0.2.0"
-    split-on-first: "npm:^1.0.0"
-    strict-uri-encode: "npm:^2.0.0"
-  checksum: 10/f41a47e20b8c780d089ba6e03d2c9469f2dc0d8e493e29d7f11c4e0eab3deb5df57cdbcb295e7540f5c2bb82a10623e79f9a4ad776c1590a0d369634f5d2f36b
-  languageName: node
-  linkType: hard
-
 "querystring-es3@npm:^0.2.0":
   version: 0.2.1
   resolution: "querystring-es3@npm:0.2.1"
@@ -18497,16 +18486,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-flipper@npm:^0.164.0":
-  version: 0.164.0
-  resolution: "react-native-flipper@npm:0.164.0"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0
-    react-native: ">0.62.0"
-  checksum: 10/2653c672dcd9a380f6e022ab882d38a3f62613f9967206be216f424353180bd14e2213706470e49c43e8494616eeb506132cd2d480dded8716217a9d55f25963
-  languageName: node
-  linkType: hard
-
 "react-native-modal-datetime-picker@npm:^14.0.0":
   version: 14.0.1
   resolution: "react-native-modal-datetime-picker@npm:14.0.1"
@@ -18692,28 +18671,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"reactotron-core-client@npm:2.8.10":
-  version: 2.8.10
-  resolution: "reactotron-core-client@npm:2.8.10"
-  checksum: 10/5b70e6865be416b5b4666059b9d14b0274589e2d7d6377ef1e301a5d92cb6be651900ed641a19606ee7ffe3f61df6e51eac5d6f1c11d5200f1a74f5068909482
+"reactotron-core-client@npm:2.9.9":
+  version: 2.9.9
+  resolution: "reactotron-core-client@npm:2.9.9"
+  dependencies:
+    reactotron-core-contract: "npm:0.3.2"
+  checksum: 10/04332b7f264f35a212e5aee17c5f31ad2e0be96f73ee36acc540bd9c982180e20e39d5579e21ec74fa9b526efec7260e14f7dff53d409d6c584323f5ef78e316
   languageName: node
   linkType: hard
 
-"reactotron-react-native@npm:5.0.3":
-  version: 5.0.3
-  resolution: "reactotron-react-native@npm:5.0.3"
+"reactotron-core-contract@npm:0.3.2":
+  version: 0.3.2
+  resolution: "reactotron-core-contract@npm:0.3.2"
+  checksum: 10/861e02b2e26b10bb3242611132a5bf9c43a62f5571e86883d88946c2199198f405d059a85c30091a005c7cb763106dbed8cdded8c5631b87682ec9dc782163ec
+  languageName: node
+  linkType: hard
+
+"reactotron-react-native@npm:5.1.18":
+  version: 5.1.18
+  resolution: "reactotron-react-native@npm:5.1.18"
   dependencies:
-    mitt: "npm:1.1.3"
-    query-string: "npm:6.10.1"
-    react-native-flipper: "npm:^0.164.0"
-    reactotron-core-client: "npm:2.8.10"
-    rn-host-detect: "npm:1.2.0"
+    mitt: "npm:^3.0.1"
+    reactotron-core-client: "npm:2.9.9"
   peerDependencies:
     react-native: ">=0.40.0"
-  dependenciesMeta:
-    react-native-flipper:
-      optional: true
-  checksum: 10/faf29d1f39abb1055c73ac4fff389acfa458aa3256d8593cb69b774bad1186c443c730422fba775891a465d7b51727964708c938ed28ecdf5d48a2b10bca4ec7
+  checksum: 10/15700a2d5afe333fb81898cf67d7eb36f8a81a6fc7ff6089b2281f332c66ee0a1fd9e533f8db45a58b0f1a25390ee43fbb8f5eba413f10b3c1186a9cdf737de8
   languageName: node
   linkType: hard
 
@@ -19692,13 +19674,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rn-host-detect@npm:1.2.0":
-  version: 1.2.0
-  resolution: "rn-host-detect@npm:1.2.0"
-  checksum: 10/90d94a3567ce96a78647aea3f6315266aa580f9c13eccb85b67e105972493a13dd40d27dc4cb28deb2a3d5512599a320384502d8c9e8f93610deeefee07932db
-  languageName: node
-  linkType: hard
-
 "rsvp@npm:^4.8.4":
   version: 4.8.5
   resolution: "rsvp@npm:4.8.5"
@@ -20567,13 +20542,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"split-on-first@npm:^1.0.0":
-  version: 1.1.0
-  resolution: "split-on-first@npm:1.1.0"
-  checksum: 10/16ff85b54ddcf17f9147210a4022529b343edbcbea4ce977c8f30e38408b8d6e0f25f92cd35b86a524d4797f455e29ab89eb8db787f3c10708e0b47ebf528d30
-  languageName: node
-  linkType: hard
-
 "split-string@npm:^3.0.1, split-string@npm:^3.0.2":
   version: 3.1.0
   resolution: "split-string@npm:3.1.0"
@@ -20743,13 +20711,6 @@ __metadata:
   version: 1.0.3
   resolution: "stream-shift@npm:1.0.3"
   checksum: 10/a24c0a3f66a8f9024bd1d579a533a53be283b4475d4e6b4b3211b964031447bdf6532dd1f3c2b0ad66752554391b7c62bd7ca4559193381f766534e723d50242
-  languageName: node
-  linkType: hard
-
-"strict-uri-encode@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "strict-uri-encode@npm:2.0.0"
-  checksum: 10/eaac4cf978b6fbd480f1092cab8b233c9b949bcabfc9b598dd79a758f7243c28765ef7639c876fa72940dac687181b35486ea01ff7df3e65ce3848c64822c581
   languageName: node
   linkType: hard
 
