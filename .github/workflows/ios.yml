@@ -8,6 +8,7 @@ on:
     paths:
       - 'ios/**'
       - 'Gemfile'
+      - 'Gemfile.lock'
       - '.github/workflows/ios.yml'
       - 'index.{js,ts}'
       - 'metro.config.js'
