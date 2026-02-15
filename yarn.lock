@@ -1798,7 +1798,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/core@npm:^10.0.20, @emotion/core@npm:^10.0.9":
+"@emotion/core@npm:^10.0.9":
   version: 10.3.1
   resolution: "@emotion/core@npm:10.3.1"
   dependencies:
@@ -1836,29 +1836,6 @@ __metadata:
   version: 0.7.4
   resolution: "@emotion/memoize@npm:0.7.4"
   checksum: 10/4e3920d4ec95995657a37beb43d3f4b7d89fed6caa2b173a4c04d10482d089d5c3ea50bbc96618d918b020f26ed6e9c4026bbd45433566576c1f7b056c3271dc
-  languageName: node
-  linkType: hard
-
-"@emotion/native@npm:^10.0.14":
-  version: 10.0.27
-  resolution: "@emotion/native@npm:10.0.27"
-  dependencies:
-    "@emotion/primitives-core": "npm:10.0.27"
-  peerDependencies:
-    react-native: ">=0.14.0 <1"
-  checksum: 10/3709b6eeb2d7b19959844009099e727d7948bfeba56cd243f35430f81226916f5ac6ccfc6a1db0c1d607a88f79d8eb8c5089d1f04aab6f51f04b0507b1f892ff
-  languageName: node
-  linkType: hard
-
-"@emotion/primitives-core@npm:10.0.27":
-  version: 10.0.27
-  resolution: "@emotion/primitives-core@npm:10.0.27"
-  dependencies:
-    css-to-react-native: "npm:^2.2.1"
-  peerDependencies:
-    "@emotion/core": ^10.0.27
-    react: ">=16.3.0"
-  checksum: 10/cb371f58056813e4aaff82f86e16ec55b03f37e53caed68029475e590c9548280ecb6587de5a31244ac1d561426e54d7bb7ba63d59de48cd74ff05f07b260ecf
   languageName: node
   linkType: hard
 
@@ -3530,9 +3507,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-ondevice-actions@npm:6.5.3":
-  version: 6.5.3
-  resolution: "@storybook/addon-ondevice-actions@npm:6.5.3"
+"@storybook/addon-ondevice-actions@npm:6.5.7":
+  version: 6.5.7
+  resolution: "@storybook/addon-ondevice-actions@npm:6.5.7"
   dependencies:
     "@storybook/addons": "npm:^6.5.14"
     "@storybook/core-events": "npm:^6.5.14"
@@ -3541,34 +3518,35 @@ __metadata:
     "@storybook/addon-actions": ^6.5.14
     react: "*"
     react-native: "*"
-  checksum: 10/2daa200bf3027b966d31c08f37e35fe2afaa6667c9695a39e26347af23239d29b47b970a3b364039921efd93ba2cd81ce313f9691ab2314ec5a2449c3ecccb52
+  checksum: 10/ddd8a92c92a29efadfcb1db1caba2509ae74aff82202877f2f45b35d733e462e0c9961cf80d16381777e0a0a3c4dccd598330a0fc403749e0e6e7c469d70f91b
   languageName: node
   linkType: hard
 
-"@storybook/addon-ondevice-backgrounds@npm:6.5.3":
-  version: 6.5.3
-  resolution: "@storybook/addon-ondevice-backgrounds@npm:6.5.3"
+"@storybook/addon-ondevice-backgrounds@npm:6.5.7":
+  version: 6.5.7
+  resolution: "@storybook/addon-ondevice-backgrounds@npm:6.5.7"
   dependencies:
     "@storybook/addons": "npm:^6.5.14"
     "@storybook/api": "npm:^6.5.14"
     "@storybook/client-api": "npm:^6.5.14"
+    "@storybook/react-native-theming": "npm:^6.5.7"
     core-js: "npm:^3.0.1"
     prop-types: "npm:^15.7.2"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10/71e619038bac80ae9d0151542d55616acf32e07515782f41d481973e472aff03906cd29d3cd17f2484f56251f4eeef0c8575a6250643248e0a53d1aacd96ffbb
+  checksum: 10/8b9552904a3ec2dfcd87941725e9ea3159976325c689351c1cf9f0f6ebc683e436ccb770be2cd81c708c76e4e103cbf6ff10ab057ff9cf6af54fe95fd726c4c4
   languageName: node
   linkType: hard
 
-"@storybook/addon-ondevice-controls@npm:6.5.3":
-  version: 6.5.3
-  resolution: "@storybook/addon-ondevice-controls@npm:6.5.3"
+"@storybook/addon-ondevice-controls@npm:6.5.7":
+  version: 6.5.7
+  resolution: "@storybook/addon-ondevice-controls@npm:6.5.7"
   dependencies:
-    "@emotion/native": "npm:^10.0.14"
     "@storybook/addons": "npm:^6.5.14"
     "@storybook/client-logger": "npm:^6.5.14"
     "@storybook/core-events": "npm:^6.5.14"
+    "@storybook/react-native-theming": "npm:^6.5.7"
     core-js: "npm:^3.0.1"
     deep-equal: "npm:^1.0.1"
     prop-types: "npm:^15.7.2"
@@ -3581,17 +3559,17 @@ __metadata:
     "@storybook/addon-controls": ^6.5.14
     react: "*"
     react-native: "*"
-  checksum: 10/58e6f80e05e8dea386ae58d86fd0920ee62b876d9e08e90cc79155e4016ace2e0cd94487e000ff72d16d7a4419038b5007ce874d1c9713cb93665eaec4a3ee28
+  checksum: 10/102464761f63b9ecc8e3d09add597244d44a53ca20d534ce139a3de7fc992718323f316560700f2e877e8800bded5272cef5e49ceda487ad4ec3cf88d4baac8f
   languageName: node
   linkType: hard
 
-"@storybook/addon-ondevice-knobs@npm:6.5.3":
-  version: 6.5.3
-  resolution: "@storybook/addon-ondevice-knobs@npm:6.5.3"
+"@storybook/addon-ondevice-knobs@npm:6.5.7":
+  version: 6.5.7
+  resolution: "@storybook/addon-ondevice-knobs@npm:6.5.7"
   dependencies:
-    "@emotion/native": "npm:^10.0.14"
     "@storybook/addons": "npm:^6.5.14"
     "@storybook/core-events": "npm:^6.5.14"
+    "@storybook/react-native-theming": "npm:^6.5.7"
     core-js: "npm:^3.0.1"
     deep-equal: "npm:^1.0.1"
     prop-types: "npm:^15.7.2"
@@ -3604,28 +3582,27 @@ __metadata:
     "@storybook/addon-knobs": ^6
     react: "*"
     react-native: "*"
-  checksum: 10/6ea7e78e5623b341ab457157cdca3b87ac17b9214cf358d9c68bb69be3562db0d6c7ac6f8ec90239207cf75ff4b871299ca49647208e49c99a2fa71dc839b07b
+  checksum: 10/6072d2945c594e709f7e02978be7dc5a0fd6f570ae008c060e6ea2882a3299c7503b1187242c1a91372dd82d334ec32299e653fb80679f3e46c8a9ff2d903b6e
   languageName: node
   linkType: hard
 
-"@storybook/addon-ondevice-notes@npm:6.5.3":
-  version: 6.5.3
-  resolution: "@storybook/addon-ondevice-notes@npm:6.5.3"
+"@storybook/addon-ondevice-notes@npm:6.5.7":
+  version: 6.5.7
+  resolution: "@storybook/addon-ondevice-notes@npm:6.5.7"
   dependencies:
-    "@emotion/core": "npm:^10.0.20"
     "@storybook/addons": "npm:^6.5.14"
     "@storybook/api": "npm:^6.5.14"
     "@storybook/client-api": "npm:^6.5.14"
     "@storybook/client-logger": "npm:^6.5.14"
     "@storybook/core-events": "npm:^6.5.14"
+    "@storybook/react-native-theming": "npm:^6.5.7"
     core-js: "npm:^3.0.1"
-    emotion-theming: "npm:^10.0.19"
     prop-types: "npm:^15.7.2"
     simple-markdown: "npm:^0.7.3"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10/950320f4015a9b2e9b606cf602892fae2ffe8e1ff3e8597078d41c084b5eda99364f22f0346c5faf8478cf466f9e27ab6fdd5d7b3b9297b9ec38797edcf14990
+  checksum: 10/b4c92a2f8153351fbed1c547616abf801009d2c30d939b0aee9b7f9ffe6d9f473cfcdbd5b81282c58a92b27629153c364a8f53463af788db3a7ed16bcfeefac1
   languageName: node
   linkType: hard
 
@@ -4329,9 +4306,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/react-native-server@npm:6.5.3":
-  version: 6.5.3
-  resolution: "@storybook/react-native-server@npm:6.5.3"
+"@storybook/react-native-server@npm:6.5.8":
+  version: 6.5.8
+  resolution: "@storybook/react-native-server@npm:6.5.8"
   dependencies:
     "@storybook/addons": "npm:^6.5.14"
     "@storybook/api": "npm:^6.5.14"
@@ -4352,16 +4329,24 @@ __metadata:
   bin:
     react-native-storybook-server: bin/index.js
     storybook-server: bin/index.js
-  checksum: 10/c102f24e07ae61771b64f9a36701e46f77d4cf378e258295753caea5c59d9de3c01f4a071f200381cee90af53c44d8a37e289fb8124aaec1ba1b49fb16f15d19
+  checksum: 10/ffe3a71922a7d47bf42f3352763832a483601fa91f6c164511e89ab2113a9861a4b7d325773c5c9b4c622842623b105ff9d9fcc7e80aadae1de94f68a60e8c3e
   languageName: node
   linkType: hard
 
-"@storybook/react-native@npm:6.5.3":
-  version: 6.5.3
-  resolution: "@storybook/react-native@npm:6.5.3"
+"@storybook/react-native-theming@npm:^6.5.7":
+  version: 6.5.7
+  resolution: "@storybook/react-native-theming@npm:6.5.7"
+  peerDependencies:
+    react: "*"
+    react-native: ">=0.57.0"
+  checksum: 10/00f81695545be4ca44fca5e020333b39d854ecdea56324dcaabe3f30aaa13ef8ac69df05bb288bd90ea632e01e63c272ccb294009c691ebf6da3ac3f8f757ac7
+  languageName: node
+  linkType: hard
+
+"@storybook/react-native@npm:6.5.7":
+  version: 6.5.7
+  resolution: "@storybook/react-native@npm:6.5.7"
   dependencies:
-    "@emotion/core": "npm:^10.0.20"
-    "@emotion/native": "npm:^10.0.14"
     "@storybook/addons": "npm:^6.5.14"
     "@storybook/channel-websocket": "npm:^6.5.14"
     "@storybook/channels": "npm:^6.5.14"
@@ -4371,10 +4356,10 @@ __metadata:
     "@storybook/core-events": "npm:^6.5.14"
     "@storybook/csf": "npm:0.0.2--canary.4566f4d.1"
     "@storybook/preview-web": "npm:^6.5.14"
+    "@storybook/react-native-theming": "npm:^6.5.7"
     chokidar: "npm:^3.5.1"
     commander: "npm:^8.2.0"
     deepmerge: "npm:^4.3.0"
-    emotion-theming: "npm:^10.0.19"
     glob: "npm:^7.1.7"
     jotai: "npm:^2.0.2"
     prettier: "npm:^2.4.1"
@@ -4388,7 +4373,7 @@ __metadata:
   bin:
     sb-rn-get-stories: bin/get-stories.js
     sb-rn-watcher: bin/watcher.js
-  checksum: 10/d52294e61e94e9f2149bc898386d3e3f03400930f9429bf07837d3f73c0fb17dda99a8584dc82119d9c6fab8963a11e53bcb623600ea443a73148ca86c536dcc
+  checksum: 10/22df2204da2aa248ef6d8903044a4fe0f70427d3344fa53a13ae72932b1abc3c510a3ff99b7c5924d0052f4a1af12f62d3d6ae52d3ae029c3de529ba75b7922b
   languageName: node
   linkType: hard
 
@@ -8085,13 +8070,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"camelize@npm:^1.0.0":
-  version: 1.0.1
-  resolution: "camelize@npm:1.0.1"
-  checksum: 10/0e147b4299ac6363c50050716aadfae42831257ec56ce54773ffd2a94a88abb2e2540c5ccc38345e8a39963105b76d86cb24477165a36b78c9958fb304513db3
-  languageName: node
-  linkType: hard
-
 "caniuse-lite@npm:^1.0.30001109, caniuse-lite@npm:^1.0.30001759":
   version: 1.0.30001770
   resolution: "caniuse-lite@npm:1.0.30001770"
@@ -9108,13 +9086,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-color-keywords@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "css-color-keywords@npm:1.0.0"
-  checksum: 10/8f125e3ad477bd03c77b533044bd9e8a6f7c0da52d49bbc0bbe38327b3829d6ba04d368ca49dd9ff3b667d2fc8f1698d891c198bbf8feade1a5501bf5a296408
-  languageName: node
-  linkType: hard
-
 "css-loader@npm:^3.6.0":
   version: 3.6.0
   resolution: "css-loader@npm:3.6.0"
@@ -9161,17 +9132,6 @@ __metadata:
     domutils: "npm:^3.0.1"
     nth-check: "npm:^2.0.1"
   checksum: 10/ebb6a88446433312d1a16301afd1c5f75090805b730dbbdccb0338b0d6ca7922410375f16dde06673ef7da086e2cf3b9ad91afe9a8e0d2ee3625795cb5e0170d
-  languageName: node
-  linkType: hard
-
-"css-to-react-native@npm:^2.2.1":
-  version: 2.3.2
-  resolution: "css-to-react-native@npm:2.3.2"
-  dependencies:
-    camelize: "npm:^1.0.0"
-    css-color-keywords: "npm:^1.0.0"
-    postcss-value-parser: "npm:^3.3.0"
-  checksum: 10/25a896a6f2d9a95ece8b58e413e548002d7422bffdd5849b247a4b165a811ff47082b5f0b5426b93f4cdd52cafb628b35e3a2c1ab8e2da291e3d6979f0076dd8
   languageName: node
   linkType: hard
 
@@ -9862,20 +9822,6 @@ __metadata:
   version: 3.0.0
   resolution: "emojis-list@npm:3.0.0"
   checksum: 10/114f47d6d45612621497d2b1556c8f142c35332a591780a54e863e42d281e72d6c7d7c419f2e419319d4eb7f6ebf1db82d9744905d90f275db20d06a763b5e19
-  languageName: node
-  linkType: hard
-
-"emotion-theming@npm:^10.0.19":
-  version: 10.3.0
-  resolution: "emotion-theming@npm:10.3.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.5.5"
-    "@emotion/weak-memoize": "npm:0.2.5"
-    hoist-non-react-statics: "npm:^3.3.0"
-  peerDependencies:
-    "@emotion/core": ^10.0.27
-    react: ">=16.3.0"
-  checksum: 10/bc2af1f9647692cc340e216973f1309f80695276f92b12969f3eccd93fbc9cb39eb8fe67b5c77c7f9cced9bb576db2b671cfad08d5bc7af541b85972d42679b7
   languageName: node
   linkType: hard
 
@@ -12756,15 +12702,6 @@ __metadata:
     minimalistic-assert: "npm:^1.0.0"
     minimalistic-crypto-utils: "npm:^1.0.1"
   checksum: 10/0298a1445b8029a69b713d918ecaa84a1d9f614f5857e0c6e1ca517abfa1357216987b2ee08cc6cc73ba82a6c6ddf2ff11b9717a653530ef03be599d4699b836
-  languageName: node
-  linkType: hard
-
-"hoist-non-react-statics@npm:^3.3.0":
-  version: 3.3.2
-  resolution: "hoist-non-react-statics@npm:3.3.2"
-  dependencies:
-    react-is: "npm:^16.7.0"
-  checksum: 10/1acbe85f33e5a39f90c822ad4d28b24daeb60f71c545279431dc98c312cd28a54f8d64788e477fe21dc502b0e3cf58589ebe5c1ad22af27245370391c2d24ea6
   languageName: node
   linkType: hard
 
@@ -16374,18 +16311,18 @@ __metadata:
     "@storybook/addon-essentials": "npm:6.5.16"
     "@storybook/addon-knobs": "npm:6.4.0"
     "@storybook/addon-links": "npm:6.5.16"
-    "@storybook/addon-ondevice-actions": "npm:6.5.3"
-    "@storybook/addon-ondevice-backgrounds": "npm:6.5.3"
-    "@storybook/addon-ondevice-controls": "npm:6.5.3"
-    "@storybook/addon-ondevice-knobs": "npm:6.5.3"
-    "@storybook/addon-ondevice-notes": "npm:6.5.3"
+    "@storybook/addon-ondevice-actions": "npm:6.5.7"
+    "@storybook/addon-ondevice-backgrounds": "npm:6.5.7"
+    "@storybook/addon-ondevice-controls": "npm:6.5.7"
+    "@storybook/addon-ondevice-knobs": "npm:6.5.7"
+    "@storybook/addon-ondevice-notes": "npm:6.5.7"
     "@storybook/addons": "npm:6.5.16"
     "@storybook/docs-tools": "npm:6.5.16"
     "@storybook/eslint-config-storybook": "npm:3.1.2"
     "@storybook/linter-config": "npm:3.1.2"
     "@storybook/react": "npm:6.5.16"
-    "@storybook/react-native": "npm:6.5.3"
-    "@storybook/react-native-server": "npm:6.5.3"
+    "@storybook/react-native": "npm:6.5.7"
+    "@storybook/react-native-server": "npm:6.5.8"
     "@swc/core": "npm:1.15.11"
     "@swc/wasm": "npm:1.15.11"
     "@types/jest": "npm:29.5.14"
@@ -17856,13 +17793,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-value-parser@npm:^3.3.0":
-  version: 3.3.1
-  resolution: "postcss-value-parser@npm:3.3.1"
-  checksum: 10/e8bc676092ad0c4a628e8d7b06ef1844a157bcce22e489d72ac661d6d47b8e8e7c342e5e0da807056a0a2fced1372fff0f67fbfd6e06fd8509828ac6190b54ae
-  languageName: node
-  linkType: hard
-
 "postcss-value-parser@npm:^4.1.0":
   version: 4.2.0
   resolution: "postcss-value-parser@npm:4.2.0"
@@ -18423,7 +18353,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.13.1, react-is@npm:^16.7.0":
+"react-is@npm:^16.13.1":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: 10/5aa564a1cde7d391ac980bedee21202fc90bdea3b399952117f54fb71a932af1e5902020144fb354b4690b2414a0c7aafe798eb617b76a3d441d956db7726fdf
