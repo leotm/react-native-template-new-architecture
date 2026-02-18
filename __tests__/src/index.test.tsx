@@ -7,7 +7,7 @@ import { describe, expect, it } from '@jest/globals'
 import React from 'react'
 import ReactTestRenderer from 'react-test-renderer'
 
-import App from '../src'
+import App from '../../src'
 
 describe('app', () => {
   it('renders correctly', async () => {
