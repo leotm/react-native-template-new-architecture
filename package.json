@@ -9,7 +9,7 @@
     "start:reset": "react-native start --reset-cache",
     "watchman:reset": "watchman watch-del-all && watchman shutdown-server",
     "android": "react-native run-android --active-arch-only",
-    "android:release": "react-native run-android --active-arch-only --variant release",
+    "android:release": "react-native run-android --active-arch-only --mode release",
     "ios": "react-native run-ios",
     "ios:release": "react-native run-ios --mode Release",
     "ios:light": "xcrun simctl ui booted appearance light",
