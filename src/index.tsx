@@ -37,7 +37,7 @@ const AppContent = () => {
   return (
     <View style={styles.container}>
       <NewAppScreen
-        templateFileName="App.tsx"
+        templateFileName="src/index.tsx"
         safeAreaInsets={safeAreaInsets}
       />
     </View>
