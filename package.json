@@ -20,7 +20,7 @@
     "lint:config": "eslint --print-config index.ts",
     "prettier:check": "prettier --check src/**/*.{ts,tsx,json} && prettier --check *.{ts,tsx,json}",
     "prettier:write": "prettier --write src/**/*.{ts,tsx,json} && prettier --write *.{ts,tsx,json}",
-    "check:all": "yarn tsc && yarn lint && yarn prettier:check && jest",
+    "check:all": "tsc && yarn lint && yarn prettier:check && jest",
     "fix": "yarn lint:fix && yarn prettier:write",
     "test": "jest",
     "snap": "jest -u",
