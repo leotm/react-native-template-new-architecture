@@ -11,7 +11,7 @@
     "android": "react-native run-android --active-arch-only",
     "android:release": "react-native run-android --active-arch-only --mode release",
     "gems": "bundle install",
-    "gems:frozen": "bundle install --frozen",
+    "gems:frozen": "bundle install --deployment",
     "ios": "react-native run-ios",
     "ios:release": "react-native run-ios --mode Release",
     "ios:light": "xcrun simctl ui booted appearance light",
