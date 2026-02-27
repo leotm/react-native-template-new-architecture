@@ -10505,40 +10505,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:29.5.0":
-  version: 29.5.0
-  resolution: "eslint-plugin-jest@npm:29.5.0"
-  dependencies:
-    "@typescript-eslint/utils": "npm:^8.0.0"
-  peerDependencies:
-    "@typescript-eslint/eslint-plugin": ^8.0.0
-    eslint: ^8.57.0 || ^9.0.0
-    jest: "*"
-  peerDependenciesMeta:
-    "@typescript-eslint/eslint-plugin":
-      optional: true
-    jest:
-      optional: true
-  checksum: 10/c3458f5b6780bc16ee27f859d067dc692576532999150a7b6098da57d9c2e2d8675bee534de6e714777ae3bf26162f27c5d5d4f69d60c1291bd68c7a420e5bb9
-  languageName: node
-  linkType: hard
-
-"eslint-plugin-jest@npm:^24.3.6":
-  version: 24.7.0
-  resolution: "eslint-plugin-jest@npm:24.7.0"
-  dependencies:
-    "@typescript-eslint/experimental-utils": "npm:^4.0.1"
-  peerDependencies:
-    "@typescript-eslint/eslint-plugin": ">= 4"
-    eslint: ">=5"
-  peerDependenciesMeta:
-    "@typescript-eslint/eslint-plugin":
-      optional: true
-  checksum: 10/e8d2ca1d8eed602d5cce36c2359c81870c65c6d639f100b13a749a293da7f932aac99f570d0538ccb6c99a865bbcb58e79de98c89fe6066df01e78ddae354b9e
-  languageName: node
-  linkType: hard
-
-"eslint-plugin-jest@npm:^29.0.1":
+"eslint-plugin-jest@npm:29.15.0, eslint-plugin-jest@npm:^29.0.1":
   version: 29.15.0
   resolution: "eslint-plugin-jest@npm:29.15.0"
   dependencies:
@@ -10556,6 +10523,21 @@ __metadata:
     typescript:
       optional: true
   checksum: 10/552361326c55564fe09092adeb34bf4aae179fdd39b4de6aa561511cebedee370b4ed53f98683af6c695a30891589f54e6fa9ed03ae87957fbe16a506732d0ab
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-jest@npm:^24.3.6":
+  version: 24.7.0
+  resolution: "eslint-plugin-jest@npm:24.7.0"
+  dependencies:
+    "@typescript-eslint/experimental-utils": "npm:^4.0.1"
+  peerDependencies:
+    "@typescript-eslint/eslint-plugin": ">= 4"
+    eslint: ">=5"
+  peerDependenciesMeta:
+    "@typescript-eslint/eslint-plugin":
+      optional: true
+  checksum: 10/e8d2ca1d8eed602d5cce36c2359c81870c65c6d639f100b13a749a293da7f932aac99f570d0538ccb6c99a865bbcb58e79de98c89fe6066df01e78ddae354b9e
   languageName: node
   linkType: hard
 
@@ -16341,7 +16323,7 @@ __metadata:
     eslint-plugin-deprecation: "npm:3.0.0"
     eslint-plugin-detox: "npm:1.0.0"
     eslint-plugin-import: "npm:2.32.0"
-    eslint-plugin-jest: "npm:29.5.0"
+    eslint-plugin-jest: "npm:29.15.0"
     eslint-plugin-jsx-a11y: "npm:6.10.2"
     eslint-plugin-react: "npm:7.37.5"
     eslint-plugin-react-hooks: "npm:7.0.1"
