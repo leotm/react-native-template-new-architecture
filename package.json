@@ -14,7 +14,7 @@
     "gems:frozen": "bundle install --deployment",
     "pods": "cd ios && bundle exec pod install",
     "pods:frozen": "cd ios && bundle exec pod install --deployment",
-    "pods:clean": "cd ios && rm -rf Pods Podfile.lock && bundle exec pod install --repo-update",
+    "pods:clean": "rm -rf ios/Pods && cd ios && bundle exec pod install",
     "ios": "react-native run-ios",
     "ios:release": "react-native run-ios --mode Release",
     "ios:light": "xcrun simctl ui booted appearance light",
