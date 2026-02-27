@@ -10,7 +10,7 @@
     "watchman:reset": "watchman watch-del-all && watchman shutdown-server",
     "android": "react-native run-android --active-arch-only",
     "android:release": "react-native run-android --active-arch-only --mode release",
-    "gems": "bundle install",
+    "gems": "bundle check || bundle install",
     "gems:frozen": "bundle install --deployment",
     "pods": "cd ios && bundle exec pod install",
     "pods:frozen": "cd ios && bundle exec pod install --deployment",
