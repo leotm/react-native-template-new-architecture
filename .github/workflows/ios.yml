@@ -53,12 +53,6 @@ jobs:
 #     - uses: setup/cocoapods # cache
 #       DerivedData cache
 
-#     Debug
-#     - name: Install pods (debug)
-#       run: cd ios && pod update hermes-engine --no-repo-update && cd ..
-#     - name: Build iOS (debug)
-#       run: npx react-native run-ios --configuration Debug
-
 #     - name: Xcode clean
 #       run: xcodebuild clean
 
