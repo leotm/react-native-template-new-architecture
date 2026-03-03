@@ -56,10 +56,9 @@ jobs:
 #     - name: Xcode clean
 #       run: xcodebuild clean
 
-#     Release
     - name: Normalise Hermes CocoaPods lockfile checksum # TODO: Fix https://github.com/facebook/react-native/issues/54891
       run: yarn gems:frozen && bundle exec pod update hermes-engine --no-repo-update --project-directory=ios
-    - name: Install pods (release)
-      run: cd ios && PRODUCTION=1 pod install  && cd .. # --clean-install --repo-update
+    - name: Install RubyGems and CocoaPods
+      run: yarn install:ios:ci
     - name: Build iOS (release)
       run: yarn ios:release
