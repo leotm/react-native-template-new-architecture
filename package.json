@@ -11,7 +11,7 @@
     "android": "react-native run-android --active-arch-only",
     "android:release": "react-native run-android --active-arch-only --mode release",
     "gems": "bundle check || bundle install",
-    "gems:frozen": "bundle config set deployment true && bundle install",
+    "gems:frozen": "bundle config set --local deployment true && bundle install",
     "pods": "cd ios && bundle exec pod install",
     "pods:frozen": "cd ios && bundle exec pod install --deployment",
     "pods:clean": "rm -rf ios/Pods && cd ios && bundle exec pod install",
