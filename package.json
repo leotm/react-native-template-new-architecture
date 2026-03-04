@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "setup": "allow-scripts",
+    "setup:gems": "bundle config set --local path 'vendor/bundle' && bundle config set --local force_ruby_platform true",
     "allow:auto": "allow-scripts auto",
     "start": "react-native start",
     "start:reset": "react-native start --reset-cache",
