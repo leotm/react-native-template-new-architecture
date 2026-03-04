@@ -10,6 +10,7 @@
     "watchman:reset": "watchman watch-del-all && watchman shutdown-server",
     "android": "react-native run-android --active-arch-only",
     "android:release": "react-native run-android --active-arch-only --mode release",
+    "android:prod": "yarn gradle:clean && react-native run-android --mode release",
     "gradle:clean": "cd android && ./gradlew clean",
     "gems": "bundle check || bundle install",
     "gems:frozen": "bundle config set --local deployment true && bundle install",
