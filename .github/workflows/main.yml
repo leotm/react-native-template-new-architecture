@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
 
       - name: Install with Yarn
-        run: yarn && yarn setup
+        run: yarn && yarn allow-scripts
 
       - name: Run @lavamoat/git-safe-dependencies
         run: yarn git-safe-dependencies

@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "setup": "allow-scripts",
+    "setup": "allow-scripts && yarn setup:gems",
     "setup:gems": "bundle config set --local path 'vendor/bundle' && bundle config set --local force_ruby_platform true",
     "allow:auto": "allow-scripts auto",
     "start": "react-native start",

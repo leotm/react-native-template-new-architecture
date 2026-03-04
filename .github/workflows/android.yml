@@ -42,7 +42,7 @@ jobs:
 #       node_modules cache
 
     - name: Install deps and setup
-      run: yarn && yarn setup
+      run: yarn && yarn allow-scripts
 
     - name: npx react-native info
       run: npx react-native info
