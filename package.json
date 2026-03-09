@@ -15,6 +15,7 @@
     "gradle:clean": "(cd android && ./gradlew clean)",
     "gems": "bundle check || bundle install",
     "gems:frozen": "BUNDLE_DEPLOYMENT=true bundle install",
+    "gems:refresh": "rm -rf vendor/bundle Gemfile.lock && bundle install",
     "pods": "(cd ios && bundle exec pod install)",
     "pods:frozen": "(cd ios && bundle exec pod install --deployment)",
     "pods:clean": "rm -rf ios/Pods && (cd ios && bundle exec pod install)",
