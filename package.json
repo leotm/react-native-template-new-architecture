@@ -53,9 +53,9 @@
     "@react-native-async-storage/async-storage": "2.2.0",
     "@react-native-community/datetimepicker": "8.6.0",
     "@react-native-community/slider": "5.1.2",
-    "@react-native/new-app-screen": "0.83.0",
-    "react": "19.2.0",
-    "react-native": "0.83.0",
+    "@react-native/new-app-screen": "0.84.1",
+    "react": "19.2.3",
+    "react-native": "0.84.1",
     "react-native-safe-area-context": "5.6.2"
   },
   "devDependencies": {
@@ -68,13 +68,13 @@
     "@lavamoat/allow-scripts": "3.4.3",
     "@lavamoat/git-safe-dependencies": "0.3.1",
     "@lavamoat/preinstall-always-fail": "2.1.1",
-    "@react-native-community/cli": "20.0.0",
-    "@react-native-community/cli-platform-android": "20.0.0",
-    "@react-native-community/cli-platform-ios": "20.0.0",
-    "@react-native/babel-preset": "0.83.0",
-    "@react-native/eslint-config": "0.84.0",
-    "@react-native/metro-config": "0.83.0",
-    "@react-native/typescript-config": "0.83.0",
+    "@react-native-community/cli": "20.1.0",
+    "@react-native-community/cli-platform-android": "20.1.0",
+    "@react-native-community/cli-platform-ios": "20.1.0",
+    "@react-native/babel-preset": "0.84.1",
+    "@react-native/eslint-config": "0.84.1",
+    "@react-native/metro-config": "0.84.1",
+    "@react-native/typescript-config": "0.84.1",
     "@storybook/addon-actions": "6.5.16",
     "@storybook/addon-backgrounds": "6.5.16",
     "@storybook/addon-controls": "6.5.16",
@@ -128,7 +128,7 @@
     "react-codemod": "5.4.4",
     "react-native-clean-project": "4.0.3",
     "react-native-rename": "3.2.17",
-    "react-test-renderer": "19.2.0",
+    "react-test-renderer": "19.2.3",
     "reactotron-react-native": "5.0.3",
     "ts-node": "10.9.2",
     "typescript": "5.9.3",
@@ -147,7 +147,7 @@
     ]
   },
   "engines": {
-    "node": ">=20"
+    "node": ">= 22.11.0"
   },
   "packageManager": "yarn@4.12.0",
   "lavamoat": {
