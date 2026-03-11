@@ -32,7 +32,7 @@ const config = {
     })
   },
   resolver: {
-    // TODO: Migrate RN Storybook from 6.5.x to 10 (RN 0.71 to 0.84.1)
+    // TODO: Migrate RN Storybook from 6.5.x to 10 (RN 0.71 to 0.85.0-rc.1)
     resolverMainFields: ['sbmodern', 'react-native', 'browser', 'main']
   }
 }

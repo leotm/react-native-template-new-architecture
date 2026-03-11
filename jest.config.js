@@ -1,5 +1,5 @@
 module.exports = {
-  preset: 'react-native',
+  preset: '@react-native/jest-preset',
   setupFiles: ['./jest/setup.ts'],
   transformIgnorePatterns: [
     // Transform these from ES6+ to CommonJS for Node.js

@@ -9,7 +9,7 @@
 
 <div align="center">
 
-[![NPM RN pkg ver](https://img.shields.io/badge/React%20Native-0.84.1-red.svg)](https://github.com/facebook/react-native/releases)
+[![NPM RN pkg ver](https://img.shields.io/badge/React%20Native-0.85.0_rc.1-red.svg)](https://github.com/facebook/react-native/releases)
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](#)
 [![Linter](https://badges.aleen42.com/src/eslint.svg)](#)
 [![Formatter: prettier](https://img.shields.io/badge/Formatter-Prettier-f8bc45.svg)](#)
@@ -97,7 +97,7 @@ yarn android
 ## Storybook v6
 
 > [!NOTE]
-> TODO: Migrate RN Storybook from 6.5.x to 10 (RN 0.71 to 0.84.1)
+> TODO: Migrate RN Storybook from 6.5.x to 10 (RN 0.71 to 0.85.0-rc.1)
 
 Add stories to `src/components/**/*.stories.(ts|tsx)`
 
