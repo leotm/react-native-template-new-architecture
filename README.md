@@ -30,11 +30,11 @@ Android | iOS
 
 [**Fresh Apple Silicon 🔥 (macOS arm64)**](https://github.com/leotm/react-native-template-new-architecture/wiki/Apple-Silicon-setup)
 
-## Install
+## Setup
 
 ```sh
 corepack enable
-yarn
+yarn install
 yarn setup
 ```
 
@@ -47,10 +47,7 @@ yarn start
 ## iOS
 
 ```sh
-cd ios
-bundle install
-bundle exec pod install
-cd ..
+yarn install:ios
 yarn ios
 ```
 
