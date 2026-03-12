@@ -14,4 +14,4 @@ gem 'bigdecimal'
 gem 'logger'
 gem 'benchmark'
 gem 'mutex_m'
-gem 'nkf' # Fix `bundle exec pod install` LoadError - cannot load such file -- kconv
+gem 'nkf'
