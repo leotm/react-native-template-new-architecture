@@ -46,7 +46,7 @@ module.exports = {
     '.eslintrc.js',
     'webpack.config.js',
     'vendor', // Generated for iOS build: bundle install
-    // TODO: Migrate RN Storybook from 6.5.x to 10 (RN 0.71 to 0.85.0-rc.1)
+    // TODO: Migrate RN Storybook from 6.5.x to 10 (RN 0.71 to 0.86.0-nightly-20260313-972a30db4)
     '!/.storybook',
     '.storybook/storybook.requires.js', // Codegen
     '.storybook/Storybook.tsx', // Imports generated file
@@ -130,7 +130,7 @@ module.exports = {
           '**/*{.,_}{test,spec}.{ts,tsx}',
           // Snapshot tests (Jest)
           '**/__tests__/**/*.{ts,tsx}', // react-test-renderer
-          // TODO: Migrate RN Storybook from 6.5.x to 10 (RN 0.71 to 0.85.0-rc.1)
+          // TODO: Migrate RN Storybook from 6.5.x to 10 (RN 0.71 to 0.86.0-nightly-20260313-972a30db4)
           // Storybook config
           '.storybook/**/*.{ts,tsx,js}',
           // Stories (@storybook/react-native)
