@@ -5,7 +5,7 @@ import {
   useSafeAreaInsets
 } from 'react-native-safe-area-context'
 
-// TODO: Migrate RN Storybook from 6.5.x to 10 (RN 0.71 to 0.85.0-rc.1)
+// TODO: Migrate RN Storybook from 6.5.x to 10 (RN 0.71 to 0.86.0-nightly-20260313-972a30db4)
 // import StorybookUIRoot from '../.storybook/Storybook'
 
 // TODO: Fix Error Unable to resolve module react-native/Libraries/Network/XHRInterceptor from .../node_modules/reactotron-react-native/dist/index.js:
