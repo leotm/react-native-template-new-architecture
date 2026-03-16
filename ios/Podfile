@@ -24,15 +24,6 @@ target 'MyApp' do
   )
 
   post_install do |installer|
-    # Use relative path for HERMES_CLI_PATH so Podfile.lock checksum is consistent across machines.
-    hermes_podspec_path = File.join(Dir.pwd, 'Pods/Local Podspecs/hermes-engine.podspec.json')
-    if File.exist?(hermes_podspec_path)
-      podspec = File.read(hermes_podspec_path)
-      if podspec.include?('HERMES_CLI_PATH')
-        podspec = podspec.gsub(/"HERMES_CLI_PATH":\s*"[^"]+"/, '"HERMES_CLI_PATH": "$(SRCROOT)/../node_modules/hermes-compiler/hermesc/osx-bin/hermesc"')
-        File.write(hermes_podspec_path, podspec)
-      end
-    end
     react_native_post_install(
       installer,
       config[:reactNativePath],
