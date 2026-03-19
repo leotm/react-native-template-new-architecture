@@ -1,0 +1,65 @@
+diff --git a/gradle/libs.versions.toml b/gradle/libs.versions.toml
+index c7502fcefd98854e52776f6a02470bc35b9e9df9..0616429bca08eacbdebabd7548cfd95d25fe50c3 100644
+--- a/gradle/libs.versions.toml
++++ b/gradle/libs.versions.toml
+@@ -4,7 +4,7 @@ gson = "2.8.9"
+ guava = "31.0.1-jre"
+ javapoet = "1.13.0"
+ junit = "4.13.2"
+-kotlin = "2.1.20"
++kotlin = "2.3.0"
+ assertj = "3.25.1"
+ ktfmt = "0.22.0"
+ 
+diff --git a/react-native-gradle-plugin/build.gradle.kts b/react-native-gradle-plugin/build.gradle.kts
+index 85dadeba0c42cf0b09b964eb00b3e2c12b5ed6e9..8f3b931b8e43e9c38d2efd01f14eb4f58cf9bb19 100644
+--- a/react-native-gradle-plugin/build.gradle.kts
++++ b/react-native-gradle-plugin/build.gradle.kts
+@@ -64,7 +64,7 @@ kotlin { jvmToolchain(17) }
+ 
+ tasks.withType<KotlinCompile>().configureEach {
+   compilerOptions {
+-    apiVersion.set(KotlinVersion.KOTLIN_1_8)
++    apiVersion.set(KotlinVersion.KOTLIN_2_3)
+     // See comment above on JDK 11 support
+     jvmTarget.set(JvmTarget.JVM_11)
+     allWarningsAsErrors.set(
+diff --git a/settings-plugin/build.gradle.kts b/settings-plugin/build.gradle.kts
+index 2fbeafd502c98ba81856d3a1579f3b0d8bc60b2d..165bf38a8665f39538aaa887a6cd03f4403d6a0e 100644
+--- a/settings-plugin/build.gradle.kts
++++ b/settings-plugin/build.gradle.kts
+@@ -54,7 +54,7 @@ kotlin { jvmToolchain(17) }
+ 
+ tasks.withType<KotlinCompile>().configureEach {
+   compilerOptions {
+-    apiVersion.set(KotlinVersion.KOTLIN_1_8)
++    apiVersion.set(KotlinVersion.KOTLIN_2_3)
+     // See comment above on JDK 11 support
+     jvmTarget.set(JvmTarget.JVM_11)
+     allWarningsAsErrors.set(
+diff --git a/shared/build.gradle.kts b/shared/build.gradle.kts
+index 315984875ad8ea2de476d4ab895932d2e9d47b0b..87fb331634edd450958d8f04abce8031ac192ff6 100644
+--- a/shared/build.gradle.kts
++++ b/shared/build.gradle.kts
+@@ -33,7 +33,7 @@ kotlin { jvmToolchain(17) }
+ 
+ tasks.withType<KotlinCompile>().configureEach {
+   compilerOptions {
+-    apiVersion.set(KotlinVersion.KOTLIN_1_8)
++    apiVersion.set(KotlinVersion.KOTLIN_2_3)
+     // See comment above on JDK 11 support
+     jvmTarget.set(JvmTarget.JVM_11)
+     allWarningsAsErrors.set(
+diff --git a/shared-testutil/build.gradle.kts b/shared-testutil/build.gradle.kts
+index 26173fb55578417118679d6243de84146b6c8a9f..19dd3a1333dfc3de2570d32746be5122322176c1 100644
+--- a/shared-testutil/build.gradle.kts
++++ b/shared-testutil/build.gradle.kts
+@@ -27,7 +27,7 @@ kotlin { jvmToolchain(17) }
+ 
+ tasks.withType<KotlinCompile>().configureEach {
+   compilerOptions {
+-    apiVersion.set(KotlinVersion.KOTLIN_1_8)
++    apiVersion.set(KotlinVersion.KOTLIN_2_3)
+     // See comment above on JDK 11 support
+     jvmTarget.set(JvmTarget.JVM_11)
+     allWarningsAsErrors.set(
