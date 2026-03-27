@@ -63,6 +63,20 @@
       "groupName": "swc monorepo",
       "addLabels": ["devDependencies", "swc", "transpiling"],
       "matchSourceUrls": ["github.com/swc-project/swc"]
+    },
+    {
+      // The generated PR is only the first part to upgrading React Native to the nightly version
+      // Since react-native-community/rn-diff-purge (react-native-community/upgrade-helper) does NOT support nightlies
+      // Part two is diffing the project version against the desired nightly version to make the remaining file changes
+      "groupName": "react-native nightly",
+      "matchPackagePatterns": [
+        "^react-native$", // core
+        "^@react-native/" // official scoped
+        // EXCLUDES non-nightly packages on their own release schedules
+        // e.g. react, react-native-safe-area-context, @react-native-community/cli, react-test-renderer @types...
+      ],
+      "matchCurrentVersion": "/-nightly-/",
+      "addLabels": ["react native", "nightly"]
     }
   ],
   "vulnerabilityAlerts": {
