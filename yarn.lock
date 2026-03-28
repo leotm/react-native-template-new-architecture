@@ -2508,9 +2508,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lavamoat/git-safe-dependencies@npm:0.3.1":
-  version: 0.3.1
-  resolution: "@lavamoat/git-safe-dependencies@npm:0.3.1"
+"@lavamoat/git-safe-dependencies@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@lavamoat/git-safe-dependencies@npm:1.0.0"
   dependencies:
     glob: "npm:11.1.0"
     hosted-git-info: "npm:8.1.0"
@@ -2519,7 +2519,7 @@ __metadata:
   bin:
     git-safe-actions: src/cli-actions.js
     git-safe-dependencies: src/cli.js
-  checksum: 10/59f6b8e685bc5ef06b98272fc0b15d14f49fac660caba269e2a9365405577095a49c166537588a2a8b090287a0860d31cff49e8492f7b7874cef317f77846e83
+  checksum: 10/7bf9b3bc9b513903972a0306d0653765519de26aef34ee51c0b22b003b2f41bd32f62cbf2cd6abdbe21fc5c0b4a77d22196f6bc8c02ea312d284e7ba4495cbb2
   languageName: node
   linkType: hard
 
@@ -16431,7 +16431,7 @@ __metadata:
     "@curveball/core": "npm:0.21.1"
     "@curveball/router": "npm:0.6.0"
     "@lavamoat/allow-scripts": "npm:4.0.0"
-    "@lavamoat/git-safe-dependencies": "npm:0.3.1"
+    "@lavamoat/git-safe-dependencies": "npm:1.0.0"
     "@lavamoat/preinstall-always-fail": "npm:3.0.0"
     "@lavamoat/react-native-lockdown": "npm:0.1.0"
     "@react-native-async-storage/async-storage": "npm:2.2.0"
