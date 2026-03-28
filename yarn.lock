@@ -2530,14 +2530,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lavamoat/react-native-lockdown@npm:0.1.0":
-  version: 0.1.0
-  resolution: "@lavamoat/react-native-lockdown@npm:0.1.0"
+"@lavamoat/react-native-lockdown@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@lavamoat/react-native-lockdown@npm:1.0.0"
   dependencies:
-    ses: "npm:1.14.0"
+    ses: "npm:1.15.0"
   peerDependencies:
     "@react-native/js-polyfills": "*"
-  checksum: 10/4688da4e9059b52775b6bbb46c9a9276be4b5129b1b98b4895d906832b9f662bb7eb04fe6a7a71a3d58583a08f3d116cfac9d5b3a70fc8b0755b030dc0182af5
+  checksum: 10/b15b58d978d972fe824c68164d91b0c22e72e85190d943e2693ed4e61d6dfa3965d9b16f06485423970b62bcde68cef3816a5d0e7447dccb6c9837074de33320
   languageName: node
   linkType: hard
 
@@ -16433,7 +16433,7 @@ __metadata:
     "@lavamoat/allow-scripts": "npm:4.0.0"
     "@lavamoat/git-safe-dependencies": "npm:0.3.1"
     "@lavamoat/preinstall-always-fail": "npm:3.0.0"
-    "@lavamoat/react-native-lockdown": "npm:0.1.0"
+    "@lavamoat/react-native-lockdown": "npm:1.0.0"
     "@react-native-async-storage/async-storage": "npm:2.2.0"
     "@react-native-community/cli": "npm:20.1.0"
     "@react-native-community/cli-platform-android": "npm:20.1.0"
@@ -20018,14 +20018,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ses@npm:1.14.0":
-  version: 1.14.0
-  resolution: "ses@npm:1.14.0"
+"ses@npm:1.15.0":
+  version: 1.15.0
+  resolution: "ses@npm:1.15.0"
   dependencies:
     "@endo/cache-map": "npm:^1.1.0"
     "@endo/env-options": "npm:^1.1.11"
     "@endo/immutable-arraybuffer": "npm:^1.1.2"
-  checksum: 10/bee10b958938fb3d153ea8f1b4514f8ddb390dc7533fe9cfc382dcc046bebd5fca02d80836bfb8f98e94609ffbe3580a0bb65428eb7e39d523315eacdc052300
+  checksum: 10/494894d35de847103ca0e4357632d80436c0e3dbc0e0bf98448a962d2257cb9045db9c6e7737b4003846a690318fcf5c06ef5a9a51c8b47cd4ffeaf2fa330155
   languageName: node
   linkType: hard
 
