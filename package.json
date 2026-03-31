@@ -159,5 +159,8 @@
       "@swc/core": false,
       "webpack-cli>webpack>watchpack>watchpack-chokidar2>chokidar>fsevents": false
     }
+  },
+  "resolutions": {
+    "@react-native/gradle-plugin@npm:0.86.0-nightly-20260313-972a30db4": "patch:@react-native/gradle-plugin@npm%3A0.86.0-nightly-20260313-972a30db4#~/.yarn/patches/@react-native-gradle-plugin-npm-0.86.0-nightly-20260313-972a30db4-320e630e94.patch"
   }
 }
