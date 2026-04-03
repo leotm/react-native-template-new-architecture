@@ -1,0 +1,99 @@
+diff --git a/scripts/cocoapods/rncore.rb b/scripts/cocoapods/rncore.rb
+index 09cd88363d75f0e04b598a60d4d4e2be16a66d88..e4688c897532dde31bed98b12df8d7410e5722ea 100644
+--- a/scripts/cocoapods/rncore.rb
++++ b/scripts/cocoapods/rncore.rb
+@@ -6,6 +6,7 @@
+ require 'json'
+ require 'net/http'
+ require 'rexml/document'
++require 'pathname'
+ 
+ require_relative './utils.rb'
+ 
+@@ -160,7 +161,9 @@ class ReactNativeCoreUtils
+         rncore_log("  #{Pathname.new(destinationDebug).relative_path_from(Pathname.pwd).to_s}")
+         rncore_log("  #{Pathname.new(destinationRelease).relative_path_from(Pathname.pwd).to_s}")
+ 
+-        return {:http => URI::File.build(path: destinationDebug).to_s }
++        # Use relative path to avoid inconsistent checksums across different machines
++        relative_path = Pathname.new(destinationDebug).relative_path_from(Pod::Config.instance.project_pods_root)
++        return {:http => "${PODS_ROOT}/#{relative_path}" }
+     end
+ 
+     def self.podspec_source_download_prebuilt_nightly_tarball()
+@@ -196,7 +199,9 @@ class ReactNativeCoreUtils
+         rncore_log("Resolved nightly ReactNativeCore-prebuilt version:")
+         rncore_log("  #{Pathname.new(destinationDebug).relative_path_from(Pathname.pwd).to_s}")
+         rncore_log("  #{Pathname.new(destinationRelease).relative_path_from(Pathname.pwd).to_s}")
+-        return {:http => URI::File.build(path: destinationDebug).to_s }
++        # Use relative path to avoid inconsistent checksums across different machines
++        relative_path = Pathname.new(destinationDebug).relative_path_from(Pod::Config.instance.project_pods_root)
++        return {:http => "${PODS_ROOT}/#{relative_path}" }
+     end
+ 
+     def self.process_dsyms(frameworkTarball, dSymsTarball)
+diff --git a/scripts/cocoapods/rndependencies.rb b/scripts/cocoapods/rndependencies.rb
+index a901840340712bf89604f194790404363d710054..faaaa8d35edc3d6dcfba784f452a0daa16f33120 100644
+--- a/scripts/cocoapods/rndependencies.rb
++++ b/scripts/cocoapods/rndependencies.rb
+@@ -3,9 +3,10 @@
+ # This source code is licensed under the MIT license found in the
+ # LICENSE file in the root directory of this source tree.
+ 
+-require "json"
++require 'json'
+ require 'net/http'
+ require 'rexml/document'
++require 'pathname'
+ 
+ require_relative './utils.rb'
+ 
+@@ -161,7 +162,9 @@ class ReactNativeDependenciesUtils
+         destinationDebug = download_stable_rndeps(@@react_native_path, @@react_native_version, :debug)
+         download_stable_rndeps(@@react_native_path, @@react_native_version, :release)
+ 
+-        return {:http => URI::File.build(path: destinationDebug).to_s }
++        # Use relative path to avoid inconsistent checksums across different machines
++        relative_path = Pathname.new(destinationDebug).relative_path_from(Pod::Config.instance.project_pods_root)
++        return {:http => "${PODS_ROOT}/#{relative_path}" }
+     end
+ 
+     def self.release_tarball_url(version, build_type)
+@@ -228,8 +231,9 @@ class ReactNativeDependenciesUtils
+         destinationDebug = download_nightly_rndeps(@@react_native_path, @@react_native_version, :debug)
+         download_nightly_rndeps(@@react_native_path, @@react_native_version, :release)
+ 
+-        return {:http => URI::File.build(path: destinationDebug).to_s }
+-        return {:http => url}
++        # Use relative path to avoid inconsistent checksums across different machines
++        relative_path = Pathname.new(destinationDebug).relative_path_from(Pod::Config.instance.project_pods_root)
++        return {:http => "${PODS_ROOT}/#{relative_path}" }
+     end
+ 
+     def self.download_rndeps_tarball(react_native_path, tarball_url, version, configuration)
+diff --git a/sdks/hermes-engine/hermes-engine.podspec b/sdks/hermes-engine/hermes-engine.podspec
+index 58e003985c6dc3cd664d434339bf68ec09bce5bd..b6810da4cb83bf8eb10c750331ce357359061436 100644
+--- a/sdks/hermes-engine/hermes-engine.podspec
++++ b/sdks/hermes-engine/hermes-engine.podspec
+@@ -4,6 +4,7 @@
+ # LICENSE file in the root directory of this source tree.
+ 
+ require "json"
++require "pathname"
+ require_relative "./hermes-utils.rb"
+ 
+ begin
+@@ -92,8 +93,12 @@ Pod::Spec.new do |spec|
+         "require.resolve(\"hermes-compiler\", {paths: [\"#{react_native_path}\"]})", __dir__]).strip
+       )
+ 
++      # Use relative path to avoid inconsistent checksums across different machines
++      hermesc_path = "#{hermes_compiler_path}/hermesc/osx-bin/hermesc"
++      relative_hermesc_path = Pathname.new(hermesc_path).relative_path_from(Pod::Config.instance.sandbox_root)
++
+       spec.user_target_xcconfig = {
+-        'HERMES_CLI_PATH' => "#{hermes_compiler_path}/hermesc/osx-bin/hermesc"
++        'HERMES_CLI_PATH' => "${PODS_ROOT}/#{relative_hermesc_path}"
+       }
+     end
+ 
