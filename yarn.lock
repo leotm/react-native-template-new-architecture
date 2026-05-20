@@ -2481,30 +2481,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lavamoat/aa@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "@lavamoat/aa@npm:5.0.0"
+"@lavamoat/aa@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "@lavamoat/aa@npm:5.0.1"
   dependencies:
-    resolve: "npm:1.22.11"
+    resolve: "npm:1.22.12"
   bin:
     lavamoat-ls: src/cli.js
-  checksum: 10/eb2d7649998866e52071b7090617dd5a751d5ab2af739e5aab7013f5471277c3bccae80a188f56df96fe26edc434308cbb0b1a304f099f61fc8e551f84057207
+  checksum: 10/a93db450b850dde46e5ae12383086bc85244c00c2e380fe04f5c59d1d064a6329c3d7eed3d3e15c926a72c6d72976716d2164fee8c8b00254b03a68ce9c9963f
   languageName: node
   linkType: hard
 
-"@lavamoat/allow-scripts@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@lavamoat/allow-scripts@npm:4.0.0"
+"@lavamoat/allow-scripts@npm:5.0.2":
+  version: 5.0.2
+  resolution: "@lavamoat/allow-scripts@npm:5.0.2"
   dependencies:
-    "@lavamoat/aa": "npm:^5.0.0"
-    "@npmcli/run-script": "npm:10.0.3"
+    "@lavamoat/aa": "npm:^5.0.1"
+    "@npmcli/run-script": "npm:10.0.4"
     bin-links: "npm:4.0.4"
     npm-normalize-package-bin: "npm:3.0.1"
     type-fest: "npm:4.41.0"
     yargs: "npm:17.7.2"
   bin:
     allow-scripts: src/cli.js
-  checksum: 10/785f3b9c9510d572ecae1a2a24b44e4847b002ca74b68fe67c4a13b61f503d82672cd5ea67b72220fdb95776960aa0e028d2b91648cc816c8237f8077e55eb23
+  checksum: 10/fd65cef4597308eba083d5a250b86e8d61f5bc2e192f338bda3437441764de57066cfea2f295880150328f89a4661a8cd5a2c085bf75223e00f393c39447b0c3
   languageName: node
   linkType: hard
 
@@ -2740,17 +2740,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@npmcli/run-script@npm:10.0.3":
-  version: 10.0.3
-  resolution: "@npmcli/run-script@npm:10.0.3"
+"@npmcli/run-script@npm:10.0.4":
+  version: 10.0.4
+  resolution: "@npmcli/run-script@npm:10.0.4"
   dependencies:
     "@npmcli/node-gyp": "npm:^5.0.0"
     "@npmcli/package-json": "npm:^7.0.0"
     "@npmcli/promise-spawn": "npm:^9.0.0"
     node-gyp: "npm:^12.1.0"
     proc-log: "npm:^6.0.0"
-    which: "npm:^6.0.0"
-  checksum: 10/3b2b6b02a40c7470a900e8d77d23e2239608c08e919d6ddee7849fc7093be0999d9eb2c9dec871988e80165a64f9d8c55430f0a699690e555ebd3e81bf1dbd35
+  checksum: 10/dd5f92aa6c50761c125eb836432497edfe57a32ddde175218167515bc8f54ba82b7fa8b89b8f73eda69c3a88d1ffe97e14080b316aefdddc264c450e24c32c8b
   languageName: node
   linkType: hard
 
@@ -16430,7 +16429,7 @@ __metadata:
     "@babel/runtime": "npm:7.28.6"
     "@curveball/core": "npm:0.21.1"
     "@curveball/router": "npm:0.6.0"
-    "@lavamoat/allow-scripts": "npm:4.0.0"
+    "@lavamoat/allow-scripts": "npm:5.0.2"
     "@lavamoat/git-safe-dependencies": "npm:0.3.1"
     "@lavamoat/preinstall-always-fail": "npm:3.0.0"
     "@lavamoat/react-native-lockdown": "npm:0.1.0"
@@ -19536,16 +19535,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@npm:1.22.11, resolve@npm:^1.1.6, resolve@npm:^1.10.0, resolve@npm:^1.12.0, resolve@npm:^1.14.2, resolve@npm:^1.19.0, resolve@npm:^1.20.0, resolve@npm:^1.22.11, resolve@npm:^1.22.4, resolve@npm:^1.3.2":
-  version: 1.22.11
-  resolution: "resolve@npm:1.22.11"
+"resolve@npm:1.22.12, resolve@npm:^1.1.6, resolve@npm:^1.10.0, resolve@npm:^1.12.0, resolve@npm:^1.14.2, resolve@npm:^1.19.0, resolve@npm:^1.20.0, resolve@npm:^1.22.11, resolve@npm:^1.22.4, resolve@npm:^1.3.2":
+  version: 1.22.12
+  resolution: "resolve@npm:1.22.12"
   dependencies:
+    es-errors: "npm:^1.3.0"
     is-core-module: "npm:^2.16.1"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: 10/e1b2e738884a08de03f97ee71494335eba8c2b0feb1de9ae065e82c48997f349f77a2b10e8817e147cf610bfabc4b1cb7891ee8eaf5bf80d4ad514a34c4fab0a
+  checksum: 10/1d2a081e4b7198e2a70abd7bbbf8aea5380c2d074b6c870035aab50ebfb7312b6492b3588e752faef83a75147862a3d3e09b222bc9afd536804181fd3a515ef9
   languageName: node
   linkType: hard
 
@@ -19565,16 +19565,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A1.22.11#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.1.6#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.10.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.12.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.14.2#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.19.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.20.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.11#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.4#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.3.2#optional!builtin<compat/resolve>":
-  version: 1.22.11
-  resolution: "resolve@patch:resolve@npm%3A1.22.11#optional!builtin<compat/resolve>::version=1.22.11&hash=c3c19d"
+"resolve@patch:resolve@npm%3A1.22.12#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.1.6#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.10.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.12.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.14.2#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.19.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.20.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.11#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.4#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.3.2#optional!builtin<compat/resolve>":
+  version: 1.22.12
+  resolution: "resolve@patch:resolve@npm%3A1.22.12#optional!builtin<compat/resolve>::version=1.22.12&hash=c3c19d"
   dependencies:
+    es-errors: "npm:^1.3.0"
     is-core-module: "npm:^2.16.1"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: 10/fd342cad25e52cd6f4f3d1716e189717f2522bfd6641109fe7aa372f32b5714a296ed7c238ddbe7ebb0c1ddfe0b7f71c9984171024c97cf1b2073e3e40ff71a8
+  checksum: 10/f80ad2c2b6820331cbe079198a184ffce322cfeca140065118066276bc08b03d5fa2c1ce652aeb584ec74050d1f656f46f034cc0dd9300452c5ab7866907f8c0
   languageName: node
   linkType: hard
 
