@@ -30,5 +30,19 @@ target 'MyApp' do
       :mac_catalyst_enabled => false,
       # :ccache_enabled => true
     )
+
+    # Fix resource bundle sub-targets (e.g. AsyncStorage-AsyncStorage_resources)
+    # that react_native_post_install misses because it only iterates main pod targets.
+    # Uses target_installation_result.resource_bundle_targets (same API as turn_off_resource_bundle_react_core)
+    # Upstream fix needed in packages/react-native/scripts/cocoapods/utils.rb updateOSDeploymentTarget(installer)
+    installer.target_installation_results.pod_target_installation_results.each do |_, result|
+      min_target = result.native_target.build_configurations.first.build_settings["IPHONEOS_DEPLOYMENT_TARGET"]
+      result.resource_bundle_targets.each do |bundle_target|
+        bundle_target.build_configurations.each do |config|
+          old = config.build_settings["IPHONEOS_DEPLOYMENT_TARGET"] || min_target
+          config.build_settings["IPHONEOS_DEPLOYMENT_TARGET"] = [min_target.to_f, old.to_f].max.to_s
+        end
+      end
+    end
   end
 end
