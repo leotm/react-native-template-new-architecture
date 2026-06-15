@@ -2791,15 +2791,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-async-storage/async-storage@npm:3.1.0":
-  version: 3.1.0
-  resolution: "@react-native-async-storage/async-storage@npm:3.1.0"
+"@react-native-async-storage/async-storage@npm:3.1.1":
+  version: 3.1.1
+  resolution: "@react-native-async-storage/async-storage@npm:3.1.1"
   dependencies:
     idb: "npm:8.0.3"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10/7ea060e248d64a07eee5232d889d13c14a8f8d33fffeab44e77b1439cdb09ce264c4806ddff7b3d76168e39ae59c477b37b0af63d821c61babbcc77741affb76
+  checksum: 10/60a6600af1edbd606bca7098f1a9ab9f69e5f6c0a388fb7dec28da513f5146b70f3f77aa954d955d42f7b0b3335513d7a8733ddcac8d77971785507348b1b3e6
   languageName: node
   linkType: hard
 
@@ -17135,7 +17135,7 @@ __metadata:
     "@lavamoat/git-safe-dependencies": "npm:1.0.0"
     "@lavamoat/preinstall-always-fail": "npm:3.0.0"
     "@lavamoat/react-native-lockdown": "npm:1.0.0"
-    "@react-native-async-storage/async-storage": "npm:3.1.0"
+    "@react-native-async-storage/async-storage": "npm:3.1.1"
     "@react-native-community/cli": "npm:20.1.0"
     "@react-native-community/cli-platform-android": "npm:20.1.0"
     "@react-native-community/cli-platform-ios": "npm:20.1.0"
