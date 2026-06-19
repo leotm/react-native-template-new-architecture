@@ -1,0 +1,63 @@
+diff --git a/build/commands/runCommand/runOnSimulator.d.ts.map b/build/commands/runCommand/runOnSimulator.d.ts.map
+index 26c361cac554ae847e29544c61ac51877464692b..989defafc324831c28ea10eb7e0041428d82a3c9 100644
+--- a/build/commands/runCommand/runOnSimulator.d.ts.map
++++ b/build/commands/runCommand/runOnSimulator.d.ts.map
+@@ -1 +1 @@
+-{"version":3,"file":"runOnSimulator.d.ts","sourceRoot":"","sources":["../../../src/commands/runCommand/runOnSimulator.ts"],"names":[],"mappings":"AACA,OAAO,EAAC,cAAc,EAAC,MAAM,mCAAmC,CAAC;AAEjE,OAAO,EAAC,aAAa,EAAE,MAAM,EAAC,MAAM,aAAa,CAAC;AAGlD,OAAO,EAAC,MAAM,EAAC,MAAM,aAAa,CAAC;AAGnC,wBAAsB,cAAc,CAClC,YAAY,EAAE,cAAc,EAC5B,QAAQ,EAAE,aAAa,EACvB,IAAI,EAAE,MAAM,EACZ,MAAM,EAAE,MAAM,EACd,IAAI,EAAE,MAAM,EACZ,SAAS,EAAE,MAAM,iBAmDlB"}
+\ No newline at end of file
++{"version":3,"file":"runOnSimulator.d.ts","sourceRoot":"","sources":["../../../src/commands/runCommand/runOnSimulator.ts"],"names":[],"mappings":"AAGA,OAAO,EAAC,cAAc,EAAC,MAAM,mCAAmC,CAAC;AAEjE,OAAO,EAAC,aAAa,EAAE,MAAM,EAAC,MAAM,aAAa,CAAC;AAGlD,OAAO,EAAC,MAAM,EAAC,MAAM,aAAa,CAAC;AAGnC,wBAAsB,cAAc,CAClC,YAAY,EAAE,cAAc,EAC5B,QAAQ,EAAE,aAAa,EACvB,IAAI,EAAE,MAAM,EACZ,MAAM,EAAE,MAAM,EACd,IAAI,EAAE,MAAM,EACZ,SAAS,EAAE,MAAM,iBAyElB"}
+\ No newline at end of file
+diff --git a/build/commands/runCommand/runOnSimulator.js b/build/commands/runCommand/runOnSimulator.js
+index 4581437093fa16ec92b0b07ee0145660c4499518..54ea8a390f337fb6c03ff70582a263ff001b6aa9 100644
+--- a/build/commands/runCommand/runOnSimulator.js
++++ b/build/commands/runCommand/runOnSimulator.js
+@@ -11,6 +11,20 @@ function _child_process() {
+   };
+   return data;
+ }
++function _fs() {
++  const data = _interopRequireDefault(require("fs"));
++  _fs = function () {
++    return data;
++  };
++  return data;
++}
++function _path() {
++  const data = _interopRequireDefault(require("path"));
++  _path = function () {
++    return data;
++  };
++  return data;
++}
+ function _cliTools() {
+   const data = require("@react-native-community/cli-tools");
+   _cliTools = function () {
+@@ -42,7 +56,18 @@ async function runOnSimulator(xcodeProject, platform, mode, scheme, args, simula
+   const activeDeveloperDir = _child_process().default.execFileSync('xcode-select', ['-p'], {
+     encoding: 'utf8'
+   }).trim();
+-  _child_process().default.execFileSync('open', [`${activeDeveloperDir}/Applications/Simulator.app`, '--args', '-CurrentDeviceUDID', simulator.udid]);
++
++  // Xcode 27 replaces Simulator.app with DeviceHub.app and relocates it from
++  // <Xcode>/Contents/Developer/Applications to <Xcode>/Contents/Applications.
++  // Prefer Simulator.app while it exists (stable Xcode); fall back to DeviceHub
++  // for Xcode 27+. See https://developer.apple.com/documentation/xcode/device-hub
++  const simulatorApp = _path().default.join(activeDeveloperDir, 'Applications', 'Simulator.app');
++  const deviceHubApp = _path().default.join(activeDeveloperDir, '..', 'Applications', 'DeviceHub.app');
++  if (_fs().default.existsSync(simulatorApp)) {
++    _child_process().default.execFileSync('open', [simulatorApp, '--args', '-CurrentDeviceUDID', simulator.udid]);
++  } else if (_fs().default.existsSync(deviceHubApp)) {
++    _child_process().default.execFileSync('open', [`devices://device/open?id=${simulator.udid}`]);
++  }
+   if (simulator.state !== 'Booted') {
+     bootSimulator(simulator);
+   }
+diff --git a/build/commands/runCommand/runOnSimulator.js.map b/build/commands/runCommand/runOnSimulator.js.map
+index 206f8c7d0483352ddde282cbb878ee05d5570c54..c8dc37e093d9711aef3f0d0224d634a47f3b8407 100644
+--- a/build/commands/runCommand/runOnSimulator.js.map
++++ b/build/commands/runCommand/runOnSimulator.js.map
+@@ -1 +1 @@
+-{"version":3,"file":"runOnSimulator.js","names":["runOnSimulator","xcodeProject","platform","mode","scheme","args","simulator","binaryPath","target","activeDeveloperDir","child_process","execFileSync","encoding","trim","udid","state","bootSimulator","buildOutput","buildProject","installApp","selectedSimulator","simulatorFullName","formattedDeviceName","logger","info","spawnSync"],"sources":["../../../src/commands/runCommand/runOnSimulator.ts"],"sourcesContent":["import child_process from 'child_process';\nimport {IOSProjectInfo} from '@react-native-community/cli-types';\nimport {logger} from '@react-native-community/cli-tools';\nimport {ApplePlatform, Device} from '../../types';\nimport {buildProject} from '../buildCommand/buildProject';\nimport {formattedDeviceName} from './matchingDevice';\nimport {FlagsT} from './createRun';\nimport installApp from './installApp';\n\nexport async function runOnSimulator(\n  xcodeProject: IOSProjectInfo,\n  platform: ApplePlatform,\n  mode: string,\n  scheme: string,\n  args: FlagsT,\n  simulator: Device,\n) {\n  const {binaryPath, target} = args;\n\n  /**\n   * Booting simulator through `xcrun simctl boot` will boot it in the `headless` mode\n   * (running in the background).\n   *\n   * In order for user to see the app and the simulator itself, we have to make sure\n   * that the Simulator.app is running.\n   *\n   * We also pass it `-CurrentDeviceUDID` so that when we launch it for the first time,\n   * it will not boot the \"default\" device, but the one we set. If the app is already running,\n   * this flag has no effect.\n   */\n  const activeDeveloperDir = child_process\n    .execFileSync('xcode-select', ['-p'], {encoding: 'utf8'})\n    .trim();\n\n  child_process.execFileSync('open', [\n    `${activeDeveloperDir}/Applications/Simulator.app`,\n    '--args',\n    '-CurrentDeviceUDID',\n    simulator.udid,\n  ]);\n\n  if (simulator.state !== 'Booted') {\n    bootSimulator(simulator);\n  }\n\n  let buildOutput;\n  if (!binaryPath) {\n    buildOutput = await buildProject(\n      xcodeProject,\n      platform,\n      simulator.udid,\n      mode,\n      scheme,\n      args,\n    );\n  }\n\n  installApp({\n    buildOutput: buildOutput ?? '',\n    xcodeProject,\n    mode,\n    scheme,\n    target,\n    udid: simulator.udid,\n    binaryPath,\n  });\n}\n\nfunction bootSimulator(selectedSimulator: Device) {\n  const simulatorFullName = formattedDeviceName(selectedSimulator);\n  logger.info(`Launching ${simulatorFullName}`);\n\n  child_process.spawnSync('xcrun', ['simctl', 'boot', selectedSimulator.udid]);\n}\n"],"mappings":";;;;;;AAAA;EAAA;EAAA;IAAA;EAAA;EAAA;AAAA;AAEA;EAAA;EAAA;IAAA;EAAA;EAAA;AAAA;AAEA;AACA;AAEA;AAAsC;AAE/B,eAAeA,cAAc,CAClCC,YAA4B,EAC5BC,QAAuB,EACvBC,IAAY,EACZC,MAAc,EACdC,IAAY,EACZC,SAAiB,EACjB;EACA,MAAM;IAACC,UAAU;IAAEC;EAAM,CAAC,GAAGH,IAAI;;EAEjC;AACF;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;EACE,MAAMI,kBAAkB,GAAGC,wBAAa,CACrCC,YAAY,CAAC,cAAc,EAAE,CAAC,IAAI,CAAC,EAAE;IAACC,QAAQ,EAAE;EAAM,CAAC,CAAC,CACxDC,IAAI,EAAE;EAETH,wBAAa,CAACC,YAAY,CAAC,MAAM,EAAE,CAChC,GAAEF,kBAAmB,6BAA4B,EAClD,QAAQ,EACR,oBAAoB,EACpBH,SAAS,CAACQ,IAAI,CACf,CAAC;EAEF,IAAIR,SAAS,CAACS,KAAK,KAAK,QAAQ,EAAE;IAChCC,aAAa,CAACV,SAAS,CAAC;EAC1B;EAEA,IAAIW,WAAW;EACf,IAAI,CAACV,UAAU,EAAE;IACfU,WAAW,GAAG,MAAM,IAAAC,0BAAY,EAC9BjB,YAAY,EACZC,QAAQ,EACRI,SAAS,CAACQ,IAAI,EACdX,IAAI,EACJC,MAAM,EACNC,IAAI,CACL;EACH;EAEA,IAAAc,mBAAU,EAAC;IACTF,WAAW,EAAEA,WAAW,IAAI,EAAE;IAC9BhB,YAAY;IACZE,IAAI;IACJC,MAAM;IACNI,MAAM;IACNM,IAAI,EAAER,SAAS,CAACQ,IAAI;IACpBP;EACF,CAAC,CAAC;AACJ;AAEA,SAASS,aAAa,CAACI,iBAAyB,EAAE;EAChD,MAAMC,iBAAiB,GAAG,IAAAC,mCAAmB,EAACF,iBAAiB,CAAC;EAChEG,kBAAM,CAACC,IAAI,CAAE,aAAYH,iBAAkB,EAAC,CAAC;EAE7CX,wBAAa,CAACe,SAAS,CAAC,OAAO,EAAE,CAAC,QAAQ,EAAE,MAAM,EAAEL,iBAAiB,CAACN,IAAI,CAAC,CAAC;AAC9E"}
+\ No newline at end of file
++{"version":3,"file":"runOnSimulator.js","names":["runOnSimulator","xcodeProject","platform","mode","scheme","args","simulator","binaryPath","target","activeDeveloperDir","child_process","execFileSync","encoding","trim","simulatorApp","path","join","deviceHubApp","fs","existsSync","udid","state","bootSimulator","buildOutput","buildProject","installApp","selectedSimulator","simulatorFullName","formattedDeviceName","logger","info","spawnSync"],"sources":["../../../src/commands/runCommand/runOnSimulator.ts"],"sourcesContent":["import child_process from 'child_process';\nimport fs from 'fs';\nimport path from 'path';\nimport {IOSProjectInfo} from '@react-native-community/cli-types';\nimport {logger} from '@react-native-community/cli-tools';\nimport {ApplePlatform, Device} from '../../types';\nimport {buildProject} from '../buildCommand/buildProject';\nimport {formattedDeviceName} from './matchingDevice';\nimport {FlagsT} from './createRun';\nimport installApp from './installApp';\n\nexport async function runOnSimulator(\n  xcodeProject: IOSProjectInfo,\n  platform: ApplePlatform,\n  mode: string,\n  scheme: string,\n  args: FlagsT,\n  simulator: Device,\n) {\n  const {binaryPath, target} = args;\n\n  /**\n   * Booting simulator through `xcrun simctl boot` will boot it in the `headless` mode\n   * (running in the background).\n   *\n   * In order for user to see the app and the simulator itself, we have to make sure\n   * that the Simulator.app is running.\n   *\n   * We also pass it `-CurrentDeviceUDID` so that when we launch it for the first time,\n   * it will not boot the \"default\" device, but the one we set. If the app is already running,\n   * this flag has no effect.\n   */\n  const activeDeveloperDir = child_process\n    .execFileSync('xcode-select', ['-p'], {encoding: 'utf8'})\n    .trim();\n\n  // Xcode 27 replaces Simulator.app with DeviceHub.app and relocates it from\n  // <Xcode>/Contents/Developer/Applications to <Xcode>/Contents/Applications.\n  // Prefer Simulator.app while it exists (stable Xcode); fall back to DeviceHub\n  // for Xcode 27+. See https://developer.apple.com/documentation/xcode/device-hub\n  const simulatorApp = path.join(\n    activeDeveloperDir,\n    'Applications',\n    'Simulator.app',\n  );\n  const deviceHubApp = path.join(\n    activeDeveloperDir,\n    '..',\n    'Applications',\n    'DeviceHub.app',\n  );\n\n  if (fs.existsSync(simulatorApp)) {\n    child_process.execFileSync('open', [\n      simulatorApp,\n      '--args',\n      '-CurrentDeviceUDID',\n      simulator.udid,\n    ]);\n  } else if (fs.existsSync(deviceHubApp)) {\n    child_process.execFileSync('open', [\n      `devices://device/open?id=${simulator.udid}`,\n    ]);\n  }\n\n  if (simulator.state !== 'Booted') {\n    bootSimulator(simulator);\n  }\n\n  let buildOutput;\n  if (!binaryPath) {\n    buildOutput = await buildProject(\n      xcodeProject,\n      platform,\n      simulator.udid,\n      mode,\n      scheme,\n      args,\n    );\n  }\n\n  installApp({\n    buildOutput: buildOutput ?? '',\n    xcodeProject,\n    mode,\n    scheme,\n    target,\n    udid: simulator.udid,\n    binaryPath,\n  });\n}\n\nfunction bootSimulator(selectedSimulator: Device) {\n  const simulatorFullName = formattedDeviceName(selectedSimulator);\n  logger.info(`Launching ${simulatorFullName}`);\n\n  child_process.spawnSync('xcrun', ['simctl', 'boot', selectedSimulator.udid]);\n}\n"],"mappings":";;;;;;AAAA;EAAA;EAAA;IAAA;EAAA;EAAA;AAAA;AACA;EAAA;EAAA;IAAA;EAAA;EAAA;AAAA;AACA;EAAA;EAAA;IAAA;EAAA;EAAA;AAAA;AAEA;EAAA;EAAA;IAAA;EAAA;EAAA;AAAA;AAEA;AACA;AAEA;AAAsC;AAE/B,eAAeA,cAAc,CAClCC,YAA4B,EAC5BC,QAAuB,EACvBC,IAAY,EACZC,MAAc,EACdC,IAAY,EACZC,SAAiB,EACjB;EACA,MAAM;IAACC,UAAU;IAAEC;EAAM,CAAC,GAAGH,IAAI;;EAEjC;AACF;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;EACE,MAAMI,kBAAkB,GAAGC,wBAAa,CACrCC,YAAY,CAAC,cAAc,EAAE,CAAC,IAAI,CAAC,EAAE;IAACC,QAAQ,EAAE;EAAM,CAAC,CAAC,CACxDC,IAAI,EAAE;;EAET;EACA;EACA;EACA;EACA,MAAMC,YAAY,GAAGC,eAAI,CAACC,IAAI,CAC5BP,kBAAkB,EAClB,cAAc,EACd,eAAe,CAChB;EACD,MAAMQ,YAAY,GAAGF,eAAI,CAACC,IAAI,CAC5BP,kBAAkB,EAClB,IAAI,EACJ,cAAc,EACd,eAAe,CAChB;EAED,IAAIS,aAAE,CAACC,UAAU,CAACL,YAAY,CAAC,EAAE;IAC/BJ,wBAAa,CAACC,YAAY,CAAC,MAAM,EAAE,CACjCG,YAAY,EACZ,QAAQ,EACR,oBAAoB,EACpBR,SAAS,CAACc,IAAI,CACf,CAAC;EACJ,CAAC,MAAM,IAAIF,aAAE,CAACC,UAAU,CAACF,YAAY,CAAC,EAAE;IACtCP,wBAAa,CAACC,YAAY,CAAC,MAAM,EAAE,CAChC,4BAA2BL,SAAS,CAACc,IAAK,EAAC,CAC7C,CAAC;EACJ;EAEA,IAAId,SAAS,CAACe,KAAK,KAAK,QAAQ,EAAE;IAChCC,aAAa,CAAChB,SAAS,CAAC;EAC1B;EAEA,IAAIiB,WAAW;EACf,IAAI,CAAChB,UAAU,EAAE;IACfgB,WAAW,GAAG,MAAM,IAAAC,0BAAY,EAC9BvB,YAAY,EACZC,QAAQ,EACRI,SAAS,CAACc,IAAI,EACdjB,IAAI,EACJC,MAAM,EACNC,IAAI,CACL;EACH;EAEA,IAAAoB,mBAAU,EAAC;IACTF,WAAW,EAAEA,WAAW,IAAI,EAAE;IAC9BtB,YAAY;IACZE,IAAI;IACJC,MAAM;IACNI,MAAM;IACNY,IAAI,EAAEd,SAAS,CAACc,IAAI;IACpBb;EACF,CAAC,CAAC;AACJ;AAEA,SAASe,aAAa,CAACI,iBAAyB,EAAE;EAChD,MAAMC,iBAAiB,GAAG,IAAAC,mCAAmB,EAACF,iBAAiB,CAAC;EAChEG,kBAAM,CAACC,IAAI,CAAE,aAAYH,iBAAkB,EAAC,CAAC;EAE7CjB,wBAAa,CAACqB,SAAS,CAAC,OAAO,EAAE,CAAC,QAAQ,EAAE,MAAM,EAAEL,iBAAiB,CAACN,IAAI,CAAC,CAAC;AAC9E"}
+\ No newline at end of file
