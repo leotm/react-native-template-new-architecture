@@ -1,0 +1,13 @@
+diff --git a/AsyncStorage.podspec b/AsyncStorage.podspec
+index a50585b2c9d4e2826a1aca5b07655a88a23dc656..99765b8b0d801861cb69ecdb7230f27ee411c0cf 100644
+--- a/AsyncStorage.podspec
++++ b/AsyncStorage.podspec
+@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
+   s.license      = package["license"]
+   s.authors      = package["author"]
+ 
+-  s.platforms    = { :ios => "13.0", :osx => "12.0", :visionos => "1.0" }
++  s.platforms    = { :ios => "15.1", :osx => "12.0", :visionos => "1.0" }
+   s.source       = { :git => "https://github.com/react-native-async-storage/async-storage.git", :tag => "#{s.version}" }
+   s.resource_bundles = { "AsyncStorage_resources" => "apple/PrivacyInfo.xcprivacy" }
+ 
