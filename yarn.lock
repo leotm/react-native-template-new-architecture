@@ -2914,19 +2914,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/cli-platform-apple@patch:@react-native-community/cli-platform-apple@npm%3A20.1.0#~/.yarn/patches/@react-native-community-cli-platform-apple-npm-20.1.0-6337b69880.patch":
-  version: 20.1.0
-  resolution: "@react-native-community/cli-platform-apple@patch:@react-native-community/cli-platform-apple@npm%3A20.1.0#~/.yarn/patches/@react-native-community-cli-platform-apple-npm-20.1.0-6337b69880.patch::version=20.1.0&hash=cb9a16"
-  dependencies:
-    "@react-native-community/cli-config-apple": "npm:20.1.0"
-    "@react-native-community/cli-tools": "npm:20.1.0"
-    execa: "npm:^5.0.0"
-    fast-xml-parser: "npm:^4.4.1"
-    picocolors: "npm:^1.1.1"
-  checksum: 10/7ca20a5ddcd8c7686c43ce6477ecb0e8aa01fedaaef0def9b88bd9150d778917f27ad612dd708a88f4d6b0ad9c87decf7346f41d0f4b63338fea6c91ec0edcd9
-  languageName: node
-  linkType: hard
-
 "@react-native-community/cli-platform-ios@npm:20.1.0":
   version: 20.1.0
   resolution: "@react-native-community/cli-platform-ios@npm:20.1.0"

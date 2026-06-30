@@ -160,8 +160,5 @@
       "@swc/core": false,
       "webpack-cli>webpack>watchpack>watchpack-chokidar2>chokidar>fsevents": false
     }
-  },
-  "resolutions": {
-    "@react-native-community/cli-platform-apple@npm:20.1.0": "patch:@react-native-community/cli-platform-apple@npm%3A20.1.0#~/.yarn/patches/@react-native-community-cli-platform-apple-npm-20.1.0-6337b69880.patch"
   }
 }
