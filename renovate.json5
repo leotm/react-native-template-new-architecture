@@ -1,85 +1,59 @@
-// https://docs.renovatebot.com/presets-default
 {
-  "extends": [
-    // bundle presets
-    "config:best-practices", // https://docs.renovatebot.com/presets-config/#configbest-practices
-    // raw atomic presets
+  extends: [
+    "config:best-practices",
     ":prHourlyLimitNone",
-    ":maintainLockFilesWeekly"
+    ":maintainLockFilesWeekly",
   ],
-  // https://docs.renovatebot.com/configuration-options/#postupdateoptions
-  "postUpdateOptions": ["yarnDedupeHighest"],
-  "timezone": "Europe/London",
-  "packageRules": [
-    // https://docs.renovatebot.com/presets-group
-    // https://docs.renovatebot.com/presets-monorepo
+  postUpdateOptions: ["yarnDedupeHighest"],
+  timezone: "Europe/London",
+  packageRules: [
     {
-      // e.g. @types/jest, @types/react, @types/node
-      "matchPackageNames": ["/@types/"],
-      "addLabels": ["devDependencies", "types"]
+      matchPackageNames: ["/@types/"],
+      addLabels: ["devDependencies", "types"],
     },
     {
-      // e.g. eslint, eslint-plugin-react-native, eslint-config-airbnb-typescript
-      "matchPackageNames": ["/eslint/"],
-      "addLabels": ["devDependencies", "linting"]
+      matchPackageNames: ["/eslint/"],
+      addLabels: ["devDependencies", "linting"],
     },
     {
-      // TODO: upstream group:react-nativeMonorepo
-      // TODO: upstream monorepo:react-native
-      "groupName": "react-native monorepo",
-      "matchSourceUrls": ["github.com/facebook/react-native"],
-      "addLabels": ["dependencies", "react native"],
-      "automerge": false
+      groupName: "react-native monorepo",
+      matchSourceUrls: ["github.com/facebook/react-native"],
+      addLabels: ["dependencies", "react native"],
+      automerge: false,
     },
     {
-      // e.g. @react-native-firebase/app, @sentry/react-native, lottie-react-native, react-native-reanimated
-      "matchPackageNames": ["/react-native/"],
-      "addLabels": ["react native"] // do not add "dependencies" label (e.g. @testing-library/react-native falls under "devDependencies")
+      matchPackageNames: ["/react-native/"],
+      addLabels: ["react native"],
     },
     {
-      // e.g. @react-native-community/datetimepicker, @react-native-community/image-editor, @react-native-community/netinfo
-      "matchPackageNames": ["@react-native-community"],
-      "addLabels": ["community"] // do not add "dependencies" label (e.g. @react-native-community/cli falls under "devDependencies")
+      matchPackageNames: ["@react-native-community"],
+      addLabels: ["community"],
     },
     {
-      "groupName": "@lavamoat/allow-scripts",
-      "matchPackageNames": [
-        // https://lavamoat.github.io/guides/allow-scripts/#setup
-        // https://github.com/LavaMoat/LavaMoat/tree/main/packages/allow-scripts#setup
-        // https://github.com/LavaMoat/LavaMoat/blob/main/packages/allow-scripts/src/setup.js#L133-L134
+      groupName: "@lavamoat/allow-scripts",
+      matchPackageNames: [
         "@lavamoat/preinstall-always-fail",
-        "@lavamoat/allow-scripts"
+        "@lavamoat/allow-scripts",
       ],
-      "addLabels": ["dependencies", "lavamoat"]
+      addLabels: ["dependencies", "lavamoat"],
     },
     {
-      // https://github.com/actions/runner-images
-      // https://github.com/actions/partner-runner-images
-      "matchManagers": ["github-actions"],
-      // https://github.com/renovatebot/renovate/tree/main/lib/modules/datasource/github-runners#unstable-runners
-      "ignoreUnstable": false
+      matchManagers: ["github-actions"],
+      ignoreUnstable: false,
     },
     {
-      "groupName": "swc monorepo",
-      "addLabels": ["devDependencies", "swc", "transpiling"],
-      "matchSourceUrls": ["github.com/swc-project/swc"]
+      groupName: "swc monorepo",
+      addLabels: ["devDependencies", "swc", "transpiling"],
+      matchSourceUrls: ["github.com/swc-project/swc"],
     },
     {
-      // The generated PR is only the first part to upgrading React Native to the nightly version
-      // Since react-native-community/rn-diff-purge (react-native-community/upgrade-helper) does NOT support nightlies
-      // Part two is diffing the project version against the desired nightly version to make the remaining file changes
-      "groupName": "react-native nightly",
-      "matchPackagePatterns": [
-        "^react-native$", // core
-        "^@react-native/" // official scoped
-        // EXCLUDES non-nightly packages on their own release schedules
-        // e.g. react, react-native-safe-area-context, @react-native-community/cli, react-test-renderer @types...
-      ],
-      "matchCurrentVersion": "/-nightly-/",
-      "addLabels": ["react native", "nightly"]
-    }
+      groupName: "react-native nightly",
+      matchCurrentVersion: "/-nightly-/",
+      addLabels: ["react native", "nightly"],
+      matchPackageNames: ["/^react-native$/", "/^@react-native//"],
+    },
   ],
-  "vulnerabilityAlerts": {
-    "addLabels": ["security"]
-  }
+  vulnerabilityAlerts: {
+    addLabels: ["security"],
+  },
 }
