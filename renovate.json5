@@ -11,6 +11,25 @@
   "postUpdateOptions": ["yarnDedupeHighest"],
   "timezone": "Europe/London",
   "packageRules": [
+    {
+      // Regen Podfile.lock in CocoaPods Gemfile.lock upg PRs
+      "matchManagers": ["bundler"],
+      "matchDepNames": ["cocoapods"],
+      "postUpgradeTasks": {
+        "commands": ["yarn pods"],
+        "fileFilters": ["ios/Podfile.lock"]
+      },
+      "addLabels": ["devDependencies", "CocoaPods"]
+    },
+    {
+      // Regen Podfile.lock in lock file maintenance PRs
+      "matchManagers": ["bundler"],
+      "matchUpdateTypes": ["lockFileMaintenance"],
+      "postUpgradeTasks": {
+        "commands": ["yarn pods"],
+        "fileFilters": ["ios/Podfile.lock"]
+      }
+    },
     // https://docs.renovatebot.com/presets-group
     // https://docs.renovatebot.com/presets-monorepo
     {
