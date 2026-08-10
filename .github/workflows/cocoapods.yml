@@ -1,0 +1,32 @@
+name: iOS CI regen cocoapods lockfile
+'on':
+  pull_request:
+    branches:
+      - master
+    paths:
+      - Gemfile.lock # 'cocoapods'
+      - package.json # 'react-native'
+jobs:
+  regen-cocoapods:
+    runs-on: macos-26 # https://github.com/actions/runner-images/blob/main/images/macos/macos-26-arm64-Readme.md
+    if: >-
+      github.event_name == 'pull_request' &&
+      startsWith(github.head_ref, 'renovate/') &&
+      (contains(github.event.pull_request.title, 'cocoapods') || 
+       contains(github.event.pull_request.title, 'react-native'))
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          token: '${{ github.token }}' # ${{ secrets.my_PAT }} required to auto rerun jobs/checks post-commit
+      - name: Install deps and setup
+        run: yarn && yarn setup
+      - name: npx react-native info
+        run: npx react-native info
+      - name: Regen CocoaPods lockfile
+        run: yarn install:ios
+        timeout-minutes: 3
+      - name: 'Git stage, commit and push'
+        uses: stefanzweifel/git-auto-commit-action@4a55954c782fc1ea30b9056cd3e7a2b40ca8887d # v7
+        with:
+          commit_message: Regen CocoaPods lockfile
+          file_pattern: ios/Podfile.lock
