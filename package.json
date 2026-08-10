@@ -160,5 +160,8 @@
       "@swc/core": false,
       "webpack-cli>webpack>watchpack>watchpack-chokidar2>chokidar>fsevents": false
     }
+  },
+  "resolutions": {
+    "brace-expansion": "1.1.18"
   }
 }
