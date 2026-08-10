@@ -25,8 +25,9 @@ on:
 
 jobs:
   build-ios:
-    # if PR contains either 'linting' or '@types' labels (see: renovate.json5) don't run (i.e. skip) this expensive job
-    if: ${{ !(github.event_name == 'pull_request' && (contains(github.event.pull_request.labels.*.name, 'linting') || contains(github.event.pull_request.labels.*.name, 'types'))) }}
+    # if PR contains 'eslint' in title or '@types' label (see: renovate.json5), don't run (i.e. skip) this expensive job
+    # nb: do not use 'linting' label, otherwise grouped 'react-native nightly' PRs containing '@react-native/eslint-config' will be skipped
+    if: ${{ !(github.event_name == 'pull_request' && (contains(github.event.pull_request.title, 'eslint') || contains(github.event.pull_request.labels.*.name, 'types'))) }}
 
     runs-on: macos-26 # https://github.com/actions/runner-images/blob/main/images/macos/macos-26-arm64-Readme.md
 
