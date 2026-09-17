@@ -2448,18 +2448,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lavamoat/git-safe-dependencies@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@lavamoat/git-safe-dependencies@npm:1.0.1"
+"@lavamoat/git-safe-dependencies@npm:1.0.2":
+  version: 1.0.2
+  resolution: "@lavamoat/git-safe-dependencies@npm:1.0.2"
   dependencies:
     glob: "npm:11.1.0"
     hosted-git-info: "npm:8.1.0"
-    js-yaml: "npm:4.2.0"
+    js-yaml: "npm:4.3.0"
     lockfile-lint-api: "npm:5.9.2"
   bin:
     git-safe-actions: src/cli-actions.js
     git-safe-dependencies: src/cli.js
-  checksum: 10/770d3bb46f1d89d26eeed0fe62936c484ec8e17f83e5b690ffec9941ea215bc48bceb230d553600a6205a67a37ed76560fc48837f8edc309a880f7c22c1574d7
+  checksum: 10/f7d6b57918c8d2e52356f9b7d60921ff3a7f433a72c62f9ce86b139bee9a99fa4cb1ef9a266bccbb2742acdab2bbfee27ccd639a839ab7d979bff6f6fd370b73
   languageName: node
   linkType: hard
 
@@ -14994,14 +14994,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:4.2.0":
-  version: 4.2.0
-  resolution: "js-yaml@npm:4.2.0"
+"js-yaml@npm:4.3.0":
+  version: 4.3.0
+  resolution: "js-yaml@npm:4.3.0"
   dependencies:
     argparse: "npm:^2.0.1"
   bin:
     js-yaml: bin/js-yaml.js
-  checksum: 10/51de2067a2b44b07ba5206132e56005f8b568ff279bb4d2f645068958c56fa4827d40a6841c983234671fa0a134bf094d0b0717873c2a3d319185297af145a6d
+  checksum: 10/2bcec3a8118d7f744badeb04e14366578d234a736f353d41fe35d2305e4ce2409a8e041d277f07cd6bbc8aaa12128d650a68ce43247072519bede20962d2126f
   languageName: node
   linkType: hard
 
@@ -17183,7 +17183,7 @@ __metadata:
     "@curveball/core": "npm:0.21.1"
     "@curveball/router": "npm:0.6.0"
     "@lavamoat/allow-scripts": "npm:5.1.0"
-    "@lavamoat/git-safe-dependencies": "npm:1.0.1"
+    "@lavamoat/git-safe-dependencies": "npm:1.0.2"
     "@lavamoat/preinstall-always-fail": "npm:3.0.0"
     "@lavamoat/react-native-lockdown": "npm:1.0.0"
     "@react-native-async-storage/async-storage": "patch:@react-native-async-storage/async-storage@npm%3A3.1.1#~/.yarn/patches/@react-native-async-storage-async-storage-npm-3.1.1-1905bccfdf.patch"
