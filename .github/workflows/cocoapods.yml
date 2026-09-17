@@ -22,8 +22,8 @@ jobs:
         run: yarn && yarn setup
       - name: npx react-native info
         run: npx react-native info
-      - name: Regen CocoaPods lockfile
-        run: yarn install:ios
+      - name: Regen CocoaPods lockfile # if flaky: update hermes-engine / --repo-update / no flag / pods:refresh
+        run: yarn gems:frozen && yarn pod update ReactNativeDependencies React-Core-prebuilt --no-repo-update
         timeout-minutes: 3
       - name: 'Git stage, commit and push'
         uses: stefanzweifel/git-auto-commit-action@4a55954c782fc1ea30b9056cd3e7a2b40ca8887d # v7
