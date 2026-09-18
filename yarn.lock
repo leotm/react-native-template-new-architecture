@@ -2470,14 +2470,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lavamoat/react-native-lockdown@npm:1.0.0":
-  version: 1.0.0
-  resolution: "@lavamoat/react-native-lockdown@npm:1.0.0"
+"@lavamoat/react-native-lockdown@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@lavamoat/react-native-lockdown@npm:2.0.0"
   dependencies:
     ses: "npm:1.15.0"
   peerDependencies:
     "@react-native/js-polyfills": "*"
-  checksum: 10/b15b58d978d972fe824c68164d91b0c22e72e85190d943e2693ed4e61d6dfa3965d9b16f06485423970b62bcde68cef3816a5d0e7447dccb6c9837074de33320
+  checksum: 10/f8575e31ddb4674a2a231d90f1a5eaf19d82052ed101944901887461fd925e40035acdac36778b506f2fbee18e8e39e22bc148180ce3e4a69a74dedc4fca45c2
   languageName: node
   linkType: hard
 
@@ -17185,7 +17185,7 @@ __metadata:
     "@lavamoat/allow-scripts": "npm:5.1.0"
     "@lavamoat/git-safe-dependencies": "npm:1.0.2"
     "@lavamoat/preinstall-always-fail": "npm:3.0.0"
-    "@lavamoat/react-native-lockdown": "npm:1.0.0"
+    "@lavamoat/react-native-lockdown": "npm:2.0.0"
     "@react-native-async-storage/async-storage": "patch:@react-native-async-storage/async-storage@npm%3A3.1.1#~/.yarn/patches/@react-native-async-storage-async-storage-npm-3.1.1-1905bccfdf.patch"
     "@react-native-community/cli": "npm:20.2.0"
     "@react-native-community/cli-platform-android": "npm:20.2.0"
