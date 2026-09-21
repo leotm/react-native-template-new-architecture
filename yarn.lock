@@ -3000,9 +3000,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/datetimepicker@npm:9.1.0":
-  version: 9.1.0
-  resolution: "@react-native-community/datetimepicker@npm:9.1.0"
+"@react-native-community/datetimepicker@npm:9.2.1":
+  version: 9.2.1
+  resolution: "@react-native-community/datetimepicker@npm:9.2.1"
   dependencies:
     invariant: "npm:^2.2.4"
   peerDependencies:
@@ -3015,7 +3015,7 @@ __metadata:
       optional: true
     react-native-windows:
       optional: true
-  checksum: 10/b460e55422316e11b1999b0ddd1f2feb39a8f5c85b1ba5520d5c6630b2147e754a4e686ebc3adf44919bc849de85fe9379a4c4452596fea3e394fcb00b461052
+  checksum: 10/1f9eb2f05b19449bd246bb37a5b1fb43c5e2f29f3daa31dc622cebde17fc11e669c304db75bee1fae953d080f91b75cce3bc1a3bed5a3e98ad3e21698935df8f
   languageName: node
   linkType: hard
 
@@ -17206,7 +17206,7 @@ __metadata:
     "@react-native-community/cli": "npm:20.2.0"
     "@react-native-community/cli-platform-android": "npm:20.2.0"
     "@react-native-community/cli-platform-ios": "npm:20.2.0"
-    "@react-native-community/datetimepicker": "npm:9.1.0"
+    "@react-native-community/datetimepicker": "npm:9.2.1"
     "@react-native-community/slider": "npm:5.2.0"
     "@react-native/babel-preset": "npm:0.88.0-rc.0"
     "@react-native/eslint-config": "npm:0.88.0-rc.0"
