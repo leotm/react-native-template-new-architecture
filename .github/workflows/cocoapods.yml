@@ -23,7 +23,16 @@ jobs:
       - name: npx react-native info
         run: npx react-native info
       - name: Regen CocoaPods lockfile # if flaky: update hermes-engine / --repo-update / no flag / pods:refresh
-        run: yarn gems:frozen && yarn pod update ReactNativeDependencies React-Core-prebuilt --no-repo-update
+        env:
+          PULL_REQUEST_TITLE: ${{github.event.pull_request.title}}
+        run: |
+          yarn gems:frozen
+          if [[ "$PULL_REQUEST_TITLE" == "Update react-native "* ]]
+          then
+            yarn pod update ReactNativeDependencies React-Core-prebuilt --no-repo-update
+          else
+            yarn pods --no-repo-update
+          fi
         timeout-minutes: 3
       - name: 'Git stage, commit and push'
         uses: stefanzweifel/git-auto-commit-action@4a55954c782fc1ea30b9056cd3e7a2b40ca8887d # v7
