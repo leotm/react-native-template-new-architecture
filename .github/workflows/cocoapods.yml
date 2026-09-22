@@ -22,14 +22,14 @@ jobs:
         run: yarn && yarn setup
       - name: npx react-native info
         run: npx react-native info
-      - name: Regen CocoaPods lockfile # if flaky: update hermes-engine / --repo-update / no flag / pods:refresh
+      - name: Regen CocoaPods lockfile # if flaky: no flag / --repo-update / pods:refresh
         env:
           PULL_REQUEST_TITLE: ${{github.event.pull_request.title}}
         run: |
           yarn gems:frozen
           if [[ "$PULL_REQUEST_TITLE" == "Update react-native "* ]]
           then
-            yarn pod update ReactNativeDependencies React-Core-prebuilt --no-repo-update
+            yarn pod update hermes-engine ReactNativeDependencies React-Core-prebuilt --no-repo-update
           else
             yarn pods --no-repo-update
           fi
