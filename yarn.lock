@@ -4714,106 +4714,106 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-arm64@npm:1.16.2":
-  version: 1.16.2
-  resolution: "@swc/core-darwin-arm64@npm:1.16.2"
+"@swc/core-darwin-arm64@npm:1.16.13":
+  version: 1.16.13
+  resolution: "@swc/core-darwin-arm64@npm:1.16.13"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-x64@npm:1.16.2":
-  version: 1.16.2
-  resolution: "@swc/core-darwin-x64@npm:1.16.2"
+"@swc/core-darwin-x64@npm:1.16.13":
+  version: 1.16.13
+  resolution: "@swc/core-darwin-x64@npm:1.16.13"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm-gnueabihf@npm:1.16.2":
-  version: 1.16.2
-  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.16.2"
+"@swc/core-linux-arm-gnueabihf@npm:1.16.13":
+  version: 1.16.13
+  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.16.13"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-gnu@npm:1.16.2":
-  version: 1.16.2
-  resolution: "@swc/core-linux-arm64-gnu@npm:1.16.2"
+"@swc/core-linux-arm64-gnu@npm:1.16.13":
+  version: 1.16.13
+  resolution: "@swc/core-linux-arm64-gnu@npm:1.16.13"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-musl@npm:1.16.2":
-  version: 1.16.2
-  resolution: "@swc/core-linux-arm64-musl@npm:1.16.2"
+"@swc/core-linux-arm64-musl@npm:1.16.13":
+  version: 1.16.13
+  resolution: "@swc/core-linux-arm64-musl@npm:1.16.13"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/core-linux-ppc64-gnu@npm:1.16.2":
-  version: 1.16.2
-  resolution: "@swc/core-linux-ppc64-gnu@npm:1.16.2"
+"@swc/core-linux-ppc64-gnu@npm:1.16.13":
+  version: 1.16.13
+  resolution: "@swc/core-linux-ppc64-gnu@npm:1.16.13"
   conditions: os=linux & cpu=ppc64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-s390x-gnu@npm:1.16.2":
-  version: 1.16.2
-  resolution: "@swc/core-linux-s390x-gnu@npm:1.16.2"
+"@swc/core-linux-s390x-gnu@npm:1.16.13":
+  version: 1.16.13
+  resolution: "@swc/core-linux-s390x-gnu@npm:1.16.13"
   conditions: os=linux & cpu=s390x & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-gnu@npm:1.16.2":
-  version: 1.16.2
-  resolution: "@swc/core-linux-x64-gnu@npm:1.16.2"
+"@swc/core-linux-x64-gnu@npm:1.16.13":
+  version: 1.16.13
+  resolution: "@swc/core-linux-x64-gnu@npm:1.16.13"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-musl@npm:1.16.2":
-  version: 1.16.2
-  resolution: "@swc/core-linux-x64-musl@npm:1.16.2"
+"@swc/core-linux-x64-musl@npm:1.16.13":
+  version: 1.16.13
+  resolution: "@swc/core-linux-x64-musl@npm:1.16.13"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/core-win32-arm64-msvc@npm:1.16.2":
-  version: 1.16.2
-  resolution: "@swc/core-win32-arm64-msvc@npm:1.16.2"
+"@swc/core-win32-arm64-msvc@npm:1.16.13":
+  version: 1.16.13
+  resolution: "@swc/core-win32-arm64-msvc@npm:1.16.13"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-win32-ia32-msvc@npm:1.16.2":
-  version: 1.16.2
-  resolution: "@swc/core-win32-ia32-msvc@npm:1.16.2"
+"@swc/core-win32-ia32-msvc@npm:1.16.13":
+  version: 1.16.13
+  resolution: "@swc/core-win32-ia32-msvc@npm:1.16.13"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@swc/core-win32-x64-msvc@npm:1.16.2":
-  version: 1.16.2
-  resolution: "@swc/core-win32-x64-msvc@npm:1.16.2"
+"@swc/core-win32-x64-msvc@npm:1.16.13":
+  version: 1.16.13
+  resolution: "@swc/core-win32-x64-msvc@npm:1.16.13"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"@swc/core@npm:1.16.2":
-  version: 1.16.2
-  resolution: "@swc/core@npm:1.16.2"
+"@swc/core@npm:1.16.13":
+  version: 1.16.13
+  resolution: "@swc/core@npm:1.16.13"
   dependencies:
-    "@swc/core-darwin-arm64": "npm:1.16.2"
-    "@swc/core-darwin-x64": "npm:1.16.2"
-    "@swc/core-linux-arm-gnueabihf": "npm:1.16.2"
-    "@swc/core-linux-arm64-gnu": "npm:1.16.2"
-    "@swc/core-linux-arm64-musl": "npm:1.16.2"
-    "@swc/core-linux-ppc64-gnu": "npm:1.16.2"
-    "@swc/core-linux-s390x-gnu": "npm:1.16.2"
-    "@swc/core-linux-x64-gnu": "npm:1.16.2"
-    "@swc/core-linux-x64-musl": "npm:1.16.2"
-    "@swc/core-win32-arm64-msvc": "npm:1.16.2"
-    "@swc/core-win32-ia32-msvc": "npm:1.16.2"
-    "@swc/core-win32-x64-msvc": "npm:1.16.2"
+    "@swc/core-darwin-arm64": "npm:1.16.13"
+    "@swc/core-darwin-x64": "npm:1.16.13"
+    "@swc/core-linux-arm-gnueabihf": "npm:1.16.13"
+    "@swc/core-linux-arm64-gnu": "npm:1.16.13"
+    "@swc/core-linux-arm64-musl": "npm:1.16.13"
+    "@swc/core-linux-ppc64-gnu": "npm:1.16.13"
+    "@swc/core-linux-s390x-gnu": "npm:1.16.13"
+    "@swc/core-linux-x64-gnu": "npm:1.16.13"
+    "@swc/core-linux-x64-musl": "npm:1.16.13"
+    "@swc/core-win32-arm64-msvc": "npm:1.16.13"
+    "@swc/core-win32-ia32-msvc": "npm:1.16.13"
+    "@swc/core-win32-x64-msvc": "npm:1.16.13"
     "@swc/counter": "npm:^0.1.3"
     "@swc/types": "npm:^0.1.28"
   peerDependencies:
@@ -4846,7 +4846,7 @@ __metadata:
   peerDependenciesMeta:
     "@swc/helpers":
       optional: true
-  checksum: 10/c8a9b12e3fe071701d09735b1984a64332759f222f6697d199f9fcb338d588a9bc3dd255a7362dc6330836fbe06d13093225eb83f83395cc9399b23e08db99b0
+  checksum: 10/f90e98685ffa43be9a49ea17b02482dab6f1455e0cb9aacbacae47b829cc9aaeaeaa70c23d32dd7a6d179e02890b6ad52ec78ce81ef5c14fa2025b6225066ae0
   languageName: node
   linkType: hard
 
@@ -4866,10 +4866,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/wasm@npm:1.16.2":
-  version: 1.16.2
-  resolution: "@swc/wasm@npm:1.16.2"
-  checksum: 10/2dbb6642b57e43e43216de1be93c3c3d02f9b3a5b6569c8549566dfe50ba7b22785524d5d9c2cf5e8c855335524e6e5df57abee8582fd8a467346a6b6239d14e
+"@swc/wasm@npm:1.16.13":
+  version: 1.16.13
+  resolution: "@swc/wasm@npm:1.16.13"
+  checksum: 10/e3425893b1954596be8f3855b4c589d9a7cbd8740987bdcbde17f41e9da9e244ca12b5eefd61e67e6b080be8411e11f5159c1d617f1193cbfa217d1c3281f3ec
   languageName: node
   linkType: hard
 
@@ -17252,8 +17252,8 @@ __metadata:
     "@storybook/react": "npm:6.5.16"
     "@storybook/react-native": "npm:6.5.7"
     "@storybook/react-native-server": "npm:6.5.8"
-    "@swc/core": "npm:1.16.2"
-    "@swc/wasm": "npm:1.16.2"
+    "@swc/core": "npm:1.16.13"
+    "@swc/wasm": "npm:1.16.13"
     "@types/jest": "npm:29.5.14"
     "@types/react": "npm:19.3.0"
     "@types/react-test-renderer": "npm:19.3.0"
