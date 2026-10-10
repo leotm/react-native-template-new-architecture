@@ -2455,18 +2455,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lavamoat/git-safe-dependencies@npm:1.0.2":
-  version: 1.0.2
-  resolution: "@lavamoat/git-safe-dependencies@npm:1.0.2"
+"@lavamoat/git-safe-dependencies@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@lavamoat/git-safe-dependencies@npm:1.0.3"
   dependencies:
     glob: "npm:11.1.0"
     hosted-git-info: "npm:8.1.0"
-    js-yaml: "npm:4.3.0"
+    js-yaml: "npm:4.3.2"
     lockfile-lint-api: "npm:5.9.2"
   bin:
     git-safe-actions: src/cli-actions.js
     git-safe-dependencies: src/cli.js
-  checksum: 10/f7d6b57918c8d2e52356f9b7d60921ff3a7f433a72c62f9ce86b139bee9a99fa4cb1ef9a266bccbb2742acdab2bbfee27ccd639a839ab7d979bff6f6fd370b73
+  checksum: 10/bbff7ff541d7236a00df3ceb2d8fcce61c44a26e6195d200000f6b7e38abd76184fce3dec88364ae07a777b26ce4e826589cf949e2565f656083002548d0d3c8
   languageName: node
   linkType: hard
 
@@ -15008,14 +15008,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:4.3.0":
-  version: 4.3.0
-  resolution: "js-yaml@npm:4.3.0"
+"js-yaml@npm:4.3.2, js-yaml@npm:^4.1.0, js-yaml@npm:^4.3.0":
+  version: 4.3.2
+  resolution: "js-yaml@npm:4.3.2"
   dependencies:
     argparse: "npm:^2.0.1"
   bin:
     js-yaml: bin/js-yaml.js
-  checksum: 10/2bcec3a8118d7f744badeb04e14366578d234a736f353d41fe35d2305e4ce2409a8e041d277f07cd6bbc8aaa12128d650a68ce43247072519bede20962d2126f
+  checksum: 10/05c44b9c73e4901d92703b155e76518df64bf01ac62e4c036b47de4b391e19b72e32656e8954d51b436307f08cc9d0c0d4ec617d061cf2f65fffee9f3114bee7
   languageName: node
   linkType: hard
 
@@ -15028,17 +15028,6 @@ __metadata:
   bin:
     js-yaml: bin/js-yaml.js
   checksum: 10/320b5471c1b7309a15d9c0068ba273e2da7382a369038a9746c92ef649087c3d6d2a5c676810154efb4eb2ca9584179c8ae14e2fc2e4bd558d964e6bf4fafd3d
-  languageName: node
-  linkType: hard
-
-"js-yaml@npm:^4.1.0, js-yaml@npm:^4.3.0":
-  version: 4.3.2
-  resolution: "js-yaml@npm:4.3.2"
-  dependencies:
-    argparse: "npm:^2.0.1"
-  bin:
-    js-yaml: bin/js-yaml.js
-  checksum: 10/05c44b9c73e4901d92703b155e76518df64bf01ac62e4c036b47de4b391e19b72e32656e8954d51b436307f08cc9d0c0d4ec617d061cf2f65fffee9f3114bee7
   languageName: node
   linkType: hard
 
@@ -17210,7 +17199,7 @@ __metadata:
     "@curveball/core": "npm:0.21.1"
     "@curveball/router": "npm:0.6.0"
     "@lavamoat/allow-scripts": "npm:5.1.0"
-    "@lavamoat/git-safe-dependencies": "npm:1.0.2"
+    "@lavamoat/git-safe-dependencies": "npm:1.0.3"
     "@lavamoat/preinstall-always-fail": "npm:3.0.0"
     "@lavamoat/react-native-lockdown": "npm:2.0.0"
     "@react-native-async-storage/async-storage": "patch:@react-native-async-storage/async-storage@npm%3A3.1.1#~/.yarn/patches/@react-native-async-storage-async-storage-npm-3.1.1-1905bccfdf.patch"
