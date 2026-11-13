@@ -17255,7 +17255,7 @@ __metadata:
     prettier: "npm:2.8.8"
     react: "npm:19.3.0"
     react-codemod: "npm:5.4.4"
-    react-native: "npm:0.89.0-rc.0"
+    react-native: "patch:react-native@npm%3A0.89.0-rc.0#~/.yarn/patches/react-native-npm-0.89.0-rc.0-1f6ac6ff1b.patch"
     react-native-clean-project: "npm:4.0.3"
     react-native-rename: "npm:3.3.2"
     react-native-safe-area-context: "npm:5.11.1"
@@ -19530,6 +19530,51 @@ __metadata:
   bin:
     react-native: cli.js
   checksum: 10/152f6185375dfa6f2b6b9fdf93975447cbc058df35142fcd3b8506320949ae9a69d757056fe4f28bffa31053005beb05757a2ad051db62ba4362a1a5999275e9
+  languageName: node
+  linkType: hard
+
+"react-native@patch:react-native@npm%3A0.89.0-rc.0#~/.yarn/patches/react-native-npm-0.89.0-rc.0-1f6ac6ff1b.patch":
+  version: 0.89.0-rc.0
+  resolution: "react-native@patch:react-native@npm%3A0.89.0-rc.0#~/.yarn/patches/react-native-npm-0.89.0-rc.0-1f6ac6ff1b.patch::version=0.89.0-rc.0&hash=db0288"
+  dependencies:
+    "@react-native/asset-utils": "npm:0.89.0-rc.0"
+    "@react-native/codegen": "npm:0.89.0-rc.0"
+    "@react-native/community-cli-plugin": "npm:0.89.0-rc.0"
+    "@react-native/gradle-plugin": "npm:0.89.0-rc.0"
+    "@react-native/normalize-colors": "npm:0.89.0-rc.0"
+    "@react-native/virtualized-lists": "npm:0.89.0-rc.0"
+    anser: "npm:^1.4.9"
+    ansi-regex: "npm:^5.0.0"
+    base64-js: "npm:^1.5.1"
+    flow-enums-runtime: "npm:^0.0.6"
+    flow-parser: "npm:0.336.0"
+    hermes-compiler: "npm:260318099.0.6"
+    invariant: "npm:^2.2.4"
+    memoize-one: "npm:^6.0.0"
+    metro-runtime: "npm:^0.87.2"
+    metro-source-map: "npm:^0.87.2"
+    nullthrows: "npm:^1.1.1"
+    pretty-format: "npm:^29.7.0"
+    promise: "npm:^8.3.0"
+    react-devtools-core: "npm:^6.1.5"
+    react-refresh: "npm:^0.14.0"
+    regenerator-runtime: "npm:^0.13.2"
+    scheduler: "npm:0.28.0"
+    semver: "npm:^7.1.3"
+    stacktrace-parser: "npm:^0.1.10"
+    tinyglobby: "npm:^0.2.15"
+    whatwg-fetch: "npm:^3.0.0"
+    ws: "npm:^7.5.10"
+    yargs: "npm:^17.6.2"
+  peerDependencies:
+    "@types/react": ^19.1.1
+    react: ^19.3.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  bin:
+    react-native: cli.js
+  checksum: 10/9bb8ba6ebcaad8eea2dec8eb583146cfb3cbab2bf4c1200c6164709d7ecfdc628f998bd66bf8ad83d3eace957140e54f68ffcb6b4e60252b0e9c1dfb002b97d2
   languageName: node
   linkType: hard
 
