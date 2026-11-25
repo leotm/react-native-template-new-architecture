@@ -5349,12 +5349,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-test-renderer@npm:19.3.0":
-  version: 19.3.0
-  resolution: "@types/react-test-renderer@npm:19.3.0"
+"@types/react-test-renderer@npm:19.3.1":
+  version: 19.3.1
+  resolution: "@types/react-test-renderer@npm:19.3.1"
   dependencies:
     "@types/react": "npm:*"
-  checksum: 10/fbc49458dbb661d7565d60c07bca5284bac15bf88fc7fef9bb5ff0f58c4dbe87faf430443bac94b9a7a3dd2fa1e520435fe4d245928545756220b0fb76e0b080
+  checksum: 10/dc289568d6eaada651778135b8e1cff55e586c7efc581d48635067fdabae86e59ec6ffdc6908abc679645a6e490c8dfdb7f8ec2d691c0350684d6ab90db3f0bf
   languageName: node
   linkType: hard
 
@@ -17246,7 +17246,7 @@ __metadata:
     "@swc/wasm": "npm:1.16.22"
     "@types/jest": "npm:29.5.14"
     "@types/react": "npm:19.3.0"
-    "@types/react-test-renderer": "npm:19.3.0"
+    "@types/react-test-renderer": "npm:19.3.1"
     "@types/ws": "npm:8.18.2"
     "@typescript-eslint/eslint-plugin": "npm:8.50.0"
     "@typescript-eslint/parser": "npm:8.50.0"
