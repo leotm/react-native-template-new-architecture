@@ -24,6 +24,14 @@
       "addLabels": ["devDependencies", "linting"]
     },
     {
+      "matchPackageNames": ["eslint-plugin-react-hooks"],
+      "groupName": null // ungroup from inherited monorepo:react (github.com/react/react)
+      // config:best-practices > config:recommended > group:monorepos
+      // - group:reactMonorepo (semver) > monorepo:react (urls)
+      // - group:recommended > group:react (types)
+      // or ignore group:reactMonorepo
+    },
+    {
       // TODO: upstream group:react-nativeMonorepo
       // TODO: upstream monorepo:react-native
       "groupName": "react-native monorepo",
